@@ -1,3 +1,12 @@
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+<style>
+@import url(https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css);
+
+.inset-l-full {
+    left: 100%;
+}
+</style>
+
 <header>
     <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
@@ -31,6 +40,184 @@
                     <li>
                         <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Team</a>
                     </li>
+                    
+                    <li x-data="{showChildren:false}" @click.away="showChildren=false">
+                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" @click.prevent="showChildren=!showChildren">Services</a>
+                        
+                        <nav  class="bg-gradient-to-r from-blue-500 to-blue-900 shadow-md text-sm absolute top-auto left-0 min-w-full w-56 z-30 mt-4" x-show="showChildren" x-transition:enter="transition ease duration-300 transform" x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease duration-300 transform" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-4" style="display: none;">
+                            <ul class="flex justify-center items-center">
+                                {{-- PMO --}}
+                                <li class="relative parent ">
+                                    <a href="#"
+                                        class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px]">
+                                        <span>PMO</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
+                                            <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
+                                        </svg>
+                                    </a>
+                                    <ul
+                                        class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Web development
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Web Design
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Machine Learning
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                {{-- TME/PME --}}
+                                <li class="relative parent">
+                                    <a href="#"
+                                        class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px] w-44">
+                                        <span>Service TPM/PME</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
+                                            <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
+                                        </svg>
+                                    </a>
+                                    <ul
+                                        class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Web development
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Web Design
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Machine Learning
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                {{-- SERVICES DIGITAUX  --}}
+                                <li class="relative parent">
+                                    <a href="#"
+                                        class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px] w-44">
+                                        <span>Service Digitaux</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
+                                            <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
+                                        </svg>
+                                    </a>
+                                    <ul
+                                        class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Web development
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Web Design
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Machine Learning
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                {{-- RH  --}}
+                                <li class="relative parent">
+                                    <a href="#"
+                                        class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px] w-40">
+                                        <span>Carriere RH</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
+                                            <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
+                                        </svg>
+                                    </a>
+                                    <ul
+                                        class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Web development
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Web Design
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Machine Learning
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                {{-- FORMATION PRO  --}}
+                                <li class="relative parent">
+                                    <a href="#"
+                                        class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px] w-60">
+                                        <span>Formation Professionnelle</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
+                                            <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
+                                        </svg>
+                                    </a>
+                                    <ul
+                                        class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Web development
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Web Design
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Machine Learning
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                {{-- PROJECT D'ESS  --}}
+                                <li class="relative parent">
+                                    <a href="#"
+                                        class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px] w-64">
+                                        <span>Entreprenariat Et Project D’ess</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
+                                            <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
+                                        </svg>
+                                    </a>
+                                    <ul
+                                        class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Web development
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Web Design
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                                Machine Learning
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </li>
+                    
                     <li>
                         <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
                     </li>
@@ -38,4 +225,7 @@
             </div>
         </div>
     </nav>
+
+    <!-- Nav 2 -->
+    
 </header>
