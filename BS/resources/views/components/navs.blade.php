@@ -177,7 +177,7 @@
     <nav id="nav2" class="flex justify-center items-center  xl:px-20  bg-blue-900 z-40 h-8">
     <ul id="na2" class="flex gap-6 mt-5">
         <li class="relative parent">
-            {{-- PMO  --}}
+          
             <a href="#"
                 class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px]">
                 <span>PMO</span>
@@ -185,7 +185,7 @@
                     <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
                 </svg>
             </a>
-            {{-- PMO LIST  --}}
+         
             <ul
                 class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
                 <li>

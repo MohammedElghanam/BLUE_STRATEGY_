@@ -2,7 +2,7 @@
 
 <body>
    
-@include("components/navs")
+@include("components/nav2")
 @include("components/herosection")
  @include("components.statistics")
 @include("components/founder")
