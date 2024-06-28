@@ -131,7 +131,6 @@
 
     icons.forEach(icon => {
         const iconTop = icon.getBoundingClientRect().top;
-
         if (iconTop < triggerBottom) {
             icon.classList.add('visible');
         } else {

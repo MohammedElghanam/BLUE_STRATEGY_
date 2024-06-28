@@ -1,6 +1,6 @@
 @include('components/header')
 
-<body>
+<body style="background: rgb(245, 241, 243);">
    
 @include("components/nav2")
 @include("components/herosection")
