@@ -340,7 +340,5 @@
             </div>
         </div>
     </nav>
-
     <!-- Nav 2 -->
-    
 </header>
