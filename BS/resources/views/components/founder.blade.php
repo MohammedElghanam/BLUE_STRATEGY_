@@ -25,7 +25,7 @@
                     <img src="AP/business.png" alt="" class=" w-12 h-12">
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">
-                    <h3 class=" font-medium text-center text-gray-600 ">La Creativite</h3>
+                    <h3 class=" font-medium text-center text-gray-600 ">Creativite</h3>
                 </div>
             </div>
 
@@ -34,7 +34,7 @@
                     <img src="AP/growth.png" alt="" class=" w-12 h-12">
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">
-                    <h3 class=" font-medium text-center text-gray-600 ">La Croissonance</h3>
+                    <h3 class=" font-medium text-center text-gray-600 ">Croissonance</h3>
                 </div>
             </div>
 
@@ -43,7 +43,7 @@
                     <img src="AP/scrum.png" alt="" class=" w-12 h-12">
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">
-                    <h3 class=" font-medium text-center text-gray-600 ">L'agilite</h3>
+                    <h3 class=" font-medium text-center text-gray-600 ">agilite</h3>
                 </div>
             </div>
 
@@ -52,7 +52,7 @@
                     <img src="AP/connection.png" alt="" class=" w-12 h-12">
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">
-                    <h3 class=" font-medium text-center text-gray-600">La Digital</h3>
+                    <h3 class=" font-medium text-center text-gray-600">Digital</h3>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@
                     <img src="AP/profit.png" alt="" class=" w-12 h-12">
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">
-                    <h3 class=" font-medium text-center text-gray-600 ">Le Profit</h3>
+                    <h3 class=" font-medium text-center text-gray-600 ">Profit</h3>
                 </div>
             </div>
 
