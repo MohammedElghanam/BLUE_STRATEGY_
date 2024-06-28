@@ -5,6 +5,10 @@
 .inset-l-full {
     left: 100%;
 }
+
+.HID{
+    display: none;
+}
 </style>
 
 <header>
@@ -140,27 +144,77 @@
             </div>
             <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                    <li>
-                        <a href="#footer" class="block py-2 pr-4 pl-3 text-white rounded bg-blue-700 lg:bg-transparent lg:text-blue-700 lg:p-0 dark:text-white" aria-current="page">Home</a>
+                    <li class="h-16 flex items-center justify-center px-4">
+                        <a href="#footer" class="block py-2 pr-4 pl-3 text-white rounded bg-blue-700 lg:bg-transparent lg:text-blue-700 lg:p-0 dark:text-white" aria-current="page">Acceuil</a>
                     </li>
-                    <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Company</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Marketplace</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Features</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Team</a>
+                    {{-- <li class=" P bg-red-600 relative">
+                        <div class=" flex items-center gap-2 hover:text-blue-600">
+                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Qui Somme Nous</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
+                                    viewBox="0 0 24 24">
+                                    <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
+                            </svg>
+                        </div>
+                        <div class=" DIV HI bg-white shadow-md rounded border border-gray-300 text-sm absolute top-auto left-0 min-w-full w-56 z-30 mt-1">
+                            <span class="absolute top-0 left-0 w-3 h-3 bg-white border transform rotate-45 -mt-1 ml-6"></span>
+                            <div class="bg-white rounded w-full relative z-10 py-1">
+                                <ul class="list-reset">
+                                    <li class="relative" x-data="{showChildren:false}" @mouseleave="showChildren=false" @mouseenter="showChildren=true">
+                                        <a href="#" class="px-4 py-2 flex w-full items-start hover:bg-gray-100 no-underline hover:no-underline transition-colors duration-100 cursor-pointer"> <span class="flex-1">Calender</span> </a>
+                                    </li>
+                                    <li class="relative" x-data="{showChildren:false}" @mouseleave="showChildren=false" @mouseenter="showChildren=true">
+                                        <a href="#" class="px-4 py-2 flex w-full items-start hover:bg-gray-100 no-underline hover:no-underline transition-colors duration-100 cursor-pointer"> <span class="flex-1">Chat</span> </a>
+                                    </li>
+                                    <li class="relative" x-data="{showChildren:false}" @mouseleave="showChildren=false" @mouseenter="showChildren=true">
+                                        <a href="#" class="px-4 py-2 flex w-full items-start hover:bg-gray-100 no-underline hover:no-underline transition-colors duration-100 cursor-pointer"> <span class="flex-1">Email</span> </a>
+                                    </li>
+                                    <li class="relative" x-data="{showChildren:false}" @mouseleave="showChildren=false" @mouseenter="showChildren=true">
+                                        <a href="#" class="px-4 py-2 flex w-full items-start hover:bg-gray-100 no-underline hover:no-underline transition-colors duration-100 cursor-pointer"> <span class="flex-1">Todo</span> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li> --}}
+
+                    <li class=" relative" x-data="{showChildren:false}" @click.away="showChildren=false">
+                        <div class=" flex items-center gap-2 hover:text-blue-600 h-16">
+                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" @click.prevent="showChildren=!showChildren">Qui Somme Nous</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
+                                viewBox="0 0 24 24">
+                                <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
+                            </svg>
+                        </div>
+                        <nav  class=" bg-white text-sm absolute top-auto left-0 w-60 z-30 mt-2 border-2 border-200 rounded-lg" x-show="showChildren" x-transition:enter="transition ease duration-300 transform" x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease duration-300 transform" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-4" style="display: none;">
+                            <div class=" flex items-center justify-between w-full p-2 hover:bg-blue-200">   
+                                <a  href="">A propos</a>
+                                <svg class=" w-4 h-4 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="black" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>
+                            </div>
+                            <div class=" flex items-center justify-between w-full p-2 hover:bg-blue-200">   
+                                <a  href="">Notre equipe</a>
+                                <svg class=" w-4 h-4 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="black" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>
+                            </div>
+                            <div class=" flex items-center justify-between w-full p-2 hover:bg-blue-100">   
+                               <a  href="">Nos secteur d'activitè</a>
+                               <svg class=" w-4 h-4 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="black" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>
+                            </div>
+                            <div class=" flex items-center justify-between w-full p-2 hover:bg-blue-100">   
+                               <a  href="">Mot du fondatrice</a>
+                               <svg class=" w-4 h-4 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="black" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>
+                            </div>
+                        </nav>
                     </li>
                     
+                    
                     <li x-data="{showChildren:false}" @click.away="showChildren=false">
-                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" @click.prevent="showChildren=!showChildren">Services</a>
-                        
-                        <nav  class="bg-gray-100 text-sm absolute top-auto left-0 min-w-full w-56 h-96 z-30 mt-8 p-10" x-show="showChildren" x-transition:enter="transition ease duration-300 transform" x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease duration-300 transform" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-4" style="display: none;">
-                           <div class=" w-full flex gap-4 border-2 border-gray-300">
+                        <div class=" flex items-center gap-2 hover:text-blue-600 h-16">
+                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  hover:bg-white lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" @click.prevent="showChildren=!showChildren">Nos Domaines D'expertise</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
+                                viewBox="0 0 24 24">
+                                <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
+                            </svg>
+                        </div>
+                        <nav  class="bg-white text-sm absolute top-auto left-0 min-w-full w-56 h-96 z-30 mt-2 p-10" x-show="showChildren" x-transition:enter="transition ease duration-300 transform" x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease duration-300 transform" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-4" style="display: none;">
+                           <div class=" w-full flex gap-4 border border-gray-300 -z-50">
                             <div class=" bg-gradient-to-r from-blue-500 to-blue-900 w-2/5">
                                 {{-- PMO --}}
                                 <li id="C1" class=" px-6 flex items-center justify-between relative parent hover:bg-blue-800">
@@ -230,122 +284,94 @@
                                 </li>
                             </div>
                             <div class=" w-2/5 pt-6">
-                                {{-- PMO --}}
-                                {{-- <li class=" flex-col hover:bg-red-600">
-                                    <a href="#"
-                                        class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px]">
-                                        <span>PMO</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
-                                            <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
-                                        </svg>
-                                    </a>
-
-                                    <a href="#"
-                                        class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px]">
-                                        <span>PMO</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
-                                            <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
-                                        </svg>
-                                    </a>
-
-                                    <a href="#"
-                                        class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px]">
-                                        <span>PMO</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
-                                            <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
-                                        </svg>
-                                    </a>
-                                    
-                                </li> --}}
-
                                 <div id="S1" class=" flex-col gap-2 p-2 m-2">
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">PROJECT MANAGEMENT OFFICE</h1>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>ABOUT</span>
+                                        <span>About</span>
                                     </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>NOTRE EQUIPE</span>
+                                        <span>Notre Equipe</span>
                                     </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>NOS SERVICES</span>
+                                        <span>Nos Service</span>
                                     </div>
                                 </div>
                                 <div id="S2" class=" hidden flex-col gap-2 p-2 m-2">
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">SERVICES TPE/PME</h1>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>ABOUT</span>
+                                        <span>About</span>
                                     </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>NOTRE EQUIPE</span>
+                                        <span>Notre Equipe</span>
                                     </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>NOS SERVICES</span>
+                                        <span>Nos Service</span>
                                     </div>
                                 </div>
                                 <div id="S3" class=" hidden flex-col gap-2 p-2 m-2">
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">SERVICES DIGITAUX</h1>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>ABOUT</span>
+                                        <span>About</span>
                                     </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>NOTRE EQUIPE</span>
+                                        <span>Notre Equipe</span>
                                     </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>NOS SERVICES</span>
+                                        <span>Nos Service</span>
                                     </div>
                                 </div>
                                 <div id="S4" class=" hidden flex-col gap-2 p-2 m-2">
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">CARRIERE RH</h1>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>ABOUT</span>
+                                        <span>About</span>
                                     </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>NOTRE EQUIPE</span>
+                                        <span>Notre Equipe</span>
                                     </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>NOS SERVICES</span>
+                                        <span>Nos Service</span>
                                     </div>
                                 </div>
                                 <div id="S5" class=" hidden flex-col gap-2 p-2 m-2">
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">FORMATION PROFESSIONNELLE</h1>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>ABOUT</span>
+                                        <span>About</span>
                                     </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>NOTRE EQUIPE</span>
+                                        <span>Notre Equipe</span>
                                     </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>NOS SERVICES</span>
+                                        <span>Nos Service</span>
                                     </div>
                                 </div>
                                 <div id="S6" class=" hidden flex-col gap-2 p-2 m-2 ">
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">ENTREPRENARIAT ET PROJECT D'ESS</h1>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>ABOUT</span>
+                                        <span>About</span>
                                     </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>NOTRE EQUIPE</span>
+                                        <span>Notre Equipe</span>
                                     </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-xl text-gray-600 font-normal hover:text-blue-700">
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>NOS SERVICES</span>
+                                        <span>Nos Service</span>
                                     </div>
                                 </div>
 
@@ -357,10 +383,8 @@
                             </div>
                         </nav>
                     </li>
+
                     
-                    <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -435,4 +459,14 @@
 
     });
     
+</script>
+
+<script>
+    $(document).ready(function(){
+        $(".P").keypress(function(event){
+            if(event.which == 112 || event.which == 80){ // 112 is the ASCII code for 'p' and 80 is for 'P'
+                $('.DIV').toggleClass('HID');
+            }
+        });
+    });
 </script>
