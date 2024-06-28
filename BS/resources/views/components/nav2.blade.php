@@ -214,8 +214,8 @@
                             </svg>
                         </div>
                         <nav  class="bg-white text-sm absolute top-auto left-0 min-w-full w-56 h-96 z-30 mt-2 p-10" x-show="showChildren" x-transition:enter="transition ease duration-300 transform" x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease duration-300 transform" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-4" style="display: none;">
-                           <div class=" w-full flex gap-4 border border-gray-300 -z-50">
-                            <div class=" bg-gradient-to-r from-blue-500 to-blue-900 w-2/5">
+                           <div class=" w-full flex gap-4 border border-gray-300 mb-8">
+                            <div class=" bg-gradient-to-r from-blue-900 to-blue-700 w-2/5">
                                 {{-- PMO --}}
                                 <li id="C1" class=" px-6 flex items-center justify-between relative parent hover:bg-blue-800">
                                     <a href="#"
