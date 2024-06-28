@@ -6,7 +6,7 @@
         border-radius: 8px;
         /* background: #ffffff; */
         /* box-shadow: 0px 7px 15px #dedbdb; */
-        row-gap: 30px;
+        row-gap: 15px;
         flex-direction: column;
         align-items: center;
         transition: transform 0.3s ease-in-out;
