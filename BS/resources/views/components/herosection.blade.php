@@ -14,8 +14,8 @@
         {{-- <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
         </div>                 --}}
-        <div id="id" class="hidden lg:mt-2 lg:col-span-5 lg:flex  bg-blue-500">
-       
+        <div id="id" class="hidden lg:mt-2 lg:col-span-5 lg:flex h-[90%] w-90  bg-blue-500" style="border-radius: 26% 26% 26% 26% / 36% 38% 28% 0%;">
+            <img src="AP/istockphoto-1321598161-612x612-removebg-preview.png" alt="mockup">
         </div>
         <style>
             
