@@ -55,39 +55,108 @@
     }
 </style>
 
+<style>
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    @keyframes slide-up {
+        from {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slide-up1 {
+        from {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .slide-up1 {
+        animation: slide-up1 1s ease-out forwards;
+    }
+
+    .slide-up {
+        animation: slide-up 1s ease-out forwards;
+    }
+
+    @keyframes slide-up2 {
+        from {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slide-up3 {
+        from {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .slide-up2 {
+        animation: slide-up2 1s ease-out forwards;
+    }
+
+    .slide-up3 {
+        animation: slide-up3 1s ease-out forwards;
+    }
+</style>
+
+
+
 {{-- SECTION 2 --}}
-<section class=" h-lvh flex justify-center items-center gap-5 px-28 bg-gray-50">
+<section class="h-full flex flex-col lg:flex-row justify-center items-center gap-5 px-4 lg:px-28 bg-gray-50">
 
-    <div class=" w-1/2 h-full grid justify-center items-center relative">
-        <img class=" w[70%] h-[70%]" src="AP/18.png" alt="">
-        <div class=" w-32 h-32 rounded-full bg-blue-700 absolute -bottom-20 right-24 opacity-75"></div>
-        <img class=" absolute -bottom-10 right-4" src="AP/19.png" alt="">
+    <div class="w-full lg:w-1/2 h-full grid justify-center items-center relative">
+        <img class="w-[70%] h-[70%]" src="AP/18.png" alt="">
+        <div id="animated-elipse" class=" ELIPSE lg:w-32 lg:h-32 rounded-full bg-blue-700 absolute -bottom-20 right-24 opacity-75"></div>
+        <img id="animated-img" class="IMG absolute -bottom-10 right-4 opacity-0 transform translate-y-full" src="AP/19.png" alt="">
     </div>
+    
 
-    <div class=" grid grid-cols-6 gap-5 justify-center items-center w-1/2 h-full py-20 ">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 justify-center items-center w-full lg:w-1/2 h-full py-20">
 
-        <div class="container col-span-3">
+        <div class="container col-span-1 md:col-span-3 lg:col-span-3">
             <div class="circular-progress CP0">
                 <span class="progress-value PV0">0%</span>
             </div>
             <span class="text">Acquisitions</span>
         </div>
 
-        <div class="container col-span-3">
+        <div class="container col-span-1 md:col-span-3 lg:col-span-3">
             <div class="circular-progress CP1">
                 <span class="progress-value PV1">0%</span>
             </div>
             <span class="text">HTML & CSS</span>
         </div>
 
-        <div class="container col-span-3">
+        <div class="container col-span-1 md:col-span-3 lg:col-span-3">
             <div class="circular-progress CP2">
                 <span class="progress-value PV2">0%</span>
             </div>
             <span class="text">Growth Rate</span>
         </div>
 
-        <div class="container col-span-3">
+        <div class="container col-span-1 md:col-span-3 lg:col-span-3">
             <div class="circular-progress CP3">
                 <span class="progress-value PV3">0%</span>
             </div>
@@ -98,16 +167,17 @@
 </section>
 
 {{-- section 3 --}}
-<section class="flex py-16">
-    <div class="w-1/6"></div>
-    <div class=" ROUN xl:w-full h-80 bg-blue-900 relative">
-        <h1 class="font-bold text-5xl mb-4 text-white absolute left-1/2 transform -translate-x-1/2 top-16 sm:left-60 sm:translate-x-0 sm:text-violet-800 text-center sm:text-left">CE QUE NOUS FAISONS.</h1>
+<section class="flex flex-col lg:flex-row py-16">
+    <div class="w-1/6 hidden lg:block"></div>
+    <div class="ROUN xl:w-full h-80 bg-blue-900 relative">
+        {{-- <h1 class="font-bold text-3xl lg:text-5xl mb-4 text-white absolute left-1/2 transform -translate-x-1/2 top-16 lg:top-16 lg:left-1/2 lg:-translate-x-1/2 sm:left-60 sm:translate-x-0 sm:text-violet-800 text-center sm:text-left">CE QUE NOUS FAISONS.</h1> --}}
+        <h1 class="font-bold lg:text-3xl sm:text-5xl mb-4 text-white absolute left-1/2 transform -translate-x-1/2 top-16 sm:left-60 sm:translate-x-0 sm:text-violet-800 text-center sm:text-left">CE QUE NOUS FAISONS.</h1>
         <p class="w-11/12 sm:w-3/4 text-white absolute left-1/2 transform -translate-x-1/2 top-36 sm:left-60 sm:translate-x-0 text-xl text-center sm:text-left">
             Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
             <span class="font-medium">industries for previewing</span> layouts and visual mockups. Lorem ipsum is placeholder text commonly <span class="font-medium">used in the graphic,</span> print, and publishing.
         </p>
-        <div class="absolute -bottom-28 right-36 w-36 h-36 bg-blue-600 rounded-full opacity-50 hidden md:block"></div>
-        <img class="absolute -bottom-16 right-4 hidden md:block" src="AP/19.png" alt="">
+        <div id="animated-elipse2" class="absolute -bottom-28 right-36 w-36 h-36 bg-blue-600 rounded-full opacity-50 hidden md:block"></div>
+        <img id="animated-img2" class="absolute -bottom-16 right-4 hidden md:block" src="AP/19.png" alt="">
     </div>
 </section>
 
@@ -167,5 +237,70 @@
             }
         }, speed);
     });
+</script> 
 
+
+<script>
+    document.addEventListener("scroll", function () {
+        const imgElement = document.getElementById('animated-img');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    imgElement.classList.add('slide-up');
+                }
+            });
+        });
+
+        observer.observe(imgElement);
+    });
+</script>
+
+<script>
+    document.addEventListener("scroll", function () {
+        const imgElement = document.getElementById('animated-elipse');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    imgElement.classList.add('slide-up1');
+                }
+            });
+        });
+
+        observer.observe(imgElement);
+    });
+</script>
+
+
+<script>
+    document.addEventListener("scroll", function () {
+        const imgElement = document.getElementById('animated-img2');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    imgElement.classList.add('slide-up2');
+                }
+            });
+        });
+
+        observer.observe(imgElement);
+    });
+</script>
+
+<script>
+    document.addEventListener("scroll", function () {
+        const imgElement = document.getElementById('animated-elipse2');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    imgElement.classList.add('slide-up3');
+                }
+            });
+        });
+
+        observer.observe(imgElement);
+    });
 </script>
