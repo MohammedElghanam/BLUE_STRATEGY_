@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/book meeting', function () {
     return view('booking');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});

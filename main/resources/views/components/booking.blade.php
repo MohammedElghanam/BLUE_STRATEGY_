@@ -1,7 +1,7 @@
 
-    <div class="flex items-center justify-center py-8 px-4 bg-blue-600 gap-6">
-        <div class="max-w-sm w-full shadow-lg">
-            <div class="md:p-8 p-5 dark:bg-gray-800 bg-white rounded-lg ">
+    <div class="flex items-center justify-center py-8 px-4 bg-blue-100 gap-6">
+        <div class="max-w-sm w-full shadow-lg ">
+            <div class="md:p-8 p-5 dark:bg-gray-800 bg-white rounded-lg">
                 <div class="px-4 flex items-center justify-between">
                     <span id="monthYear" tabindex="0" class="focus:outline-none text-base font-bold dark:text-gray-100 text-gray-800"></span>
                     <div class="flex items-center">
@@ -72,35 +72,47 @@
             <form action="" class=" grid grid-cols-4 gap-4 p-8 rounded-lg   bg-white shadow-lg" >
             <div class="  h-16 col-span-3">
                 <h1 class=" font-medium mb-1 text-gray-600">First name *</h1>
-                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter name">
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter name" required>
             </div>
             <div class="  h-16 col-span-1">
                 <h1 class=" font-medium mb-1 text-gray-600">Last name *</h1>
-                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter name">
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter name" required>
             </div>
-            <div class="  h-16 col-span-1">
+            
+            <div class="  h-16 col-span-1 pb-10 ">
                 <h1 class=" font-medium mb-1 text-gray-600">Sujet *</h1>
-                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Select sujet">
-            </div>
-            <div class="  h-16 col-span-3">
+                <select class=" w-full rounded-md bg-gray-100 border-none h-11 px-4" >
+                    <option value="" disabled selected>Select sujet</option>   
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select> 
+            </div>  
+            <div class="  h-16 col-span-3 pb-10">
                 <h1 class=" font-medium mb-1 text-gray-600">Time *</h1>
-                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Select time">
-            </div>
+                <select class=" w-full rounded-md bg-gray-100 border-none h-11  px-4" >
+                    <option class=" text-red-400" value="" disabled selected>Select time</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select> 
+            </div>    
+                   
             <div class="  h-16 col-span-2">
                 <h1 class=" font-medium mb-1 text-gray-600">Email *</h1>
-                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter email">
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter email" required>
             </div>
             <div class="  h-16 col-span-2">
                 <h1 class=" font-medium mb-1 text-gray-600">Phone *</h1>
-                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter phone">
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter phone" required>
             </div>
             <div class="  h-16 col-span-4">
                 <h1 class=" font-medium mb-1 text-gray-600">Description</h1>
-                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter description">
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter description" required>
             </div>
             <div class="  h-16 col-span-4">
                 <h1 class=" font-medium mb-1 text-gray-600">DATE</h1>
-                <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="selectedDate" type="text" placeholder=" Enter date">
+                <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="selectedDate" type="date" placeholder=" Enter date">
             </div>
             <div class="  h-16 col-span-4 flex items-end">
                 <button class=" h-11 w-full rounded-md font-medium text-lg bg-blue-700 text-white ">Send</button>            
@@ -137,7 +149,7 @@
                         break;
                     } else {
                         cellText = document.createTextNode(date);
-                        cell.classList.add("text-gray-500", "dark:text-gray-100", "cursor-pointer");
+                        cell.classList.add("text-gray-500", "cursor-pointer");
                         cell.onclick = () => selectDate(date, month, year, cell);
                         cell.appendChild(cellText);
                         date++;
@@ -165,17 +177,18 @@
         function selectDate(day, month, year, cell) {
             // Remove previous selected date style
             if (selectedDate) {
-                selectedDate.classList.remove("bg-indigo-500", "text-white");
+                selectedDate.classList.remove("bg-indigo-500", "text-white", "rounded-full", "h-8");
             }
-
+        
             // Update selected date style
             selectedDate = cell;
-            selectedDate.classList.add("bg-indigo-500", "text-white");
-
+            selectedDate.classList.add("bg-indigo-500", "text-white", "rounded-full", "h-8");
+        
             // Update form with selected date
             const formattedDate = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
             document.getElementById("selectedDate").value = formattedDate;
         }
+
 
         renderCalendar(currentMonth, currentYear);
     </script>
