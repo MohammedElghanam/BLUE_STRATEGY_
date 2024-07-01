@@ -1,5 +1,6 @@
 
-    <div class="flex items-center justify-center py-8 px-4 bg-blue-100 gap-6">
+
+    <div class="flex items-center justify-center py-8 px-4 bg-blue-600 gap-6">
         <div class="max-w-sm w-full shadow-lg ">
             <div class="md:p-8 p-5 dark:bg-gray-800 bg-white rounded-lg">
                 <div class="px-4 flex items-center justify-between">
@@ -112,7 +113,7 @@
             </div>
             <div class="  h-16 col-span-4">
                 <h1 class=" font-medium mb-1 text-gray-600">DATE</h1>
-                <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="selectedDate" type="date" placeholder=" Enter date">
+                <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="selectedDate" type="text" placeholder=" Enter date">
             </div>
             <div class="  h-16 col-span-4 flex items-end">
                 <button class=" h-11 w-full rounded-md font-medium text-lg bg-blue-700 text-white ">Send</button>            
@@ -175,14 +176,14 @@
         }
 
         function selectDate(day, month, year, cell) {
-            // Remove previous selected date style
-            if (selectedDate) {
-                selectedDate.classList.remove("bg-indigo-500", "text-white", "rounded-full", "h-8");
-            }
+            // // Remove previous selected date style
+            // if (selectedDate) {
+            //     selectedDate.classList.remove("bg-indigo-500", "text-white", "rounded-full", "h-8");
+            // }
         
-            // Update selected date style
-            selectedDate = cell;
-            selectedDate.classList.add("bg-indigo-500", "text-white", "rounded-full", "h-8");
+            // // Update selected date style
+            // selectedDate = cell;
+            // selectedDate.classList.add("bg-indigo-500", "text-white", "rounded-full", "h-8");
         
             // Update form with selected date
             const formattedDate = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
