@@ -1,5 +1,13 @@
+<div class=" grid grid-cols-12 px-20 w-full  mt-20">
+    <div class=" col-span-12 h-96 bg-red-400 relative">
+        <img src="AP/91.png" alt="fo bar" class=" h-96 w-full">
+        <img src="AP/22.png" alt="" class=" absolute right-40 -bottom-40 w-68 h-64">
+    </div>
+        <div class=" w-40 bg-blue-700 opacity-50 h-5/6 absolute top-0 right-1/3"></div>
+    
+</div>
 
-
+{{-- 
     <div class="flex items-center justify-center py-8 px-4 bg-blue-600 gap-6">
         <div class="max-w-sm w-full shadow-lg ">
             <div class="md:p-8 p-5 dark:bg-gray-800 bg-white rounded-lg">
@@ -62,13 +70,13 @@
                             </tr>
                         </thead>
                         <tbody id="calendarBody">
-                            <!-- Calendar rows will be inserted here -->
+                           
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
-        {{-- form  --}}
+        
         <div class=" w-1/2">
             <form action="" class=" grid grid-cols-4 gap-4 p-8 rounded-lg   bg-white shadow-lg" >
             <div class="  h-16 col-span-3">
@@ -120,10 +128,10 @@
             </div>
             </form>
         </div>
-    </div>
+    </div> --}}
 
 
-
+{{-- 
     <script>
         const today = new Date();
         let currentMonth = today.getMonth();
@@ -192,5 +200,5 @@
 
 
         renderCalendar(currentMonth, currentYear);
-    </script>
+    </script> --}}
 
