@@ -1,14 +1,26 @@
-<div class=" grid grid-cols-12 px-20 w-full  mt-20">
-    <div class=" col-span-12 h-96 bg-red-400 relative">
+<div class=" bg-blue-800">
+<div class=" grid grid-cols-12 px-20 w-full bg-white mt-20">
+    <div class=" col-span-12 h-96 relative">
         <img src="AP/91.png" alt="fo bar" class=" h-96 w-full">
         <img src="AP/22.png" alt="" class=" absolute right-40 -bottom-40 w-68 h-64">
+        <div class=" flex items-end justify-start w-1/2 absolute bottom-0 left-0">
+            <div class=" w-96 h-28 bg-white flex items-end justify-center">
+                <div class=" w-96 h-3 bg-blue-900"></div>
+            </div>
+            <div class=" h-16 w-40 bg-white"></div>
+        </div>
+        
     </div>
-        <div class=" w-40 bg-blue-700 opacity-50 h-5/6 absolute top-0 right-1/3"></div>
-    
+    <div class=" w-40 bg-blue-900 opacity-70 h-5/6 absolute top-0 right-1/3"></div>
+    <div class="  col-span-5 mt-4">
+        <h1 class=" text-7xl font-bold text-gray-900 mb-5">BOOking</h1>
+        <p class=" text-4xl font-medium text-gray-900">Enjoy a better experience with our company</p>
+    </div>
 </div>
+<div class=" grid grid-cols-12 h-56 rounded-bl-full bg-white"></div>
 
-{{-- 
-    <div class="flex items-center justify-center py-8 px-4 bg-blue-600 gap-6">
+
+    <div class="flex items-center justify-center py-8 px-4  gap-6">
         <div class="max-w-sm w-full shadow-lg ">
             <div class="md:p-8 p-5 dark:bg-gray-800 bg-white rounded-lg">
                 <div class="px-4 flex items-center justify-between">
@@ -128,10 +140,10 @@
             </div>
             </form>
         </div>
-    </div> --}}
+    </div>
+</div>
 
 
-{{-- 
     <script>
         const today = new Date();
         let currentMonth = today.getMonth();
@@ -200,5 +212,5 @@
 
 
         renderCalendar(currentMonth, currentYear);
-    </script> --}}
+    </script>
 
