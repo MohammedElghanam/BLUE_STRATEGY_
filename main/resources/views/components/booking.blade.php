@@ -1,11 +1,11 @@
 
-    <div class="flex items-center justify-center py-8 px-4">
+    <div class="flex items-center justify-center py-8 px-4 bg-blue-600 gap-6">
         <div class="max-w-sm w-full shadow-lg">
-            <div class="md:p-8 p-5 dark:bg-gray-800 bg-white rounded-t">
+            <div class="md:p-8 p-5 dark:bg-gray-800 bg-white rounded-lg ">
                 <div class="px-4 flex items-center justify-between">
                     <span id="monthYear" tabindex="0" class="focus:outline-none text-base font-bold dark:text-gray-100 text-gray-800"></span>
                     <div class="flex items-center">
-                        <button id="prevBtn" aria-label="calendar backward" class="focus:text-gray-400 hover:text-gray-400 text-gray-800 dark:text-gray-100 disabled:opacity-50" onclick="previousMonth()" disabled>
+                        <button id="prevBtn" aria-label="calendar backward" class="focus:text-gray-400 hover:text-gray-400 text-gray-800 dark:text-gray-100 disabled:opacity-50" onclick="previousMonth()">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                 <polyline points="15 6 9 12 15 18" />
@@ -67,14 +67,49 @@
                 </div>
             </div>
         </div>
+        {{-- form  --}}
+        <div class=" w-1/2">
+            <form action="" class=" grid grid-cols-4 gap-4 p-8 rounded-lg   bg-white shadow-lg" >
+            <div class="  h-16 col-span-3">
+                <h1 class=" font-medium mb-1 text-gray-600">First name *</h1>
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter name">
+            </div>
+            <div class="  h-16 col-span-1">
+                <h1 class=" font-medium mb-1 text-gray-600">Last name *</h1>
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter name">
+            </div>
+            <div class="  h-16 col-span-1">
+                <h1 class=" font-medium mb-1 text-gray-600">Sujet *</h1>
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Select sujet">
+            </div>
+            <div class="  h-16 col-span-3">
+                <h1 class=" font-medium mb-1 text-gray-600">Time *</h1>
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Select time">
+            </div>
+            <div class="  h-16 col-span-2">
+                <h1 class=" font-medium mb-1 text-gray-600">Email *</h1>
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter email">
+            </div>
+            <div class="  h-16 col-span-2">
+                <h1 class=" font-medium mb-1 text-gray-600">Phone *</h1>
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter phone">
+            </div>
+            <div class="  h-16 col-span-4">
+                <h1 class=" font-medium mb-1 text-gray-600">Description</h1>
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter description">
+            </div>
+            <div class="  h-16 col-span-4">
+                <h1 class=" font-medium mb-1 text-gray-600">DATE</h1>
+                <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="selectedDate" type="text" placeholder=" Enter date">
+            </div>
+            <div class="  h-16 col-span-4 flex items-end">
+                <button class=" h-11 w-full rounded-md font-medium text-lg bg-blue-700 text-white ">Send</button>            
+            </div>
+            </form>
+        </div>
     </div>
 
-    <div class="flex items-center justify-center py-8 px-4">
-        <form id="dateForm" class="max-w-sm w-full shadow-lg p-8 dark:bg-gray-800 bg-white rounded">
-            <label for="selectedDate" class="block text-sm font-medium text-gray-700 dark:text-gray-100">Selected Date</label>
-            <input type="text" id="selectedDate" name="selectedDate" class="mt-1 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" readonly>
-        </form>
-    </div>
+
 
     <script>
         const today = new Date();
@@ -116,9 +151,6 @@
         }
 
         function previousMonth() {
-            if (currentMonth === today.getMonth() && currentYear === today.getFullYear()) {
-                return;
-            }
             currentYear = (currentMonth === 0) ? currentYear - 1 : currentYear;
             currentMonth = (currentMonth === 0) ? 11 : currentMonth - 1;
             renderCalendar(currentMonth, currentYear);
@@ -141,9 +173,10 @@
             selectedDate.classList.add("bg-indigo-500", "text-white");
 
             // Update form with selected date
-            const formattedDate = `${year}-${month + 1}-${day}`;
+            const formattedDate = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
             document.getElementById("selectedDate").value = formattedDate;
         }
 
         renderCalendar(currentMonth, currentYear);
     </script>
+

@@ -4,7 +4,7 @@
    
 @include("components/nav2")
 @include("components/herosection")
- @include("components.statistics")
+@include("components.statistics")
 @include("components/founder")
 @include("components/contacts")
 @include("components/footer")
@@ -12,6 +12,7 @@
 </body>
 
 </html>
+
 
 
 
