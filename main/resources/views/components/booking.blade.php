@@ -202,9 +202,9 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function () {
-        $("#assign_permission").click(function () {
-            $("#validation").show();
-        })
+        // $("#assign_permission").click(function () {
+        //     $("#validation").show();
+        // })
         $("#validation").click(function (event) {
             if (event.target === this) {
                 $(this).hide();
