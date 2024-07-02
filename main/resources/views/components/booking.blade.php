@@ -20,10 +20,10 @@
     <div class=" grid grid-cols-12 h-56 rounded-bl-full bg-white"></div>
 
 
-    <!-- pop up assign permission to role -->
-    <div id="form_assign_permission_to_role"
+    <!-- pop up validation -->
+    <div id="validation"
     class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 pt-14 z-50">
-    <div class="container grid grid-cols-12 items-end relative mx-auto mt-8 p-4 bg-gray-200 shadow-lg max-w-md w-80 h-80 rounded-md">
+    <div class="container grid grid-cols-12 items-end relative mx-auto mt-8 p-4 bg-gray-100 shadow-lg max-w-md w-80 h-80 rounded-md">
         <div class=" w-28 h-28 bg-green-500 absolute left-24 -top-11 rounded-full flex justify-center items-center">
             <svg class=" w-20 h-20 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                 <path fill="#ffffff" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
@@ -35,7 +35,7 @@
             <p class=" text-center">Lorem ipsum, or lipsum as it is sometimes known</p>
         </div>
         
-        <button class=" bg-green-500 col-span-12 h-10 rounded-lg text-white text-xl">Ok</button>
+        <button class=" bg-green-500 col-span-12 h-10 rounded-lg text-white text-xl hover:bg-green-600">Ok</button>
     </div>
 </div>
 
@@ -199,6 +199,19 @@
     </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#assign_permission").click(function () {
+            $("#validation").show();
+        })
+        $("#validation").click(function (event) {
+            if (event.target === this) {
+                $(this).hide();
+            }
+        });
+    });
+</script>
 
 <script>
     const today = new Date();

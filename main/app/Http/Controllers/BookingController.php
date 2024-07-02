@@ -52,11 +52,9 @@ class BookingController extends Controller
         ]);
 
         if ($booking) {
-        return "hello";
-        // redirect()->back()->with('success', 'User created successfully!');
+        return redirect()->back()->with('success', 'User created successfully!');
         } else {
-            return "error";
-            // redirect()->back()->with('error', 'Failed to create user.');
+            return redirect()->back()->with('error', 'Failed to create user.');
         }
         
     }
