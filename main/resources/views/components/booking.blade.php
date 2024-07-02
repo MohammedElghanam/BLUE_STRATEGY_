@@ -40,6 +40,7 @@
                         </button>
                     </div>
                 </div>
+                
                 <div class="flex items-center justify-between pt-12 overflow-x-auto">
                     <table class="w-full">
                         <thead>
@@ -91,34 +92,10 @@
         
         <div class=" w-1/2">
             <form action="" class=" grid grid-cols-4 gap-4 p-8 rounded-lg   bg-white shadow-lg" >
-            <div class="  h-16 col-span-3">
-                <h1 class=" font-medium mb-1 text-gray-600">First name *</h1>
+            <div class="  h-16 col-span-4">
+                <h1 class=" font-medium mb-1 text-gray-600">Full name *</h1>
                 <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter name" required>
             </div>
-            <div class="  h-16 col-span-1">
-                <h1 class=" font-medium mb-1 text-gray-600">Last name *</h1>
-                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter name" required>
-            </div>
-            
-            <div class="  h-16 col-span-1 pb-10 ">
-                <h1 class=" font-medium mb-1 text-gray-600">Sujet *</h1>
-                <select class=" w-full rounded-md bg-gray-100 border-none h-11 px-4" >
-                    <option value="" disabled selected>Select sujet</option>   
-                    <option value="option1">Option 1</option>
-                    <option value="option2">Option 2</option>
-                    <option value="option3">Option 3</option>
-                </select> 
-            </div>  
-            <div class="  h-16 col-span-3 pb-10">
-                <h1 class=" font-medium mb-1 text-gray-600">Time *</h1>
-                <select class=" w-full rounded-md bg-gray-100 border-none h-11  px-4" >
-                    <option class=" text-red-400" value="" disabled selected>Select time</option>
-                    <option value="option1">Option 1</option>
-                    <option value="option2">Option 2</option>
-                    <option value="option3">Option 3</option>
-                </select> 
-            </div>    
-                   
             <div class="  h-16 col-span-2">
                 <h1 class=" font-medium mb-1 text-gray-600">Email *</h1>
                 <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter email" required>
@@ -127,13 +104,41 @@
                 <h1 class=" font-medium mb-1 text-gray-600">Phone *</h1>
                 <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter phone" required>
             </div>
-            <div class="  h-16 col-span-4">
-                <h1 class=" font-medium mb-1 text-gray-600">Description</h1>
-                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter description" required>
+            
+            {{-- <div class="  h-16 col-span-1">
+                <h1 class=" font-medium mb-1 text-gray-600">Last name *</h1>
+                <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter name" required>
+            </div> --}}
+            
+            <div class="  h-16 col-span-4 pb-10 ">
+                <h1 class=" font-medium mb-1 text-gray-600">Sujet *</h1>
+                <select class=" w-full rounded-md bg-gray-100 border-none h-11 px-4" >
+                    <option value="" disabled selected>Select sujet</option>   
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select> 
             </div>
-            <div class="  h-16 col-span-4">
-                <h1 class=" font-medium mb-1 text-gray-600">DATE</h1>
-                <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="selectedDate" type="text" placeholder=" Enter date">
+            <div class="  h-16 col-span-4 mb-5">
+                <h1 class=" font-medium mb-1 text-gray-600">Description</h1>
+                <textarea class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter description" required></textarea>
+            </div>  
+
+            <div class="  h-16 col-span-2 pb-10">
+                <h1 class=" font-medium mb-1 text-gray-600">Time *</h1>
+                <select class=" w-full rounded-md bg-gray-100 border-none h-11  px-4" >
+                    <option class="" value="" disabled selected>Select time</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select> 
+            </div>    
+                   
+            
+            
+            <div class="  h-16 col-span-2">
+                <h1 class=" font-medium mb-1 text-gray-600">Date</h1>
+                <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="selectedDate" type="text" placeholder=" dd/mm/yyyy">
             </div>
             <div class="  h-16 col-span-4 flex items-end">
                 <button class=" h-11 w-full rounded-md font-medium text-lg bg-blue-700 text-white ">Send</button>            
