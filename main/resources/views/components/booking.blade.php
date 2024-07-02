@@ -20,6 +20,25 @@
     <div class=" grid grid-cols-12 h-56 rounded-bl-full bg-white"></div>
 
 
+    <!-- pop up assign permission to role -->
+    <div id="form_assign_permission_to_role"
+    class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 pt-14 z-50">
+    <div class="container grid grid-cols-12 items-end relative mx-auto mt-8 p-4 bg-gray-200 shadow-lg max-w-md w-80 h-80 rounded-md">
+        <div class=" w-28 h-28 bg-green-500 absolute left-24 -top-11 rounded-full flex justify-center items-center">
+            <svg class=" w-20 h-20 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path fill="#ffffff" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+            </svg>
+        </div>
+
+        <div id="popup-form" class="popup col-span-12 grid justify-center items-end">
+            <h1 class="text-lg font-bold mb-4 text-center">Assign parmission</h1>
+            <p class=" text-center">Lorem ipsum, or lipsum as it is sometimes known</p>
+        </div>
+        
+        <button class=" bg-green-500 col-span-12 h-10 rounded-lg text-white text-xl">Ok</button>
+    </div>
+</div>
+
     <div class="flex items-center justify-center py-8 px-4  gap-6">
         <div class="max-w-sm w-full shadow-lg ">
             <div class="md:p-8 p-5 dark:bg-gray-800 bg-white rounded-lg">
@@ -109,54 +128,68 @@
         <div class=" w-1/2">
             <form action="{{route('Booking')}}" method="POST" class=" grid grid-cols-4 gap-4 p-8 rounded-lg   bg-white shadow-lg">
                 @csrf
-                <div class="  h-16 col-span-4">
+                <div class="  h-16 col-span-4 mb-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Full name *</h1>
-                    <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter name"
-                        required>
+                    <input name="name" class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter name">
+                    @error('name')
+                        <p class=" text-red-500">enter name</p>
+                    @enderror
                 </div>
 
-                <div class="  h-16 col-span-2">
+                <div class="  h-16 col-span-2 mb-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Email *</h1>
-                    <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" example@gmail.com"
-                        required>
+                    <input name="email" class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" example@gmail.com">
+                    @error('email')
+                        <p class=" text-red-500">enter email</p>
+                    @enderror
                 </div>
 
-                <div class="  h-16 col-span-2">
+                <div class="  h-16 col-span-2 mb-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Phone *</h1>
-                    <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" 06 00000000"
-                        required>
+                    <input name="phone" class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" 06 00000000">
+                    @error('phone')
+                        <p class=" text-red-500">enter phone</p>
+                    @enderror
                 </div>
 
-                <div class="  h-16 col-span-4 pb-10 ">
+                <div class="  h-16 col-span-4 pb-10 mb-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Sujet *</h1>
-                    <select class=" w-full rounded-md bg-gray-100 border-none h-11 px-4">
+                    <select name="sujet" class=" w-full rounded-md bg-gray-100 border-none h-11 px-4">
                         <option value="" disabled selected>Select sujet</option>
                         <option value="option1">Option 1</option>
                         <option value="option2">Option 2</option>
                         <option value="option3">Option 3</option>
                     </select>
+                    @error('sujet')
+                        <p class=" text-red-500">enter sujet</p>
+                    @enderror
                 </div>
 
                 <div class="  h-16 col-span-4 mb-5">
                     <h1 class=" font-medium mb-1 text-gray-600">Description</h1>
-                    <textarea class=" w-full rounded-md bg-gray-100 border-none" type="text"
-                        placeholder=" Enter description" required></textarea>
+                    <textarea name="description" class=" w-full rounded-md bg-gray-100 border-none" type="text"
+                        placeholder=" Enter description"></textarea>
                 </div>
 
                 <div class="  h-16 col-span-2 pb-10">
                     <h1 class=" font-medium mb-1 text-gray-600">Time *</h1>
-                    <select class=" w-full rounded-md bg-gray-100 border-none h-11  px-4">
+                    <select name="time" class=" w-full rounded-md bg-gray-100 border-none h-11  px-4">
                         <option class="" value="" disabled selected>Select time</option>
                         <option value="option1">Option 1</option>
                         <option value="option2">Option 2</option>
                         <option value="option3">Option 3</option>
                     </select>
+                    @error('time')
+                        <p class=" text-red-500">enter time *</p>
+                    @enderror
                 </div>
 
-                <div class="  h-16 col-span-2">
-                    <h1 class=" font-medium mb-1 text-gray-600">Date</h1>
-                    <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="selectedDate"
-                        type="text" placeholder=" dd/mm/yyyy">
+                <div class="  h-16 col-span-2 mb-4">
+                    <h1 class=" font-medium mb-1 text-gray-600">Date *</h1>
+                    <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="date" type="text" placeholder=" dd/mm/yyyy">
+                    @error('date')
+                        <p class=" text-red-500">enter date *</p>
+                    @enderror
                 </div>
                 <div class="  h-16 col-span-4 flex items-end">
                     <button class=" h-11 w-full rounded-md font-medium text-lg bg-blue-700 text-white ">Send</button>

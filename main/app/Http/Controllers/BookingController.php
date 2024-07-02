@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+
 use App\Models\Booking;
 use Illuminate\Http\Request;
 
@@ -28,7 +29,36 @@ class BookingController extends Controller
      */
     public function store(Request $request)
     {
+        // dd($request);
+        $validatedData = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:255',
+            'sujet' => 'required|string|max:255',
+            'description' => 'required|string|max:255',
+            'time' => 'required|string|max:255',
+            'date' => 'required|string|max:255',
+        ]);
+
+        
+        $booking = Booking::create([
+            'name' => $validatedData['name'],
+            'email' => $validatedData['email'],
+            'phone' => $validatedData['phone'],
+            'sujet' => $validatedData['sujet'],
+            'description' => $validatedData['description'],
+            'time' => $validatedData['time'],
+            'date' => $validatedData['date'],
+        ]);
+
+        if ($booking) {
         return "hello";
+        // redirect()->back()->with('success', 'User created successfully!');
+        } else {
+            return "error";
+            // redirect()->back()->with('error', 'Failed to create user.');
+        }
+        
     }
 
     /**
