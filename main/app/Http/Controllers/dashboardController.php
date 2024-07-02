@@ -37,9 +37,9 @@ class dashboardController extends Controller
     {
         // return "howare you";
         // dd($request);
-        $booking = Booking::findOrFail($request->id);
-        $booking->delete();
-        // return redirect()->route('dashboard');
+        // $booking = Booking::findOrFail($request->id);
+        // $booking->delete();
+        return redirect()->route('dashboard');
     }
 
     /**
