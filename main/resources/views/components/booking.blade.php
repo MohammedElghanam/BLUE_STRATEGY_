@@ -11,7 +11,7 @@
             </div>
 
         </div>
-        <div class=" w-40 bg-blue-900 opacity-70 h-5/6 absolute top-0 right-1/3"></div>
+        <div class=" w-40 bg-blue-900 opacity-70 h-full absolute top-0 right-1/3"></div>
         <div class="  col-span-5 mt-4">
             <h1 class=" text-7xl font-bold text-gray-900 mb-5">BOOking</h1>
             <p class=" text-4xl font-medium text-gray-900">Enjoy a better experience with our company</p>
@@ -20,24 +20,51 @@
     <div class=" grid grid-cols-12 h-56 rounded-bl-full bg-white"></div>
 
 
-    <!-- pop up validation -->
-    <div id="validation"
-    class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 pt-14 z-50">
-    <div class="container grid grid-cols-12 items-end relative mx-auto mt-8 p-4 bg-gray-100 shadow-lg max-w-md w-80 h-80 rounded-md">
-        <div class=" w-28 h-28 bg-green-500 absolute left-24 -top-11 rounded-full flex justify-center items-center">
-            <svg class=" w-20 h-20 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <path fill="#ffffff" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
-            </svg>
-        </div>
+    <!-- pop up validation true -->
+    @if(session('success'))
+   
+    <div id="validation" class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 pt-14 z-50">
+        <div
+            class="container grid grid-cols-12 items-end relative mx-auto mt-8 p-4 bg-gray-100 shadow-lg max-w-md w-80 h-80 rounded-md">
+            <div class=" w-28 h-28 bg-green-500 absolute left-24 -top-11 rounded-full flex justify-center items-center">
+                <svg class=" w-20 h-20 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path fill="#ffffff"
+                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                </svg>
+            </div>
 
-        <div id="popup-form" class="popup col-span-12 grid justify-center items-end">
-            <h1 class="text-lg font-bold mb-4 text-center">Assign parmission</h1>
-            <p class=" text-center">Lorem ipsum, or lipsum as it is sometimes known</p>
+            <div id="popup-form" class="popup col-span-12 grid justify-center items-end">
+                <h1 class="text-lg font-bold mb-4 text-center"> {{ session('success') }}</h1>
+                <p class=" text-center">Lorem ipsum, or lipsum as it is sometimes known</p>
+            </div>
+
+            <button class=" bg-green-500 col-span-12 h-10 rounded-lg text-white text-xl hover:bg-green-600">Ok</button>
         </div>
-        
-        <button class=" bg-green-500 col-span-12 h-10 rounded-lg text-white text-xl hover:bg-green-600">Ok</button>
     </div>
-</div>
+    @endif
+
+    <!-- pop up validation false -->
+    @if(session('error'))
+   
+    <div id="validation" class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 pt-14 z-50"> 
+        <div
+            class="container grid grid-cols-12 items-end relative mx-auto mt-8 p-4 bg-gray-100 shadow-lg max-w-md w-80 h-80 rounded-md">
+            <div class=" w-28 h-28 bg-red-700 absolute left-24 -top-11 rounded-full flex justify-center items-center">
+                <svg class=" w-20 h-20 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path fill="#ffffff"
+                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                </svg>
+            </div>
+
+            <div id="popup-form" class="popup col-span-12 grid justify-center items-end">
+                <h1 class="text-lg font-bold mb-4 text-center"> {{ session('error') }}</h1>
+                <p class=" text-center">Lorem ipsum, or lipsum as it is sometimes known</p>
+            </div>
+
+            <button class=" bg-red-700 col-span-12 h-10 rounded-lg text-white text-xl hover:bg-red-600">Ok</button>
+        </div>
+    </div>
+    @endif
 
     <div class="flex items-center justify-center py-8 px-4  gap-6">
         <div class="max-w-sm w-full shadow-lg ">
@@ -126,29 +153,33 @@
         </div>
 
         <div class=" w-1/2">
-            <form action="{{route('Booking')}}" method="POST" class=" grid grid-cols-4 gap-4 p-8 rounded-lg   bg-white shadow-lg">
+            <form action="{{route('Booking')}}" method="POST"
+                class=" grid grid-cols-4 gap-4 p-8 rounded-lg   bg-white shadow-lg">
                 @csrf
                 <div class="  h-16 col-span-4 mb-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Full name *</h1>
-                    <input name="name" class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter name">
+                    <input name="name" class=" w-full rounded-md bg-gray-100 border-none" type="text"
+                        placeholder=" Enter name">
                     @error('name')
-                        <p class=" text-red-500">enter name</p>
+                    <p class=" text-red-500">enter name</p>
                     @enderror
                 </div>
 
                 <div class="  h-16 col-span-2 mb-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Email *</h1>
-                    <input name="email" class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" example@gmail.com">
+                    <input name="email" class=" w-full rounded-md bg-gray-100 border-none" type="text"
+                        placeholder=" example@gmail.com">
                     @error('email')
-                        <p class=" text-red-500">enter email</p>
+                    <p class=" text-red-500">enter email</p>
                     @enderror
                 </div>
 
                 <div class="  h-16 col-span-2 mb-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Phone *</h1>
-                    <input name="phone" class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" 06 00000000">
+                    <input name="phone" class=" w-full rounded-md bg-gray-100 border-none" type="text"
+                        placeholder=" 06 00000000">
                     @error('phone')
-                        <p class=" text-red-500">enter phone</p>
+                    <p class=" text-red-500">enter phone</p>
                     @enderror
                 </div>
 
@@ -161,7 +192,7 @@
                         <option value="option3">Option 3</option>
                     </select>
                     @error('sujet')
-                        <p class=" text-red-500">enter sujet</p>
+                    <p class=" text-red-500">enter sujet</p>
                     @enderror
                 </div>
 
@@ -180,15 +211,16 @@
                         <option value="option3">Option 3</option>
                     </select>
                     @error('time')
-                        <p class=" text-red-500">enter time *</p>
+                    <p class=" text-red-500">enter time *</p>
                     @enderror
                 </div>
 
                 <div class="  h-16 col-span-2 mb-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Date *</h1>
-                    <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="date" type="text" placeholder=" dd/mm/yyyy">
+                    <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="date" type="text"
+                        placeholder=" dd/mm/yyyy">
                     @error('date')
-                        <p class=" text-red-500">enter date *</p>
+                    <p class=" text-red-500">enter date *</p>
                     @enderror
                 </div>
                 <div class="  h-16 col-span-4 flex items-end">
