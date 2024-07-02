@@ -552,31 +552,30 @@
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
                                                                             
                                                                             <div class="flex space-x-4">
-                                                                                <a href="{{route('valid', ['id' => $tag->id])}}" class="text-blue-500 hover:text-blue-600">
-                                                                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                    class="w-5 h-5 mr-1" fill="none"
-                                                                                    viewBox="0 0 24 24"
-                                                                                    stroke="currentColor">
-                                                                                    <path stroke-linecap="round"
-                                                                                        stroke-linejoin="round"
-                                                                                        stroke-width="2"
-                                                                                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                                                                    </svg>
-                                                                                <p>Valide</p>
-                                                                                </a>
-                                                                                <a href="{{route('invalid', ['id' => $tag->id])}}" class="text-red-500 hover:text-red-600">
-                                                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                    class="w-5 h-5 mr-1 ml-3"
-                                                                                    fill="none" viewBox="0 0 24 24"
-                                                                                    stroke="currentColor">
-                                                                                    <path stroke-linecap="round"
-                                                                                        stroke-linejoin="round"
-                                                                                        stroke-width="2"
-                                                                                        d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                                                                                </svg>
-                                                                                <p>Invalide</p>
-                                                                                </a>
+                                                                                <form action="{{ route('valid') }}" method="POST">
+                                                                                    @csrf
+                                                                                    <input class="hidden" value="{{ $tag->id }}" type="text" name="id" id="">
+                                                                                    <input class="hidden" value="{{ $tag->email }}" type="text" name="email" id="">
+                                                                                    <button class="text-blue-500 hover:text-blue-600 flex items-center">
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                                                        </svg>
+                                                                                        Valide
+                                                                                    </button>
+                                                                                </form>
+                                                                                <form action="{{ route('invalid') }}" method="POST">
+                                                                                    @csrf
+                                                                                    <input class="hidden" value="{{ $tag->id }}" type="text" name="id" id="">
+                                                                                    <input class="hidden" value="{{ $tag->email }}" type="text" name="email" id="">
+                                                                                    <button class="text-red-500 hover:text-red-600 flex items-center">
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                                                                        </svg>
+                                                                                        Invalide
+                                                                                    </button>
+                                                                                </form>
                                                                             </div>
+                                                                            
                                                                         </td>
                                                                     </tr>
                                                                     @endforeach

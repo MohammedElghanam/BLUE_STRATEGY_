@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('date');
             $table->string('time');
             $table->string('description');
-            $table->string('status')->default('invalide');
+            $table->string('status')->default('invalid');
             $table->timestamps();
         });
     }

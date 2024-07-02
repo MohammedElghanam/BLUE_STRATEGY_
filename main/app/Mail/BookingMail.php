@@ -27,7 +27,7 @@ class BookingMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Booking Mail',
+            subject: 'Blue Strategy',
         );
     }
 
@@ -37,7 +37,8 @@ class BookingMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.name',
+            view: 'send_email',
+            
         );
     }
 

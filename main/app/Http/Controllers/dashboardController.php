@@ -18,21 +18,28 @@ class dashboardController extends Controller
         return view('dashboard', compact('bookings'));
     }
 
-    public function valide($id)
+    public function valid(Request $request)
     {
-        $booking = Booking::findOrFail($id);
+        // return "hello"; 
+        // dd($request);
+        $booking = Booking::findOrFail($request->id);
         if ($booking) {
-            $booking->update(['status' => 'valid']);
+            $booking->status = 'valid';
+            $booking->save();
             Mail::to($request->email)->send(new BookingMail());
             return redirect()->route('dashboard');
+        }else{
+            return "error";
         }
     }
 
-    public function invalide($id)
+    public function invalid(Request $request)
     {
-        $booking = Booking::findOrFail($id);
+        // return "howare you";
+        // dd($request);
+        $booking = Booking::findOrFail($request->id);
         $booking->delete();
-        return redirect()->route('dashboard');
+        // return redirect()->route('dashboard');
     }
 
     /**
