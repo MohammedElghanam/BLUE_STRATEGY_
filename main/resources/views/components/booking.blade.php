@@ -107,7 +107,7 @@
         </div>
 
         <div class=" w-1/2">
-            <form action="{{route('Booking')}}" class=" grid grid-cols-4 gap-4 p-8 rounded-lg   bg-white shadow-lg">
+            <form action="{{route('Booking')}}" method="POST" class=" grid grid-cols-4 gap-4 p-8 rounded-lg   bg-white shadow-lg">
                 @csrf
                 <div class="  h-16 col-span-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Full name *</h1>
@@ -117,13 +117,13 @@
 
                 <div class="  h-16 col-span-2">
                     <h1 class=" font-medium mb-1 text-gray-600">Email *</h1>
-                    <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter email"
+                    <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" example@gmail.com"
                         required>
                 </div>
 
                 <div class="  h-16 col-span-2">
                     <h1 class=" font-medium mb-1 text-gray-600">Phone *</h1>
-                    <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" Enter phone"
+                    <input class=" w-full rounded-md bg-gray-100 border-none" type="text" placeholder=" 06 00000000"
                         required>
                 </div>
 
