@@ -154,14 +154,14 @@
 
         <div class=" w-1/2">
             <form action="{{route('Booking')}}" method="POST"
-                class=" grid grid-cols-4 gap-4 p-8 rounded-lg   bg-white shadow-lg">
+                class=" grid grid-cols-4 gap-4 p-8 rounded-lg bg-white shadow-lg">
                 @csrf
                 <div class="  h-16 col-span-4 mb-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Full name *</h1>
                     <input name="name" class=" w-full rounded-md bg-gray-100 border-none" type="text"
                         placeholder=" Enter name">
                     @error('name')
-                    <p class=" text-red-500">enter name</p>
+                    <p class=" text-red-500">{{ $message }}*</p>
                     @enderror
                 </div>
 
@@ -170,7 +170,7 @@
                     <input name="email" class=" w-full rounded-md bg-gray-100 border-none" type="text"
                         placeholder=" example@gmail.com">
                     @error('email')
-                    <p class=" text-red-500">enter email</p>
+                    <p class=" text-red-500">{{ $message }}*</p>
                     @enderror
                 </div>
 
@@ -179,7 +179,7 @@
                     <input name="phone" class=" w-full rounded-md bg-gray-100 border-none" type="text"
                         placeholder=" 06 00000000">
                     @error('phone')
-                    <p class=" text-red-500">enter phone</p>
+                    <p class=" text-red-500">{{ $message }}*</p>
                     @enderror
                 </div>
 
@@ -192,7 +192,7 @@
                         <option value="option3">Option 3</option>
                     </select>
                     @error('sujet')
-                    <p class=" text-red-500">enter sujet</p>
+                    <p class=" text-red-500">{{ $message }}*</p>
                     @enderror
                 </div>
 
@@ -206,12 +206,17 @@
                     <h1 class=" font-medium mb-1 text-gray-600">Time *</h1>
                     <select name="time" class=" w-full rounded-md bg-gray-100 border-none h-11  px-4">
                         <option class="" value="" disabled selected>Select time</option>
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                        <option value="option3">Option 3</option>
+                        <option value="option1" class="">09-10</option>
+                        <option value="option2" class="">10-11</option>
+                        <option value="option3" class="">11-12</option>
+                        <option value="option3" class="">12-13</option>
+                        <option value="option3" class="">14:30 - 15:30</option>
+                        <option value="option3" class="">15:30 - 16:30</option>
+                        <option value="option3" class="">16:30 - 17:30</option>
+                        <option value="option3" class="">17:30 - 18:30</option>
                     </select>
                     @error('time')
-                    <p class=" text-red-500">enter time *</p>
+                    <p class=" text-red-500">{{ $message }}*</p>
                     @enderror
                 </div>
 
@@ -220,7 +225,7 @@
                     <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="date" type="text"
                         placeholder=" dd/mm/yyyy">
                     @error('date')
-                    <p class=" text-red-500">enter date *</p>
+                    <p class=" text-red-500">{{ $message }}*</p>
                     @enderror
                 </div>
                 <div class="  h-16 col-span-4 flex items-end">

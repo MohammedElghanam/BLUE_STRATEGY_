@@ -474,6 +474,12 @@
                                                                             </div>
                                                                         </th>
                                                                         <th
+                                                                            class=" w-96 px-6 py-3 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Description</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
                                                                             class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                                                                             <div class="flex cursor-pointer">
                                                                                 <span class="mr-2">Phone</span>
@@ -506,7 +512,7 @@
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody class="bg-white divide-y divide-gray-200">
-                                                                    @foreach ($Bookings as $item)
+                                                                    @foreach ($bookings as $tag)
                                                                     <tr>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
@@ -514,35 +520,39 @@
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            <p>{{ $tag->id }}</p>
+                                                                            <p>{{ $tag->name }}</p>
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
-                                                                            <p>{{ $tag->id }}</p>
+                                                                            <p>{{ $tag->email }}</p>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
+                                                                            <p>{{ $tag->description }}</p>
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            <p>{{ $tag->id }}</p>
+                                                                            <p>{{ $tag->phone }}</p>
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            <p>{{ $tag->id }}</p>
+                                                                            <p>{{ $tag->sujet }}</p>
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            <p>{{ $tag->id }}</p>
+                                                                            <p>{{ $tag->date }}</p>
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
                                                                             <div class="flex text-green-500">
-                                                                                <p>{{ $tag->id }}</p>
+                                                                                <p>{{ $tag->time }}</p>
                                                                             </div>
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
                                                                             
                                                                             <div class="flex space-x-4">
-                                                                                <a href="#" class="text-blue-500 hover:text-blue-600">
+                                                                                <a href="{{route('valid', ['id' => $tag->id])}}" class="text-blue-500 hover:text-blue-600">
                                                                                     <svg xmlns="http://www.w3.org/2000/svg"
                                                                                     class="w-5 h-5 mr-1" fill="none"
                                                                                     viewBox="0 0 24 24"
@@ -554,7 +564,7 @@
                                                                                     </svg>
                                                                                 <p>Valide</p>
                                                                                 </a>
-                                                                                <a href="#" class="text-red-500 hover:text-red-600">
+                                                                                <a href="{{route('invalid', ['id' => $tag->id])}}" class="text-red-500 hover:text-red-600">
                                                                                 <svg xmlns="http://www.w3.org/2000/svg"
                                                                                     class="w-5 h-5 mr-1 ml-3"
                                                                                     fill="none" viewBox="0 0 24 24"
@@ -573,6 +583,7 @@
                                                                 </tbody>
                                                             </table>
                                                         </div>
+                                                        {{-- {{ $bookings->links() }} --}}
                                                     </div>
                                                 </div>
                                             </div>

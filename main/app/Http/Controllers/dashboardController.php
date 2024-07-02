@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\BookingMail;
 use App\Models\Booking;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class dashboardController extends Controller
 {
@@ -12,8 +14,25 @@ class dashboardController extends Controller
      */
     public function index()
     {
-        $bookings = Booking::paginate(6);
+        $bookings = Booking::all();
         return view('dashboard', compact('bookings'));
+    }
+
+    public function valide($id)
+    {
+        $booking = Booking::findOrFail($id);
+        if ($booking) {
+            $booking->update(['status' => 'valid']);
+            Mail::to($request->email)->send(new BookingMail());
+            return redirect()->route('dashboard');
+        }
+    }
+
+    public function invalide($id)
+    {
+        $booking = Booking::findOrFail($id);
+        $booking->delete();
+        return redirect()->route('dashboard');
     }
 
     /**

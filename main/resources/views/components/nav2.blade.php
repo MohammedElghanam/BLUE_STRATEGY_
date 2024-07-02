@@ -207,7 +207,7 @@
                     
                     <li x-data="{showChildren:false}" @click.away="showChildren=false">
                         <div class=" flex items-center gap-2 hover:text-blue-600 h-16">
-                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  hover:bg-white lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" @click.prevent="showChildren=!showChildren">Nos Domaines D'expertise</a>
+                            <a href="#" class="block z-50 py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  hover:bg-white lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" @click.prevent="showChildren=!showChildren">Nos Domaines D'expertise</a>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
                                 viewBox="0 0 24 24">
                                 <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
