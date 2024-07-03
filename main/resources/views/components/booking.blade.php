@@ -38,7 +38,7 @@
                 <p class=" text-center">Lorem ipsum, or lipsum as it is sometimes known</p>
             </div>
 
-            <button class=" bg-green-500 col-span-12 h-10 rounded-lg text-white text-xl hover:bg-green-600">Ok</button>
+            <button id="OK" class=" bg-green-500 col-span-12 h-10 rounded-lg text-white text-xl hover:bg-green-600">Ok</button>
         </div>
     </div>
     @endif
@@ -46,7 +46,7 @@
     <!-- pop up validation false -->
     @if(session('error'))
    
-    <div id="validation" class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 pt-14 z-50"> 
+    <div id="validation1" class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 pt-14 z-50"> 
         <div
             class="container grid grid-cols-12 items-end relative mx-auto mt-8 p-4 bg-gray-100 shadow-lg max-w-md w-80 h-80 rounded-md">
             <div class=" w-28 h-28 bg-red-700 absolute left-24 -top-11 rounded-full flex justify-center items-center">
@@ -61,7 +61,7 @@
                 <p class=" text-center">Lorem ipsum, or lipsum as it is sometimes known</p>
             </div>
 
-            <button class=" bg-red-700 col-span-12 h-10 rounded-lg text-white text-xl hover:bg-red-600">Ok</button>
+            <button id="OK1" class=" bg-red-700 col-span-12 h-10 rounded-lg text-white text-xl hover:bg-red-600">Ok</button>
         </div>
     </div>
     @endif
@@ -242,6 +242,18 @@
             if (event.target === this) {
                 $(this).hide();
             }
+        });
+        $("#OK").click(function (event) {
+            $("#validation").hide();
+        });
+
+        $("#validation1").click(function (event) {
+            if (event.target === this) {
+                $(this).hide();
+            }
+        });
+        $("#OK1").click(function (event) {
+            $("#validation1").hide();
         });
     });
 </script>
