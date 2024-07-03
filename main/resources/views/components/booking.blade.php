@@ -70,8 +70,7 @@
         <div class="max-w-sm w-full shadow-lg ">
             <div class="md:p-8 p-5 dark:bg-gray-800 bg-white rounded-lg">
                 <div class="px-4 flex items-center justify-between">
-                    <span id="monthYear" tabindex="0"
-                        class="focus:outline-none text-base font-bold dark:text-gray-100 text-gray-800"></span>
+                    <span id="monthYear" tabindex="0" class="focus:outline-none text-base font-bold dark:text-gray-100 text-gray-800"></span>
                     <div class="flex items-center">
                         <button id="prevBtn" aria-label="calendar backward"
                             class="focus:text-gray-400 hover:text-gray-400 text-gray-800 dark:text-gray-100 disabled:opacity-50"
@@ -239,9 +238,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function () {
-        // $("#assign_permission").click(function () {
-        //     $("#validation").show();
-        // })
         $("#validation").click(function (event) {
             if (event.target === this) {
                 $(this).hide();
