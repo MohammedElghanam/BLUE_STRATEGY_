@@ -177,7 +177,7 @@
             <span class="font-medium">industries for previewing</span> layouts and visual mockups. Lorem ipsum is placeholder text commonly <span class="font-medium">used in the graphic,</span> print, and publishing.
         </p>
         <div id="animated-elipse2" class="absolute -bottom-28 right-36 w-36 h-36 bg-blue-600 rounded-full opacity-50 hidden md:block"></div>
-        <img id="animated-img2" class="absolute -bottom-16 right-4 hidden md:block" src="AP/19.png" alt="">
+        <img id="animated-img2" class="absolute -bottom-28 right-16 hidden md:block" src="AP/19.png" alt="">
     </div>
 </section>
 
