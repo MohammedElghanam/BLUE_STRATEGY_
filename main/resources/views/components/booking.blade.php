@@ -21,7 +21,8 @@
         height: 57px;
     }
 </style>
-<div class=" bg-blue-800">
+<div class=" bg-white pt-28">
+    <div class=" bg-blue-900">
     <div class=" grid grid-cols-12 px-20 w-full bg-white">
         <div class=" col-span-12 h-96 relative">
             <img src="AP/91.png" alt="fo bar" class=" h-96 w-full">
@@ -40,7 +41,7 @@
         </div>
     </div>
     <div class=" grid grid-cols-12 h-56 rounded-bl-full bg-white"></div>
-
+    </div>
 
     <!-- pop up validation true -->
     @if(session('success'))
@@ -87,7 +88,7 @@
     </div>
     @endif
 
-    <div class="flex items-center justify-center py-8 px-4  gap-6">
+    <div class="flex items-center justify-center py-8 px-4 gap-6 bg-blue-900">
         <div class="max-w-sm w-full  ">
 
             <div class="mt-20 bg-white p-3 shadow-lg rounded-lg">
