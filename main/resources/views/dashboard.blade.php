@@ -518,7 +518,11 @@
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
-                                                                            <p>{{ $tag->description }}</p>
+                                                                            @if ($tag->description === null)
+                                                                                <p>Null</p>
+                                                                            @else
+                                                                                <p>{{ $tag->description }}</p>
+                                                                            @endif
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
