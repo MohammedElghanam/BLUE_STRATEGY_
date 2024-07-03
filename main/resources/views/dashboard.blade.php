@@ -458,37 +458,19 @@
                                                                         <th
                                                                             class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                                                                             <div class="flex cursor-pointer">
-                                                                                <span class="mr-2">ID</span>
-                                                                            </div>
-                                                                        </th>
-                                                                        <th
-                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-                                                                            <div class="flex cursor-pointer">
                                                                                 <span class="mr-2">Name</span>
                                                                             </div>
                                                                         </th>
                                                                         <th
                                                                             class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                                                                             <div class="flex cursor-pointer">
-                                                                                <span class="mr-2">Email</span>
+                                                                                <span class="mr-2">Sujet</span>
                                                                             </div>
                                                                         </th>
                                                                         <th
                                                                             class=" w-96 px-6 py-3 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                                                                             <div class="flex cursor-pointer">
                                                                                 <span class="mr-2">Description</span>
-                                                                            </div>
-                                                                        </th>
-                                                                        <th
-                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-                                                                            <div class="flex cursor-pointer">
-                                                                                <span class="mr-2">Phone</span>
-                                                                            </div>
-                                                                        </th>
-                                                                        <th
-                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-                                                                            <div class="flex cursor-pointer">
-                                                                                <span class="mr-2">Sujet</span>
                                                                             </div>
                                                                         </th>
                                                                         <th
@@ -506,6 +488,18 @@
                                                                         <th
                                                                             class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                                                                             <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Email</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Phone</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
                                                                                 <span class="mr-2">STATUS</span>
                                                                             </div>
                                                                         </th>
@@ -516,15 +510,11 @@
                                                                     <tr>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            <p>{{ $tag->id }}</p>
-                                                                        </td>
-                                                                        <td
-                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
                                                                             <p>{{ $tag->name }}</p>
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
-                                                                            <p>{{ $tag->email }}</p>
+                                                                            <p>{{ $tag->sujet }}</p>
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
@@ -532,20 +522,20 @@
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            <p>{{ $tag->phone }}</p>
-                                                                        </td>
-                                                                        <td
-                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            <p>{{ $tag->sujet }}</p>
-                                                                        </td>
-                                                                        <td
-                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
                                                                             <p>{{ $tag->date }}</p>
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+                                                                            <p>{{ $tag->time }}</p>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+                                                                            <p>{{ $tag->email }}</p>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
                                                                             <div class="flex text-green-500">
-                                                                                <p>{{ $tag->time }}</p>
+                                                                                <p>{{ $tag->phone }}</p>
                                                                             </div>
                                                                         </td>
                                                                         <td
