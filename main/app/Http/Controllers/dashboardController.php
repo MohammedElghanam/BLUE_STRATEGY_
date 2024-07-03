@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\BookingMail;
+use App\Mail\invalideBooking;
 use App\Models\Booking;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -37,8 +38,9 @@ class dashboardController extends Controller
     {
         // return "howare you";
         // dd($request);
-        // $booking = Booking::findOrFail($request->id);
-        // $booking->delete();
+        $booking = Booking::findOrFail($request->id);
+        $booking->delete();
+        Mail::to($request->email)->send(new invalideBooking());
         return redirect()->route('dashboard');
     }
 

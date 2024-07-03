@@ -9,7 +9,7 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class BookingMail extends Mailable
+class invalideBooking extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -27,7 +27,7 @@ class BookingMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Blue Strategy',
+            subject: 'Invalide Booking',
         );
     }
 
@@ -37,8 +37,7 @@ class BookingMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'Mail.ValidMail',
-            
+            view: 'Mail.InvalideMail',
         );
     }
 
