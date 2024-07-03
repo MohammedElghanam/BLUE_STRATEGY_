@@ -11,7 +11,7 @@
             </div>
 
         </div>
-        <div class=" w-40 bg-blue-900 opacity-70 h-full absolute top-0 right-1/3"></div>
+        <div class=" w-40 bg-blue-900 opacity-70 h-5/6 absolute top-24 right-1/3"></div>
         <div class="  col-span-5 mt-4">
             <h1 class=" text-7xl font-bold text-gray-900 mb-5">BOOking</h1>
             <p class=" text-4xl font-medium text-gray-900">Enjoy a better experience with our company</p>
