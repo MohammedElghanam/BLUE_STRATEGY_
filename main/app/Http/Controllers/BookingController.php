@@ -38,6 +38,8 @@ class BookingController extends Controller
             'time' => 'required|string|max:255',
             'date' => 'required|date',
         ]);
+
+        $validatedData['phone'] = str_replace(' ', '', $validatedData['phone']);
     
         $booking = Booking::create($validatedData);
 

@@ -204,14 +204,14 @@
                     <h1 class=" font-medium mb-1 text-gray-600">Time *</h1>
                     <select name="time" class=" w-full rounded-md bg-gray-100 border-none h-11  px-4">
                         <option class="" value="" disabled selected>Select time</option>
-                        <option value="option1" class="">09-10</option>
-                        <option value="option2" class="">10-11</option>
-                        <option value="option3" class="">11-12</option>
-                        <option value="option3" class="">12-13</option>
-                        <option value="option3" class="">14:30 - 15:30</option>
-                        <option value="option3" class="">15:30 - 16:30</option>
-                        <option value="option3" class="">16:30 - 17:30</option>
-                        <option value="option3" class="">17:30 - 18:30</option>
+                        <option value="09-10" class="">09-10</option>
+                        <option value="10-11" class="">10-11</option>
+                        <option value="11-12" class="">11-12</option>
+                        <option value="12-13" class="">12-13</option>
+                        <option value="14:30 - 15:30" class="">14:30 - 15:30</option>
+                        <option value="15:30 - 16:30" class="">15:30 - 16:30</option>
+                        <option value="16:30 - 17:30" class="">16:30 - 17:30</option>
+                        <option value="17:30 - 18:30" class="">17:30 - 18:30</option>
                     </select>
                     @error('time')
                     <p class=" text-red-500">{{ $message }}*</p>
