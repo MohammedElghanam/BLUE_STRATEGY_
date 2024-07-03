@@ -9,17 +9,17 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class BookingMail extends Mailable
+class Send_Message extends Mailable
 {
     use Queueable, SerializesModels;
 
     /**
      * Create a new message instance.
      */
-    private $booking;
-    public function __construct($bookings)
+    private $request;
+    public function __construct($request)
     {
-        $this->booking = $bookings;
+        $this->request = $request;
     }
 
     /**
@@ -38,12 +38,11 @@ class BookingMail extends Mailable
     public function content(): Content
     {
         $data = [
-            'name' => $this->booking->name,
+            'name' => $this->request->name,
+            'content' => $this->request->content,
         ];
 
-        return new Content('Mail.ValidMail', with: $data);
-
-        
+        return new Content('Mail.Send_Message', with: $data);
     }
 
     /**

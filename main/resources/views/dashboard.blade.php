@@ -20,17 +20,16 @@
             <div>
                 <div class="text-white">
                     <div class="flex p-2  bg-gray-800">
-                        <div class="flex py-3 px-2 items-center">
-                            <p class="text-2xl text-green-500 font-semibold">SA</p <p class="ml-2 font-semibold italic">
-                            DASHBOARD</p>
+                        <div class="flex py-3 px-2 items-center gap-1">
+                            <p class="text-2xl text-blue-500 font-semibold mb-2 ">Blue</p <p class="ml-2 font-semibold italic">
+                            STRATEGY</p>
                         </div>
                     </div>
-                    <div class="flex justify-center">
-                        <div class="">
-                            <img class="hidden h-24 w-24 rounded-full sm:block object-cover mr-2 border-4 border-green-400"
-                                src="https://image.flaticon.com/icons/png/512/149/149071.png" alt="">
-                            <p class="font-bold text-base  text-gray-400 pt-2 text-center w-24">Safwan</p>
+                    <div class="grid justify-center">
+                        <div class=" grid justify-center items-center">
+                            <img class="hidden h-24 w-24 rounded-full sm:block object-cover mr-2 border-4 border-green-400" src="images/unsplash.png" alt="">
                         </div>
+                        <p class="font-bold text-base  text-gray-400 pt-2 text-center w-40">Houda belaydi</p>
                     </div>
                     <div>
                         <ul class="mt-6 leading-10">
@@ -323,6 +322,7 @@
 
                 </div>
             </header>
+
             <main class="">
                 <div class="grid mb-4 pb-10 px-8 mx-4 rounded-3xl bg-gray-100 border-4 border-green-400">
 
@@ -672,15 +672,13 @@
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            <form action="{{ route('valid') }}" method="POST">
+                                                                            <form action="{{ route('message') }}" method="POST" class=" flex p-1 gap-2">
                                                                                 @csrf
-                                                                                <input class="hidden" value="{{ $item->id }}" type="text" name="id" id="">
-                                                                                <input class="hidden" value="{{ $item->email }}" type="text" name="email" id="">
-                                                                                <button class="text-blue-500 hover:text-blue-600 flex items-center">
-                                                                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                                                                    </svg>
-                                                                                    Valide
+                                                                                <input class="hidden" value="{{ $item->name }}" type="text" name="name">
+                                                                                <input class="hidden" value="{{ $item->email }}" type="text" name="email">
+                                                                                <input type="text" name="content" class=" bg-gray-200 rounded-md border-2 border-blue-200 caret-blue-500" placeholder=" write message">
+                                                                                <button class="text-white flex items-center px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-md">
+                                                                                    Send
                                                                                 </button>
                                                                             </form>
                                                                         </td>

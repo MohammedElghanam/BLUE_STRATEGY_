@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 
 
+use App\Mail\Send_Message;
 use App\Models\Booking;
 
 use App\Mail\validBooking;
@@ -51,6 +52,13 @@ class dashboardController extends Controller
         }else{
             return "error";
         }
+    }
+
+
+    public function send_message(Request $request){
+        // dd($request);
+        Mail::to($request->email)->send(new Send_Message($request));
+        return redirect()->route('dashboard');
     }
 
     
