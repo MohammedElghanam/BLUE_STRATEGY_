@@ -1,3 +1,24 @@
+<style>
+    .current-day {
+        background-color: #f0f0f0; /* Light gray background color */
+        font-weight: bold; /* Example: Bold text for the current day */
+        padding-left: 25px;
+        border-radius: 50px;
+        width: 50px;
+        height: 57px;
+        
+    }
+
+    .selected-day {
+        background-color: #5d00ff67; /* Light gray background color */
+        color: #f0f0f0;
+        font-weight: bold; /* Example: Bold text for the current day */
+        padding-left: 15px;
+        border-radius: 50px;
+        width: 50px;
+        height: 57px;
+    }
+</style>
 <div class=" bg-blue-800">
     <div class=" grid grid-cols-12 px-20 w-full bg-white mt-20">
         <div class=" col-span-12 h-96 relative">
@@ -66,8 +87,8 @@
     @endif
 
     <div class="flex items-center justify-center py-8 px-4  gap-6">
-        <div class="max-w-sm w-full shadow-lg ">
-            <div class="md:p-8 p-5 dark:bg-gray-800 bg-white rounded-lg">
+        <div class="max-w-sm w-full  ">
+            {{-- <div class="md:p-8 p-5 dark:bg-gray-800 bg-white rounded-lg">
                 <div class="px-4 flex items-center justify-between">
                     <span id="monthYear" tabindex="0" class="focus:outline-none text-base font-bold dark:text-gray-100 text-gray-800"></span>
                     <div class="flex items-center">
@@ -147,7 +168,57 @@
                         </tbody>
                     </table>
                 </div>
+            </div> --}}
+
+            <div class="mt-20 bg-white p-3 shadow-lg rounded-lg">
+                {{-- arrow left and right  --}}
+                <div class="flex justify-around mb-2">
+                    <button id="back" aria-label="calendar backward"
+                            class="focus:text-gray-400 hover:text-gray-400 text-gray-800 dark:text-gray-100 disabled:opacity-50"
+                            onclick="previousMonth()">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <polyline points="15 6 9 12 15 18" />
+                            </svg>
+                    </button>
+
+                    <div class="flex gap-3 ">
+                        <span id="months"></span>
+                        <span id="years"></span>
+                    </div>
+                    
+                    <button id="next" aria-label="calendar forward"
+                            class="focus:text-gray-400 hover:text-gray-400 ml-3 text-gray-800 dark:text-gray-100"
+                            onclick="nextMonth()">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <polyline points="9 6 15 12 9 18" />
+                            </svg>
+                    </button>
+                </div>
+
+                <table>
+                    <thead class=" mb-4 p-1">
+                        <tr class=" border-b-2 border-gray-400 mb-3">
+                            <th class="p-3">Sun</th>
+                            <th class="p-3">Mon</th>
+                            <th class="p-3">Tue</th>
+                            <th class="p-3">Wed</th>
+                            <th class="p-3">Thu</th>
+                            <th class="p-3">Fri</th>
+                            <th class="p-3">Sat</th>
+                        </tr>
+                    </thead>
+                    <tbody id="calendarBody" class=" p-3 h-72 w-full">
+                        <!-- Calendar days will be generated here -->
+                    </tbody>
+                </table>
             </div>
+
         </div>
 
         <div class=" w-1/2">
@@ -257,7 +328,7 @@
     });
 </script>
 
-<script>
+{{-- <script>
     const today = new Date();
     let currentMonth = today.getMonth();
     let currentYear = today.getFullYear();
@@ -325,4 +396,118 @@
 
 
     renderCalendar(currentMonth, currentYear);
-</script>
+</script> --}}
+
+
+<script>
+    const Array_months = [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December",
+    ];
+    
+    let today = new Date();
+    let currentYear = today.getFullYear();
+    let currentMonth = today.getMonth();
+    let currentDay = today.getDate();
+    
+    const years = document.getElementById('years');
+    const months = document.getElementById('months');
+    const calendarBody = document.getElementById('calendarBody');
+    const selectedDateInput = document.getElementById('selectedDate');
+    
+    function updateCalendar() {
+        months.innerText = Array_months[currentMonth];
+        years.innerText = currentYear;
+    
+        // Clear previous calendar days
+        calendarBody.innerHTML = '';
+    
+        // Get the number of days in the current month
+        const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+    
+        // Get the first day of the month (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
+        const firstDayOfMonth = new Date(currentYear, currentMonth, 1).getDay();
+    
+        // Create rows and cells for the calendar
+        let date = 1;
+        for (let i = 0; i < 6; i++) { // 6 rows for maximum display, adjust as needed
+            const row = document.createElement('tr');
+    
+            for (let j = 0; j < 7; j++) {
+                if (i === 0 && j < firstDayOfMonth) {
+                    // Empty cells before the first day of the month
+                    const cell = document.createElement('td');
+                    row.appendChild(cell);
+                } else if (date > daysInMonth) {
+                    // Stop adding cells if we've reached the end of the month
+                    break;
+                } else {
+                    // Create a cell for each day of the month
+                    const cell = document.createElement('td');
+                    cell.textContent = date;
+    
+                    if (currentYear === today.getFullYear() && currentMonth === today.getMonth() && date === currentDay) {
+                        cell.classList.add('current-day');
+                    }
+    
+                    const currentCellDate = date; // Capture the current date for the event listener
+                    cell.addEventListener('click', () => {
+                        // Remove existing selected class from all cells
+                        const selectedCells = document.querySelectorAll('.selected-day');
+                        selectedCells.forEach(cell => cell.classList.remove('selected-day'));
+    
+                        // Add selected class to the clicked cell
+                        cell.classList.add('selected-day');
+    
+                        // Update the input field with the selected date
+                        const selectedDate = `${currentCellDate}/${currentMonth + 1}/${currentYear}`;
+                        selectedDateInput.value = selectedDate;
+                    });
+    
+                    row.appendChild(cell);
+                    date++;
+                }
+            }
+    
+            calendarBody.appendChild(row);
+        }
+    }
+    
+    function changeMonth(offset) {
+        let newMonth = currentMonth + offset;
+        let newYear = currentYear;
+    
+        if (newMonth < 0) {
+            newMonth = 11;
+            newYear -= 1;
+        } else if (newMonth > 11) {
+            newMonth = 0;
+            newYear += 1;
+        }
+    
+        // Prevent going back to the past beyond the current month and year
+        if (newYear < today.getFullYear() || (newYear === today.getFullYear() && newMonth < today.getMonth())) {
+            return;
+        }
+    
+        currentMonth = newMonth;
+        currentYear = newYear;
+    
+        updateCalendar();
+    }
+    
+    document.getElementById('back').addEventListener('click', () => changeMonth(-1));
+    document.getElementById('next').addEventListener('click', () => changeMonth(1));
+    
+    updateCalendar();  // Initialize the calendar with the current date
+    </script>
