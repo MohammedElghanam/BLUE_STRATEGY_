@@ -11,7 +11,7 @@
 }
 </style>
 
-<header>
+<header class=" bg-white fixed w-full z-50">
     <nav class=" border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a href="/" class="flex items-center">
@@ -365,9 +365,6 @@
     <!-- Nav 2 -->
 </header>
 
-
-    
-</header>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
