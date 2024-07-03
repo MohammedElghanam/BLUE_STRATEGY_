@@ -1,7 +1,8 @@
 <style>
     .current-day {
-        background-color: #f0f0f0; /* Light gray background color */
-        font-weight: bold; /* Example: Bold text for the current day */
+        background-color: #0059ff; /* Light gray background color */
+        color: #f0f0f0;
+        font-weight: 700; /* Example: Bold text for the current day */
         padding-left: 25px;
         border-radius: 50px;
         width: 50px;
@@ -10,10 +11,11 @@
     }
 
     .selected-day {
-        background-color: #5d00ff67; /* Light gray background color */
+        background-color: #0055ff67; /* Light gray background color */
         color: #f0f0f0;
         font-weight: bold; /* Example: Bold text for the current day */
         padding-left: 15px;
+        margin: 5px;
         border-radius: 50px;
         width: 50px;
         height: 57px;
@@ -204,13 +206,13 @@
                 <table>
                     <thead class=" mb-4 p-1">
                         <tr class=" border-b-2 border-gray-400 mb-3">
-                            <th class="p-3">Sun</th>
-                            <th class="p-3">Mon</th>
-                            <th class="p-3">Tue</th>
-                            <th class="p-3">Wed</th>
-                            <th class="p-3">Thu</th>
-                            <th class="p-3">Fri</th>
-                            <th class="p-3">Sat</th>
+                            <th class="p-3 font-medium text-blue-500">Sun</th>
+                            <th class="p-3 font-medium text-blue-500">Mon</th>
+                            <th class="p-3 font-medium text-blue-500">Tue</th>
+                            <th class="p-3 font-medium text-blue-500">Wed</th>
+                            <th class="p-3 font-medium text-blue-500">Thu</th>
+                            <th class="p-3 font-medium text-blue-500">Fri</th>
+                            <th class="p-3 font-medium text-blue-500">Sat</th>
                         </tr>
                     </thead>
                     <tbody id="calendarBody" class=" p-3 h-72 w-full">
