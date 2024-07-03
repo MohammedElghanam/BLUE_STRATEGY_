@@ -319,7 +319,7 @@
         // selectedDate.classList.add("bg-indigo-500", "text-white", "rounded-full", "h-8");
 
         // Update form with selected date
-        const formattedDate = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+        const formattedDate = `${year}/${String(month + 1).padStart(2, '0')}/${String(day).padStart(2, '0')}`;
         document.getElementById("selectedDate").value = formattedDate;
     }
 
