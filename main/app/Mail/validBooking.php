@@ -17,9 +17,9 @@ class BookingMail extends Mailable
      * Create a new message instance.
      */
     private $booking;
-    public function __construct($booking)
+    public function __construct($bookings)
     {
-        $this->booking = $booking;
+        $this->booking = $bookings;
     }
 
     /**
