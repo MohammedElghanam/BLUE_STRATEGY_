@@ -31,7 +31,7 @@ class dashboardController extends Controller
         if ($bookings) {
             $bookings->status = 'valid';
             $bookings->save();
-            Mail::to($request->email)->send(new validBooking($bookings));
+            Mail::to($request->email)->send(new ValideBooking($bookings));
             return redirect()->route('dashboard');
         }else{
             return "error";

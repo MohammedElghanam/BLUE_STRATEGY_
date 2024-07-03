@@ -29,27 +29,17 @@ class BookingController extends Controller
      */
     public function store(Request $request)
     {
-        // dd($request);
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
             'phone' => 'required|string|max:255',
             'sujet' => 'required|string|max:255',
-            'description' => 'required|string|max:255',
+            'description' => 'nullable|string', // Allow null values
             'time' => 'required|string|max:255',
-            'date' => 'required|string|max:255',
+            'date' => 'required|date',
         ]);
-
-        
-        $booking = Booking::create([
-            'name' => $validatedData['name'],
-            'email' => $validatedData['email'],
-            'phone' => $validatedData['phone'],
-            'sujet' => $validatedData['sujet'],
-            'description' => $validatedData['description'],
-            'time' => $validatedData['time'],
-            'date' => $validatedData['date'],
-        ]);
+    
+        $booking = Booking::create($validatedData);
 
         if ($booking) {
         return redirect()->back()->with('success', 'User created successfully!');

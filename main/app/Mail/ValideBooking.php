@@ -16,9 +16,10 @@ class ValideBooking extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    private $bookings;
+    public function __construct($bookings)
     {
-        //
+        $this->bookings = $bookings;
     }
 
     /**
@@ -27,7 +28,7 @@ class ValideBooking extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Valide Booking',
+            subject: 'Blue Strategy',
         );
     }
 
@@ -36,9 +37,11 @@ class ValideBooking extends Mailable
      */
     public function content(): Content
     {
-        return new Content(
-            view: 'view.name',
-        );
+        $data = [
+            'name' => $this->bookings->name,
+        ];
+
+        return new Content('Mail.ValidMail', with: $data);
     }
 
     /**
