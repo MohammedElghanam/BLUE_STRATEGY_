@@ -1,5 +1,5 @@
 {{-- section 4 --}}
-<form action="https://fabform.io/f/xxxxx" method="post">
+<form action="https://fabform.io/f/xxxxx" method="post" id="contact">
 
     <section class="py-24">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
