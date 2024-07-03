@@ -519,7 +519,7 @@
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
                                                                             @if ($item->description === null)
-                                                                                <p>Null</p>
+                                                                            <p class=" text-red-500">Null</p>
                                                                             @else
                                                                                 <p>{{ $item->description }}</p>
                                                                             @endif
@@ -647,7 +647,7 @@
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
                                                                             @if ($item->description === null)
-                                                                                <p>Null</p>
+                                                                                <p class=" text-red-500">Null</p>
                                                                             @else
                                                                                 <p>{{ $item->description }}</p>
                                                                             @endif
@@ -774,7 +774,7 @@
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
                                                                             @if ($item->description === null)
-                                                                                <p>Null</p>
+                                                                            <p class=" text-red-500">Null</p>
                                                                             @else
                                                                                 <p>{{ $item->description }}</p>
                                                                             @endif
