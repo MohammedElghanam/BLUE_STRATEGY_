@@ -16,9 +16,10 @@ class BookingMail extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    private $booking;
+    public function __construct($booking)
     {
-        //
+        $this->booking = $booking;
     }
 
     /**
@@ -36,10 +37,13 @@ class BookingMail extends Mailable
      */
     public function content(): Content
     {
-        return new Content(
-            view: 'Mail.ValidMail',
-            
-        );
+        $data = [
+            'name' => $this->booking->name,
+        ];
+
+        return new Content('Mail.ValidMail', with: $data);
+
+        
     }
 
     /**

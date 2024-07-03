@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\BookingMail;
-use App\Mail\invalideBooking;
+
+
 use App\Models\Booking;
+use App\Mail\validBooking;
 use Illuminate\Http\Request;
+use App\Mail\invalideBooking;
 use Illuminate\Support\Facades\Mail;
 
 class dashboardController extends Controller
@@ -19,28 +21,28 @@ class dashboardController extends Controller
         return view('dashboard', compact('bookings'));
     }
 
-    public function valid(Request $request)
-    {
-        // return "hello"; 
-        // dd($request);
-        $booking = Booking::findOrFail($request->id);
-        if ($booking) {
-            $booking->status = 'valid';
-            $booking->save();
-            Mail::to($request->email)->send(new BookingMail());
-            return redirect()->route('dashboard');
-        }else{
-            return "error";
-        }
-    }
+    // public function valid(Request $request)
+    // {
+    //     // return "hello"; 
+    //     $booking = Booking::findOrFail($request->id);
+    //     // dd($booking);
+    //     if ($booking) {
+    //         $booking->status = 'valid';
+    //         $booking->save();
+    //         Mail::to($request->email)->send(new validBooking($booking));
+    //         return redirect()->route('dashboard');
+    //     }else{
+    //         return "error";
+    //     }
+    // }
 
     public function invalid(Request $request)
     {
         // return "howare you";
         // dd($request);
         $booking = Booking::findOrFail($request->id);
+        Mail::to($request->email)->send(new invalideBooking($booking));
         $booking->delete();
-        Mail::to($request->email)->send(new invalideBooking());
         return redirect()->route('dashboard');
     }
 

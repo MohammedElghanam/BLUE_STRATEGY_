@@ -16,9 +16,10 @@ class invalideBooking extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    private $booking;
+    public function __construct($booking)
     {
-        //
+        $this->booking = $booking;
     }
 
     /**
@@ -27,7 +28,7 @@ class invalideBooking extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Invalide Booking',
+            subject: 'Blue Strategy',
         );
     }
 
@@ -36,10 +37,14 @@ class invalideBooking extends Mailable
      */
     public function content(): Content
     {
-        return new Content(
-            view: 'Mail.InvalideMail',
-        );
+        
+        $data = [
+            'name' => $this->booking->name,
+        ];
+
+        return new Content('Mail.InvalidMail', with: $data);
     }
+
 
     /**
      * Get the attachments for the message.
