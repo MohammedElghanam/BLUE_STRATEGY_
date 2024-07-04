@@ -20,7 +20,7 @@
             <div class=" w-80 h-80 rounded-full absolute right-20 z-30 flex justify-center items-center pt-5">
                 <div class=" BG absolute top-6 -right-16 rounded-t-full rounded-b-md rotate-45" style="width: 330px; height:175px;"></div>
                 <img class="rounded-full z-20" src="images/unsplash.png" alt="" style="width: 300px; height:300px;">
-                <div class=" w-28 h-28 bg-blue-500 rounded-full absolute left-5 -bottom-10 z-30 flex justify-center items-center">
+                <div class=" w-28 h-28 bg-blue-500 rounded-full absolute left-10 -bottom-14 z-30 flex justify-center items-center">
                     <img src="AP/4.svg" alt="" class=" w-10 h-10 absolute -top-4 -left-8">
                     <div class="w-24 h-24 bg-white rounded-full grid grid-cols-2 gap-2 opacity-45">
                         <a class=" text-black col-span-2 flex items-end justify-center" aria-label="Twitter link" href="#">

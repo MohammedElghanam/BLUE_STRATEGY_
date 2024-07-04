@@ -1,7 +1,7 @@
 {{-- section 4 --}}
 <form action="https://fabform.io/f/xxxxx" method="post" id="contact">
 
-    <section class="py-24">
+    <section class="py-24 bg-gray-100">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 grid-cols-1">
                 <div class="lg:mb-0 mb-10">

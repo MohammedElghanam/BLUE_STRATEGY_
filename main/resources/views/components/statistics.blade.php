@@ -124,8 +124,15 @@
 
 
 {{-- SECTION 2 --}}
-<section class="h-full flex flex-col lg:flex-row justify-center items-center gap-5 px-4 lg:px-28 bg-gray-50">
+<section class=" bg-gray-100 pt-10">
 
+    <div class=" flex flex-col justify-center items-center gap-3">
+        <h1 class=" font-medium text-5xl text-gray-700 z-50">Pourquoi nous choisir?</h1>
+        <p class=" font-normal text-3xl">Pourquoi nous choisir</p>
+    </div>
+
+    <div  class="flex justify-center items-center gap-5 px-4 lg:px-28 ">
+    
     <div class="w-full lg:w-1/2 h-full grid justify-center items-center relative">
         <img class="w-[70%] h-[70%]" src="AP/18.png" alt="">
         <div id="animated-elipse" class=" ELIPSE lg:w-32 lg:h-32 rounded-full bg-blue-700 absolute -bottom-20 right-24 opacity-75"></div>
@@ -164,6 +171,9 @@
         </div>
 
     </div>
+        
+</div>
+
 </section>
 
 {{-- section 3 --}}
