@@ -31,7 +31,7 @@
 
             <div class=" grid grid-cols-2 gap-3 justify-center items-center col-span-1">
                 <div class=" col-span-2 flex justify-center items-center">
-                    <img src="AP/growth (2).png" alt="" class=" w-12 h-12">
+                    <img src="AP/growth.png" alt="" class=" w-12 h-12">
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">
                     <h3 class=" font-medium text-center text-gray-600 ">Croissonance</h3>

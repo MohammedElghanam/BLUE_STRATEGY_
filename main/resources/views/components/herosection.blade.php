@@ -5,33 +5,33 @@
             <p class="max-w-2xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
             <div class=" grid grid-cols-6 gap-4 w-3/4 mb-10">
                 <div class=" p-1 border-2 border-blue-800 rounded-md hover:scale-10">
-                    <div class=" flex justify-center items-center p-2 rounded-full  bg-blue-800 col-span-1 blur-2xl">
-                        <img class=" w-12 h-12" src="AP/20.png" alt="">
+                    <div class=" flex justify-center items-center p-2 rounded-full col-span-1 blur-2xl">
+                        <img class=" w-9 h-9" src="AP/100.png" alt="">
                     </div>
                 </div>
                 <div class=" p-1 border-2 border-blue-800 rounded-md">
-                    <div class=" flex justify-center items-center p-2 rounded-full  bg-blue-800 col-span-1 blur-2xl">
-                        <img class=" w-12 h-12" src="AP/21.png" alt="">
+                    <div class=" flex justify-center items-center p-2 rounded-full col-span-1 blur-2xl">
+                        <img class=" w-9 h-9" src="AP/101.png" alt="">
                     </div>
                 </div>
                 <div class=" p-1 border-2 border-blue-800 rounded-md">
-                    <div class=" flex justify-center items-center p-2 rounded-full  bg-blue-800 col-span-1 blur-2xl">
-                        <img class=" w-12 h-12" src="AP/23.png" alt="">
+                    <div class=" flex justify-center items-center p-2 rounded-full col-span-1 blur-2xl">
+                        <img class=" w-9 h-9" src="AP/102.png" alt="">
                     </div>
                 </div>
                 <div class=" p-1 border-2 border-blue-800 rounded-md">
-                    <div class=" flex justify-center items-center p-2 rounded-full  bg-blue-800 col-span-1 blur-2xl">
-                        <img class=" w-12 h-12" src="AP/24.png" alt="">
+                    <div class=" flex justify-center items-center p-2 rounded-full col-span-1 blur-2xl">
+                        <img class=" w-9 h-9" src="AP/103.png" alt="">
                     </div>
                 </div>
                 <div class=" p-1 border-2 border-blue-800 rounded-md">
-                    <div class=" flex justify-center items-center p-2 rounded-full  bg-blue-800 col-span-1 blur-2xl">
-                        <img class=" w-12 h-12" src="AP/25.png" alt="">
+                    <div class=" flex justify-center items-center p-2 rounded-full col-span-1 blur-2xl">
+                        <img class=" w-9 h-9" src="AP/104.png" alt="">
                     </div>
                 </div>
                 <div class=" p-1 border-2 border-blue-800 rounded-md">
-                    <div class=" flex justify-center items-center p-2 rounded-full  bg-blue-800 col-span-1 blur-2xl">
-                        <img class=" w-12 h-12" src="AP/26.png" alt="">
+                    <div class=" flex justify-center items-center p-2 rounded-full col-span-1 blur-2xl">
+                        <img class=" w-9 h-9" src="AP/105.png" alt="">
                     </div>
                 </div>
                 
