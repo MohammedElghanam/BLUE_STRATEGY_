@@ -356,7 +356,10 @@
                         </nav>
                     </li>
 
-                    
+                    <li class="h-16 flex items-center justify-center px-4">
+                        <a href="{{route('home')}}" class="block py-2 pr-4 pl-3 rounded bg-blue-700 lg:bg-transparent text-gray-700 hover:text-blue-700 lg:p-0 dark:text-white" aria-current="page">No realisation</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
