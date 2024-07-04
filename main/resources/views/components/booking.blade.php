@@ -1,10 +1,10 @@
 <style>
     .current-day {
-        background-color: #f0f0f0;
-        /* Light gray background color */
+        background-color: #0066ff9c;
+        color: white;
         font-weight: bold;
-        /* Bold text for the current day */
         border-radius: 50%;
+        border: 2px solid rgb(255, 255, 255);
         width: 40px;
         height: 40px;
         display: flex;
@@ -13,16 +13,18 @@
     }
 
     .selected-day {
-        background-color: red;
-        /* Red background color for selected day */
+        background-color: rgba(102, 0, 255, 0.358);
         color: white;
-        /* White text color for selected day */
         border-radius: 50%;
         width: 40px;
         height: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .booked-time {
+        background-color: #FF00004D; /* Light red for booked times */
     }
 </style>
 <div class=" bg-white pt-28">
@@ -96,7 +98,7 @@
     <div class="flex items-center justify-center py-8 px-4 gap-6 bg-blue-900">
         <div class="max-w-sm w-full  ">
 
-            <div class="mt-20 bg-yellow-300 p-3">
+            <div class="mt-20 bg-gray-100 blur-xl p-3 rounded-md">
                 <div class="flex justify-around mb-2">
                     <button id="back" aria-label="calendar backward"
                         class="focus:text-gray-400 hover:text-gray-400 text-gray-800 dark:text-gray-100">
@@ -121,14 +123,14 @@
                         </svg>
                     </button>
                 </div>
-                <div class="flex bg-red-500">
-                    <p class="p-3">Sun</p>
-                    <p class="p-3">Mon</p>
-                    <p class="p-3">Tue</p>
-                    <p class="p-3">Wed</p>
-                    <p class="p-3">Thu</p>
-                    <p class="p-3">Fri</p>
-                    <p class="p-3">Sat</p>
+                <div class="flex bg-gray-200 rounded">
+                    <p class="p-3 font-semibold">Sun</p>
+                    <p class="p-3 font-semibold">Mon</p>
+                    <p class="p-3 font-semibold">Tue</p>
+                    <p class="p-3 font-semibold">Wed</p>
+                    <p class="p-3 font-semibold">Thu</p>
+                    <p class="p-3 font-semibold">Fri</p>
+                    <p class="p-3 font-semibold">Sat</p>
                 </div>
                 <div id="calendarBody" class="grid grid-cols-7 gap-1 p-3">
 
@@ -187,7 +189,7 @@
                         placeholder=" Enter description"></textarea>
                 </div>
 
-                <div class="  h-16 col-span-2 pb-10">
+                <div class="  h-16 col-span-4 pb-10">
                     <h1 class=" font-medium mb-1 text-gray-600">Time *</h1>
                     <select name="time" class=" w-full rounded-md bg-gray-100 border-none h-11  px-4">
                         <option class="" value="" disabled selected>Select time</option>
@@ -205,7 +207,7 @@
                     @enderror
                 </div>
 
-                <div class="  h-16 col-span-2 mb-4">
+                <div class=" hidden h-16 col-span-2 mb-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Date *</h1>
                     <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="date" type="text"
                         placeholder=" dd/mm/yyyy">
