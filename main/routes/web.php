@@ -1,8 +1,9 @@
 <?php
 
+use App\Models\Heurs;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\dashboardController;
-use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
@@ -10,7 +11,8 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/book meeting', function () {
-    return view('booking');
+    $heurs = Heurs::all();
+    return view('booking', compact('heurs'));
 })->name('booking_now');
 
 Route::get('/dashboard', [dashboardController::class, 'index'])->name('dashboard');
