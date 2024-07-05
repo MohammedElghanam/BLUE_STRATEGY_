@@ -97,10 +97,8 @@
             });
         }
 
-        // Create an Intersection Observer
         const observer = new IntersectionObserver(animateOnScroll, { threshold: 0.5 });
 
-        // Start observing the contentElement
         observer.observe(contentElement);
     });
 
