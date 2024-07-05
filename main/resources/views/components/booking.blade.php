@@ -189,20 +189,16 @@
                         placeholder=" Enter description"></textarea>
                 </div>
 
-                <div class="  h-16 col-span-4 pb-10">
+                <div class="  h-16 col-span-2 pb-10">
                     <h1 class=" font-medium mb-1 text-gray-600">Time *</h1>
-                    <select name="time" class=" w-full rounded-md bg-gray-100 border-none h-11  px-4">
-                        <option class="" value="" disabled selected>Select time</option>
-                        @foreach ($heurs as $item)
-                            <option value="{{$item->heurs}}" class="">{{$item->heurs}}</option>
-                        @endforeach
+                    <select id="heursDropdown" name="time" class=" w-full rounded-md bg-gray-100 border-none h-11  px-4">
                     </select>
                     @error('time')
                     <p class=" text-red-500">{{ $message }}*</p>
                     @enderror
                 </div>
 
-                <div class=" hidden h-16 col-span-2 mb-4">
+                <div class=" h-16 col-span-2 mb-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Date *</h1>
                     <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="date" type="text"
                         placeholder=" dd/mm/yyyy">
@@ -219,6 +215,8 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <script>
     $(document).ready(function () {
         $("#validation").click(function (event) {
@@ -340,4 +338,43 @@
     document.getElementById('next').addEventListener('click', () => changeMonth(1));
 
     updateCalendar(); // Initialize the calendar with the current date
+</script>
+
+<script type="text/javascript">
+        $(document).ready(function() {
+            $('#selectedDate').on('change', function() {
+                console.log('hello');
+                var selectedDate1 = $(this).val();
+                // $.ajax({
+                //         url: '/available-dates',
+                //         type: 'GET',
+                //         data: { date: selectedDate },
+                //         success: function(data) {
+                //             $('#heursDropdown').empty();
+                //             $('#heursDropdown').append('<option class="" value="" disabled selected>Select time</option>');
+                //             $.each(data, function(index, heur) {
+                //                 $('#heursDropdown').append('<option value="'+heur+'">'+heur+'</option>');
+                //             });
+                //         }
+                // });
+
+                // if (selectedDate) {
+                //     $.ajax({
+                //         url: '/available-dates',
+                //         type: 'GET',
+                //         data: { date: selectedDate },
+                //         success: function(data) {
+                //             $('#heursDropdown').empty();
+                //             $('#heursDropdown').append('<option class="" value="" disabled selected>Select time</option>');
+                //             $.each(data, function(index, heur) {
+                //                 $('#heursDropdown').append('<option value="'+heur+'">'+heur+'</option>');
+                //             });
+                //         }
+                //     });
+                // } else {
+                //     $('#heursDropdown').empty();
+                //     $('#heursDropdown').append('<option class="" value="" disabled selected>Select time</option>');
+                // }
+            });
+        });
 </script>

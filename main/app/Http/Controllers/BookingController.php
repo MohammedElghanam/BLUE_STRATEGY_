@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 
+use App\Models\Heurs;
 use App\Models\Booking;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class BookingController extends Controller
 {
@@ -13,7 +15,23 @@ class BookingController extends Controller
      */
     public function index()
     {
-        //
+        $heurs = Heurs::all();
+        return view('booking', compact('heurs'));
+    }
+
+    public function getAvailableDates(Request $request)
+    {
+        dd($request);
+        $date = $request->input('date'); 
+        $bookedHeurs = DB::table('bookings')
+                        ->where('date', $date)
+                        ->pluck('heurs'); 
+
+        $allHeurs = Heurs::all()->pluck('heurs'); 
+
+        $availableHeurs = $allHeurs->diff($bookedHeurs);
+
+        return response()->json($availableHeurs);
     }
 
     /**
