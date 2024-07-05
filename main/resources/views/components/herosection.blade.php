@@ -1,4 +1,61 @@
+<style>
+    #FLOAT {
+        z-index: 0;
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        background: linear-gradient(to bottom, #001eff, #235cb3);
+        opacity: 0.1;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        animation: spinx 1s linear infinite, moveCircular 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+    #FLOAT1 {
+        z-index: 0;
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        background: linear-gradient(to bottom, #001eff, #235cb3);
+        opacity: 0.1;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        animation: spinx 1s linear infinite, moveCircular1 40s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+    @keyframes spinx {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes moveCircular {
+        0% {
+            transform: translate(0%, 0%) rotate(0deg) translateX(200px) rotate(0deg);
+        }
+
+        100% {
+            transform: translate(20%, 20%) rotate(360deg) translateX(200px) rotate(-360deg);
+        }
+    }
+
+    @keyframes moveCircular1 {
+        0% {
+            transform: translate(120%, 120%) rotate(0deg) translateX(300px) rotate(0deg);
+        }
+
+        100% {
+            transform: translate(150%, 150%) rotate(360deg) translateX(300px) rotate(-360deg);
+        }
+    }
+
+</style>
+
 <section class="mx-8 section-bg" style="min-height: 75vh;">
+    <div id="FLOAT"></div>
+    <div id="FLOAT1"></div>
     <div class="w-full h-10 bg-blue-600"></div>
     <div class="grid max-w-screen-xl py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 h-full mx-16">
         <div class="mr-auto place-self-center lg:col-span-7 mb-12 lg:mb-0">
