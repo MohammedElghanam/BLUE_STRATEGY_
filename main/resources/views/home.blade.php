@@ -1,6 +1,6 @@
 @include('components/header')
 
-<body>
+<body class=" overflow-x-hidden">
    
 @include("components/nav2")
 @include("components/herosection")
