@@ -53,6 +53,50 @@
         border-start-start-radius: 600px;
         border-end-start-radius: 600px;
     }
+
+    
+    #FLOAT2 {
+        z-index: 0;
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        background: linear-gradient(to bottom, #001eff, #235cb3);
+        opacity: 0.1;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        animation: spinx 1s linear infinite, moveCircular2 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+    #FLOAT3 {
+        z-index: 0;
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        background: linear-gradient(to bottom, #001eff, #235cb3);
+        opacity: 0.1;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        animation: spinx 1s linear infinite, moveCircular3 40s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+    
+    @keyframes moveCircular2 {
+        0% {
+            transform: translate(0%, 0%) rotate(0deg) translateX(200px) rotate(0deg);
+        }
+
+        100% {
+            transform: translate(20%, 20%) rotate(360deg) translateX(200px) rotate(-360deg);
+        }
+    }
+
+    @keyframes moveCircular3 {
+        0% {
+            transform: translate(120%, 120%) rotate(0deg) translateX(300px) rotate(0deg);
+        }
+
+        100% {
+            transform: translate(150%, 150%) rotate(360deg) translateX(300px) rotate(-360deg);
+        }
+    }
 </style>
 
 <style>
@@ -178,6 +222,8 @@
 
 {{-- section 3 --}}
 <section class="flex flex-col lg:flex-row py-16">
+    <div id="FLOAT2"></div>
+    <div id="FLOAT3"></div>
     <div class="w-full lg:w-1/6 hidden lg:block"></div>
     <div class="lg:rounded-l-full  lg:pl-40 pl-0 flex-grow xl:w-full h-80 bg-blue-900 relative flex flex-col justify-center items-center lg:items-start">
         <h1 class="font-bold lg:text-5xl sm:text-5xl mb-4 text-white text-center lg:text-right">

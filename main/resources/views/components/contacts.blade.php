@@ -8,7 +8,7 @@
                     <div class="group w-full h-full">
                         <div class="relative h-full">
                             <img src="https://pagedone.io/asset/uploads/1696488602.png" alt="ContactUs tailwind section"
-                                class="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700" />
+                                class="w-full h-full lg:rounded-l-2xl rounded-l-2xl bg-blend-multiply bg-indigo-700" />
                             <h1 class="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">
                                 Contact us</h1>
                             <div class="absolute bottom-0 w-full lg:p-11 p-5">
@@ -52,7 +52,7 @@
                     </div>
                 </div>
 
-                <div class="bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl">
+                <div class="bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-r-2xl">
                     <h2 class="text-indigo-600 font-manrope text-4xl font-semibold leading-10 mb-11">Send Us A Message
                     </h2>
                     <input type="text"
