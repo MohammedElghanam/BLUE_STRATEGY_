@@ -125,73 +125,74 @@
 <section class="bg-gray-100">
     <div id="FLOAT5"></div>
     <div class="grid max-w-screen-xl px-4 py-8 mt-10 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class=" col-span-12 h-20 mb-2">
-            <div class=" flex justify-center items-center mb-2 ">
-                <h1 class=" font-medium text-5xl text-gray-700 z-30">Pourquoi nous choisir?</h1>
+        <div class="col-span-12 h-20 mb-2">
+            <div class="flex justify-center items-center mb-2">
+                <h1 class="font-medium text-5xl text-gray-700 z-30">Pourquoi nous choisir?</h1>
             </div>
-            <div class="  flex justify-center items-center">
-                <p class=" text-2xl font-normal text-gray-700 z-30">votre succés est notre mission</p>
+            <div class="flex justify-center items-center">
+                <p class="text-2xl font-normal text-gray-700 z-30">Votre succès est notre mission</p>
             </div>
         </div>
 
-        <div  class="flex justify-center items-center gap-5 px-4 lg:px-28 col-span-12">
-    
-            <div class="w-full lg:w-1/2 h-full grid justify-center items-center relative">
+        <div class="flex justify-center items-center gap-5 px-4 lg:px-28 col-span-12">
+            <!-- Conditionally remove this div on md screens -->
+            <div class="hidden md:flex w-full lg:w-1/2 h-full grid justify-center items-center relative">
                 <img class="w-[70%] h-[70%]" src="AP/18.png" alt="">
-                <div id="animated-elipse" class=" ELIPSE lg:w-32 lg:h-32 rounded-full bg-blue-700 absolute -bottom-20 right-24 opacity-75"></div>
+                <div id="animated-elipse" class="ELIPSE lg:w-32 lg:h-32 rounded-full bg-blue-700 absolute -bottom-20 right-24 opacity-75"></div>
                 <img id="animated-img" class="IMG absolute -bottom-10 right-4 opacity-0 transform translate-y-full" src="AP/19.png" alt="">
             </div>
-        
-    
+
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 justify-center items-center w-full lg:w-1/2 h-full py-10">
-    
-            <div class="container col-span-1 md:col-span-3 lg:col-span-3">
-                <div class="circular-progress CP0">
-                    <span class="progress-value PV0">0%</span>
+                <div class="container col-span-1 md:col-span-3 lg:col-span-3">
+                    <div class="circular-progress CP0">
+                        <span class="progress-value PV0">0%</span>
+                    </div>
+                    <span class="text">Acquisitions</span>
                 </div>
-                <span class="text">Acquisitions</span>
-            </div>
-    
-            <div class="container col-span-1 md:col-span-3 lg:col-span-3">
-                <div class="circular-progress CP1">
-                    <span class="progress-value PV1">0%</span>
+
+                <div class="container col-span-1 md:col-span-3 lg:col-span-3">
+                    <div class="circular-progress CP1">
+                        <span class="progress-value PV1">0%</span>
+                    </div>
+                    <span class="text">HTML & CSS</span>
                 </div>
-                <span class="text">HTML & CSS</span>
-            </div>
-    
-            <div class="container col-span-1 md:col-span-3 lg:col-span-3">
-                <div class="circular-progress CP2">
-                    <span class="progress-value PV2">0%</span>
+
+                <div class="container col-span-1 md:col-span-3 lg:col-span-3">
+                    <div class="circular-progress CP2">
+                        <span class="progress-value PV2">0%</span>
+                    </div>
+                    <span class="text">Growth Rate</span>
                 </div>
-                <span class="text">Growth Rate</span>
-            </div>
-    
-            <div class="container col-span-1 md:col-span-3 lg:col-span-3">
-                <div class="circular-progress CP3">
-                    <span class="progress-value PV3">0%</span>
+
+                <div class="container col-span-1 md:col-span-3 lg:col-span-3">
+                    <div class="circular-progress CP3">
+                        <span class="progress-value PV3">0%</span>
+                    </div>
+                    <span class="text">Founder NPS</span>
                 </div>
-                <span class="text">Founder NPS</span>
-            </div>
-    
             </div>
         </div>
     </div>
 </section>
 
+
 {{-- section 3 --}}
 <section class="flex flex-col lg:flex-row py-16">
-    <div class="w-1/6 hidden lg:block"></div>
-    <div class="ROUN xl:w-full h-80 bg-blue-900 relative">
-        {{-- <h1 class="font-bold text-3xl lg:text-5xl mb-4 text-white absolute left-1/2 transform -translate-x-1/2 top-16 lg:top-16 lg:left-1/2 lg:-translate-x-1/2 sm:left-60 sm:translate-x-0 sm:text-violet-800 text-center sm:text-left">CE QUE NOUS FAISONS.</h1> --}}
-        <h1 class="font-bold lg:text-3xl sm:text-5xl mb-4 text-white absolute left-1/2 transform -translate-x-1/2 top-16 sm:left-60 sm:translate-x-0 sm:text-violet-800 text-center sm:text-left">CE QUE NOUS FAISONS.</h1>
-        <p class="w-11/12 sm:w-3/4 text-white absolute left-1/2 transform -translate-x-1/2 top-36 sm:left-60 sm:translate-x-0 text-xl text-center sm:text-left">
-            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
-            <span class="font-medium">industries for previewing</span> layouts and visual mockups. Lorem ipsum is placeholder text commonly <span class="font-medium">used in the graphic,</span> print, and publishing.
+    <div class="w-full lg:w-1/6 hidden lg:block"></div>
+    <div class="lg:rounded-l-full  lg:pl-40 pl-0 flex-grow xl:w-full h-80 bg-blue-900 relative flex flex-col justify-center items-center lg:items-start">
+        <h1 class="font-bold lg:text-5xl sm:text-5xl mb-4 text-white text-center lg:text-right">
+            CE QUE NOUS FAISONS.
+        </h1>
+        <p class="w-11/12 sm:w-3/4 lg:w-2/3 text-white text-xl text-center lg:text-left">
+            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+            <span class="font-medium">layouts and visual mockups. Lorem ipsum is placeholder text commonly <span class="font-medium">used in the graphic,</span> print, and publishing.</span>
         </p>
         <div id="animated-elipse2" class="absolute -bottom-28 right-36 w-36 h-36 bg-blue-600 rounded-full opacity-50 hidden md:block"></div>
         <img id="animated-img2" class="absolute -bottom-28 right-16 hidden md:block" src="AP/19.png" alt="">
     </div>
 </section>
+
+
 
 
 <script>
