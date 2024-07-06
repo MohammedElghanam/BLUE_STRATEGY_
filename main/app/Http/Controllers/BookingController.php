@@ -21,11 +21,11 @@ class BookingController extends Controller
 
     public function getAvailableDates(Request $request)
     {
-        dd($request);
+        // dd($request);
         $date = $request->input('date'); 
         $bookedHeurs = DB::table('bookings')
                         ->where('date', $date)
-                        ->pluck('heurs'); 
+                        ->pluck('time'); 
 
         $allHeurs = Heurs::all()->pluck('heurs'); 
 

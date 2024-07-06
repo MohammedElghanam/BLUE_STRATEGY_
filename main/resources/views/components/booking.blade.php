@@ -192,6 +192,7 @@
                 <div class="  h-16 col-span-2 pb-10">
                     <h1 class=" font-medium mb-1 text-gray-600">Time *</h1>
                     <select id="heursDropdown" name="time" class=" w-full rounded-md bg-gray-100 border-none h-11  px-4">
+                        <option class="" value="" disabled selected>Select time</option>
                     </select>
                     @error('time')
                     <p class=" text-red-500">{{ $message }}*</p>
@@ -200,8 +201,8 @@
 
                 <div class=" h-16 col-span-2 mb-4">
                     <h1 class=" font-medium mb-1 text-gray-600">Date *</h1>
-                    <input class=" w-full rounded-md bg-gray-100 border-none" id="selectedDate" name="date" type="text"
-                        placeholder=" dd/mm/yyyy">
+                    <input class=" w-full rounded-md bg-gray-100 border-none Date" id="selectedDate" name="date" type="text"  max="{{ \Carbon\Carbon::now()->format('Y-m-d') }}" placeholder=" yyyy/mm/dd">
+                        
                     @error('date')
                     <p class=" text-red-500">{{ $message }}*</p>
                     @enderror
@@ -300,8 +301,9 @@
                         cell.classList.add('selected-day');
 
                         // Update the input field with the selected date
-                        const selectedDate = `${currentCellDate}/${currentMonth + 1}/${currentYear}`;
+                        const selectedDate = `${currentYear}/${String(currentMonth + 1).padStart(2, '0')}/${String(currentCellDate).padStart(2, '0')}`;
                         selectedDateInput.value = selectedDate;
+                        $(selectedDateInput).trigger('change'); 
                     });
 
                     date++;
@@ -342,39 +344,26 @@
 
 <script type="text/javascript">
         $(document).ready(function() {
-            $('#selectedDate').on('change', function() {
-                console.log('hello');
-                var selectedDate1 = $(this).val();
-                // $.ajax({
-                //         url: '/available-dates',
-                //         type: 'GET',
-                //         data: { date: selectedDate },
-                //         success: function(data) {
-                //             $('#heursDropdown').empty();
-                //             $('#heursDropdown').append('<option class="" value="" disabled selected>Select time</option>');
-                //             $.each(data, function(index, heur) {
-                //                 $('#heursDropdown').append('<option value="'+heur+'">'+heur+'</option>');
-                //             });
-                //         }
-                // });
-
-                // if (selectedDate) {
-                //     $.ajax({
-                //         url: '/available-dates',
-                //         type: 'GET',
-                //         data: { date: selectedDate },
-                //         success: function(data) {
-                //             $('#heursDropdown').empty();
-                //             $('#heursDropdown').append('<option class="" value="" disabled selected>Select time</option>');
-                //             $.each(data, function(index, heur) {
-                //                 $('#heursDropdown').append('<option value="'+heur+'">'+heur+'</option>');
-                //             });
-                //         }
-                //     });
-                // } else {
-                //     $('#heursDropdown').empty();
-                //     $('#heursDropdown').append('<option class="" value="" disabled selected>Select time</option>');
-                // }
+            $('.Date').on('change', function() {
+                var selectedDate = $(this).val();
+                
+                if (selectedDate) {
+                    $.ajax({
+                        url: '/available-dates',
+                        type: 'GET',
+                        data: { date: selectedDate },
+                        success: function(data) {
+                            $('#heursDropdown').empty();
+                            $('#heursDropdown').append(`<option class="" value="" disabled selected>Select time</option>`);
+                            $.each(data, function(index, heur) {
+                                $('#heursDropdown').append(`<option value="${heur}">${heur}</option>`);
+                            });
+                        }
+                    });
+                } else {
+                    $('#heursDropdown').empty();
+                    $('#heursDropdown').append('<option class="" value="" disabled selected>Select time</option>');
+                }
             });
         });
 </script>
