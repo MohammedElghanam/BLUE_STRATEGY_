@@ -10,6 +10,11 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('/A propos de nous', function () {
+    return view('Apropos');
+})->name('propos');
+
+
 
 Route::get('/dashboard', [dashboardController::class, 'index'])->name('dashboard');
 Route::post('/valid', [dashboardController::class, 'valid'])->name('valid');
