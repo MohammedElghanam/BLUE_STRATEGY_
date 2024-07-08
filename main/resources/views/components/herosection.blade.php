@@ -3,7 +3,7 @@
     #FLOATT {
         z-index: 0;
         position: absolute;
-        top: 200px;
+        top: 150px;
         width: 400px;
         height: 400px;
         background: linear-gradient(to bottom, #00127a, #235cb3);
@@ -77,7 +77,7 @@
 
 </style>
 
-<section class=" bg-gray-200" style="min-height: 75vh;">
+<section class=" bg-gray-100" style="min-height: 75vh;">
     <div id="FLOAT"  class=" lg:block md:hidden xl: sm:hidden"></div>
     <div id="FLOAT1" class=" lg:block md:hidden xl: sm:hidden"></div>
     <div class="w-full h-20"></div>

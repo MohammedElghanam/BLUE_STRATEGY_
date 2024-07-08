@@ -163,10 +163,22 @@
     .slide-up3 {
         animation: slide-up3 1s ease-out forwards;
     }
+
+    @keyframes zoomIn {
+        0% {
+            opacity: 0;
+            transform: scale(0.5); /* Start smaller */
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1.5); /* End at normal size */
+        }
+    }
+
 </style>
 
 {{-- SECTION 2 --}}
-<section class="bg-gray-100">
+<section class="bg-white">
     <div id="FLOAT5"></div>
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="col-span-12 h-20 mb-2">
@@ -181,7 +193,7 @@
         <div class="flex justify-center items-center gap-5 px-4 lg:px-28 col-span-12">
             <!-- Conditionally remove this div on md screens -->
             <div class="hidden md:flex w-full lg:w-1/2 h-full grid justify-center items-center relative">
-                <img class="w-[70%] h-[70%]" src="AP/18.png" alt="">
+                <img id="img-animated" class="w-[70%] h-[70%] " src="AP/18.png" alt="">
                 <div id="animated-elipse" class="ELIPSE lg:w-32 lg:h-32 rounded-full bg-blue-700 absolute -bottom-20 right-24 opacity-75"></div>
                 <img id="animated-img" class="IMG absolute -bottom-10 right-4 opacity-0 transform translate-y-full" src="AP/19.png" alt="">
             </div>
@@ -221,7 +233,7 @@
 
 
 {{-- section 3 --}}
-<section class="flex flex-col lg:flex-row py-16">
+<section class="flex flex-col lg:flex-row py-16 bg-gray-100">
     <div id="FLOAT2"></div>
     <div id="FLOAT3"></div>
     <div class="w-full lg:w-1/6 hidden lg:block"></div>
@@ -362,4 +374,25 @@
 
         observer.observe(imgElement);
     });
+</script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const contentElement = document.getElementById('img-animated');
+
+        function animateOnScroll(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    contentElement.style.animation = "zoomIn 2s ease forwards"; 
+                    observer.unobserve(entry.target); 
+                }
+            });
+        }
+
+        const observer = new IntersectionObserver(animateOnScroll, { threshold: 0.5 });
+
+        observer.observe(contentElement);
+    });
+
 </script>
