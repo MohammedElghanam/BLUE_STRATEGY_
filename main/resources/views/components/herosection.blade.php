@@ -1,4 +1,17 @@
 <style>
+
+    #FLOATT {
+        z-index: 0;
+        position: absolute;
+        top: 200px;
+        width: 450px;
+        height: 450px;
+        background: linear-gradient(to bottom, #00127a, #235cb3);
+        opacity: 0.1;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        animation: spinx 8s linear infinite;
+    }
+
     #FLOAT {
         z-index: 0;
         position: absolute;
@@ -55,10 +68,10 @@
 </style>
 
 <section class="mx-8 section-bg" style="min-height: 75vh;">
-    <div id="FLOAT"></div>
-    <div id="FLOAT1"></div>
+    <div id="FLOAT"  class=" lg:block md:hidden xl: sm:hidden"></div>
+    <div id="FLOAT1" class=" lg:block md:hidden xl: sm:hidden"></div>
     <div class="w-full h-20"></div>
-    <div class="grid max-w-screen-xl py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 h-full mx-16">
+    <div class="grid max-w-screen-xl lg:gap-8 xl:gap-0 lg:grid-cols-12 h-full mx-16">
         <div class="mr-auto place-self-center lg:col-span-7 mb-12 lg:mb-0">
             <h1 class="max-w-2xl mb-5 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-white">
                 Payments tool for software companies
@@ -104,8 +117,9 @@
             </a>
         </div>
         <!-- Conditionally remove this div on md screens -->
-        <div class="hidden md:flex col-span-5 justify-end items-end h-full">
-            <img src="AP/107.jpg" alt="mockup" class="h-96">
+        <div class="hidden h-full md:flex col-span-5 justify-end items-end">
+            <div id="FLOATT"></div>
+            <img src="AP/114.png" alt="mockup" class=" z-20">
         </div>
     </div>
 </section>

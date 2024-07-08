@@ -168,7 +168,7 @@
 {{-- SECTION 2 --}}
 <section class="bg-gray-100">
     <div id="FLOAT5"></div>
-    <div class="grid max-w-screen-xl px-4 py-8 mt-10 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="col-span-12 h-20 mb-2">
             <div class="flex justify-center items-center mb-2">
                 <h1 class="font-medium text-5xl text-gray-700 z-30">Pourquoi nous choisir?</h1>
