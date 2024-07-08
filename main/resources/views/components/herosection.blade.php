@@ -4,10 +4,10 @@
         z-index: 0;
         position: absolute;
         top: 200px;
-        width: 450px;
-        height: 450px;
+        width: 400px;
+        height: 400px;
         background: linear-gradient(to bottom, #00127a, #235cb3);
-        opacity: 0.1;
+        opacity: 0.8;
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
         animation: spinx 8s linear infinite;
     }
@@ -97,7 +97,7 @@
                     <h1 class="text-center font-medium text-blue-900">Association</h1>
                 </div>
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
-                        <img class="w-9 h-9" src="AP/108.png" alt="">
+                        <img class="w-9 h-9" src="AP/115.png" alt="">
                     <h1 class="text-center font-medium text-blue-900 ">Startup</h1>
                 </div>
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
@@ -119,7 +119,7 @@
         <!-- Conditionally remove this div on md screens -->
         <div class="hidden h-full md:flex col-span-5 justify-end items-end">
             <div id="FLOATT"></div>
-            <img src="AP/114.png" alt="mockup" class=" z-20">
+            <img src="AP/114.png" alt="mockup" class=" h-5/6 z-20">
         </div>
     </div>
 </section>

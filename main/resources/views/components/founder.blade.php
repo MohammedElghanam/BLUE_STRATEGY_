@@ -3,7 +3,7 @@
         /* background-color: #9FD3C7; */
         background: linear-gradient(to bottom, #ffffff, #fefefe);
         opacity: 0.1;
-        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        border-radius: 45% 55% 47% 53% / 39% 43% 57% 61% ;
         animation: spinx 9s linear infinite;;
     }
 
@@ -52,8 +52,8 @@
 
 </style>
 
-<section class="COUNT grid grid-cols-12 mb-12 my-10 relative bg-blue-900 select-none" style="height: 90vh;">
-
+<section  class="COUNT grid grid-cols-12 mb-12 my-10 relative bg-blue-900 select-none" style="height: 90vh;">
+    <div id="founder" class=" hidden"></div>
     <div class="h-full w-full flex absolute">
         <div class="w-1/2 h-full flex items-center justify-center py-32 pl-28">
             <div class="text-6xl font-semibold select-none text-animate">
@@ -69,10 +69,8 @@
                 {{-- <div class=" absolute bottom-40 -left-20 w-20 h-40 rounded-l-full border-l-8 border-white bg-red-400"></div> --}}
                 <div class="BG absolute -top-0 right-0 rounded-b-md rotate-45" style="width: 330px; height:350px;"></div>
                 <img class="rounded-full z-20" src="images/unsplash.png" alt="" style="width: 300px; height:300px;">
-                <div class="w-28 h-28 bg-blue-500 rounded-full absolute left-10 -bottom-14 z-30 flex justify-center items-center">
-                    <img src="AP/4.svg" alt="" class="w-10 h-10 absolute -top-4 -left-8">
-                    <div class="w-24 h-24 bg-white rounded-full grid grid-cols-2 gap-2 opacity-45">
-                    </div>
+                <div class="w-28 h-28 rounded-full absolute top-0 -right-4 z-30 flex justify-center items-center rotate-90">
+                    <img src="AP/4.svg" alt="" class="w-10 h-10 absolute left-3 bottom-10">
                 </div>
                 <div class="w-20 h-20 absolute top-10 left-0 flex flex-col justify-center items-center gap-5 z-40 ">
                     <a class=" SCALE -top-7 -right-2 absolute col-span-2 flex items-end justify-center" aria-label="Twitter link" href="#">
