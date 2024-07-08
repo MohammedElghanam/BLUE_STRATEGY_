@@ -64,10 +64,20 @@
         }
     }
 
+    @keyframes zoomIn {
+        0% {
+            opacity: 0;
+            transform: scale(0.5); /* Start smaller */
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1.5); /* End at normal size */
+        }
+    }
 
 </style>
 
-<section class="mx-8 section-bg" style="min-height: 75vh;">
+<section class=" bg-gray-200" style="min-height: 75vh;">
     <div id="FLOAT"  class=" lg:block md:hidden xl: sm:hidden"></div>
     <div id="FLOAT1" class=" lg:block md:hidden xl: sm:hidden"></div>
     <div class="w-full h-20"></div>
@@ -117,9 +127,31 @@
             </a>
         </div>
         <!-- Conditionally remove this div on md screens -->
-        <div class="hidden h-full md:flex col-span-5 justify-end items-end">
+        <div id="img_zoom" class="hidden h-full md:flex col-span-5 justify-end items-end">
             <div id="FLOATT"></div>
-            <img src="AP/114.png" alt="mockup" class=" h-5/6 z-20">
+            <img src="AP/117.png" alt="mockup" class=" h-5/6 z-20 mt-3">
         </div>
     </div>
 </section>
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const contentElement = document.getElementById('img_zoom');
+
+        function animateOnScroll(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    contentElement.style.animation = "zoomIn 2s ease forwards"; 
+                    observer.unobserve(entry.target); 
+                }
+            });
+        }
+
+        const observer = new IntersectionObserver(animateOnScroll, { threshold: 0.5 });
+
+        observer.observe(contentElement);
+    });
+
+</script>
