@@ -36,7 +36,7 @@
 
 .BOTTOM.animate {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-30%);
 }
 
 .IMG {
@@ -90,7 +90,7 @@
 
 
 
-
+/* 
 .animate-left {
     opacity: 0;
     transform: translateX(-100%);
@@ -107,20 +107,32 @@
 }
 .animate-right.active {
         opacity: 1;
-}
+} */
+
 </style>
 <section class=" grid grid-cols-12 px-40 pt-40 w-full ">
     <div class=" col-span-6 h-3/4">
         <h1 class="TOP text-5xl font-semibold mb-6">A propos de nous</h1>
         <div class=" grid grid-cols-12 justify-center items-center w-full bg-blue-900 p-12">
-            <p class="DATA col-span-12 text-3xl font-light pl-5 text-white">
-                Lorem ipsum is placeholder text commonly used in
-                the graphic, print, and publishing industries
-                for previewing layouts and visual mockups
-                Lorem ipsum is placeholder text commonly used in
-                the graphic, print, and publishing industries
-                for previewing layouts and visual mockups
+            <div class="DATA col-span-12">
+            <p class=" col-span-12 text-lg font-light pl-5 text-white mb-3">
+                BLUE STRATEGY est un cabinet d'études, d'accompagnement et PMO
+                multidisciplinaire, lancé en 2023, dédié aux entreprises et aux organisations
+                des secteurs public et privé.
+            </p>    
+            <p class=" col-span-12 text-lg font-light pl-5 text-white mb-3">
+                Nous accompagnons nos clients (TPE, PME, STARTUPS, ONG..) dans la réalisation
+                de leurs projets de développement et dans l'exploration de nouveaux leviers de
+                performance, afin de stimuler l'évolution et la croissance de leurs activités sur
+                le marché dynamique d'aujourd'hui.
             </p>
+            <p class=" col-span-12 text-lg font-light pl-5 text-white">
+                BLUE STRATEGY s’est construit sur la conviction que le succès des
+                transformations repose sur l'adoption d'une vision 360° et une équipe
+                diversifiée, combinant les compétences les plus solides en matière de
+                business, de technologie et de durabilité
+            </p>
+            </div>
         </div>
     </div>
     <div class=" col-span-6 h-fit relative">
@@ -168,13 +180,21 @@
         <div class="DESC bg-white absolute -left-16 -top-20 shadow-2xl">
             <h1 class="text-4xl font-semibold px-8">Notre vision</h1>
             <div class="grid grid-cols-12 justify-center items-center w-full px-4 py-10">
-                <p class="col-span-12 text-2xl font-light pl-5">
-                    Lorem ipsum is placeholder text commonly used in
-                    the graphic, print, and publishing industries
-                    for previewing layouts and visual mockups
-                    Lorem ipsum is placeholder text commonly used in
-                    the graphic, print, and publishing industries
-                    for previewing layouts and visual mockups
+                <h1 class=" col-span-12 pl-5 font-semibold mb-4">Accélérer votre développement</h1>
+                <p class="col-span-12 text-lg font-light pl-5 mb-4">
+                    Allant au-delà de notre expertise, notre raison d'être est de vous offrir
+                    simultanément, efficacité, inspiration, innovation et renouvellement.
+                    Nous vous accompagnons dans vos projets, vos évolutions et vos
+                    transformations tout en veillant à la performance et à la durabilité.
+                </p>    
+                <p class="col-span-12 text-lg font-light pl-5">
+                    Nous collaborons parfaitement avec vous pour concevoir des solutions
+                    sur mesure, spécialement adaptées pour relever vos défis. Cependant,
+                    notre perspective s'étend bien au-delà de l'horizon immédiat. Nous
+                    croyons en l'interdépendance entre la croissance des organisations et
+                    l'évolution de la société. En constituant des partenariats solides, notre
+                    objectif est de contribuer à votre épanouissement, ainsi qu'à
+                    l'émergence d'une économie prospère et inclusive.
                 </p>
             </div>
         </div>
@@ -183,95 +203,169 @@
 
 
 
-<div class="min-h-screen bg-gray-100">
-    <div class="min-h-screen flex justify-center mt-40">
+<div class="min-h-screen bg-white">
+    <div class="min-h-screen justify-center mt-64">
+        <div class=" my-8">
+            <h1 class=" text-center font-bold text-3xl text-blue-900">NOUS INTERVENONS PRINCIPALEMENT</h1>
+            <h1 class=" text-center font-bold text-3xl text-blue-900">POUR RÉPONDRE À 06 ENJEUX</h1>
+        </div>
         <div class="w-2/3 mx-auto">
-            <div class="flex flex-row w-full">
+
+            <div class="flex flex-row justify-center w-full">
                 <!-- left col -->
-                <div class="left-col w-2/5 px-2 py-10">
-                    <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
-                        <div class="text-gray-600 mb-2 flex justify-between">
-                            <div class="font-bold">
-                                Svjatoslav Torn
+                <div class="left-col w-3/12 py-8">
+                    <div class="flex justify-center w-full rounded-lg shadow bg-white px-4 py-5">
+                        <div class="text-gray-600 mb-2 ">
+                            <div class="font-bold flex justify-center mb-3">
+                                {{-- <img src="images/34.png" alt="" class=" w-12 h-12"> --}}
+                                <img src="images/lamp.png" alt="" class=" w-12 h-12">                
                             </div>
-                            <div class="flex flex-row">
-                                <button class="text-blue-500 mr-2 hover:text-blue-300 transition duration-200"><i class="far fa-edit"></i></button>
-                                <button class="text-red-500 hover:text-red-300 transition duration-200"><i class="far fa-trash-alt"></i></button>
+                            <div class="flex flex-row text-center">
+                                Soutien à l'innovation et digitalisation
                             </div>
-                        </div>
-                        <div class="text-gray-600">
-                            Привет Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corporis culpa deserunt, dignissimos dolor esse fugit ipsam minus odit officiis placeat qui, quidem quis soluta vero? Adipisci alias eius et iure nam nihil reiciendis saepe, voluptatem. Alias cumque dicta dignissimos ea et laborum, minima similique.
                         </div>
                     </div>
                 </div>
                 <!--line column-->
                 <div class="w-1/5 flex justify-center">
-                    <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
-                        <div class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center z-10 bg-white font-thin">
-                            <div>20</div>
-                            <div>September</div>
+                    <div class="relative flex items-center justify-center">
+                        <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
+                            <div class=" text-blue-900">01</div>
                         </div>
                     </div>
                 </div>
                 <!--right column-->
-                <div class="right-col w-2/5 px-2 py-10"></div>
+                <div class="right-col w-3/12 px-2 py-10"></div>
             </div>
-            <div class="flex flex-row w-full">
-                <!-- left col -->
-                <div class="left-col w-2/5 px-2 py-10"></div>
+
+            <div class="flex flex-row justify-center w-full">                
+                <!--right column-->
+                <div class="right-col w-3/12 px-2 py-10"></div>
                 <!--line column-->
                 <div class="w-1/5 flex justify-center">
-                    <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
-                        <div class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center z-10 bg-white font-thin">
-                            <div>20</div>
-                            <div>сентября</div>
+                    <div class="relative flex items-center justify-center">
+                        <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
+                            <div class=" text-blue-900">02</div>
                         </div>
                     </div>
                 </div>
-                <!--right column-->
-                <div class="right-col w-2/5 px-2 py-10">
-                    <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
-                        <div class="text-gray-600 mb-2 flex justify-between">
-                            <div class="font-bold">
-                                Svetlana Torn
+                <!-- left col -->
+                <div class="left-col w-3/12 py-8">
+                    <div class="flex justify-center w-full rounded-lg shadow bg-white px-4 py-5">
+                        <div class="text-gray-600 mb-2 ">
+                            <div class="font-bold flex justify-center mb-3">
+                                <img src="images/33.png" alt="" class=" w-12 h-12">
                             </div>
-                        </div>
-                        <div class="text-gray-600">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis enim esse fuga modi quisquam veritatis?
-                            Привет Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corporis culpa deserunt, dignissimos dolor esse fugit ipsam minus odit officiis placeat qui, quidem quis soluta vero? Adipisci alias eius et iure nam nihil reiciendis saepe, voluptatem. Alias cumque dicta dignissimos ea et laborum, minima similique.
+                            <div class="flex flex-row text-center">
+                                Soutien à l'economie sociale et solidaire
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="flex flex-row w-full">
+
+            <div class="flex flex-row justify-center w-full">
                 <!-- left col -->
-                <div class="left-col w-2/5 px-2 py-10">
-                    <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
-                        <div class="text-gray-600 mb-2 flex justify-between">
-                            <div class="font-bold">
-                                Svjatoslav Torn
+                <div class="left-col w-3/12 py-8">
+                    <div class="flex justify-center w-full rounded-lg shadow bg-white px-4 py-5">
+                        <div class="text-gray-600 mb-2 ">
+                            <div class="font-bold flex justify-center mb-3">
+                                <img src="images/63.png" alt="" class=" w-12 h-12">
                             </div>
-                            <div class="flex flex-row">
-                                <button class="text-blue-500 mr-2 hover:text-blue-300 transition duration-200"><i class="far fa-edit"></i></button>
-                                <button class="text-red-500 hover:text-red-300 transition duration-200"><i class="far fa-trash-alt"></i></button>
+                            <div class="flex flex-row text-center">
+                                Investissement et valorisation des produits
                             </div>
-                        </div>
-                        <div class="text-gray-600">
-                            Привет Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corporis culpa deserunt, dignissimos dolor esse fugit ipsam minus odit officiis placeat qui, quidem quis soluta vero? Adipisci alias eius et iure nam nihil reiciendis saepe, voluptatem. Alias cumque dicta dignissimos ea et laborum, minima similique.
                         </div>
                     </div>
                 </div>
                 <!--line column-->
                 <div class="w-1/5 flex justify-center">
-                    <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
-                        <div class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center z-10 bg-white font-thin">
-                            <div>20</div>
-                            <div>сентября</div>
+                    <div class="relative flex items-center justify-center">
+                        <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
+                            <div class=" text-blue-900">03</div>
                         </div>
                     </div>
                 </div>
                 <!--right column-->
-                <div class="right-col w-2/5 px-2 py-10"></div>
+                <div class="right-col w-3/12 px-2 py-10"></div>
+            </div>
+
+            <div class="flex flex-row justify-center w-full">                
+                <!--right column-->
+                <div class="right-col w-3/12 px-2 py-10"></div>
+                <!--line column-->
+                <div class="w-1/5 flex justify-center">
+                    <div class="relative flex items-center justify-center">
+                        <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
+                            <div class=" text-blue-900">04</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- left col -->
+                <div class="left-col w-3/12 py-8">
+                    <div class="flex justify-center w-full rounded-lg shadow bg-white px-4 py-5">
+                        <div class="text-gray-600 mb-2 ">
+                            <div class="font-bold flex justify-center mb-3">
+                                <img src="images/36.png" alt="" class=" w-12 h-12">
+                            </div>
+                            <div class="flex flex-row text-center">
+                                Employabilité et capital RH
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-row justify-center w-full">
+                <!-- left col -->
+                <div class="left-col w-3/12 py-8">
+                    <div class="flex justify-center w-full rounded-lg shadow bg-white px-4 py-5">
+                        <div class="text-gray-600 mb-2 ">
+                            <div class="font-bold flex justify-center mb-3">
+                                <img src="images/35.png" alt="" class=" w-12 h-12">
+                            </div>
+                            <div class="flex flex-row text-center">
+                                Alignement sur le marché
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--line column-->
+                <div class="w-1/5 flex justify-center">
+                    <div class="relative flex items-center justify-center">
+                        <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
+                            <div class=" text-blue-900">05</div>
+                        </div>
+                    </div>
+                </div>
+                <!--right column-->
+                <div class="right-col w-3/12 px-2 py-10"></div>
+            </div>
+
+            <div class="flex flex-row justify-center w-full">                
+                <!--right column-->
+                <div class="right-col w-3/12 px-2 py-10"></div>
+                <!--line column-->
+                <div class="w-1/5 flex justify-center">
+                    <div class="relative flex items-center justify-center">
+                        <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
+                            <div class=" text-blue-900">06</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- left col -->
+                <div class="left-col w-3/12 py-8">
+                    <div class="flex justify-center w-full rounded-lg shadow bg-white px-4 py-5">
+                        <div class="text-gray-600 mb-2 ">
+                            <div class="font-bold flex justify-center mb-3">
+                                <img src="images/31.png" alt="" class=" w-12 h-12">
+                            </div>
+                            <div class="flex flex-row text-center">
+                                Accélération de la croissance
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -279,16 +373,22 @@
 
 <section class="grid grid-cols-12 w-full mt-10 bg-blue-900 relative" style="height: 500px;">
     <img src="AP/121.png" alt="" class="absolute left-40 top-40 w-96 shadow-2xl animate-left">
-    <div class="bg-white absolute left-1/3 top-20 shadow-2xl w-1/2 animate-right">
+    <div class="bg-white absolute left-1/3 ml-10 top-20 shadow-2xl w-1/2 animate-right">
         <h1 class="text-4xl font-semibold px-8 mt-4">Notre engagement</h1>
         <div class="grid grid-cols-12 justify-center items-center w-full px-4 py-8">
-            <p class="col-span-12 text-2xl font-light pl-5">
-                Lorem ipsum is placeholder text commonly used in
-                the graphic, print, and publishing industries
-                for previewing layouts and visual mockups
-                Lorem ipsum is placeholder text commonly used in
-                the graphic, print, and publishing industries
-                for previewing layouts and visual mockups
+            <h1 class="col-span-12 pl-5 font-semibold mb-4">Un équipe engagée pour le développement.</h1>
+            <p class="col-span-12 text-lg font-light pl-5 mb-3">
+                Chez BLUE STRATEGY, nous sommes bien plus
+                qu'un simple cabinet. Nous sommes un
+                équipe engagée, déterminée à contribuer au
+                développement du Maroc et de l'Afrique de
+                demain.
+            </p>
+            <p class="col-span-12 text-lg font-light pl-5">          
+                Notre mission fondamentale consiste à élever
+                nos partenaires vers l'excellence, afin qu'ils
+                deviennent des acteurs de référence dans la
+                construction d'un avenir meilleur.
             </p>
         </div>
     </div>
