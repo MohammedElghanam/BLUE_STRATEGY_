@@ -374,18 +374,18 @@
 
 <section class="grid grid-cols-12 w-full mt-10 bg-blue-900 relative" style="height: 500px;">
     <img src="AP/121.png" alt="" class="absolute left-40 top-40 w-96 shadow-2xl animate-left">
-    <div class="bg-white absolute left-1/3 ml-10 top-20 shadow-2xl w-1/2 animate-right">
-        <h1 class="text-4xl font-semibold px-8 mt-4">Notre engagement</h1>
-        <div class="grid grid-cols-12 justify-center items-center w-full px-4 py-8">
-            <h1 class="col-span-12 pl-5 font-semibold mb-4">Un équipe engagée pour le développement.</h1>
-            <p class="col-span-12 text-lg font-light pl-5 mb-3">
+    <div class="bg-white absolute left-1/3 ml-10 top-20 shadow-2xl w-2/5 animate-right">
+        <h1 class="text-4xl font-meduim text-blue-800 px-8 mt-4 mb-4">Notre engagement</h1>
+        <div class="grid grid-cols-12 justify-center items-center w-full px-4 py-4">
+            <h1 class="col-span-10 pl-5 font-semibold mb-4">Un équipe engagée pour le développement.</h1>
+            <p class="col-span-10 text-lg font-light pl-5 mb-2">
                 Chez BLUE STRATEGY, nous sommes bien plus
                 qu'un simple cabinet. Nous sommes un
                 équipe engagée, déterminée à contribuer au
                 développement du Maroc et de l'Afrique de
                 demain.
             </p>
-            <p class="col-span-12 text-lg font-light pl-5">          
+            <p class="col-span-10 text-lg font-light pl-5">          
                 Notre mission fondamentale consiste à élever
                 nos partenaires vers l'excellence, afin qu'ils
                 deviennent des acteurs de référence dans la
