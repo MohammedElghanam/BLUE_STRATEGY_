@@ -1,6 +1,6 @@
 <style>
 .BOR {
-    border: 15px solid white;
+    /* border: 15px solid white; */
     animation-name: right1;
     animation-duration: 1s;
     animation-iteration-count: 1;
@@ -205,7 +205,7 @@
 
 <div class="min-h-screen bg-white">
     <div class="min-h-screen justify-center mt-64">
-        <div class=" my-8">
+        <div class=" mt-8">
             <h1 class=" text-center font-bold text-3xl text-blue-900">NOUS INTERVENONS PRINCIPALEMENT</h1>
             <h1 class=" text-center font-bold text-3xl text-blue-900">POUR RÉPONDRE À 06 ENJEUX</h1>
         </div>
@@ -227,7 +227,7 @@
                     </div>
                 </div>
                 <!--line column-->
-                <div class="w-1/5 flex justify-center">
+                <div class="w-1/5 flex justify-center items-center">
                     <div class="relative flex items-center justify-center">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">01</div>
