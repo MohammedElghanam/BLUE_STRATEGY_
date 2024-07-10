@@ -205,8 +205,8 @@
 
 
 <div class="min-h-screen bg-white">
-    <div class="min-h-screen justify-center mt-64">
-        <div class=" mt-8">
+    <div class="min-h-screen justify-center mt-80">
+        <div class=" mb-8">
             <h1 class=" text-center font-bold text-3xl text-blue-900">NOUS INTERVENONS PRINCIPALEMENT</h1>
             <h1 class=" text-center font-bold text-3xl text-blue-900">POUR RÉPONDRE À 06 ENJEUX</h1>
         </div>
@@ -228,9 +228,9 @@
                     </div>
                 </div>
                 <!--line column-->
-                <div class="w-1/5 flex justify-center items-center">
-                    <div class="relative flex items-center justify-center">
-                        <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
+                <div class="w-1/5 flex justify-center items-end">
+                    <div class="relative flex items-start justify-center h-1/2 w-1 bg-blue-900">
+                        <div class="absolute flex flex-col justify-center items-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">01</div>
                         </div>
                     </div>
@@ -244,7 +244,7 @@
                 <div class="right-col w-3/12 px-2 py-10"></div>
                 <!--line column-->
                 <div class="w-1/5 flex justify-center">
-                    <div class="relative flex items-center justify-center">
+                    <div class="relative flex h-full w-1 bg-blue-900 items-center justify-center">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">02</div>
                         </div>
@@ -252,7 +252,7 @@
                 </div>
                 <!-- left col -->
                 <div class="left-col w-3/12 py-8">
-                    <div class="flex justify-center w-full rounded-lg shadow bg-white px-4 py-5">
+                    <div class="flex justify-center w-full px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
                                 <img src="images/33.png" alt="" class=" w-12 h-12">
@@ -268,7 +268,7 @@
             <div class="flex flex-row justify-center w-full">
                 <!-- left col -->
                 <div class="left-col w-3/12 py-8">
-                    <div class="flex justify-center w-full rounded-lg shadow bg-white px-4 py-5">
+                    <div class="flex justify-center w-full px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
                                 <img src="images/63.png" alt="" class=" w-12 h-12">
@@ -281,7 +281,7 @@
                 </div>
                 <!--line column-->
                 <div class="w-1/5 flex justify-center">
-                    <div class="relative flex items-center justify-center">
+                    <div class="relative flex items-center justify-center h-full w-1 bg-blue-900">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">03</div>
                         </div>
@@ -296,7 +296,7 @@
                 <div class="right-col w-3/12 px-2 py-10"></div>
                 <!--line column-->
                 <div class="w-1/5 flex justify-center">
-                    <div class="relative flex items-center justify-center">
+                    <div class="relative flex items-center justify-center h-full w-1 bg-blue-900">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">04</div>
                         </div>
@@ -304,7 +304,7 @@
                 </div>
                 <!-- left col -->
                 <div class="left-col w-3/12 py-8">
-                    <div class="flex justify-center w-full rounded-lg shadow bg-white px-4 py-5">
+                    <div class="flex justify-center w-full px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
                                 <img src="images/36.png" alt="" class=" w-12 h-12">
@@ -320,7 +320,7 @@
             <div class="flex flex-row justify-center w-full">
                 <!-- left col -->
                 <div class="left-col w-3/12 py-8">
-                    <div class="flex justify-center w-full rounded-lg shadow bg-white px-4 py-5">
+                    <div class="flex justify-center w-full px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
                                 <img src="images/35.png" alt="" class=" w-12 h-12">
@@ -333,7 +333,7 @@
                 </div>
                 <!--line column-->
                 <div class="w-1/5 flex justify-center">
-                    <div class="relative flex items-center justify-center">
+                    <div class="relative flex items-center justify-center h-full w-1 bg-blue-900">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">05</div>
                         </div>
@@ -348,7 +348,7 @@
                 <div class="right-col w-3/12 px-2 py-10"></div>
                 <!--line column-->
                 <div class="w-1/5 flex justify-center">
-                    <div class="relative flex items-center justify-center">
+                    <div class="relative flex justify-center items-end h-1/2 w-1 bg-blue-900">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">06</div>
                         </div>
@@ -356,7 +356,7 @@
                 </div>
                 <!-- left col -->
                 <div class="left-col w-3/12 py-8">
-                    <div class="flex justify-center w-full rounded-lg shadow bg-white px-4 py-5">
+                    <div class="flex justify-center w-full px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
                                 <img src="images/31.png" alt="" class=" w-12 h-12">
