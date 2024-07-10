@@ -373,8 +373,8 @@
 </div>
 
 <section class="grid grid-cols-12 w-full mt-10 bg-blue-900 relative" style="height: 500px;">
-    <img src="AP/121.png" alt="" class="absolute left-40 top-40 w-96 shadow-2xl animate-left">
-    <div class="bg-white absolute left-1/3 ml-10 top-20 shadow-2xl w-2/5 animate-right">
+    <img src="AP/121.png" alt="" class="absolute left-40 top-32 w-96 shadow-2xl animate-left">
+    <div class="bg-white absolute left-1/3 ml-16 top-20 shadow-2xl w-2/5 animate-right">
         <h1 class="text-4xl font-meduim text-blue-800 px-8 mt-4 mb-4">Notre engagement</h1>
         <div class="grid grid-cols-12 justify-center items-center w-full px-4 py-4">
             <h1 class="col-span-10 pl-5 font-semibold mb-4">Un équipe engagée pour le développement.</h1>
