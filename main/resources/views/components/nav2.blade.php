@@ -163,7 +163,7 @@
                             <a class=" flex items-center justify-between w-full p-2 hover:bg-blue-200">   
                                 <p>Notre equipe</p>
                             </a>
-                            <a class=" flex items-center justify-between w-full p-2 hover:bg-blue-100">   
+                            <a href="{{route('vision')}}" class=" flex items-center justify-between w-full p-2 hover:bg-blue-100">   
                                <p>Nos secteur d'activitè</p>
                             </a>
                             <a  href="{{ url('/') }}#founder" class=" flex items-center justify-between w-full p-2 hover:bg-blue-100">   

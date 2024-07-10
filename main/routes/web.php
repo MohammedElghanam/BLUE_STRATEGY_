@@ -14,6 +14,9 @@ Route::get('/A propos de nous', function () {
     return view('Apropos');
 })->name('propos');
 
+Route::get('/Notre vision', function () {
+    return view('vision');
+})->name('vision');
 
 
 Route::get('/dashboard', [dashboardController::class, 'index'])->name('dashboard');
