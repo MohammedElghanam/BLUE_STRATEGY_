@@ -110,6 +110,7 @@
 } */
 
 </style>
+
 <section class=" grid grid-cols-12 px-40 pt-40 w-full ">
     <div class=" col-span-6 h-3/4">
         <h1 class="TOP text-5xl font-semibold mb-6">A propos de nous</h1>
@@ -178,16 +179,16 @@
     </div>
     <div class="col-span-5 relative p-2">
         <div class="DESC bg-white absolute -left-16 -top-20 shadow-2xl">
-            <h1 class="text-4xl font-semibold px-8">Notre vision</h1>
-            <div class="grid grid-cols-12 justify-center items-center w-full px-4 py-10">
-                <h1 class=" col-span-12 pl-5 font-semibold mb-4">Accélérer votre développement</h1>
-                <p class="col-span-12 text-lg font-light pl-5 mb-4">
+            <h1 class="text-3xl font-semibold px-8 text-blue-800">Notre vision</h1>
+            <div class="grid grid-cols-12 justify-center items-center w-full px-4 pb-10 pt-5">
+                <h1 class=" col-span-12 pl-4 font-semibold mb-4">Accélérer votre développement</h1>
+                <p class="col-span-12 text-lg font-light pl-4 mb-2">
                     Allant au-delà de notre expertise, notre raison d'être est de vous offrir
                     simultanément, efficacité, inspiration, innovation et renouvellement.
                     Nous vous accompagnons dans vos projets, vos évolutions et vos
                     transformations tout en veillant à la performance et à la durabilité.
                 </p>    
-                <p class="col-span-12 text-lg font-light pl-5">
+                <p class="col-span-12 text-lg font-light pl-4">
                     Nous collaborons parfaitement avec vous pour concevoir des solutions
                     sur mesure, spécialement adaptées pour relever vos défis. Cependant,
                     notre perspective s'étend bien au-delà de l'horizon immédiat. Nous
