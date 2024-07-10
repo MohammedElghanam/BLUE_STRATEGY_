@@ -36,7 +36,7 @@
 
 .BOTTOM.animate {
     opacity: 1;
-    transform: translateY(-30%);
+    transform: translateY(0%);
 }
 
 .IMG {
@@ -137,7 +137,7 @@
     </div>
     <div class=" col-span-6 h-fit relative">
         <img src="AP/120.png" alt="" class="BOR absolute -left-7 shadow-2xl">
-        <div class=" BOTTOM grid grid-rows-4 grid-flow-col gap-2 absolute bottom-0 left-0 w-full pt-10 pl-5">
+        <div class=" BOTTOM grid grid-rows-4 grid-flow-col gap-8 absolute bottom-0 left-0 w-full pt-10 pl-5">
             <div class=" row-span-1 flex justify-start items-center gap-3 w-1/2">
                 <?xml version="1.0" encoding="utf-8"?>
                 <svg class=" w-10 h-10" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 113.02 122.88" style="enable-background:new 0 0 113.02 122.88" xml:space="preserve">
