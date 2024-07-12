@@ -2,6 +2,7 @@
 
 use App\Models\Heurs;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\dashboardController;
 
@@ -17,6 +18,9 @@ Route::get('/A propos de nous', function () {
 Route::get('/Notre vision', function () {
     return view('vision');
 })->name('vision');
+
+Route::get('/login', [AuthController::class, 'index'])->name('login');
+Route::post('/login_callback', [AuthController::class, 'store'])->name('login_callback');
 
 
 Route::get('/dashboard', [dashboardController::class, 'index'])->name('dashboard');
