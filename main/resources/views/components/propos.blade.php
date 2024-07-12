@@ -150,7 +150,7 @@
                 <p class=" font-medium text-xl text-blue-900">Innovation</p>
             </div>
             <div class=" row-span-1 flex justify-start items-center gap-3 w-1/2">
-                <img src="VI/130.png" alt="" class=" w-10 h-10">
+                <img src="VI/132.png" alt="" class=" w-10 h-10">
                 <p class=" font-medium text-xl text-blue-900">Authenticité</p>
             </div>
             <div class=" row-span-1 flex justify-start items-center gap-3 w-1/2">
