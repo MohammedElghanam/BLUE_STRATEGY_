@@ -20,6 +20,7 @@ class AuthController extends Controller
 
     public function register(Request $request){
         
+        // dd($request);
 
         $data = $request->validate([
             'name' => 'required|string|max:255',
@@ -27,14 +28,14 @@ class AuthController extends Controller
             'password' => 'required|string|min:6',
         ]);
         
-        $user = User::create([
+        User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
 
         
-        return redirect()->route('login');
+        return 'nadi';
     }
 
     public function store(Request $request){
@@ -53,9 +54,18 @@ class AuthController extends Controller
         if(Auth::attempt($data)){
 
             $user = Auth::user();
-            dd($user);
+            return view('dashboard', compact('user'));
+            // dd($user);
             
         }
     }
 
+    public function logout(){
+        
+        Auth::logout();
+        return redirect()->route('LandingPage');
+    }
+    
 }
+
+

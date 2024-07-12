@@ -20,6 +20,8 @@ Route::get('/Notre vision', function () {
 })->name('vision');
 
 Route::get('/login', [AuthController::class, 'index'])->name('login');
+Route::post('/register_callback', [AuthController::class, 'register'])->name('register_callback');
+
 Route::post('/login_callback', [AuthController::class, 'store'])->name('login_callback');
 
 
