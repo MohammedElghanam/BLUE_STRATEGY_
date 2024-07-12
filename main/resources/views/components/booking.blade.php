@@ -35,7 +35,7 @@
                 <img src="AP/22.png" alt="" class=" absolute right-40 -bottom-40 w-68 h-64">
                 <div class=" flex items-end justify-start w-1/2 absolute bottom-0 left-0">
                     <div class=" w-96 h-28 bg-white flex items-end justify-center">
-                        <div class=" w-96 h-3 bg-blue-900"></div>
+                        <div class=" w-96 h-1 bg-blue-900"></div>
                     </div>
                     <div class=" h-16 w-40 bg-white"></div>
                 </div>
@@ -95,6 +95,7 @@
         </div>
     @endif
 
+    {{-- calender  --}}
     <div class="flex items-center justify-center py-8 px-4 gap-6 bg-blue-900">
         <div class="max-w-sm w-full  ">
 
@@ -139,6 +140,7 @@
 
         </div>
 
+        {{-- form  --}}
         <div class=" w-1/2">
             <form action="{{route('Booking')}}" method="POST"
                 class=" grid grid-cols-4 gap-4 p-8 rounded-lg bg-white shadow-lg">
@@ -189,7 +191,7 @@
                         placeholder=" Enter description"></textarea>
                 </div>
 
-                <div class="  h-16 col-span-2 pb-10">
+                <div class="  h-16 col-span-4 pb-10">
                     <h1 class=" font-medium mb-1 text-gray-600">Time *</h1>
                     <select id="heursDropdown" name="time" class=" w-full rounded-md bg-gray-100 border-none h-11  px-4">
                         <option class="" value="" disabled selected>Select time</option>
@@ -199,7 +201,7 @@
                     @enderror
                 </div>
 
-                <div class=" h-16 col-span-2 mb-4">
+                <div class=" h-16 col-span-2 mb-4 hidden">
                     <h1 class=" font-medium mb-1 text-gray-600">Date *</h1>
                     <input class=" w-full rounded-md bg-gray-100 border-none Date" id="selectedDate" name="date" type="text"  max="{{ \Carbon\Carbon::now()->format('Y-m-d') }}" placeholder=" yyyy/mm/dd">
                         

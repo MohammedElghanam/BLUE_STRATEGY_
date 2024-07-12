@@ -218,7 +218,6 @@
                     <div class="flex justify-center w-fulld px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
-                                {{-- <img src="images/34.png" alt="" class=" w-12 h-12"> --}}
                                 <img src="images/lamp.png" alt="" class=" w-12 h-12">                
                             </div>
                             <div class="flex flex-row text-center">
