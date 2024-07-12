@@ -1,7 +1,7 @@
 <style>
     .SCAL {
     position: relative;
-    transition: transform 1s; /* Ensures the transition happens smoothly */
+    transition: transform 1s;
 }
 
 .SCAL:hover {
@@ -9,8 +9,8 @@
 }
 
 .SCAL:hover .overlay {
-    opacity: 0; /* Hide the overlay on hover */
-    transition: opacity 1s; /* Smooth transition for hiding the overlay */
+    opacity: 0; 
+    transition: opacity 1s; 
 }
 
 .overlay {
@@ -28,6 +28,16 @@
     justify-content: center;
     opacity: 1;
     transition: opacity 1s;
+}
+
+.TOP {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: transform 1s ease-in, opacity 1s ease-in;
+}
+.TOP.animate {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 </style>
@@ -50,11 +60,11 @@
         <div class=" col-span-6"></div>
         <div class="  col-span-6 mt-4">
             <h1 class=" text-7xl font-semibold text-gray-900 mb-5">Nos secteur d'activite</h1>
-            <p class=" text-lg font-normal text-gray-900 mb-4">
+            <p class="TOP text-lg font-normal text-gray-900 mb-4">
                 BLUE STRATEGY développe des compétences sectorielles pour mettre en place des solutions qui anticipent ou
                 répondent aux attentes de différents clients .
             </p>
-            <p class=" text-lg font-normal text-gray-900">
+            <p class="TOP text-lg font-normal text-gray-900">
                 otre cabinet intervient dans divers secteurs d'activité, aussi bien au sein d'entreprises que d'organisations de
                 toutes tailles, que ce soit dans le secteur public ou privé.
             </p>
@@ -73,10 +83,10 @@
     <div class=" SCAL col-span-3 relative"><div class=" overlay rounded-xl text-xl font-medium">Developpement durabl</div><img class=" rounded-xl" src="VI/129.png" alt=""></div>
     <div class=" SCAL col-span-3 relative"><div class=" overlay rounded-xl text-xl font-medium">Environnement et energie</div><img class=" rounded-xl" src="VI/8.png" alt=""></div>
     
-    <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Prestation et services</div><img class=" rounded-xl" src="VI/9.png" alt=""></div>
-    <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Immobilier et ameublement</div><img class=" rounded-xl" src="VI/20.png" alt=""></div>
+    <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Prestation et services</div><img class=" rounded-xl" src="VI/23.png" alt=""></div>
+    <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Evénementiel</div><img class=" rounded-xl" src="VI/1.0.png" alt=""></div>
     <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Agriculture et agroalimentaire</div><img class=" rounded-xl" src="VI/10.png" alt=""></div>
-    <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Peche maritime</div><img class=" rounded-xl" src="VI/11.png" alt=""></div>
+    <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Peche maritime</div><img class=" rounded-xl" src="VI/22.png" alt=""></div>
     
     <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Artisanat</div><img class=" rounded-xl" src="VI/12.png" alt=""></div>
     <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Textile et produits cosmétiques</div><img class=" rounded-xl" src="VI/13.png" alt=""></div>
@@ -86,5 +96,24 @@
     <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Tourisme et divertissements</div><img class=" rounded-xl" src="VI/17.png" alt=""></div>
     <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Industrie</div><img class=" rounded-xl" src="VI/18.png" alt=""></div>
     <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Transport et logistique</div><img class=" rounded-xl" src="VI/19.png" alt=""></div>
-    <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Evénementiel</div><img class=" rounded-xl" src="VI/1.0.png" alt=""></div>
+    <div class=" SCAL col-span-3 relative"><div class="overlay rounded-xl text-xl font-medium">Immobilier et ameublement</div><img class=" rounded-xl" src="VI/21.png" alt=""></div>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const headings = document.querySelectorAll(".TOP");
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("animate");
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        headings.forEach(heading => {
+            observer.observe(heading);
+        });
+    });
+</script>
