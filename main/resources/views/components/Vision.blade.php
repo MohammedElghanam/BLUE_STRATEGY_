@@ -34,40 +34,52 @@
     opacity: 0;
     transform: translateY(-100%);
     transition: transform 1s ease-in, opacity 1s ease-in;
+    
 }
 .TOP.animate {
     opacity: 1;
     transform: translateY(0);
 }
 
+.H{
+    height: 350px;
+    position: absolute;
+    top: 112px;
+    left: 410px;
+}
+
 </style>
 
 <div class=" bg-white pt-28">
     <div class=" grid grid-cols-12 px-20 w-full bg-white">
-        <div class=" col-span-12 h-96 relative">
-            <img src="AP/91.png" alt="fo bar" class=" h-96 w-full">
-            <img src="AP/22.png" alt="" class=" absolute left-40 -bottom-48 w-68 h-64">
+        <div class=" col-span-12 relative bg-yellow-300">
+            <img src="AP/91.png" alt="fo bar" class=" h-80 w-full">
+            <img src="AP/22.png" alt="" class=" absolute left-40 -bottom-28 w-52 h-48">
             <div class=" flex items-end justify-end w-1/2 absolute bottom-0 right-0">
-                <div class=" h-16 w-56 bg-white">
-                    
-                </div>
-                <div class=" w-96 h-32 bg-white flex items-end justify-center">
-                    <div class=" w-96 h-1 bg-blue-900"></div>
-                </div>
+                <div class=" w-56 h-10 bg-white "></div>
+                <div class=" w-96 h-20 bg-white flex items-end justify-center"></div>
             </div>
         </div>
-        <div class=" w-32 bg-blue-900 opacity-70 h-3/4 absolute top-[84px] left-1/3"></div>
+        <div class=" H w-20 bg-blue-900 opacity-70"></div>
         <div class=" col-span-6"></div>
         <div class="  col-span-6 mt-4">
-            <h1 class=" text-7xl font-semibold text-gray-900 mb-5">Nos secteur d'activite</h1>
-            <p class="TOP text-lg font-normal text-gray-900 mb-4">
+            <div class="">
+                <h1 class=" text-5xl font-bold text-gray-900 mb-2">Nos secteur d'activite</h1>
+                <div class=" w-4/5 h-1 bg-blue-900"></div>
+            </div>
+            
+            
+        </div>
+        <div class=" grid grid-cols-12 justify-center items-center col-span-12 mt-16">
+            <p class="TOP col-span-7 text-lg font-normal text-gray-900 mb-4">
                 BLUE STRATEGY développe des compétences sectorielles pour mettre en place des solutions qui anticipent ou
                 répondent aux attentes de différents clients .
             </p>
-            <p class="TOP text-lg font-normal text-gray-900">
+            <p class="TOP col-span-7 text-lg font-normal text-gray-900">
                 otre cabinet intervient dans divers secteurs d'activité, aussi bien au sein d'entreprises que d'organisations de
                 toutes tailles, que ce soit dans le secteur public ou privé.
             </p>
+
         </div>
     </div>
 </div>
