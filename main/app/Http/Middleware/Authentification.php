@@ -16,7 +16,8 @@ class Authentification
     public function handle(Request $request, Closure $next)
     {
         if (!Auth::check()) {
-            return redirect('/');
+            // return response()->json(['error' => 'Unauthorized'], 401);
+            abort(404);
         }
 
         return $next($request);
