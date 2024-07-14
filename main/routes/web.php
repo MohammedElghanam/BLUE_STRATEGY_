@@ -31,8 +31,9 @@ Route::get('/book meeting', [BookingController::class, 'index'])->name('booking_
 Route::get('/available-dates', [BookingController::class, 'getAvailableDates']);
 
 
+Route::get('/dashboard', [dashboardController::class, 'index'])->name('dashboard');
+
 Route::middleware('auth')->group(function () {
-    Route::get('/dashboard', [dashboardController::class, 'index'])->name('dashboard');
 });
 
 Route::middleware('guest')->group(function () {
