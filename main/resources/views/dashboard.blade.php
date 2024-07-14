@@ -235,8 +235,8 @@
 
                     <ul class="flex items-center flex-shrink-0 space-x-6">
                         <li class="flex">
-                            <a class="text-white inline-flex items-center w-fulltext-sm font-semibold transition-colors duration-150 bg-gray-400 hover:bg-gray-100 hover:text-gray-800 px-4 py-1.5 rounded-lg"
-                                href="#">
+                            <a class="text-white inline-flex items-center w-fulltext-sm font-semibold transition-colors duration-150 bg-gray-700 hover:bg-gray-100 hover:text-gray-800 px-4 py-1.5 rounded-lg"
+                                href="{{route('logout')}}">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
