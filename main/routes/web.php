@@ -20,12 +20,8 @@ Route::get('/Notre vision', function () {
 })->name('vision');
 
 Route::get('/login', [AuthController::class, 'index'])->name('login');
-Route::post('/register_callback', [AuthController::class, 'register'])->name('register_callback');
-
-Route::post('/login_callback', [AuthController::class, 'store'])->name('login_callback');
 
 
-Route::get('/dashboard', [dashboardController::class, 'index'])->name('dashboard');
 Route::post('/valid', [dashboardController::class, 'valid'])->name('valid');
 Route::post('/invalid', [dashboardController::class, 'invalid'])->name('invalid');
 Route::post('/content messageing', [dashboardController::class, 'send_message'])->name('message');
@@ -34,3 +30,14 @@ Route::get('/book meeting', [BookingController::class, 'index'])->name('booking_
 
 Route::get('/available-dates', [BookingController::class, 'getAvailableDates']);
 
+
+Route::middleware('auth')->group(function () {
+    Route::get('/dashboard', [dashboardController::class, 'index'])->name('dashboard');
+});
+
+Route::middleware('guest')->group(function () {
+   
+    Route::post('/register_callback', [AuthController::class, 'register'])->name('register_callback');
+    Route::post('/login_callback', [AuthController::class, 'store'])->name('login_callback');
+
+});

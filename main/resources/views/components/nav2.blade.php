@@ -9,6 +9,7 @@
 .HID{
     display: none;
 }
+
 </style>
 
 <header class=" bg-white fixed w-full z-50 border-b">
@@ -24,45 +25,30 @@
             </a>
             {{-- lang --}}
             <div class="flex items-center lg:order-2">
-                <button type="button" data-dropdown-toggle="language-dropdown-menu"
-                    class="inline-flex items-center  font-medium justify-center px-4 py-2 text-sm text-gray-500 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
-                    <svg class="w-5 h-5 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900">
-                        <path fill="#b22234" d="M0 0h7410v3900H0z" />
-                        <path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff"
-                            stroke-width="300" />
-                        <path fill="#3c3b6e" d="M0 0h2964v2100H0z" />
-                        <g fill="#fff">
-                            <g id="d">
-                                <g id="c">
-                                    <g id="e">
-                                        <g id="b">
-                                            <path id="a"
-                                                d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z" />
-                                            <use xlink:href="#a" y="420" />
-                                            <use xlink:href="#a" y="840" />
-                                            <use xlink:href="#a" y="1260" />
-                                        </g>
-                                        <use xlink:href="#a" y="1680" />
-                                    </g>
-                                    <use xlink:href="#b" x="247" y="210" />
-                                </g>
-                                <use xlink:href="#c" x="494" />
+                <div class="">
+                    <button type="button" data-dropdown-toggle="language-dropdown-menu"
+                        class="tooltip cursor-not-allowed inline-flex items-center font-medium justify-center px-5 py-2.5 text-sm text-gray-500 rounded-lg hover:bg-gray-200 bg-gray-100 relative">
+                        <svg class="w-5 h-5 rounded-full me-3" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+                            <g fill-rule="evenodd" stroke-width="1">
+                                <path fill="#fff" d="M0 0h512v512H0z"/>
+                                <path fill="#000091" d="M0 0h170.7v512H0z"/>
+                                <path fill="#e1000f" d="M341.3 0H512v512H341.3z"/>
                             </g>
-                            <use xlink:href="#d" x="988" />
-                            <use xlink:href="#c" x="1976" />
-                            <use xlink:href="#e" x="2470" />
-                        </g>
-                    </svg>
-                    English (US)
-                </button>
+                        </svg>
+                        Frensh
+                    </button>
+                    <div id="progress" class="  absolute flex justify-center items-center gap-4 rounded-md py-5 px-4 h-8 bg-blue-800 text-white mt-4 opacity-30 font-medium" style=" display:none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" viewBox="0 0 24 24"><path fill="#ffffff" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity="0.25"/><path fill="#ffffff" d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" dur="0.75s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></path></svg>    
+                        In progress
+                    </div>
+                </div>
 
-                <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700"
+                {{-- <div class="cursor-not-allowed z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700"
                     id="language-dropdown-menu">
                     <ul class="py-2 font-medium" role="none">
                         <li>
-                            <a href="#"
-                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                            <div
+                                class="cursor-not-allowed block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                                 role="menuitem">
                                 <div class="inline-flex items-center">
                                     <svg aria-hidden="true" class="h-3.5 w-3.5 rounded-full me-2"
@@ -85,63 +71,31 @@
                                     </svg>
                                     English (US)
                                 </div>
-                            </a>
+                            </div>
                         </li>
                         <li>
-                            <a href="#"
-                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                            <div
+                                class="cursor-not-allowed block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                                 role="menuitem">
                                 <div class="inline-flex items-center">
-                                    <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true"
-                                        xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de"
-                                        viewBox="0 0 512 512">
-                                        <path fill="#ffce00" d="M0 341.3h512V512H0z" />
-                                        <path d="M0 0h512v170.7H0z" />
-                                        <path fill="#d00" d="M0 170.7h512v170.6H0z" />
-                                    </svg>
-                                    Frensh
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#"
-                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
-                                role="menuitem">
-                                <div class="inline-flex items-center">
-                                    <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icon-css-cn"
-                                        viewBox="0 0 512 512">
-                                        <defs>
-                                            <path id="a" fill="#ffde00" d="M1-.3L-.7.8 0-1 .6.8-1-.3z" />
-                                        </defs>
-                                        <path fill="#de2910" d="M0 0h512v512H0z" />
-                                        <use width="30" height="20" transform="matrix(76.8 0 0 76.8 128 128)"
-                                            xlink:href="#a" />
-                                        <use width="30" height="20"
-                                            transform="rotate(-121 142.6 -47) scale(25.5827)" xlink:href="#a" />
-                                        <use width="30" height="20" transform="rotate(-98.1 198 -82) scale(25.6)"
-                                            xlink:href="#a" />
-                                        <use width="30" height="20"
-                                            transform="rotate(-74 272.4 -114) scale(25.6137)" xlink:href="#a" />
-                                        <use width="30" height="20"
-                                            transform="matrix(16 -19.968 19.968 16 256 230.4)" xlink:href="#a" />
-                                    </svg>
+                                    <svg class="h-3.5 w-3.5 rounded-full me-2" xmlns="http://www.w3.org/2000/svg" width="1.34em" height="1em" viewBox="0 0 32 24"><g fill="none" fill-rule="evenodd" clip-rule="evenodd"><path fill="#c51918" d="M0 0h32v22a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z"/><path fill="#e31d1c" d="M0 0h32v24H0z"/><path fill="#579d20" d="M22.482 19.626L16.166 2.701h-.274L9.795 19.626l6.332-3.805zM15.467 8.222l.677-2.638l.702 2.714l2.019 5.656l1.185 2.739l-2.559-1.803l-1.366-.818l-1.344.808l-2.5 1.813l1.156-2.795z"/><path fill="#579d20" d="m12.663 13.473l3.496 2.324l3.262-2.324l6.195-5.237H6.386zm.072-1.999l-2.377-1.455H21.58l-2.041 1.293l-3.397 2.577z"/></g></svg>
                                     Arab
                                 </div>
-                            </a>
+                            </div>
                         </li>
                     </ul>
                 </div>
-             {{-- lang  --}}
-                <a href="{{ url('/') }}#contact" class="text-white bg-blue-900 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 ml-4">Contact Us</a>
+             
                 <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                     <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </button>
+                </button> --}}
+                
+                <a href="{{ url('/') }}#contact" class="text-white bg-blue-900 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 ml-4">Contact Us</a>
             </div>
+
+            {{-- navbar  --}}
             <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                     <li class="h-16 flex items-center justify-center px-4">
@@ -440,6 +394,18 @@
                 $('.DIV').toggleClass('HID');
             }
         });
+    });
+</script>
+
+
+<script>
+    $(document).ready(function(){
+        $(".tooltip").hover(function () {
+            $("#progress").show();                
+            }, function () {
+                $("#progress").hide();
+            }
+        );
     });
 </script>
 
