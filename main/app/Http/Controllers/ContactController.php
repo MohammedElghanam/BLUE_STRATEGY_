@@ -28,7 +28,28 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // dd($request);
+        $validatedData = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255|unique:contacts',
+            'phone' => 'required|string|max:20',
+            'contact_method' => 'required|string|in:email,phone',
+            'content' => 'required|string',
+        ]);
+
+        $contact = Contact::create($validatedData);
+
+        if ($contact) {
+
+            if ($request->contact_method) {
+                return redirect()->back()->with('success', 'You will contact me with a message in your email');
+            } else {
+                return redirect()->back()->with('success', 'They will call you via your phone');
+            }
+            
+        } else {
+            return redirect()->back()->with('error', 'Please enter correct data.');
+        }
     }
 
     /**

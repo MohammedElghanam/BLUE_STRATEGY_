@@ -4,19 +4,12 @@ use App\Models\Heurs;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BookingController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\dashboardController;
 
 
 
 
-Route::get('/A propos de nous', function () { 
-    return view('Apropos');
-})->name('propos');
-
-
-Route::get('/Notre vision', function () {
-    return view('vision');
-})->name('vision');
 
 
 /* ------------------------------------------------------- */
@@ -45,10 +38,24 @@ Route::middleware('guest')->group(function(){
     Route::post('/register_callback', [AuthController::class, 'register'])->name('register_callback');
     Route::post('/login_callback', [AuthController::class, 'store'])->name('login_callback');
     Route::get('/login', [AuthController::class, 'index'])->name('login');
-    Route::get('/A', function () { 
-        return 'fobar';
-    });
+
     Route::get('/', function () {
         return view('home');
-    })->name('home');    
+    })->name('home'); 
+
+    Route::get('/A propos de nous', function () { 
+        return view('Apropos');
+    })->name('propos');
+
+    Route::get('/Notre vision', function () {
+        return view('vision');
+    })->name('vision');
+       
 });
+
+
+/* ------------------------------------------------------- */
+/*                       Contact                           */
+/* ------------------------------------------------------- */
+
+Route::post('contact_callback', [ContactController::class, 'store'])->name('contact_callback');
