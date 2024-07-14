@@ -29,7 +29,7 @@
                         <div class=" grid justify-center items-center">
                             <img class="hidden h-24 w-24 rounded-full sm:block object-cover mr-2 border-4 border-green-400" src="images/unsplash.png" alt="">
                         </div>
-                        <p class="font-bold text-base  text-gray-400 pt-2 text-center w-40">Houda belaydi</p>
+                        <p class="font-bold text-base  text-gray-400 pt-2 text-center w-40">{{$user->name}}</p>
                     </div>
                     <div>
                         <ul class="mt-6 leading-10">
@@ -72,13 +72,14 @@
                                 </div>
 
                                 <div x-show.transition="Open" style="display:none;">
-                                    <ul x-transition:enter="transition-all ease-in-out duration-300"
+                                    <ul id="User_Invalid"
+                                        x-transition:enter="transition-all ease-in-out duration-300"
                                         x-transition:enter-start="opacity-25 max-h-0"
                                         x-transition:enter-end="opacity-100 max-h-xl"
                                         x-transition:leave="transition-all ease-in-out duration-300"
                                         x-transition:leave-start="opacity-100 max-h-xl"
                                         x-transition:leave-end="opacity-0 max-h-0"
-                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-green-400"
+                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-blue-800"
                                         aria-label="submenu">
 
                                         <li class="px-2 py-1 text-white transition-colors duration-150">
@@ -91,8 +92,32 @@
                                                             d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                                                     </svg>
                                                     <a href="#"
-                                                        class="w-full ml-2  text-sm font-semibold text-white hover:text-gray-800">Item
-                                                        1</a>
+                                                        class="w-full ml-2  text-sm font-semibold text-white hover:text-gray-800">Users invalide</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul id="Contact"
+                                        x-transition:enter="transition-all ease-in-out duration-300"
+                                        x-transition:enter-start="opacity-25 max-h-0"
+                                        x-transition:enter-end="opacity-100 max-h-xl"
+                                        x-transition:leave="transition-all ease-in-out duration-300"
+                                        x-transition:leave-start="opacity-100 max-h-xl"
+                                        x-transition:leave-end="opacity-0 max-h-0"
+                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-blue-800"
+                                        aria-label="submenu">
+
+                                        <li class="px-2 py-1 text-white transition-colors duration-150">
+                                            <div class="px-1 hover:text-gray-800 hover:bg-gray-100 rounded-md">
+                                                <div class="flex items-center">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                                        viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2"
+                                                            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                                    </svg>
+                                                    <a href="#"
+                                                        class="w-full ml-2  text-sm font-semibold text-white hover:text-gray-800">Contact</a>
                                                 </div>
                                             </div>
                                         </li>
@@ -364,7 +389,7 @@
                             </div>
 
                             {{-- table rende vous  --}}
-                            <div class="col-span-12 mt-5">
+                            <div class="valid col-span-12 mt-5">
                                 <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
                                     <div class="bg-white p-4 shadow-lg rounded-lg">
                                         <h1 class="font-bold text-base">Table rende vous</h1>
@@ -491,8 +516,137 @@
                                 </div>
                             </div>
 
+                            {{-- table contact  --}}
+                            <div class="contact hidden col-span-12 mt-5">
+                                <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
+                                    <div class="bg-white p-4 shadow-lg rounded-lg">
+                                        <h1 class="font-bold text-base">Table Contact</h1>
+                                        <div class="mt-4">
+                                            <div class="flex flex-col">
+                                                <div class="-my-2 overflow-x-auto">
+                                                    <div class="py-2 align-middle inline-block min-w-full">
+                                                        <div
+                                                            class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg bg-white">
+                                                            <table class="min-w-full divide-y divide-gray-200">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Name</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Sujet</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class=" w-96 px-6 py-3 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Description</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Date</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Time</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Email</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Phone</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">STATUS</span>
+                                                                            </div>
+                                                                        </th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody class="bg-white divide-y divide-gray-200">
+                                                                    @foreach ($valid as $item)
+                                                                    <tr>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+                                                                            <p>{{ $item->name }}</p>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
+                                                                            <p>{{ $item->sujet }}</p>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
+                                                                            @if ($item->description === null)
+                                                                            <p class=" text-red-500">Null</p>
+                                                                            @else
+                                                                                <p>{{ $item->description }}</p>
+                                                                            @endif
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+                                                                            <p>{{ $item->date }}</p>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+                                                                            <p>{{ $item->time }}</p>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+                                                                            <p>{{ $item->email }}</p>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+                                                                            <div class="flex text-green-500">
+                                                                                <p>{{ $item->phone }}</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+                                                                            
+                                                                            <div class="flex space-x-4 select-none">
+                                                                                <span class="text-blue-500 hover:text-blue-600 flex items-center">
+                                                                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                                                    </svg>
+                                                                                    Valide
+                                                                                </span>
+                                                                            </div>
+                                                                            
+                                                                        </td>
+                                                                    </tr>
+                                                                    @endforeach
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        {{-- {{ $bookings->links() }} --}}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
                             {{-- Table Users invalide  --}}
-                            <div class="col-span-12 mt-5">
+                            <div class="User_invalid hidden col-span-12 mt-5">
                                 <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
                                     <div class="bg-white p-4 shadow-lg rounded-lg">
                                         <h1 class="font-bold text-base">Table Users invalide</h1>
@@ -619,7 +773,7 @@
                             </div>
 
                             {{-- table boking  --}}
-                            <div class="col-span-12 mt-5">
+                            <div class="booking col-span-12 mt-5">
                                 <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
                                     <div class="bg-white p-4 shadow-lg rounded-lg">
                                         <h1 class="font-bold text-base">Table Booking</h1>
@@ -772,7 +926,7 @@
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script>
         function data() {
@@ -900,6 +1054,24 @@
         };
         var chart = new ApexCharts(chart, options);
         chart.render();
+    </script>
+    <script>
+        $(document).ready(function () {
+           $("#Contact").click(function (e) { 
+                e.preventDefault();
+                $(".booking").hide();
+                $(".valid").hide();
+                $(".User_invalid").hide();
+                $(".contact").show();
+           }); 
+           $("#User_Invalid").click(function (e) { 
+                e.preventDefault();
+                $(".booking").hide();
+                $(".valid").hide();
+                $(".contact").hide();
+                $(".User_invalid").show();
+           }); 
+        });
     </script>
 </body>
 

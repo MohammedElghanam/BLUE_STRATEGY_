@@ -7,9 +7,6 @@ use App\Http\Controllers\BookingController;
 use App\Http\Controllers\dashboardController;
 
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
 
 
 Route::get('/A propos de nous', function () { 
@@ -51,4 +48,7 @@ Route::middleware('guest')->group(function(){
     Route::get('/A', function () { 
         return 'fobar';
     });
+    Route::get('/', function () {
+        return view('home');
+    })->name('home');    
 });

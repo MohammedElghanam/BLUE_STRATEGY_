@@ -53,10 +53,10 @@ class AuthController extends Controller
         
         if(Auth::attempt($data)){
 
-            // $user = Auth::user();
             return redirect()->route('dashboard');
-            // dd($user);
             
+        }else {
+            return redirect()->back()->with(['error' => 'Invalid credentials. Please try again.']);
         }
     }
 

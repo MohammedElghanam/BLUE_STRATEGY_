@@ -25,8 +25,9 @@ class dashboardController extends Controller
         ->orderBy('time', 'asc')
         ->get();
         $invalid = Booking::where('status', 'invalid')->get();
-        
-        return view('dashboard', compact('valid', 'later','invalid'));
+        $user = Auth()->user();
+        // dd($user);
+        return view('dashboard', compact('user', 'valid', 'later','invalid'));
     }
 
     public function valid(Request $request)
