@@ -53,8 +53,8 @@ class AuthController extends Controller
         
         if(Auth::attempt($data)){
 
-            $user = Auth::user();
-            return view('dashboard', compact('user'));
+            // $user = Auth::user();
+            return redirect()->route('dashboard');
             // dd($user);
             
         }

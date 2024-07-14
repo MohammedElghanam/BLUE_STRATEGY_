@@ -33,17 +33,19 @@ Route::get('/Notre vision', function () {
 /* ------------------------------------------------------- */
 /*                       Dashboard                         */
 /* ------------------------------------------------------- */
-    Route::get('/dashboard', [dashboardController::class, 'index'])->name('dashboard');
-    Route::post('/content messageing', [dashboardController::class, 'send_message'])->name('message');
-    Route::post('/valid', [dashboardController::class, 'valid'])->name('valid');
-    Route::post('/invalid', [dashboardController::class, 'invalid'])->name('invalid');
-
-
+Route::middleware('auth')->group(function(){
+    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::post('/content_messaging', [DashboardController::class, 'send_message'])->name('message');
+    Route::post('/valid', [DashboardController::class, 'valid'])->name('valid');
+    Route::post('/invalid', [DashboardController::class, 'invalid'])->name('invalid');
+    Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+});
 
 /* ------------------------------------------------------- */
 /*                       Authentification                  */
 /* ------------------------------------------------------- */
+Route::middleware('guest')->group(function(){
     Route::post('/register_callback', [AuthController::class, 'register'])->name('register_callback');
     Route::post('/login_callback', [AuthController::class, 'store'])->name('login_callback');
     Route::get('/login', [AuthController::class, 'index'])->name('login');
-    Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+});
