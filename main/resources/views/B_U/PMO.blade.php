@@ -30,3 +30,47 @@
         </div>
     </div>
 </section>
+
+<section class="p-5">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-5 mt-5">
+        <div class="col-span-1 md:col-span-6 py-10 h-full flex justify-center md:justify-start">
+            <img src="B_U/9.png" alt="About Us Image" class="w-full md:w-auto">
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-6 col-span-1 md:col-span-6 h-full px-5 md:px-10 pt-14">
+            <div class="grid grid-cols-1 md:grid-cols-6 items-end col-span-1 md:col-span-6 mb-3">
+                <h1 class="col-span-1 md:col-span-3 text-4xl md:text-7xl font-semibold pb-2">ABOUT US.</h1>
+                <span class="h-1 col-span-1 md:col-span-4 bg-blue-900 mt-2 md:mt-0"></span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-6 col-span-1 md:col-span-6">
+                <div class="col-span-1 md:col-span-5 text-base md:text-lg mb-3">
+                    B.U PMO - PROJECT MANAGEMENT OFFICE est notre unité d'affaires
+                    dédiée à vous accompagner dans la réalisation de vos projets
+                    les plus ambitieux et à transformer vos idées en réalité.
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-6 col-span-1 md:col-span-6 p-2">
+                    <div class="col-span-1 md:col-span-3 flex justify-center md:justify-end pr-0 md:pr-2 text-4xl md:text-7xl font-normal text-blue-900">01</div>
+                    <p class="col-span-1 md:col-span-3 text-base md:text-lg bg-gray-100 p-3 rounded-xl">
+                        Que vous soyez une entreprise en plein essor, une organisation
+                        publique ou privée ou une start-up, peu importe votre secteur
+                        d'activité, nous sommes là pour vous apporter une perspective
+                        fraîche et innovante aux défis auxquels vous êtes confrontés
+                        dans l'exécution de vos projets.
+                    </p>
+                    <p class="col-span-1 md:col-span-3 text-base md:text-lg bg-gray-100 p-6 rounded-xl">
+                        Nos solutions sur mesure respectent votre activité, culture
+                        d'entreprise, contraintes spécifiques et priorités stratégiques,
+                        tout en respectant délais et budgets.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="">
+    <div class=" grid grid-cols-12 h-96">
+        <div class=" col-span-4 bg-red-500"></div>
+        <div class=" col-span-6 bg-blue-500"></div>
+    </div>
+</section>
