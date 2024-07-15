@@ -206,21 +206,27 @@
                                 </li>
                             </div>
                             <div class=" w-2/5 pt-6">
+
                                 <div id="S1" class=" flex-col gap-2 p-2 m-2">
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">PROJECT MANAGEMENT OFFICE</h1>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>About</span>
+                                        <span>About B.U</span>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>Notre Equipe</span>
+                                        <span>Nos Service PMO</span>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>Nos Service</span>
+                                        <span>Nos types de projet</span>
+                                    </div>
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
+                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
+                                        <span>Out sourcing PMO</span>
                                     </div>
                                 </div>
+
                                 <div id="S2" class=" hidden flex-col gap-2 p-2 m-2">
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">SERVICES TPE/PME</h1>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
@@ -236,6 +242,7 @@
                                         <span>Nos Service</span>
                                     </div>
                                 </div>
+
                                 <div id="S3" class=" hidden flex-col gap-2 p-2 m-2">
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">SERVICES DIGITAUX</h1>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
@@ -251,6 +258,7 @@
                                         <span>Nos Service</span>
                                     </div>
                                 </div>
+
                                 <div id="S4" class=" hidden flex-col gap-2 p-2 m-2">
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">CARRIERE RH</h1>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
@@ -266,6 +274,7 @@
                                         <span>Nos Service</span>
                                     </div>
                                 </div>
+
                                 <div id="S5" class=" hidden flex-col gap-2 p-2 m-2">
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">FORMATION PROFESSIONNELLE</h1>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
@@ -281,6 +290,7 @@
                                         <span>Nos Service</span>
                                     </div>
                                 </div>
+
                                 <div id="S6" class=" hidden flex-col gap-2 p-2 m-2 ">
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">ENTREPRENARIAT ET PROJECT D'ESS</h1>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
@@ -298,9 +308,6 @@
                                 </div>
 
                                 
-
-                                
-                                
                             </div>
                             </div>
                         </nav>
@@ -315,7 +322,7 @@
         </div>
     </nav>
 
-    <!-- Nav 2 -->
+    
 </header>
 
 
