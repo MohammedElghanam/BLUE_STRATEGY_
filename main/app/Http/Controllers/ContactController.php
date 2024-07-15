@@ -33,7 +33,7 @@ class ContactController extends Controller
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255|unique:contacts',
             'phone' => 'required|string|max:20',
-            'contact_method' => 'required|string|in:email,phone',
+            'method' => 'required|string|in:email,phone',
             'content' => 'required|string',
         ]);
 

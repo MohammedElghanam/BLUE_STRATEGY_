@@ -132,25 +132,25 @@
                         <div class="flex">
                             <div>
                                 <div class="flex items-center mr-11">
-                                    <input id="radio-email" type="radio" name="contact_method" value="email"
+                                    <input id="radio-email" type="radio" name="method" value="email"
                                         class="checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100 mr-2">
                                     <label for="radio-email" class="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
                                         Email
                                     </label>
                                 </div>
-                                @error('contact_method')
+                                @error('method')
                                     <p class="text-red-500">{{$message}}*</p>
                                 @enderror
                             </div>
                             <div>
                                 <div class="flex items-center">
-                                    <input id="radio-phone" type="radio" name="contact_method" value="phone"
+                                    <input id="radio-phone" type="radio" name="method" value="phone"
                                         class="checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100 mr-2">
                                     <label for="radio-phone" class="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
                                         Phone
                                     </label>
                                 </div>
-                                @error('contact_method')
+                                @error('method')
                                     <p class="text-red-500">{{$message}}*</p>
                                 @enderror
                             </div>

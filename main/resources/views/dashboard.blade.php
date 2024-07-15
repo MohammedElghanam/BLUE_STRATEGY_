@@ -520,7 +520,7 @@
                             <div class="contact hidden col-span-12 mt-5">
                                 <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
                                     <div class="bg-white p-4 shadow-lg rounded-lg">
-                                        <h1 class="font-bold text-base">Table Contact</h1>
+                                        <h1 class="font-bold text-base">Table Contacts</h1>
                                         <div class="mt-4">
                                             <div class="flex flex-col">
                                                 <div class="-my-2 overflow-x-auto">
@@ -539,37 +539,25 @@
                                                                         <th
                                                                             class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                                                                             <div class="flex cursor-pointer">
-                                                                                <span class="mr-2">Sujet</span>
+                                                                                <span class="mr-2">Email</span>
                                                                             </div>
                                                                         </th>
                                                                         <th
                                                                             class=" w-96 px-6 py-3 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                                                                             <div class="flex cursor-pointer">
-                                                                                <span class="mr-2">Description</span>
-                                                                            </div>
-                                                                        </th>
-                                                                        <th
-                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-                                                                            <div class="flex cursor-pointer">
-                                                                                <span class="mr-2">Date</span>
-                                                                            </div>
-                                                                        </th>
-                                                                        <th
-                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-                                                                            <div class="flex cursor-pointer">
-                                                                                <span class="mr-2">Time</span>
-                                                                            </div>
-                                                                        </th>
-                                                                        <th
-                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-                                                                            <div class="flex cursor-pointer">
-                                                                                <span class="mr-2">Email</span>
-                                                                            </div>
-                                                                        </th>
-                                                                        <th
-                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-                                                                            <div class="flex cursor-pointer">
                                                                                 <span class="mr-2">Phone</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Method</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Content</span>
                                                                             </div>
                                                                         </th>
                                                                         <th
@@ -581,7 +569,7 @@
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody class="bg-white divide-y divide-gray-200">
-                                                                    @foreach ($valid as $item)
+                                                                    @foreach ($contacts as $item)
                                                                     <tr>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
@@ -589,46 +577,33 @@
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
-                                                                            <p>{{ $item->sujet }}</p>
-                                                                        </td>
-                                                                        <td
-                                                                            class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
-                                                                            @if ($item->description === null)
-                                                                            <p class=" text-red-500">Null</p>
-                                                                            @else
-                                                                                <p>{{ $item->description }}</p>
-                                                                            @endif
-                                                                        </td>
-                                                                        <td
-                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            <p>{{ $item->date }}</p>
-                                                                        </td>
-                                                                        <td
-                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            <p>{{ $item->time }}</p>
-                                                                        </td>
-                                                                        <td
-                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
                                                                             <p>{{ $item->email }}</p>
                                                                         </td>
                                                                         <td
-                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            <div class="flex text-green-500">
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
                                                                                 <p>{{ $item->phone }}</p>
-                                                                            </div>
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            
-                                                                            <div class="flex space-x-4 select-none">
-                                                                                <span class="text-blue-500 hover:text-blue-600 flex items-center">
-                                                                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                                                                    </svg>
-                                                                                    Valide
-                                                                                </span>
-                                                                            </div>
-                                                                            
+                                                                            <p>{{ $item->method }}</p>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+                                                                            <p>{{ $item->content }}</p>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+                                                                            @if ($item->method == 'email')
+                                                                                <form action="{{ route('message') }}" method="POST" class=" flex p-1 gap-2">
+                                                                                    @csrf
+                                                                                    <input class="hidden" value="{{ $item->name }}" type="text" name="name">
+                                                                                    <input class="hidden" value="{{ $item->email }}" type="text" name="email">
+                                                                                    <input type="text" name="content" class=" bg-gray-200 rounded-md border-2 border-blue-200 caret-blue-500" placeholder=" write message">
+                                                                                    <button class="text-white flex items-center px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-md">
+                                                                                        Send
+                                                                                    </button>
+                                                                                </form>
+                                                                            @endif    
                                                                         </td>
                                                                     </tr>
                                                                     @endforeach
