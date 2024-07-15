@@ -7,7 +7,9 @@ use App\Http\Controllers\BookingController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\dashboardController;
 
-
+Route::get('/PMO', function () {
+    return view('PMO');
+})->name('PMO');
 
 
 
