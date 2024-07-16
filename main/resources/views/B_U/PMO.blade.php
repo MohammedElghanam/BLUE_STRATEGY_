@@ -41,8 +41,8 @@
     position: absolute;
     top: 80px;
     left: -144px;
-    border-top: 12px solid white;
-    border-left: 12px solid white;
+    border-top: 12px solid rgb(30, 0, 255);
+    border-left: 12px solid rgb(30, 0, 255);
 }
 
 
@@ -394,16 +394,16 @@
 </section>
 
 
-<section class=" p-1 bg-blue-600">
-    <div class=" grid grid-cols-12 gap-4 bg-red-700 p-2">
-        <div class=" col-span-5 bg-blue-500 relative ">
+<section class="">
+    <div class=" grid grid-cols-12 gap-4 p-2 mt-20">
+        <div class=" col-span-6 relative ">
             <img class=" w-11/12" src="B_U/15.png" alt="">
-            <div class=" grid grid-cols-12 gap-4 w-3/4 bg-blue-900 opacity-70 absolute top-64 z-30 -right-10 p-2">
+            <div class=" grid grid-cols-12 gap-4 w-2/3 bg-blue-900 absolute top-64 z-30 -right-10 p-2">
                 <div class=" col-span-12 h-10 bg-red-500 flex justify-start items-center gap-2">
                     <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                     </svg>
-                    <span class=" font-semibold text-gray-800">Développeurs - solutions</span>
+                    <span class=" font-semibold text-gray-100">Développeurs - solutions</span>
                 </div>
                 <div class=" col-span-12 h-10 bg-red-500 flex justify-start items-center gap-2">
                     <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -431,15 +431,15 @@
                 </div>
             </div>
         </div>
-        <div class="  grid grid-cols-12 gap-3 p-2 col-span-7 bg-blue-500">
-            <div class=" col-span-12 bg-green-600 h-10 relative">
+        <div class=" grid grid-cols-12 gap-3 p-2 col-span-6">
+            <div class=" col-span-12 h-10 relative">
                 <div class=" LINE w-full z-20"></div>
-                <div class=" w-full h-6 bg-red-500 absolute -bottom-0 z-20">
-                    <h1 class=" text-6xl font-semibold">YPES DE PROJETS</h1>
+                <div class=" w-full h-6 absolute -bottom-0 z-20">
+                    <h1 class=" text-6xl font-semibold text-gray-900">TYPES DE PROJETS</h1>
                 </div>
             </div>
-            <div class=" col-span-12 bg-gray-600 p-1 relative">
-                <div class="  bg-red-700  -z-30 p-3">
+            <div class=" col-span-12 p-1 relative">
+                <div class=" -z-30">
                     <div class=" w-2/3 h-96 absolute bg-green-600 -top-16 right-20">
                         
                     </div>
