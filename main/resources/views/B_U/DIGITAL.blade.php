@@ -22,7 +22,9 @@
 .BG{
     background-color: #ae00ff;
 }
-
+.TIT{
+    color: #ae00ff;
+}
 </style>
 
 
@@ -44,7 +46,7 @@
 
 
 {{-- about  --}}
-<section>
+{{-- <section>
     <div class=" grid grid-cols-12">
         <div class=" grid grid-cols-12 col-span-6 gap-4">
             <div class=" grid grid-cols-12 gap-2 col-span-12 mt-10">
@@ -84,4 +86,185 @@
         </div>
         
     </div>
+</section> --}}
+
+{{-- about  --}}
+<section>
+    <div class="grid grid-cols-12 gap-4">
+        <div class="col-span-12 md:col-span-6 grid grid-cols-12 gap-4">
+            <div class="col-span-12 grid grid-cols-12 gap-2 mt-10">
+                <div class="col-span-12 flex justify-start items-center gap-2">
+                    <span class="BG w-20 h-1"></span>
+                    <h1 class="font-medium">Blue strategy</h1>
+                </div>
+                <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
+                    <div class="col-span-12 md:col-span-8">
+                        <h1 class="font-semibold text-lg md:text-xl">BLUE STRATEGY élève vos projets digitaux à des niveaux supérieurs. </h1>
+                    </div>
+                    <div class="col-span-12 md:col-span-11">
+                        <p class="text-lg md:text-xl font-light mb-3">
+                            Nous ne nous limitons pas à réaliser simplement des projets, nous allons au-delà en offrant une valeur stratégique durable qui dépasse
+                            les attentes.
+                        </p>
+                        <p class="text-lg md:text-xl font-light mb-3">
+                            Notre unité d'affaires "SERVICES DIGITAUX" est un pilier essentiel de notre cabinet, dédiée aux TPE/PME et aux différentes organisations
+                            souhaitant entamer leur transformation digitale. Sa vocation est
+                            d'offrir des solutions digitales spécifiques pour soutenir les activités et optimiser leur performance, tout en respectant une meilleure qualité à
+                            un budget bien maîtrisé et réduit.                         
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-12 grid grid-cols-12 gap-4">
+                <div class="POL col-span-12 md:col-span-7 h-40 mb-3"></div>
+                <div class="col-span-12 md:col-span-5">
+                    <h1 class="text-2xl md:text-4xl lg:text-7xl font-semibold pb-2">ABOUT US.</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-span-12 md:col-span-6 grid grid-cols-12 justify-end gap-3">
+            <div class="col-span-12">
+                <img src="B_U/DIGITAL/18.png" alt="">
+            </div>
+        </div>
+    </div>
 </section>
+
+
+<section id="" class="px-4 lg:px-16">
+    <div class="grid grid-cols-1 lg:grid-cols-12 justify-center items-center p-2 mt-20">
+        <div class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-6 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
+            <div class=" col-span-12 flex justify-center items-center">
+                <div class="absolute -top-14 w-2/3 lg:w-1/3 bg-white p-2 text-center text-4xl lg:text-6xl font-semibold text-gray-900">
+                    <h1 class=" text-gray-900">Our Unity</h1>
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-6 bg-gray-100 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
+                
+                <div class="grid grid-cols-1">
+                    <div class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
+                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="#ae00ff" d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9A3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42c-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3a3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3a3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9c-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65c2.56.34 4.45 1.51 4.45 2.9z"/>
+                        </svg>
+                        <h1 class=" TIT">Nos specialités</h1>
+                    </div>
+                    <div class=" grid grid-cols-12 gap-3 text-white text-center p-2 lg:text-left mr-2">
+                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                                </svg>
+                            </div>
+                            <p class=" text-gray-700 font-medium">AMOA</p>
+                        </div>
+                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                                </svg>
+                            </div>
+                            <p class=" text-gray-700 font-medium">Intégration ERP/CRM</p>
+                        </div>
+                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                                </svg>
+                            </div>
+                            <p class=" text-gray-700 font-medium">Développement WEB</p>
+                        </div>
+                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                                </svg>
+                            </div>
+                            <p class=" text-gray-700 font-medium">DESIGN UX/UI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-span-12 lg:col-span-6 p-6 bg-gray-100 lg:p-10 rounded-xl transition-transform transform hover:scale-105 ml-2">
+                
+                <div class="grid grid-cols-1">
+                    <div class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
+                        <svg class=" w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="#ae00ff" d="m11.19 1.36l-7 3.11C3.47 4.79 3 5.51 3 6.3V11c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V6.3c0-.79-.47-1.51-1.19-1.83l-7-3.11c-.51-.23-1.11-.23-1.62 0m-1.9 14.93L6.7 13.7a.996.996 0 1 1 1.41-1.41L10 14.17l5.88-5.88a.996.996 0 1 1 1.41 1.41l-6.59 6.59a.996.996 0 0 1-1.41 0"/>
+                        </svg>
+                        <h1 class=" TIT">Notre equipe</h1>
+                    </div>
+                    <div class=" grid grid-cols-12 gap-3 text-white text-center p-2 lg:text-left">
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                                </svg>
+                            </div>
+                            <p class=" text-gray-700 font-medium">PMO</p>
+                        </div>
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                                </svg>
+                            </div>
+                            <p class=" text-gray-700 font-medium">Consultants AMOA</p>
+                        </div>
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                                </svg>
+                            </div>
+                            <p class=" text-gray-700 font-medium">Chefs de projets</p>
+                        </div>
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                                </svg>
+                            </div>
+                            <p class=" text-gray-700 font-medium">Ingenieurs IT</p>
+                        </div>
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                                </svg>
+                            </div>
+                            <p class=" text-gray-700 font-medium">Business analysts </p>
+                        </div>
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                                </svg>
+                            </div>
+                            <p class=" text-gray-700 font-medium">Consultants technico-fonctionnels</p>
+                        </div>
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                                </svg>
+                            </div>
+                            <p class=" text-gray-700 font-medium">Développeurs web</p>
+                        </div>
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                                </svg>
+                            </div>
+                            <p class=" text-gray-700 font-medium">Designers UX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{{-- <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><g fill="none" stroke="#ae00ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M21 6H9C7.34315 6 6 7.34315 6 9V31C6 32.6569 7.34315 34 9 34H39C40.6569 34 42 32.6569 42 31V21"/><path d="M24 34V42"/><path d="M32 6L28 10L32 14"/><path d="M38 6L42 10L38 14"/><path d="M14 42L34 42"/></g></svg> --}}
