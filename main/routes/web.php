@@ -8,9 +8,12 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\dashboardController;
 
 Route::get('/PMO', function () {
-    return view('PMO');
+    return view('1PMO');
 })->name('PMO');
 
+Route::get('/DIGITAL', function () {
+    return view('2DIGITAL');
+})->name('DIGITAL');
 
 
 

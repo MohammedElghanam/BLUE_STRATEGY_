@@ -73,7 +73,7 @@
 </section>
 
 {{-- about  --}}
-<section class="p-5">
+<section id="about" class="p-5">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-5 mt-5">
         <div class="col-span-1 md:col-span-6 py-10 h-full flex justify-center md:justify-start">
             <img src="B_U/9.png" alt="About Us Image" class="w-full md:w-auto rounded-xl">
@@ -111,7 +111,7 @@
 </section>
 
 {{-- notre equepe  --}}
-<section class="py-10 px-10">
+<section id="service" class="py-10 px-10">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
         <div class="lg:col-span-5 lg:pl-10">
             <div class="space-y-5 mb-5">
@@ -323,9 +323,9 @@
 </section>
 
 {{-- outsoursing  --}}
-<section class="px-4 lg:px-16">
+<section id="outsoursing" class="px-4 lg:px-16">
     <div class="grid grid-cols-1 lg:grid-cols-12 justify-center items-center p-2 mt-20">
-        <div class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-6 lg:p-10 border-4 border-gray-300 rounded-3xl relative">
+        <div class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-6 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
             <div class="h-10 col-span-12 flex justify-center items-center">
                 <div class="absolute -top-14 w-2/3 lg:w-1/3 bg-white p-2 text-center text-4xl lg:text-6xl font-semibold text-gray-900">
                     <h1>Outsourcing</h1>
@@ -395,7 +395,7 @@
 </section>
 
 {{-- TYPES project  --}}
-<section class="relative my-5 bg-gray-100">
+<section id="type" class="relative my-5 bg-gray-100">
     <div class="grid grid-cols-12 gap-4 mt-20">
         <div class="col-span-12 lg:col-span-6 relative">
             <img class="w-11/12 mx-auto lg:mx-0" src="B_U/15.png" alt="">
