@@ -16,7 +16,11 @@
 }
 
 .POL{
+    background-color: #4f0074;
     clip-path: polygon(0 0, 90% 0%, 100% 20%, 100% 100%, 0% 100%);
+}
+.BG{
+    background-color: #ae00ff;
 }
 
 </style>
@@ -45,8 +49,8 @@
         <div class=" grid grid-cols-12 col-span-6 gap-4">
             <div class=" grid grid-cols-12 gap-2 col-span-12 mt-10">
                 <div class=" flex justify-start items-center gap-2 col-span-12">
-                    <span class=" w-20 h-1 bg-blue-900"></span>
-                    <h1 class=" font-medium">blue strategy</h1>
+                    <span class="BG w-20 h-1"></span>
+                    <h1 class=" font-medium">Blue strategy</h1>
                 </div>
                 <div class="  grid grid-cols-12 justify-center items-center gap-5 col-span-12 pl-16 pt-6">
                     <div class="col-span-8">
@@ -67,7 +71,7 @@
                 </div>
             </div>
             <div class=" grid grid-cols-12 col-span-12 gap-4">
-                <div class="POL col-span-7 h-40 bg-blue-900 mb-3"></div>
+                <div class="POL col-span-7 h-40 mb-3"></div>
                 <div class=" col-span-5">
                     <h1 class="col-span-1 md:col-span-3 text-4xl md:text-7xl font-semibold pb-2">ABOUT US.</h1>
                 </div>
