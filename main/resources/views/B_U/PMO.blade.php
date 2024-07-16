@@ -31,6 +31,10 @@
     z-index: -60px;
 }
 
+.BOX{
+    box-shadow: 0  -1px 3px 1px rgb(209, 209, 209) ;
+}
+
 </style>
 
 <section class="pt-20">
@@ -306,63 +310,67 @@
     </div>
 </section>
 
-<section class=" px-16 bg-blue-500">
-    <div class=" grid grid-cols-12 justify-center items-center bg-red-500 p-2 mt-20">
-        <div class="grid grid-cols-12 col-span-12 gap-4 bg-blue-500 p-2 border-8 border-green-500 rounded-3xl relative">
-            <div class=" h-20 col-span-12 flex justify-center items-center">
-                <div class=" absolute -top-10 w-1/2 bg-yellow-300 p-2 text-center text-6xl font-semibold">
+<section class=" px-16">
+    <div class=" grid grid-cols-12 justify-center items-center p-2 mt-20">
+        <div class="grid grid-cols-12 col-span-12 gap-4 p-10 border-4 border-gray-300 rounded-3xl relative">
+            <div class=" h-10 col-span-12 flex justify-center items-center">
+                <div class=" absolute -top-14 w-1/3 bg-white p-2 text-center text-6xl font-semibold text-gray-900">
                     <h1>Outsoursing</h1>
                 </div>
             </div>
-            <div class=" col-span-6 bg-red-500">
-                <div class=" h-10 mb-10 relative">
-                    <div class=" absolute -top-10 left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center">
+            <div class=" col-span-6 bg-red-700 p-6 rounded-xl">
+                <div class=" h-5 mb-10 relative">
+                    <div class="BOX absolute -top-16 left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center">
                         <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
                         </svg>
                     </div>
                 </div>
                 <div class=" grid grid-cols-12">
-                    <div class=" col-span-12 flex justify-center items-center gap-3 text-2xl mb-4 font-semibold bg-green-600">
-                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                            <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
+                    <div class=" col-span-12 flex justify-center items-center gap-3 text-2xl mb-4 font-semibold text-white">
+                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 14 14">
+                            <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4.5 8L7 10.5L9.5 8M7 10.5v-7"/>
+                                <path d="M7 13.5a6.5 6.5 0 1 0 0-13a6.5 6.5 0 0 0 0 13"/>
+                            </g>
                         </svg>
-                        <h1>SOLUTION D'EXTERNALISATION PMO</h1>
+                        <h1>SOLUTION D'INTERNALISATION PMO</h1>
                     </div>
-                    <div class=" col-span-12 justify-center items-center bg-yellow-400">
-                        <p class=" w-3/4 ml-16 mb-4">
-                            SOLUTION D'EXTERNALISATION PMO
-                            Boostez la réussite de vos projets avec notre solution d'externalisation ... un véritable partenariat gagnant- gagnant.
+                    <div class=" col-span-12 justify-center items-center text-white">
+                        <p class=" w-3/4 ml-20 mb-4">
+                            Créez votre propre unité PMO et gérez vos projets vous- même.
                         </p>
-                        <p class=" w-3/4 ml-16">
-                            Avec notre solution d'externalisation PMO, vous avez la
-                            possibilité de nous confier l'exécution de vos projets tout 
-                            en vous concentrant sur la croissance de votre activité.
+                        <p class=" w-3/4 ml-20">
+                            Avec notre proposition d'internalisation PMO, nous vous offrons la possibilité de renforcer vos compétences
+                            internes en vous guidant dans l'établissement de votre propre unité de gestion de projet.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class=" col-span-6 bg-gray-500">
-                <div class=" h-10 mb-10 relative">
-                    <div class=" absolute -top-10 left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center">
+            <div class=" col-span-6 bg-blue-900 p-6 rounded-xl">
+                <div class=" h-5 mb-10 relative">
+                    <div class=" BOX absolute -top-16 left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center">
                         <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
                         </svg>
                     </div>
                 </div>
                 <div class=" grid grid-cols-12">
-                    <div class=" col-span-12 flex justify-center items-center gap-3 text-2xl mb-4 font-semibold bg-green-600">
-                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                            <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
+                    <div class=" col-span-12 flex justify-center items-center gap-3 text-2xl mb-4 font-semibold text-white">
+                        <svg class=" w-10 h-10 rotate-180" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 14 14">
+                            <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4.5 8L7 10.5L9.5 8M7 10.5v-7"/>
+                                <path d="M7 13.5a6.5 6.5 0 1 0 0-13a6.5 6.5 0 0 0 0 13"/>
+                            </g>
                         </svg>
                         <h1>SOLUTION D'EXTERNALISATION PMO</h1>
                     </div>
-                    <div class=" col-span-12 justify-center items-center bg-yellow-400">
-                        <p class=" w-3/4 ml-16 mb-4">
+                    <div class=" col-span-12 justify-center items-center text-white">
+                        <p class=" w-3/4 ml-20 mb-4">
                             SOLUTION D'EXTERNALISATION PMO
                             Boostez la réussite de vos projets avec notre solution d'externalisation ... un véritable partenariat gagnant- gagnant.
                         </p>
-                        <p class=" w-3/4 ml-16">
+                        <p class=" w-3/4 ml-20">
                             Avec notre solution d'externalisation PMO, vous avez la
                             possibilité de nous confier l'exécution de vos projets tout 
                             en vous concentrant sur la croissance de votre activité.
@@ -373,3 +381,5 @@
         </div>
     </div>
 </section>
+
+
