@@ -35,6 +35,17 @@
     box-shadow: 0  -1px 3px 1px rgb(209, 209, 209) ;
 }
 
+.LINE{
+    /* width: screen; */
+    height: 220px;
+    position: absolute;
+    top: 80px;
+    left: -144px;
+    border-top: 12px solid white;
+    border-left: 12px solid white;
+}
+
+
 </style>
 
 <section class="pt-20">
@@ -383,3 +394,57 @@
 </section>
 
 
+<section class=" p-1 bg-blue-600">
+    <div class=" grid grid-cols-12 gap-4 bg-red-700 p-2">
+        <div class=" col-span-5 bg-blue-500 relative ">
+            <img class=" w-11/12" src="B_U/15.png" alt="">
+            <div class=" grid grid-cols-12 gap-4 w-3/4 bg-blue-900 opacity-70 absolute top-64 z-30 -right-10 p-2">
+                <div class=" col-span-12 h-10 bg-red-500 flex justify-start items-center gap-2">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" font-semibold text-gray-800">Développeurs - solutions</span>
+                </div>
+                <div class=" col-span-12 h-10 bg-red-500 flex justify-start items-center gap-2">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" font-semibold text-gray-800">Développeurs - solutions</span>
+                </div>
+                <div class=" col-span-12 h-10 bg-red-500 flex justify-start items-center gap-2">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" font-semibold text-gray-800">Développeurs - solutions</span>
+                </div>
+                <div class=" col-span-12 h-10 bg-red-500 flex justify-start items-center gap-2">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" font-semibold text-gray-800">Développeurs - solutions</span>
+                </div>
+                <div class=" col-span-12 h-10 bg-red-500 flex justify-start items-center gap-2">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" font-semibold text-gray-800">Développeurs - solutions</span>
+                </div>
+            </div>
+        </div>
+        <div class="  grid grid-cols-12 gap-3 p-2 col-span-7 bg-blue-500">
+            <div class=" col-span-12 bg-green-600 h-10 relative">
+                <div class=" LINE w-full z-20"></div>
+                <div class=" w-full h-6 bg-red-500 absolute -bottom-0 z-20">
+                    <h1 class=" text-6xl font-semibold">YPES DE PROJETS</h1>
+                </div>
+            </div>
+            <div class=" col-span-12 bg-gray-600 p-1 relative">
+                <div class="  bg-red-700  -z-30 p-3">
+                    <div class=" w-2/3 h-96 absolute bg-green-600 -top-16 right-20">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
