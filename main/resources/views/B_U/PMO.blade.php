@@ -305,3 +305,71 @@
         </div>
     </div>
 </section>
+
+<section class=" px-16 bg-blue-500">
+    <div class=" grid grid-cols-12 justify-center items-center bg-red-500 p-2 mt-20">
+        <div class="grid grid-cols-12 col-span-12 gap-4 bg-blue-500 p-2 border-8 border-green-500 rounded-3xl relative">
+            <div class=" h-20 col-span-12 flex justify-center items-center">
+                <div class=" absolute -top-10 w-1/2 bg-yellow-300 p-2 text-center text-6xl font-semibold">
+                    <h1>Outsoursing</h1>
+                </div>
+            </div>
+            <div class=" col-span-6 bg-red-500">
+                <div class=" h-10 mb-10 relative">
+                    <div class=" absolute -top-10 left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center">
+                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class=" grid grid-cols-12">
+                    <div class=" col-span-12 flex justify-center items-center gap-3 text-2xl mb-4 font-semibold bg-green-600">
+                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
+                        </svg>
+                        <h1>SOLUTION D'EXTERNALISATION PMO</h1>
+                    </div>
+                    <div class=" col-span-12 justify-center items-center bg-yellow-400">
+                        <p class=" w-3/4 ml-16 mb-4">
+                            SOLUTION D'EXTERNALISATION PMO
+                            Boostez la réussite de vos projets avec notre solution d'externalisation ... un véritable partenariat gagnant- gagnant.
+                        </p>
+                        <p class=" w-3/4 ml-16">
+                            Avec notre solution d'externalisation PMO, vous avez la
+                            possibilité de nous confier l'exécution de vos projets tout 
+                            en vous concentrant sur la croissance de votre activité.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-span-6 bg-gray-500">
+                <div class=" h-10 mb-10 relative">
+                    <div class=" absolute -top-10 left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center">
+                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class=" grid grid-cols-12">
+                    <div class=" col-span-12 flex justify-center items-center gap-3 text-2xl mb-4 font-semibold bg-green-600">
+                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
+                        </svg>
+                        <h1>SOLUTION D'EXTERNALISATION PMO</h1>
+                    </div>
+                    <div class=" col-span-12 justify-center items-center bg-yellow-400">
+                        <p class=" w-3/4 ml-16 mb-4">
+                            SOLUTION D'EXTERNALISATION PMO
+                            Boostez la réussite de vos projets avec notre solution d'externalisation ... un véritable partenariat gagnant- gagnant.
+                        </p>
+                        <p class=" w-3/4 ml-16">
+                            Avec notre solution d'externalisation PMO, vous avez la
+                            possibilité de nous confier l'exécution de vos projets tout 
+                            en vous concentrant sur la croissance de votre activité.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
