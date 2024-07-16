@@ -111,7 +111,7 @@
 </section>
 
 {{-- notre equepe  --}}
-<section class="py-10">
+<section class="py-10 px-10">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
         <div class="lg:col-span-5 lg:pl-10">
             <div class="space-y-5 mb-5">
@@ -180,7 +180,7 @@
             </div>
         </div>
 
-        <div class="lg:col-span-6 ml-10">
+        <div class="lg:col-span-7 ml-10">
             <div class="relative mb-5">
                 <img class="rounded-2xl w-full h-72 object-cover" src="B_U/14.png" alt="">
                 <div class="ONE absolute bottom-0 left-0 w-3/5 h-20 bg-blue-600 flex items-center justify-start p-4 rounded-tr-3xl">
