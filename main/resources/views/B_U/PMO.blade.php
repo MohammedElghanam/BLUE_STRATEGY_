@@ -1,34 +1,21 @@
 <style>
 .BOR{
     border: 8px solid ;
-    border-color:  rgb(255, 0, 0);    
+    border-color:  #810000;    
 }
 .polygon {
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    background: linear-gradient(to right, #d70707, #ff0000);
+    background: linear-gradient(to right, #810000, #ff0000);
 }
 .COLOR{
-    background: linear-gradient(to bottom, #d70707, #ff0000);
+    background: linear-gradient(to bottom, #810000, #ff0000);
 }
 .CO{
-    background-color: #ff2600;
+    background-color: #810000;
 }
 
 .ONE{
-    background-color: aqua;
-    /* z-index: -1px; */
-}
-.ONE::after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: -50px;
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    border-bottom-left-radius: 30px;
-    box-shadow: -10px 4px 0 0  rebeccapurple;
-    z-index: -60px;
+    background-color: rgb(255, 255, 255);
 }
 
 .BOX{
@@ -52,6 +39,21 @@
     color: #d70707;
 }
 
+.BG{
+    background-color: #ff0000;
+}
+.POL{
+    background-color: #ff0000;
+    clip-path: polygon(0 0, 90% 0%, 100% 20%, 100% 100%, 0% 100%);
+    opacity: 0.9;
+}
+
+.RR{
+    background-color: #ff0000;
+}
+.BB{
+    background-color: #020085;
+}
 
 </style>
 
@@ -72,43 +74,54 @@
         </div>
 </section>
 
+
 {{-- about  --}}
-<section id="about" class="p-5">
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-5 mt-5">
-        <div class="col-span-1 md:col-span-6 py-10 h-full flex justify-center md:justify-start">
-            <img src="B_U/9.png" alt="About Us Image" class="w-full md:w-auto rounded-xl">
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-6 col-span-1 md:col-span-6 h-full px-5 md:px-10 pt-14">
-            <div class="grid grid-cols-1 md:grid-cols-6 items-end col-span-1 md:col-span-6 mb-3">
-                <h1 class="col-span-1 md:col-span-3 text-4xl md:text-7xl font-semibold pb-2">ABOUT US.</h1>
-                <span class="C1 h-0.5 col-span-1 md:col-span-4 mt-2 md:mt-0"></span>
+<section class=" mb-10">
+    <div class="grid grid-cols-12 gap-4">
+        <div class="col-span-12 md:col-span-6 grid grid-cols-12 gap-4">
+            <div class="col-span-12 grid grid-cols-12 gap-2 mt-10">
+                <div class="col-span-12 flex justify-start items-center gap-2">
+                    <span class="BG w-20 h-1"></span>
+                    <h1 class="font-medium">Blue strategy</h1>
+                </div>
+                <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
+                    <div class="col-span-12 md:col-span-11">
+                        <p class="text-lg md:text-xl font-light mb-3">
+                            B.U PMO - PROJECT MANAGEMENT OFFICE est notre unité d'affaires
+                            dédiée à vous accompagner dans la réalisation de vos projets
+                            les plus ambitieux et à transformer vos idées en réalité.
+                        </p>
+                        <p class="text-lg md:text-xl font-light mb-3">
+                            Que vous soyez une entreprise en plein essor, une organisation
+                            publique ou privée ou une start-up, peu importe votre secteur
+                            d'activité, nous sommes là pour vous apporter une perspective
+                            fraîche et innovante aux défis auxquels vous êtes confrontés
+                            dans l'exécution de vos projets.                        
+                        </p>
+                        <p class="text-lg md:text-xl font-light mb-3">
+                            Nos solutions sur mesure respectent votre activité, culture
+                            d'entreprise, contraintes spécifiques et priorités stratégiques,
+                            tout en respectant délais et budgets.                    
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-6 col-span-1 md:col-span-6">
-                <div class="col-span-1 md:col-span-5 text-base md:text-lg mb-3">
-                    B.U PMO - PROJECT MANAGEMENT OFFICE est notre unité d'affaires
-                    dédiée à vous accompagner dans la réalisation de vos projets
-                    les plus ambitieux et à transformer vos idées en réalité.
+            <div class="col-span-12 grid grid-cols-12 gap-4">
+                <div class="POL col-span-12 md:col-span-7 h-40 mb-3"></div>
+                <div class="col-span-12 md:col-span-5">
+                    <h1 class="text-2xl md:text-4xl lg:text-7xl font-semibold pb-2">ABOUT US.</h1>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-6 col-span-1 md:col-span-6 p-2">
-                    <div class="C2 col-span-1 md:col-span-3 flex justify-center md:justify-end pr-0 md:pr-2 text-4xl md:text-7xl font-normal">01</div>
-                    <p class="col-span-1 md:col-span-3 text-base md:text-lg bg-gray-100 p-3 rounded-xl">
-                        Que vous soyez une entreprise en plein essor, une organisation
-                        publique ou privée ou une start-up, peu importe votre secteur
-                        d'activité, nous sommes là pour vous apporter une perspective
-                        fraîche et innovante aux défis auxquels vous êtes confrontés
-                        dans l'exécution de vos projets.
-                    </p>
-                    <p class="col-span-1 md:col-span-3 text-base md:text-lg bg-gray-100 p-6 rounded-xl">
-                        Nos solutions sur mesure respectent votre activité, culture
-                        d'entreprise, contraintes spécifiques et priorités stratégiques,
-                        tout en respectant délais et budgets.
-                    </p>
-                </div>
-                
+            </div>
+        </div>
+        <div class="col-span-12 md:col-span-6 grid grid-cols-12 justify-end gap-3">
+            <div class="col-span-12">
+                <img src="B_U/15.png" alt="">
             </div>
         </div>
     </div>
 </section>
+
+
 
 {{-- notre equepe  --}}
 <section id="service" class="py-10 px-10">
@@ -331,7 +344,7 @@
                     <h1>Outsourcing</h1>
                 </div>
             </div>
-            <div class="col-span-12 lg:col-span-6 bg-red-700 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
+            <div class="RR col-span-12 lg:col-span-6 bg-red-700 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
                 <div class="h-5 mb-10 relative">
                     <div class="BOX absolute -top-16 left-1/2 transform -translate-x-1/2 lg:left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center">
                         <svg class="w-10 h-10 text-red-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -360,7 +373,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-span-12 lg:col-span-6 bg-blue-900 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
+            <div class="BB col-span-12 lg:col-span-6 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
                 <div class="h-5 mb-10 relative">
                     <div class="BOX absolute -top-16 left-1/2 transform -translate-x-1/2 lg:left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center">
                         <svg class="w-10 h-10 text-blue-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
