@@ -280,12 +280,12 @@
                 <h1 class=" text-8xl font-semibold">Our Unity</h1>
             </div>
             <div class=" grid grid-cols-12 col-span-8 gap-2">
-                <div class=" col-span-4 h-full"></div>
-                <div class=" col-span-4 h-full">
-                    <img class=" h-full" src="B_U/DIGITAL/23.png" alt="">
+                <div class=" col-span-2 h-full"></div>
+                <div class=" col-span-5 h-full">
+                    <img class=" h-full" src="B_U/DIGITAL/27.svg" alt="">
                 </div>
-                <div class=" col-span-4 h-full">
-                    <img class=" h-full" src="B_U/DIGITAL/24.png" alt="">
+                <div class=" col-span-5 h-full">
+                    <img class=" h-full" src="B_U/DIGITAL/26.png" alt="">
                 </div>
             </div>
 
@@ -431,7 +431,101 @@
                 </div>
             </div>
             <div class=" col-span-3">
-                <img src="B_U/DIGITAL/25.png" alt="">
+                <img src="B_U/DIGITAL/28.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="" class="px-4 lg:px-16">
+    <div class="grid grid-cols-1 lg:grid-cols-12 justify-center items-center p-2 mt-20">
+        <div class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-6 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
+            <div class=" col-span-12 flex justify-center items-center mb-5">
+                <div class="absolute -top-14 w-2/3 lg:w-1/3 bg-white p-2 text-center text-4xl lg:text-6xl font-semibold text-gray-900">
+                    <h1 class=" text-gray-900 mb-2">AMOA</h1>
+                    <p class=" text-lg">  ASSISTANCE A LA MAITRISE D'OUVRAGE </p>
+                </div>
+            </div>
+
+            <div class="col-span-12 lg:col-span-6 bg-gray-100 p-4 lg:py-10 rounded-xl transition-transform transform hover:scale-105">
+                
+                <div class="grid grid-cols-1">
+                    <div class="flex justify-start items-center gap-1 text-lg lg:text-lg mb-4 font-medium text-gray-900">
+                        <h1 class="">
+                            Notre expertise réside dans un accompagnement
+                            personnalisé que nous proposons tout au long de votre
+                            transition digitale.
+                        </h1>
+                    </div>
+                    <div class="flex justify-start items-center gap-3 mb-4 text-gray-900">
+                        <h1 class=" text-gray-800 text-lg">
+                            Nous intervenons tant dans le conseil et l'accompagnement lors de
+                            la conception que dans le pilotage et la validation de votre projet.
+                            Notre maîtrise des systèmes d’information, transformation digitale
+                            et notre expertise dans la gestion de projets, nous permettent de
+                            passer efficacement de vos besoins à la solution.
+                        </h1>
+                    </div>
+                    <div class="flex justify-center items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
+                        <img class=" h-48 w-1/2" src="B_U/17.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-span-12 lg:col-span-6 p-6 bg-gray-100 lg:p-10 rounded-xl transition-transform transform hover:scale-105 ml-2">
+                
+                <div class="grid grid-cols-12 mb-3">
+                    <div class=" col-span-12">
+                        <div class=" flex justify-start items-center  gap-4">
+                            <div class=" w-14 h-14 flex justify-center items-center font-bold text-3xl bg-blue-700 text-white">01</div>
+                            <p class=" text-gray-900 font-medium">Assistance au pilotage de projet</p>
+                        </div>
+                        <div class=" flex justify-start items-center  gap-4">
+                            <div class=" w-32 h-14"></div>
+                            <p class=" ml-5 text-gray-800">
+                                Notre équipe vous accompagne tout au long du
+                                processus et assure le pilotage des activités,
+                                facilitant ainsi la maitrise des contraintes du projets
+                                et la communication entre tous les acteurs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-12 mb-3">
+                    <div class=" col-span-12">
+                        <div class=" flex justify-start items-center  gap-4">
+                            <div class=" w-14 h-14 flex justify-center items-center font-bold text-3xl bg-blue-700 text-white">02</div>
+                            <p class=" text-gray-900 font-medium">Assistance à la conception</p>
+                        </div>
+                        <div class=" flex justify-start items-center  gap-4">
+                            <div class=" w-32 h-14"></div>
+                            <p class=" ml-5 text-gray-800">
+                                Pour assurer la réussite du projet, notre équipe
+                                s'attache à sécuriser toutes les étapes du cadrage,
+                                qui revêt une importance forte pour définir le besoin
+                                à mettre en œuvre et les attentes du projet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-12 mb-3">
+                    <div class=" col-span-12">
+                        <div class=" flex justify-start items-center  gap-4">
+                            <div class=" w-14 h-14 flex justify-center items-center font-bold text-3xl bg-blue-700 text-white">03</div>
+                            <p class=" text-gray-900 font-medium">Tierce recette applicative</p>
+                        </div>
+                        <div class=" flex justify-start items-center  gap-4">
+                            <div class=" w-32 h-14"></div>
+                            <p class=" ml-5 text-gray-800">
+                                LNotre équipe offre à nos clients une méthodologie
+                                de tests éprouvée afin d'assurer la qualité des
+                                livrables et garantir la satisfaction des utilisateurs.
+                            </p>
+                        </div>
+                    </div>
+                </div>  
             </div>
         </div>
     </div>
