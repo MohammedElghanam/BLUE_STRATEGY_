@@ -15,6 +15,11 @@ Route::get('/DIGITAL', function () {
     return view('2DIGITAL');
 })->name('DIGITAL');
 
+Route::get('/FORMATION', function () {
+    return view('3FORMATION');
+})->name('FORMATION');
+
+
 
 
 /* ------------------------------------------------------- */
