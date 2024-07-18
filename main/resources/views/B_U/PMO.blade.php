@@ -54,7 +54,9 @@
 .BB{
     background-color: #020085;
 }
-
+.TIT{
+    color: #ff0000;
+}
 </style>
 
 {{-- first section  --}}
@@ -82,7 +84,7 @@
             <div class="col-span-12 grid grid-cols-12 gap-2 mt-10">
                 <div class="col-span-12 flex justify-start items-center gap-2">
                     <span class="BG w-20 h-1"></span>
-                    <h1 class="font-medium">Blue strategy</h1>
+                    <h1 class="TIT font-medium text-xl">Blue strategy - PMO - PROJECT MANAGEMENT OFFICE</h1>
                 </div>
                 <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
                     <div class="col-span-12 md:col-span-11">
@@ -108,8 +110,8 @@
             </div>
             <div class="col-span-12 grid grid-cols-12 gap-4">
                 <div class="POL col-span-12 md:col-span-7 h-40 mb-3"></div>
-                <div class="col-span-12 md:col-span-5">
-                    <h1 class="text-2xl md:text-4xl lg:text-7xl font-semibold pb-2">ABOUT US.</h1>
+                <div class="col-span-12 md:col-span-5 flex items-center">
+                    <h1 class="TIT text-2xl md:text-4xl lg:text-5xl font-semibold pb-2">ABOUT US.</h1>
                 </div>
             </div>
         </div>
@@ -129,7 +131,7 @@
             <div class="space-y-5 mb-5">
                 <div class="flex items-center gap-4">
                     <span class="iconify" data-icon="ph:users-three" data-inline="false" style="color: #020085; font-size: 48px;"></span>
-                    <h1 class="text-6xl font-semibold">Notre équipe</h1>
+                    <h1 class="text-5xl font-semibold text-blue-800">Notre équipe</h1>
                 </div>
                 <p class="font-normal">
                     Une équipe projet doté de compétences diversifiées,
@@ -195,8 +197,8 @@
         <div class="lg:col-span-7 ml-10">
             <div class="relative mb-5">
                 <img class="rounded-2xl w-full h-72 object-cover" src="B_U/14.png" alt="">
-                <div class="ONE absolute bottom-0 left-0 w-3/5 h-20 bg-blue-600 flex items-center justify-start p-4 rounded-tr-3xl">
-                    <h1 class="text-4xl font-semibold text-gray-800">Nos Services PMO</h1>
+                <div class="ONE absolute bottom-0 left-0 w-1/2 h-20 bg-blue-600 flex items-center justify-start p-4 rounded-tr-3xl">
+                    <h1 class="TIT text-3xl font-semibold text-blue-800">Nos Services PMO</h1>
                 </div>
             </div>
             <div class="bg-gray-100 p-6 rounded-2xl grid gap-4">
