@@ -16,7 +16,7 @@
 }
 
 .POL{
-    background-color: #4f0074;
+    background-color: #ae00ff;
     clip-path: polygon(0 0, 90% 0%, 100% 20%, 100% 100%, 0% 100%);
 }
 .BG{
@@ -59,7 +59,7 @@
             <div class="col-span-12 grid grid-cols-12 gap-2 mt-10">
                 <div class="col-span-12 flex justify-start items-center gap-2">
                     <span class="BG w-20 h-1"></span>
-                    <h1 class="font-medium">Blue strategy</h1>
+                    <h1 class="TIT font-medium text-xl">Blue strategy - Services Degitaux</h1>
                 </div>
                 <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
                     <div class="col-span-12 md:col-span-8">
@@ -81,8 +81,8 @@
             </div>
             <div class="col-span-12 grid grid-cols-12 gap-4">
                 <div class="POL col-span-12 md:col-span-7 h-40 mb-3"></div>
-                <div class="col-span-12 md:col-span-5">
-                    <h1 class="text-2xl md:text-4xl lg:text-7xl font-semibold pb-2">ABOUT US.</h1>
+                <div class="col-span-12 md:col-span-5 flex items-center">
+                    <h1 class="TIT text-2xl md:text-4xl lg:text-5xl font-semibold pb-2">ABOUT US.</h1>
                 </div>
             </div>
         </div>
@@ -253,15 +253,18 @@
         <div class="col-span-12 lg:col-span-6">
             <img class="w-full" src="B_U/DIGITAL/31.jpg" alt="">
         </div>
-        <div class="BOT grid grid-cols-12 gap-2 p-4 lg:p-10 col-span-12">
-            <div class="col-span-12 md:col-span-4">
-                <div>
-                    <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48">
-                        <g fill="none" stroke="white" stroke-linejoin="round" stroke-width="4">
-                            <path d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20Z"/>
-                            <path stroke-linecap="round" d="M24 16v16m-8-8h16"/>
-                        </g>
-                    </svg>
+        <div class="BOT grid grid-cols-12 gap-2 p-4 lg:p-10 col-span-12 relative">
+            <div class=" BOT w-20 h-20 rounded-full flex justify-center items-center absolute -top-10 left-10">
+                <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48">
+                    <g fill="none" stroke="white" stroke-linejoin="round" stroke-width="4">
+                        <path d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20Z"/>
+                        <path stroke-linecap="round" d="M24 16v16m-8-8h16"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="col-span-12 md:col-span-4 grid items-center">
+                <div class="">
+                    <img class=" w-9 h-9" src="B_U/FOR/17.png" alt="">
                     <div class="mt-5">
                         <h1 class="font-bold text-white">DEVELOPPEMENT SPECIFIQUE</h1>
                     </div>
