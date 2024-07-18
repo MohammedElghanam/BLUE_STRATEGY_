@@ -42,7 +42,7 @@
 }
 
 .H{
-    height: 350px;
+    height: 380px;
     position: absolute;
     top: 112px;
     left: 410px;
@@ -55,27 +55,27 @@
         <div class=" col-span-12 relative bg-yellow-300">
             <img src="AP/91.png" alt="fo bar" class=" h-80 w-full">
             <img src="AP/22.png" alt="" class=" absolute left-40 -bottom-28 w-52 h-48">
-            <div class=" flex items-end justify-end w-1/2 absolute bottom-0 right-0">
+            {{-- <div class=" flex items-end justify-end w-1/2 absolute bottom-0 right-0">
                 <div class=" w-56 h-10 bg-white "></div>
                 <div class=" w-96 h-20 bg-white flex items-end justify-center"></div>
-            </div>
+            </div> --}}
         </div>
-        <div class=" H w-20 bg-blue-900 opacity-70"></div>
-        <div class=" col-span-6"></div>
-        <div class="  col-span-6 mt-4">
+        <div class=" H w-24 bg-blue-900 opacity-70"></div>
+        <div class=" col-span-5"></div>
+        <div class="  col-span-7 mt-4">
             <div class="">
-                <h1 class=" text-5xl font-bold text-gray-900 mb-2">Nos secteur d'activite</h1>
+                <h1 class=" text-5xl font-bold text-blue-900 mb-2">Nos secteur d'activite</h1>
                 <div class=" w-4/5 h-1 bg-blue-900"></div>
             </div>
             
             
         </div>
-        <div class=" grid justify-center items-center col-span-12 mt-16 pl-60">
-            <p class="TOP w-3/4 text-lg font-normal text-gray-900 mb-4 text-center">
+        <div class=" grid grid-cols-12 justify-center items-center col-span-12 mt-16">
+            <p class="TOP col-span-7 text-lg font-normal text-gray-900 mb-4">
                 BLUE STRATEGY développe des compétences sectorielles pour mettre en place des solutions qui anticipent ou
                 répondent aux attentes de différents clients .
             </p>
-            <p class="TOP w-3/4 text-lg font-normal text-gray-900 text-center">
+            <p class="TOP col-span-7 text-lg font-normal text-gray-900">
                 otre cabinet intervient dans divers secteurs d'activité, aussi bien au sein d'entreprises que d'organisations de
                 toutes tailles, que ce soit dans le secteur public ou privé.
             </p>

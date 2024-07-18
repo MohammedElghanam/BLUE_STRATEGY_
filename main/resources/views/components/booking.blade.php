@@ -33,17 +33,17 @@
             <div class=" col-span-12 h-96 relative">
                 <img src="AP/91.png" alt="fo bar" class=" h-96 w-full">
                 <img src="AP/22.png" alt="" class=" absolute right-40 -bottom-40 w-68 h-64">
-                <div class=" flex items-end justify-start w-1/2 absolute bottom-0 left-0">
+                {{-- <div class=" flex items-end justify-start w-1/2 absolute bottom-0 left-0">
                     <div class=" w-96 h-28 bg-white flex items-end justify-center">
                         <div class=" w-96 h-1 bg-blue-900"></div>
                     </div>
                     <div class=" h-16 w-40 bg-white"></div>
-                </div>
+                </div> --}}
             </div>
             <div class=" w-32 bg-blue-900 opacity-70 h-3/4 absolute top-[84px] right-1/3"></div>
             <div class="  col-span-5 mt-4">
-                <h1 class=" text-7xl font-bold text-gray-900 mb-5">BOOking</h1>
-                <p class=" text-4xl font-medium text-gray-900">Enjoy a better experience with our company</p>
+                <h1 class=" text-7xl font-semibold text-gray-900 mb-5">BOOking</h1>
+                <p class=" text-4xl font-light text-gray-900">Enjoy a better experience with our company</p>
             </div>
         </div>
         <div class=" grid grid-cols-12 h-56 rounded-bl-full bg-white"></div>
