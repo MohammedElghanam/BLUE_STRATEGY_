@@ -70,12 +70,12 @@
             
             
         </div>
-        <div class=" grid grid-cols-12 justify-center items-center col-span-12 mt-16">
-            <p class="TOP col-span-7 text-lg font-normal text-gray-900 mb-4">
+        <div class=" grid justify-center items-center col-span-12 mt-16 pl-60">
+            <p class="TOP w-3/4 text-lg font-normal text-gray-900 mb-4 text-center">
                 BLUE STRATEGY développe des compétences sectorielles pour mettre en place des solutions qui anticipent ou
                 répondent aux attentes de différents clients .
             </p>
-            <p class="TOP col-span-7 text-lg font-normal text-gray-900">
+            <p class="TOP w-3/4 text-lg font-normal text-gray-900 text-center">
                 otre cabinet intervient dans divers secteurs d'activité, aussi bien au sein d'entreprises que d'organisations de
                 toutes tailles, que ce soit dans le secteur public ou privé.
             </p>
