@@ -22,7 +22,7 @@
     background-color: #d0c310;
 }
 .TIT{
-    color: #d0c310;
+    color: #8b8200;
 }
 
 .BOR_1{
@@ -325,9 +325,9 @@
 
         <div class="grid grid-cols-12 col-span-12 h-20 justify-start items-center bg-white mb-2">
             <div class="col-span-6 h-full flex justify-start items-center">
-                <div class="w-40 h-1 bg-blue-900"></div>
+                <div class="BG w-40 h-1"></div>
             </div>
-            <div class="col-span-6 px-10 h-full flex justify-end items-center bg-blue-900">
+            <div class="BG col-span-6 px-10 h-full flex justify-end items-center">
                 <div class="w-10 h-10 bg-white"></div>
             </div>
         </div>
@@ -361,10 +361,7 @@
                 <div class="w-full lg:w-11/12">
                     <div>
                         <div class="flex justify-start items-center gap-4 mb-3">
-                            <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                <!-- SVG Path Here -->
-                            </svg>
-                            <h1 class="font-medium text-2xl lg:text-5xl w-full lg:w-3/4">Accompagnement de vos projets</h1>
+                            <h1 class=" text-2xl lg:text-5xl w-full lg:w-3/4">Accompagnement de vos projets</h1>
                         </div>
                         <div class="lg:ml-16">
                             <p class="mb-4">

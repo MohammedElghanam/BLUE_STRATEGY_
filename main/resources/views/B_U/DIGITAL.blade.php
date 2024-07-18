@@ -53,7 +53,7 @@
 
 
 {{-- about  --}}
-<section>
+<section id="about">
     <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12 md:col-span-6 grid grid-cols-12 gap-4">
             <div class="col-span-12 grid grid-cols-12 gap-2 mt-10">
@@ -232,7 +232,7 @@
 
 
 
-<section class="px-4 lg:px-32 my-10">
+<section id="web" class="px-4 lg:px-32 my-10">
     <div class="grid grid-cols-12 gap-6">
         <div class="grid grid-cols-12 gap-2 col-span-12 lg:col-span-6 pl-4 lg:pl-10">
             <div class="grid items-center col-span-12 md:col-span-6">
@@ -282,7 +282,7 @@
     </div>
 </section>
 
-<section class="px-4 lg:px-32 my-10">
+<section id="Intégration" class="px-4 lg:px-32 my-10">
     <div class="grid grid-cols-12 gap-6">
         <div class="grid grid-cols-12 gap-2 col-span-12 lg:col-span-6 p-4 lg:p-10 lg:pl-20">
             <div class="grid items-center col-span-12">
@@ -380,7 +380,7 @@
 </section>
 
 
-<section class="px-4 lg:px-32 my-10">
+<section id="UX" class="px-4 lg:px-32 my-10">
     <div class="grid grid-cols-12 gap-3">
         <div class="grid grid-cols-12 col-span-12 gap-2">
             <div class="col-span-12 lg:col-span-4">
@@ -540,7 +540,7 @@
 </section>
 
 
-<section id="" class="px-4 lg:px-16">
+<section id="AMOA" class="px-4 lg:px-16">
     <div class="grid grid-cols-1 lg:grid-cols-12 justify-center items-center p-2 mt-20">
         <div class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-6 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
             <div class=" col-span-12 flex justify-center items-center mb-5">

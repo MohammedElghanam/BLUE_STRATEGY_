@@ -122,7 +122,6 @@
 </section>
 
 
-
 {{-- notre equepe  --}}
 <section id="service" class="py-10 px-10">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
@@ -338,13 +337,13 @@
 {{-- outsoursing  --}}
 <section id="outsoursing" class="px-4 lg:px-16">
     <div class="grid grid-cols-1 lg:grid-cols-12 justify-center items-center p-2 mt-20">
-        <div class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-6 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
+        <div class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-6 p-6 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
             <div class="h-10 col-span-12 flex justify-center items-center">
                 <div class="absolute -top-14 w-2/3 lg:w-1/3 bg-white p-2 text-center text-4xl lg:text-6xl font-semibold text-gray-900">
                     <h1>Outsourcing</h1>
                 </div>
             </div>
-            <div class="RR col-span-12 lg:col-span-6 bg-red-700 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
+            <div class="RR col-span-12 lg:col-span-6 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
                 <div class="h-5 mb-10 relative">
                     <div class="BOX absolute -top-16 left-1/2 transform -translate-x-1/2 lg:left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center">
                         <svg class="w-10 h-10 text-red-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

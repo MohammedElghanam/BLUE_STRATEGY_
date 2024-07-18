@@ -129,7 +129,7 @@
                     
                     <li x-data="{showChildren:false}" @click.away="showChildren=false">
                         <div class=" flex items-center gap-2 hover:text-blue-600 h-16">
-                            <a href="#" class="block z-50 py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  hover:bg-white lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" @click.prevent="showChildren=!showChildren">Nos Domaines D'expertise</a>
+                            <a href="#" class="block z-50 py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  hover:bg-white lg:hover:bg-transparent lg:border-0 hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" @click.prevent="showChildren=!showChildren">Nos Domaines D'expertise</a>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
                                 viewBox="0 0 24 24">
                                 <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -247,15 +247,23 @@
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">SERVICES DIGITAUX</h1>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href=" {{ url('/DIGITAL') }}">About</a>
+                                        <a href=" {{ url('/DIGITAL') }}#about">About</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>Notre Equipe</span>
+                                        <a href="{{ url('/DIGITAL') }}#AMOA">AMOA</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>Nos Service</span>
+                                        <a href="{{ url('/DIGITAL') }}#Intégration">Intégration ERP/CRM </a>
+                                    </div>
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
+                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
+                                        <a href="{{ url('/DIGITAL') }}#web">Développement WEB </a>
+                                    </div>
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
+                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
+                                        <a href="{{ url('/DIGITAL') }}#UX">DESIGN UX/UI </a>
                                     </div>
                                 </div>
 
