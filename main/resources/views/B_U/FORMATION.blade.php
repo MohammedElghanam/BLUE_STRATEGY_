@@ -1,7 +1,7 @@
 <style>
 .BOR{
     border: 8px solid ;
-    border-color:  #8b8200;    
+    border-color:  #cec10e;    
 }
 .polygon {
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
@@ -11,27 +11,28 @@
     background: linear-gradient(to bottom, #8b8200, #ffee00);
 }
 .CO{
-    background-color: #8b8200;
+    background-color: #cec10e;
 }
 
 .POL{
-    background-color: #d0c310;
+    background-color: #ffee00;
     clip-path: polygon(0 0, 90% 0%, 100% 20%, 100% 100%, 0% 100%);
 }
 .BG{
-    background-color: #d0c310;
+    background-color: #ffee00;
 }
 .TIT{
-    color: #8b8200;
+    color: #ffee00;
 }
 
 .BOR_1{
     border-bottom: 3px solid #ae00ff;
 }
 .F{
-    border-top: 11px solid #d0c310;
-    border-left: 11px solid #d0c310;
+    border-top: 11px solid #ffee00;
+    /* border-left: 11px solid #ffee00; */
 }
+
 </style>
 {{-- first section  --}}
 <section class="">
@@ -56,7 +57,7 @@
             <div class="col-span-12 grid grid-cols-12 gap-2 mt-10">
                 <div class="col-span-12 flex justify-start items-center gap-2">
                     <span class="BG w-20 h-1"></span>
-                    <h1 class="font-medium">Blue strategy</h1>
+                    <h1 class="TIT font-medium text-xl">Blue strategy - Formation Professionnelle</h1>
                 </div>
                 <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
                     <div class="col-span-12 md:col-span-8">
@@ -78,8 +79,8 @@
             </div>
             <div class="col-span-12 grid grid-cols-12 gap-4">
                 <div class="POL col-span-12 md:col-span-7 h-40 mb-3"></div>
-                <div class="col-span-12 md:col-span-5">
-                    <h1 class="text-2xl md:text-4xl lg:text-7xl font-semibold pb-2">ABOUT US.</h1>
+                <div class="col-span-12 md:col-span-5 flex items-center">
+                    <h1 class="TIT text-2xl md:text-4xl lg:text-5xl font-semibold pb-2">ABOUT US.</h1>
                 </div>
             </div>
         </div>
@@ -146,8 +147,7 @@
                 
                 <div class="grid grid-cols-1">
                     <div class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
-                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#8b8200" d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9A3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42c-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3a3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3a3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9c-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65c2.56.34 4.45 1.51 4.45 2.9z"/></svg>
-                        <h1 class=" TIT">Notre equipe</h1>
+                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#fbff00" d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9A3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42c-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3a3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3a3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9c-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65c2.56.34 4.45 1.51 4.45 2.9z"/></svg>                        <h1 class=" TIT">Notre equipe</h1>
                     </div>
                     <div class=" grid grid-cols-12 gap-3 text-white text-center p-2 lg:text-left">
                         <div class=" col-span-6 flex justify-start items-center gap-4">
@@ -228,10 +228,101 @@
             <h1 class="TIT text-2xl md:text-4xl lg:text-6xl font-semibold">NOS SOLUTIONS DE FORMATIONS</h1>
         </div>
 
-        <div class="col-span-12 bg-yellow-50 h-24 md:h-32 lg:h-40"></div>
+        <div class="col-span-12 h-24 md:h-32 lg:h-40"></div>
         
-        <div class="col-span-12 gap-2">
-            <section class="dark:bg-gray-100 dark:text-gray-800">
+        <div class=" grid grid-cols-12 justify-center items-center col-span-12 gap-6 px-20">
+            
+            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white shadow-xl rounded-xl">
+                <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+                    <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/9.svg">
+                    <div class="p-2 space-y-2">
+                        <h3 class="text-lg md:text-2xl font-semibold">
+                            FORMATION INTER-ENTREPRISE
+                        </h3>
+                        <div class="h-0.5 w-full bg-blue-900"></div>
+                        <p>
+                            Pas d’intervenant ou de salle à trouver, vous n’avez rien à
+                            faire, nous s’occupons de tout : les locaux, la salle, les
+                            formateurs, la forme de l'apprentissage, le groupe de
+                            participants, pauses déj ...
+                        </p>
+                        <p>
+                            Les formations se déroulent dans nos locaux, respectant un
+                                protocole d’apprentissage interne pour vous accueillir dans
+                                les meilleures conditions, structurer et faciliter le processus de
+                                votre apprentissage.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white shadow-xl rounded-xl">
+                <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+                    <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/6.svg">
+                    <div class="p-2 space-y-2">
+                        <h3 class="text-lg md:text-2xl font-semibold">
+                            FORMATION SUR-MESURE
+                        </h3>
+                        <div class="h-0.5 w-full bg-blue-900"></div>
+                        <p>
+                            Nos compétences techniques nous permettent de développer un large éventail 
+                            de solutions Digital Learning
+                            efficientes rapidement, destinées à tous les secteurs et 
+                            métiers, autant pour des individuels en inter-entreprises que pour des 
+                            groupes d’apprenants en intra-entreprise.
+                        </p>
+                        <p>
+                            Les collaborateurs se forment en permanence, à leur rythme
+                            et depuis leur poste de travail, un suivi des progressions et une logistique déléguée à demos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white shadow-xl rounded-xl">
+                <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+                    <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/8.svg">
+                    <div class="p-2 space-y-2">
+                        <h3 class="text-lg md:text-2xl font-semibold">
+                            FORMATION INTRA-ENTREPRISE
+                        </h3>
+                        <div class="h-0.5 w-full bg-blue-900"></div>
+                        <p>
+                            La formation intra entreprise est une formation issue du
+                            catalogue BLUE STRATEGY ( ou sur-mesure ) mise en place
+                            au sein de votre organisation.
+                        </p>
+                        <p>
+                            La formation intra entreprise se déroule dans vos locaux, dans
+                            le lieu de votre choix ou à distance.
+                            Coût réduit, souplesse, cohésion interne… la formation intra
+                            entreprise présente de nombreux avantages.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white shadow-xl rounded-xl">
+                <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+                    <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/7.svg">
+                    <div class="p-2 space-y-2">
+                        <h3 class="text-lg md:text-2xl font-semibold">
+                            DIGITAL LEARNING
+                        </h3>
+                        <div class="h-0.5 w-full bg-blue-900"></div>
+                        <p>
+                            Vos équipes sont uniques. Vos enjeux sont spécifiques, 
+                                    plus digitale, plus transversale, plus ouverte… Tout comme son
+                                    environnement, votre organisation est toujours en mouvement.
+                        </p>
+                        <p>
+                            Ensemble, analysons vos attentes, 
+                                    vos objectifs et concevons votre solution de 
+                                    formation sur mesure. Adaptée, concrète,
+                                    innovante. Rapidement efficace
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            {{-- <section class="dark:bg-gray-100 dark:text-gray-800">
                 <div class="container max-w-full md:max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
                     <div class="block max-w-full sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50">
                         <img src="B_U/FOR/9.svg" alt="" class="object-cover w-full h-48 sm:h-64 lg:h-96 lg:col-span-7 dark:bg-gray-500">
@@ -254,7 +345,27 @@
                             </p>
                         </div>
                     </div>
-                    <div class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                        <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+                            <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/8.svg">
+                            <div class="p-6 space-y-2">
+                                <h3 class="text-lg md:text-2xl font-semibold">
+                                    FORMATION INTRA-ENTREPRISE
+                                </h3>
+                                <div class="h-0.5 w-full bg-blue-900"></div>
+                                <p>
+                                    La formation intra entreprise est une formation issue du
+                                    catalogue BLUE STRATEGY ( ou sur-mesure ) mise en place
+                                    au sein de votre organisation.
+                                </p>
+                                <p>
+                                    La formation intra entreprise se déroule dans vos locaux, dans
+                                    le lieu de votre choix ou à distance.
+                                    Coût réduit, souplesse, cohésion interne… la formation intra
+                                    entreprise présente de nombreux avantages.
+                                </p>
+                            </div>
+                        </div>
                         <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                             <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/8.svg">
                             <div class="p-6 space-y-2">
@@ -283,8 +394,11 @@
                                 </h3>
                                 <div class="h-0.5 w-full bg-blue-900"></div>
                                 <p>
-                                    Nos compétences techniques nous permettent de développer un large éventail de solutions Digital Learning
-                                    efficientes rapidement, destinées à tous les secteurs et métiers, autant pour des individuels en inter-entreprises que pour des groupes d’apprenants en intra-entreprise.
+                                    Nos compétences techniques nous permettent de développer un large éventail 
+                                    de solutions Digital Learning
+                                    efficientes rapidement, destinées à tous les secteurs et 
+                                    métiers, autant pour des individuels en inter-entreprises que pour des 
+                                    groupes d’apprenants en intra-entreprise.
                                 </p>
                                 <p>
                                     Les collaborateurs se forment en permanence, à leur rythme
@@ -314,18 +428,141 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
+            {{-- <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                      <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog">
+                        <div class="p-6">
+                          <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                          <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+                          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                          <div class="flex items-center flex-wrap ">
+                            <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                              </svg>
+                            </a>
+                            <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                              </svg>1.2K
+                            </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                              </svg>6
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                      <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog">
+                        <div class="p-6">
+                          <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                          <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+                          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                          <div class="flex items-center flex-wrap">
+                            <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                              </svg>
+                            </a>
+                            <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                              </svg>1.2K
+                            </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                              </svg>6
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                      <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog">
+                        <div class="p-6">
+                          <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                          <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+                          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                          <div class="flex items-center flex-wrap ">
+                            <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                              </svg>
+                            </a>
+                            <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                              </svg>1.2K
+                            </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                              </svg>6
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog">
+                          <div class="p-6">
+                            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                            <div class="flex items-center flex-wrap ">
+                              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                  <path d="M5 12h14"></path>
+                                  <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                              </a>
+                              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                  <circle cx="12" cy="12" r="3"></circle>
+                                </svg>1.2K
+                              </span>
+                              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                </svg>6
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </section> --}}
         </div>
     </div>
 </section> 
 
 
 <section class="my-20">
-    <div class="grid grid-cols-12 lg:pl-20">
+    <div class="grid grid-cols-12 lg:pl-20 gap-10">
 
         <div class="grid grid-cols-12 col-span-12 h-20 justify-start items-center bg-white mb-2">
-            <div class="col-span-6 h-full flex justify-start items-center">
+            <div class="col-span-6 h-full flex justify-start items-end gap-8">
                 <div class="BG w-40 h-1"></div>
+                <h1 class="text-3xl lg:text-5xl w-full lg:w-3/5">INGENIERIE DE FORMATION</h1>
             </div>
             <div class="BG col-span-6 px-10 h-full flex justify-end items-center">
                 <div class="w-10 h-10 bg-white"></div>
@@ -334,15 +571,15 @@
 
         <div class="grid grid-cols-12 p-2 gap-2 col-span-12 lg:col-span-12">
             <div class="col-span-12 lg:col-span-6">
-                <div class="flex justify-start items-center gap-2 mt-4">
-                    <h1 class="text-3xl lg:text-5xl w-full lg:w-3/5">INGENIERIE DE FORMATION</h1>
-                </div>
                 <div class="mt-7 grid gap-2 lg:ml-16">
                     <p class="w-full lg:w-3/4 font-light text-lg lg:text-xl">BLUE STRATEGY vous propose ses services pour la conception et la mise en œuvre de vos projets de formation.</p>
                     <p class="w-full lg:w-3/4 font-light text-lg lg:text-xl">
                         Nous adaptons les actions d'ingénierie de formation en fonction des besoins spécifiques de
                         vos collaborateurs et de la réalité de votre organisation, afin de vous aider à vous positionner de manière durable, en répondant aux réformes du marché de travail et de formation.
                     </p>
+                </div>
+                <div class="flex justify-start items-center gap-2 mt-4 ml-14">
+                    <h1 class=" text-2xl lg:text-4xl w-full lg:w-3/4">Accompagnement de vos projets</h1>
                 </div>
             </div>
             <div class="col-span-12 lg:col-span-6">
@@ -361,7 +598,6 @@
                 <div class="w-full lg:w-11/12">
                     <div>
                         <div class="flex justify-start items-center gap-4 mb-3">
-                            <h1 class=" text-2xl lg:text-5xl w-full lg:w-3/4">Accompagnement de vos projets</h1>
                         </div>
                         <div class="lg:ml-16">
                             <p class="mb-4">
