@@ -4,9 +4,10 @@ namespace App\Http\Controllers;
 
 
 
+use App\Models\Visit;
 use App\Models\Booking;
-use App\Models\Contact;
 
+use App\Models\Contact;
 use App\Mail\Send_Message;
 use App\Mail\validBooking;
 use App\Mail\ValideBooking;
@@ -28,8 +29,9 @@ class dashboardController extends Controller
         $invalid = Booking::where('status', 'invalid')->get();
         $user = Auth()->user();
         $contacts = Contact::all();
+        $visitCount = Visit::count();
         // dd($user);
-        return view('dashboard', compact('contacts', 'user', 'valid', 'later','invalid'));
+        return view('dashboard', compact('contacts', 'user', 'valid', 'later','invalid', 'visitCount'));
     }
 
     public function valid(Request $request)

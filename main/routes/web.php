@@ -7,18 +7,6 @@ use App\Http\Controllers\BookingController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\dashboardController;
 
-Route::get('/PMO', function () {
-    return view('1PMO');
-})->name('PMO');
-
-Route::get('/DIGITAL', function () {
-    return view('2DIGITAL');
-})->name('DIGITAL');
-
-Route::get('/FORMATION', function () {
-    return view('3FORMATION');
-})->name('FORMATION');
-
 
 
 
@@ -51,7 +39,7 @@ Route::middleware('guest')->group(function(){
 
     Route::get('/', function () {
         return view('home');
-    })->name('home'); 
+    })->name('home')->middleware('track_visits'); 
 
     Route::get('/A propos de nous', function () { 
         return view('Apropos');
@@ -60,6 +48,20 @@ Route::middleware('guest')->group(function(){
     Route::get('/Notre vision', function () {
         return view('vision');
     })->name('vision');
+
+    Route::get('/PMO', function () {
+        return view('1PMO');
+    })->name('PMO');
+    
+    Route::get('/DIGITAL', function () {
+        return view('2DIGITAL');
+    })->name('DIGITAL');
+    
+    Route::get('/FORMATION', function () {
+        return view('3FORMATION');
+    })->name('FORMATION');
+    
+    
        
 });
 

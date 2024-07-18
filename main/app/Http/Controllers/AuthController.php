@@ -51,13 +51,18 @@ class AuthController extends Controller
             'password'=> $request->password,
         ];
         
-        if(Auth::attempt($data)){
+        if (!Auth::check()) {
+            if(Auth::attempt($data)){
 
-            return redirect()->route('dashboard');
-            
-        }else {
-            return redirect()->back()->with(['error' => 'Invalid credentials. Please try again.']);
+                return redirect()->route('dashboard');
+                
+            }else {
+                return redirect()->back()->with(['error' => 'Invalid credentials. Please try again.']);
+            }
+        } else {
+            abort(200);
         }
+        
     }
 
     public function logout(){

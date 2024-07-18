@@ -14,6 +14,7 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
             'auth' => \App\Http\Middleware\Authentification::class,
             'guest' => \App\Http\Middleware\guest::class,
+            'track_visits' => \App\Http\Middleware\TrackVisits::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
