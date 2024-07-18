@@ -19,7 +19,7 @@
 }
 
 .BOX{
-    box-shadow: 0  -1px 3px 1px rgb(209, 209, 209) ;
+    box-shadow: 0  0px 3px 0.7px rgb(224, 215, 215) ;
 }
 
 .LINE{
@@ -56,6 +56,10 @@
 }
 .TIT{
     color: #ff0000;
+}
+
+.TIT1{
+    color: #0026ff;
 }
 </style>
 
@@ -130,8 +134,10 @@
         <div class="lg:col-span-5 lg:pl-10">
             <div class="space-y-5 mb-5">
                 <div class="flex items-center gap-4">
-                    <span class="iconify" data-icon="ph:users-three" data-inline="false" style="color: #020085; font-size: 48px;"></span>
-                    <h1 class="text-5xl font-semibold text-blue-800">Notre équipe</h1>
+                    <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="#ff0000" d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9A3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42c-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3a3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3a3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9c-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65c2.56.34 4.45 1.51 4.45 2.9z"/>
+                    </svg>                    
+                    <h1 class="TIT text-5xl font-semibold">Notre équipe</h1>
                 </div>
                 <p class="font-normal">
                     Une équipe projet doté de compétences diversifiées,
@@ -347,20 +353,12 @@
             </div>
             <div class="RR col-span-12 lg:col-span-6 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
                 <div class="h-5 mb-10 relative">
-                    <div class="BOX absolute -top-16 left-1/2 transform -translate-x-1/2 lg:left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center">
-                        <svg class="w-10 h-10 text-red-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                            <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
-                        </svg>
+                    <div class="BOX absolute -top-16 left-1/2 transform -translate-x-1/2 lg:left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center rotate-180">
+                        <svg class=" w-12 h-12" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#ff0000" stroke-linecap="round" stroke-width="1.5"><path stroke-miterlimit="10" d="M12 6.458v11.084"/><path stroke-linejoin="round" d="m17.278 11.303l-4.529-4.528a1.056 1.056 0 0 0-1.498 0l-4.529 4.528"/><path stroke-linejoin="round" d="M12 21.5a9.5 9.5 0 1 0 0-19a9.5 9.5 0 0 0 0 19"/></g></svg>
                     </div>
                 </div>
                 <div class="grid grid-cols-1">
-                    <div class="flex justify-center items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-white">
-                        <svg class="w-8 h-8 lg:w-10 lg:h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 14 14">
-                            <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M4.5 8L7 10.5L9.5 8M7 10.5v-7"/>
-                                <path d="M7 13.5a6.5 6.5 0 1 0 0-13a6.5 6.5 0 0 0 0 13"/>
-                            </g>
-                        </svg>
+                    <div class="flex justify-start items-center text-xl lg:text-2xl mb-4 font-semibold text-white">
                         <h1>SOLUTION D'INTERNALISATION PMO</h1>
                     </div>
                     <div class="text-white text-center lg:text-left">
@@ -376,20 +374,12 @@
             </div>
             <div class="BB col-span-12 lg:col-span-6 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
                 <div class="h-5 mb-10 relative">
-                    <div class="BOX absolute -top-16 left-1/2 transform -translate-x-1/2 lg:left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center">
-                        <svg class="w-10 h-10 text-blue-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                            <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
-                        </svg>
+                    <div  class="BOX absolute -top-16 left-1/2 transform -translate-x-1/2 lg:left-8 w-20 h-20 bg-white rounded-full flex justify-center items-center">
+                        <svg class=" w-12 h-12" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#020085" stroke-linecap="round" stroke-width="1.5"><path stroke-miterlimit="10" d="M12 6.458v11.084"/><path stroke-linejoin="round" d="m17.278 11.303l-4.529-4.528a1.056 1.056 0 0 0-1.498 0l-4.529 4.528"/><path stroke-linejoin="round" d="M12 21.5a9.5 9.5 0 1 0 0-19a9.5 9.5 0 0 0 0 19"/></g></svg>
                     </div>
                 </div>
                 <div class="grid grid-cols-1">
-                    <div class="flex justify-center items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-white">
-                        <svg class="w-8 h-8 lg:w-10 lg:h-10 rotate-180" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 14 14">
-                            <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M4.5 8L7 10.5L9.5 8M7 10.5v-7"/>
-                                <path d="M7 13.5a6.5 6.5 0 1 0 0-13a6.5 6.5 0 0 0 0 13"/>
-                            </g>
-                        </svg>
+                    <div class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-white">
                         <h1>SOLUTION D'EXTERNALISATION PMO</h1>
                     </div>
                     <div class="text-white text-center lg:text-left">
