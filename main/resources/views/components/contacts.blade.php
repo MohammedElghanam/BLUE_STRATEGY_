@@ -58,7 +58,7 @@
                             <h1 class="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">
                                 Contact us</h1>
                             <div class="absolute bottom-0 w-full lg:p-11 p-5">
-                                <div class="bg-white rounded-lg p-6 block">
+                                <div class="bg-blue-800 rounded-lg p-6 block text-white">
                                     <a href="javascript:;" class="flex items-center mb-6">
                                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +67,7 @@
                                                 stroke="#4F46E5" stroke-width="2" stroke-linecap="round"
                                                 stroke-linejoin="round" />
                                         </svg>
-                                        <h5 class="text-black text-base font-normal leading-6 ml-5">470-601-1911</h5>
+                                        <h5 class=" text-base font-normal leading-6 ml-5">470-601-1911</h5>
                                     </a>
                                     <a href="https://veilmail.io/irish-geoff" class="flex items-center mb-6">
                                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
@@ -76,7 +76,7 @@
                                                 d="M2.81501 8.75L10.1985 13.6191C12.8358 15.2015 14.1544 15.9927 15.6032 15.9582C17.0519 15.9237 18.3315 15.0707 20.8905 13.3647L27.185 8.75M12.5 25H17.5C22.214 25 24.5711 25 26.0355 23.5355C27.5 22.0711 27.5 19.714 27.5 15C27.5 10.286 27.5 7.92893 26.0355 6.46447C24.5711 5 22.214 5 17.5 5H12.5C7.78595 5 5.42893 5 3.96447 6.46447C2.5 7.92893 2.5 10.286 2.5 15C2.5 19.714 2.5 22.0711 3.96447 23.5355C5.42893 25 7.78595 25 12.5 25Z"
                                                 stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
                                         </svg>
-                                        <h5 class="text-black text-base font-normal leading-6 ml-5">
+                                        <h5 class=" text-base font-normal leading-6 ml-5">
                                             https://veilmail.io/irish-geoff</h5>
                                     </a>
                                     <a href="javascript:;" class="flex items-center">
@@ -89,7 +89,7 @@
                                                 d="M17.5 11.6148C17.5 13.0531 16.3807 14.219 15 14.219C13.6193 14.219 12.5 13.0531 12.5 11.6148C12.5 10.1765 13.6193 9.01058 15 9.01058C16.3807 9.01058 17.5 10.1765 17.5 11.6148Z"
                                                 stroke="#4F46E5" stroke-width="2" />
                                         </svg>
-                                        <h5 class="text-black text-base font-normal leading-6 ml-5">654 Sycamore Avenue,
+                                        <h5 class=" text-base font-normal leading-6 ml-5">654 Sycamore Avenue,
                                             Meadowville, WA 76543</h5>
                                     </a>
                                 </div>
