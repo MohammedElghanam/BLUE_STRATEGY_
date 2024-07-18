@@ -28,8 +28,8 @@
     position: absolute;
     top: 80px;
     left: -144px;
-    border-top: 12px solid rgb(30, 58, 138);
-    border-left: 12px solid rgb(30, 58, 138);
+    border-top: 12px solid #ff0000;
+    border-left: 12px solid #ff0000;
 }
 
 .C1{
@@ -403,7 +403,7 @@
     <div class="grid grid-cols-12 gap-4 mt-20">
         <div class="col-span-12 lg:col-span-6 relative">
             <img class="w-11/12 mx-auto lg:mx-0" src="B_U/15.png" alt="">
-            <div class="grid grid-cols-12 gap-1 w-11/12 lg:w-2/3 bg-blue-900 absolute top-64 z-30 right-1 lg:right-0 lg:-right-10 p-4 rounded-xl">
+            <div class="BG grid grid-cols-12 gap-1 w-11/12 lg:w-2/3 absolute top-64 z-30 right-1 lg:right-0 lg:-right-10 p-4 rounded-xl">
                 <div class="col-span-12 h-10 flex justify-start items-center gap-2 mb-2">
                     <span class="font-bold text-gray-100 text-2xl">PROJETS EXTRA-ENTREPRISE :</span>
                 </div>
@@ -474,7 +474,7 @@
             <div class="col-span-12 h-10 relative">
                 <div class="LINE w-full z-20"></div>
                 <div class="w-full h-6 absolute bottom-0 z-20">
-                    <h1 class="text-6xl font-semibold text-gray-900">TYPES DE PROJETS</h1>
+                    <h1 class="text-5xl font-semibold TIT">TYPES DE PROJETS</h1>
                 </div>
             </div>
             <div class="col-span-12 p-1 relative">
