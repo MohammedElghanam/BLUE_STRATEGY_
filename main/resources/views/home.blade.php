@@ -10,6 +10,7 @@
     @include('components.founder')
     @include('components.companys')
     @include('components.contacts')
+    @include('components.maps')
     @include('components.footer')
     
 <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>

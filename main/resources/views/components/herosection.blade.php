@@ -83,6 +83,7 @@
     <div class="w-full h-20"></div>
     <div class="grid max-w-screen-xl lg:gap-8 xl:gap-0 lg:grid-cols-12 h-full mx-16">
         <div class="mr-auto place-self-center lg:col-span-7 mb-12 lg:mb-0">
+            <div class="w-full h-20"></div>
             <h1 class="max-w-2xl mb-5 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-white">
                 Payments tool for software companies
             </h1>
@@ -115,13 +116,21 @@
                     <h1 class="text-center font-medium text-blue-900 ">Professional</h1>
                 </div>
             </div>
-            <a href="{{route('booking_now')}}"
-               class="inline-flex items-center justify-center px-5 py-3 mr-3 mb-5 text-base font-medium text-center text-white rounded-lg bg-blue-900 hover:bg-blue-800">
+            <button href="{{route('booking_now')}}"
+               class=" relative inline-flex items-center justify-center px-5 py-3 mr-3 mb-5 text-base font-medium text-center text-white rounded-md bg-blue-700 hover:bg-blue-800">
                 Reserve maintenant
                 <svg class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="white" d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3m1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z"/>
                 </svg>
-            </a>
+                <div class=" w-5 h-5 absolute -top-2 -right-2 flex justify-center items-center">
+                    <span class="relative flex h-3 w-3">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-900 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-blue-900"></span>
+                    </span>
+                </div>
+            </button>
+
+            
         </div>
         <!-- Conditionally remove this div on md screens -->
         <div id="img_zoom" class="hidden h-full md:flex col-span-5 justify-end items-end">

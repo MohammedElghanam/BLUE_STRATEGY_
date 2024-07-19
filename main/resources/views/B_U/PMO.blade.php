@@ -93,7 +93,7 @@
             <div class="col-span-12 grid grid-cols-12 gap-2 mt-10">
                 <div class="col-span-12 flex justify-start items-center gap-2">
                     <span class="BG w-20 h-1"></span>
-                    <h1 class="TIT font-medium text-xl">BLUE STRATEGY - PROJECT MANAGEMENT OFFICE</h1>
+                    <h1 class="TIT font-bold text-xl">BLUE STRATEGY - PROJECT MANAGEMENT OFFICE</h1>
                 </div>
                 <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
                     <div class="col-span-12 md:col-span-11">
