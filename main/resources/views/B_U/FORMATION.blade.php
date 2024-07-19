@@ -73,8 +73,8 @@
                     <span class="BG w-20 h-1"></span>
                     <h1 class="TIT font-bold text-xl">BLUE STRATEGY - FORMATION PROFESSIONNELLE</h1>
                 </div>
-                <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
-                    <div class="col-span-12 md:col-span-8">
+                <div class=" col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
+                    <div class=" col-span-12 lg:col-span-11 md:col-span-8">
                         <h1 class="font-medium">
                             Trouvez la solution de formation adaptée à vos besoins et
                             transformez vos compétences en performance
@@ -203,7 +203,7 @@
 
         <div class=" grid grid-cols-12 justify-center items-center col-span-12 gap-6 px-20">
 
-            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white shadow-xl rounded-xl">
+            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                     <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/9.svg">
                     <div class="p-2 space-y-2">
@@ -226,7 +226,7 @@
                     </div>
                 </div>
             </div>
-            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white shadow-xl rounded-xl">
+            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                     <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/6.svg">
                     <div class="p-2 space-y-2">
@@ -249,7 +249,7 @@
                     </div>
                 </div>
             </div>
-            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white shadow-xl rounded-xl">
+            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                     <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/8.svg">
                     <div class="p-2 space-y-2">
@@ -271,7 +271,7 @@
                     </div>
                 </div>
             </div>
-            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white shadow-xl rounded-xl">
+            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                     <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/7.svg">
                     <div class="p-2 space-y-2">
@@ -304,8 +304,8 @@
 
         <div class="grid grid-cols-12 col-span-12 h-20 justify-start items-center bg-white mb-2">
             <div class="col-span-6 h-full flex justify-start items-end gap-5">
-                <div class="BG w-40 h-1"></div>
-                <h1 class="text-3xl lg:text-4xl font-bold w-full">INGENIERIE DE FORMATION</h1>
+                <div class="BG w-28 h-1"></div>
+                <h1 class="TIT text-3xl lg:text-4xl font-bold w-full">INGENIERIE DE FORMATION</h1>
             </div>
             <div class="BG col-span-6 px-10 h-full flex justify-end items-center">
                 <div class="w-10 h-10 bg-white"></div>
@@ -315,7 +315,7 @@
         <div class="grid grid-cols-12 p-2 gap-2 col-span-12 lg:col-span-12">
             <div class="col-span-12 lg:col-span-6">
                 <div class="flex justify-start items-center gap-2 mt-4 ml-14">
-                    <h1 class=" text-2xl lg:text-4xl w-full lg:w-3/4">Accompagnement de vos projets</h1>
+                    <h1 class=" text-2xl lg:text-3xl w-full">Accompagnement de vos projets</h1>
                 </div>  
                 <div class="mt-7 grid gap-2 lg:ml-16">
                     <p class="w-full lg:w-3/4 font-light text-lg lg:text-xl">BLUE STRATEGY vous propose ses services
@@ -405,7 +405,9 @@
 <section>
     <div class=" grid grid-cols-12 gap-2 px-20">
         <div class=" col-span-6 p-10 relative">
-            <h1 class=" BG absolute w-1/2 bottom-28 left-0 text-4xl font-bold text-white p-4">NOS DOMAINES DE FORMATI0N </h1> 
+            <div class=" BG absolute w-3/5 bottom-28 left-0  p-4 flex justify-center items-center">
+                <h1 class="  text-4xl font-bold text-white">NOS DOMAINES DE FORMATI0N </h1> 
+            </div>
             <img class="" src="B_U/FOR/18.svg" alt="">
         </div>
         <div class=" grid grid-cols-12 gap-2 col-span-6">
@@ -731,7 +733,9 @@
         </div>
         
         <div class=" col-span-6 flex justify-end items-center relative">
-            <h1 class=" BG absolute w-1/3 bottom-24 -left-28 text-4xl font-bold text-white p-4 py-6">FORMATIONS SECTORIELLES </h1> 
+            <div class=" BG  absolute w-1/2 bottom-24 -left-28 p-4 py-6 flex justify-start items-center">
+                <h1 class=" w-1/3 text-4xl font-bold text-white">FORMATIONS SECTORIELLES </h1> 
+            </div>
             <img class="" src="B_U/FOR/21.svg" alt="">
         </div>
     </div>
