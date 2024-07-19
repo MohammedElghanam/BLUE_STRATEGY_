@@ -43,7 +43,7 @@
         <div class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0">
             <div class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5 bg-red-500"></div>
             <div class="text-white absolute left-1/2 transform -translate-x-1/2 md:-right-40 md:bottom-4 text-center md:text-left animate-fade-in">
-                <h1 class="font-bold text-2xl md:text-4xl">B.U 02</h1>
+                <h1 class="font-bold text-2xl md:text-4xl">B.U 03</h1>
                 <h1 class="font-bold text-2xl md:text-4xl">Services Digitaux</h1>
             </div>
             <div class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28"></div>
@@ -394,12 +394,7 @@
                     </div>
                     <div class="col-span-12 lg:col-span-6 flex justify-start items-center gap-4">
                         <div>
-                            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                                <g fill="none" stroke="#ae00ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
-                                    <path d="M21 6H9C7.34315 6 6 7.34315 6 9V31C6 32.6569 7.34315 34 9 34H39C40.6569 34 42 32.6569 42 31V21"/>
-                                    <path d="M24 34V42"/><path d="M32 6L28 10L32 14"/><path d="M38 6L42 10L38 14"/><path d="M14 42L34 42"/>
-                                </g>    
-                            </svg>
+                            <img class=" w-8 h-8" src="B_U/FOR/22.png" alt="">
                         </div>
                         <p class="TIT text-2xl font-bold">UX/UI DESIGN</p>
                     </div>
