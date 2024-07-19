@@ -122,9 +122,7 @@
             <button href="{{route('booking_now')}}"
                class=" relative inline-flex items-center justify-center px-5 py-3 mr-3 mb-5 text-base font-medium text-center text-white rounded-md bg-blue-700 hover:bg-blue-800">
                 Reservez votre RDV
-                <svg class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                    <path fill="white" d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3m1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z"/>
-                </svg>
+                <img class=" w-6 h-6 ml-2 -mr-1" src="B_U/19.png" alt="">
                 <div class=" w-5 h-5 absolute -top-2 -right-2 flex justify-center items-center">
                     <span class="relative flex h-3 w-3">
                         <span class=" SPIN animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>

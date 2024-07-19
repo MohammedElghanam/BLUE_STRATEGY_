@@ -60,6 +60,10 @@ Route::middleware('guest')->group(function(){
     Route::get('/FORMATION', function () {
         return view('3FORMATION');
     })->name('FORMATION');
+
+    Route::get('/RH', function () {
+        return view('4RH');
+    })->name('RH');
        
 });
 

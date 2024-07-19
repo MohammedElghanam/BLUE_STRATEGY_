@@ -64,21 +64,23 @@
         <div class=" col-span-5"></div>
         <div class="  col-span-7 mt-4">
             <div class="">
-                <h1 class=" text-5xl font-bold text-blue-900 mb-2">Nos secteur d'activite</h1>
-                <div class=" w-4/5 h-1 bg-blue-900"></div>
+                <h1 class=" text-5xl font-bold text-blue-900 mb-2">Nos secteurs d'activite</h1>
+                <div class=" w-3/4 h-1 bg-blue-900"></div>
             </div>
             
             
         </div>
         <div class=" grid grid-cols-12 justify-center items-center col-span-12 mt-16">
-            <p class="TOP col-span-7 text-lg font-normal text-gray-900 mb-4">
+            <p class="TOP col-span-12 text-lg font-normal text-gray-900 mb-4">
                 BLUE STRATEGY développe des compétences sectorielles pour mettre en place des solutions qui anticipent ou
                 répondent aux attentes de différents clients .
-            </p>
-            <p class="TOP col-span-7 text-lg font-normal text-gray-900">
                 otre cabinet intervient dans divers secteurs d'activité, aussi bien au sein d'entreprises que d'organisations de
                 toutes tailles, que ce soit dans le secteur public ou privé.
             </p>
+            {{-- <p class="TOP col-span-7 text-lg font-normal text-gray-900">
+                otre cabinet intervient dans divers secteurs d'activité, aussi bien au sein d'entreprises que d'organisations de
+                toutes tailles, que ce soit dans le secteur public ou privé.
+            </p> --}}
 
         </div>
     </div>

@@ -365,10 +365,10 @@
 <section id="UX" class="px-4 lg:px-32 my-10">
     <div class="grid grid-cols-12 gap-3">
         <div class="grid grid-cols-12 col-span-12 gap-2">
-            <div class="col-span-12 lg:col-span-4">
-                <h1 class="text-4xl lg:text-8xl font-semibold">Our Unity</h1>
+            <div class="col-span-12 lg:col-span-5 flex items-end">
+                <h1 class="text-4xl lg:text-5xl font-semibold">Nos services WEB</h1>
             </div>
-            <div class="grid grid-cols-12 col-span-12 lg:col-span-8 gap-2">
+            <div class="grid grid-cols-12 col-span-12 lg:col-span-7 gap-2">
                 <div class="col-span-2 h-full hidden lg:block"></div>
                 <div class="col-span-6 lg:col-span-5 h-full">
                     <img class="h-full w-full" src="B_U/DIGITAL/27.svg" alt="">
