@@ -50,6 +50,7 @@
 }
 </style>
 
+
 {{-- first section  --}}
 <section class="">
     <div class="flex justify-center items-center relative">
@@ -434,75 +435,81 @@
 </section>
 
 
-<section>
-    <div class=" grid grid-cols-12 gap-6 px-20">
-        <div class=" col-span-6">
-            <div class=" px-6 mb-4">
-                <h1 class=" TIT text-4xl font-semibold">COACHING PROFESSIONNEL</h1>
-            </div>
-            <div class=" mb-4">
-                <p>
-                    Chez BLUE STRATEGY, nous accomplissons que le coaching
-                    est une réponse solide et professionnelle à des attentes
-                    clairement démontrées par une personne, une équipe ou
-                    une organisation, dans son processus de changement.
-                    C'est pourquoi nous avons soigneusement sélectionné une
-                    équipe de coachs professionnels hautement qualifiés afin
-                    de vous aider à développer vos talents.
-                </p>
-            </div>
-            <div class=" mb-4">
-                <h1 class=" text-2xl font-bold mb-3">Les différents formats de coaching :  </h1>
-                <p>
-                    Nos coachs s'adaptent à vos besoins grâce aux divers
-                    formats de coaching que nous proposons 
-                </p>
-            </div>
-            <div class=" grid gap-2 ml-8">
-                <div class=" flex justify-start items-center gap-4">
-                    <div class="">
-                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
-                    </div>
-                    <p class=" font-medium">Coaching individuel </p>
-                </div>
-                <div class=" flex justify-start items-center gap-4">
-                    <div class="">
-                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
-                    </div>
-                    <p class=" font-medium"> Coaching d'équipe </p>
-                </div>
-                <div class="">
-                    <div class=" flex justify-start items-center gap-4">
-                        <div class="">
-                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
-                        </div>
-                        <p class=" font-medium"> Boost coaching : </p>
-                    </div>
-                    <p class=" w-3/4 pl-11 text-gray-800">
-                        un accompagnement réalisé en 01
-                        seule séance d’une durée d’environ 02 heures.                
-                    </p>
-                </div>
-                <div class="">
-                    <div class=" flex justify-start items-center gap-4">
-                        <div class="">
-                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
-                        </div>
-                        <p class=" font-medium"> Coaching flash : </p>
-                    </div>
-                    <p class=" w-3/4 pl-11 text-gray-800">
-                        un accompagnement réalisé en 03
-                        séances individuelles à l’issue d’une formation suivie.                        
-                    </p>
-                </div>
+<section class=" my-20 bg-gray-100">
+    <div class=" grid grid-cols-12 gap-2 px-24">
+        <div class=" col-span-6 relative">
+            <img src="U_I/7.png" alt="">
+            <div class="BG h-72 w-56 p-6 absolute top-0 -right-32 grid justify-center items-end">
+               <div class="">
+                <h1 class="text-7xl font-bold text-white">*</h1>
+                <h1 class="B1 text-2xl font-bold text-white">COACHING PROFESSIONNEL</h1>
+                <h1 class="B2 hidden text-2xl font-bold text-white">NOS COACHS SONT</h1>
+               </div>
             </div>
         </div>
-        <div class=" grid grid-cols-1 gap-4 col-span-6">
-            <div class=" col-span-1">
-                <div class=" col-span-1 px-6 mb-4">
-                    <h1 class="TIT text-4xl font-semibold">NOS COACHS SONT </h1>
+        <div class=" grid grid-cols-1 gap-2 p-2 col-span-6">
+
+            <div class="A1 col-span-1 p-4">
+                <div class=" mb-4 ml-28">
+                    <p>
+                        Chez BLUE STRATEGY, nous accomplissons que le coaching
+                        est une réponse solide et professionnelle à des attentes
+                        clairement démontrées par une personne, une équipe ou
+                        une organisation, dans son processus de changement.
+                        C'est pourquoi nous avons soigneusement sélectionné une
+                        équipe de coachs professionnels hautement qualifiés afin
+                        de vous aider à développer vos talents.
+                    </p>
                 </div>
-                <div class=" col-span-1 grid gap-2">
+                <div class=" mb-4 ml-28">
+                    <h1 class="TIT text-2xl font-bold mb-3">Les différents formats de coaching :  </h1>
+                    <p>
+                        Nos coachs s'adaptent à vos besoins grâce aux divers
+                        formats de coaching que nous proposons 
+                    </p>
+                </div>
+                <div class=" grid grid-cols-2 p-2 gap-2 ml-8 mt-4">
+                    <div class=" col-span-1 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" font-medium">Coaching individuel </p>
+                    </div>
+                    <div class=" col-span-1 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" font-medium"> Coaching d'équipe </p>
+                    </div>
+                    <div class=" col-span-1">
+                        <div class=" flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            </div>
+                            <p class=" font-medium"> Boost coaching : </p>
+                        </div>
+                        <p class=" pl-11 text-gray-800">
+                            un accompagnement réalisé en 01
+                            seule séance d’une durée d’environ 02 heures.                
+                        </p>
+                    </div>
+                    <div class=" col-span-1">
+                        <div class=" flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            </div>
+                            <p class=" font-medium"> Coaching flash : </p>
+                        </div>
+                        <p class=" pl-11 text-gray-800">
+                            un accompagnement réalisé en 03
+                            séances individuelles à l’issue d’une formation suivie.                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="A2 hidden col-span-1 p-4">
+                <div class=" ml-32 mt-10 grid gap-3">
                     <div class=" flex justify-start items-center gap-4">
                         <div class="">
                             <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
@@ -534,18 +541,29 @@
                     </div>
                 </div>
             </div>
-            <div class="col-span-1">
-                <img class=" rounded-3xl" src="B_U/RH/1.svg" alt="">
+
+            <div class=" col-span-1">
+                <div class=" p-2 flex gap-2 justify-end">
+                    <button id="back1" class=" BG w-12 h-12 rounded-full flex justify-center items-center">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+                            <path fill="white" d="M685.248 104.704a64 64 0 0 1 0 90.496L368.448 512l316.8 316.8a64 64 0 0 1-90.496 90.496L232.704 557.248a64 64 0 0 1 0-90.496l362.048-362.048a64 64 0 0 1 90.496 0"/>
+                        </svg>
+                    </button>
+                    <button id="next1" class=" BG w-12 h-12 rounded-full flex justify-center items-center">
+                        <svg class=" w-7 h-7 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+                            <path fill="white" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-
-<section class=" my-24">
+<section class=" my-10">
     <div class=" grid grid-cols-12 gap-4 p-2 mx-32">
         <div class="grid grid-cols-1 gap-6 col-span-7">
-            <div class=" p-2 col-span-1 bg-blue-900 shadow-2xl">
+            <div class=" p-2 col-span-1 BG shadow-2xl">
                 <div class=" p-2 ">
                     <div class=" ml-6 flex items-end h-10 mb-4">
                         <div class=" w-28 h-0.5 bg-white"></div>
@@ -606,8 +624,16 @@
 
 
                     <div class=" p-2 flex gap-2 justify-end">
-                        <button id="back" class=" w-12 h-12 rounded-full opacity-20 bg-white flex justify-center items-center">left</button>
-                        <button id="next" class=" w-12 h-12 rounded-full opacity-20 bg-white flex justify-center items-center">right</button>
+                        <button id="back" class=" w-12 h-12 rounded-full opacity-20 bg-white flex justify-center items-center">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+                                <path fill="currentColor" d="M685.248 104.704a64 64 0 0 1 0 90.496L368.448 512l316.8 316.8a64 64 0 0 1-90.496 90.496L232.704 557.248a64 64 0 0 1 0-90.496l362.048-362.048a64 64 0 0 1 90.496 0"/>
+                            </svg>
+                        </button>
+                        <button id="next" class=" w-12 h-12 rounded-full opacity-20 bg-white flex justify-center items-center">
+                            <svg class=" w-7 h-7 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+                                <path fill="currentColor" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/>
+                            </svg>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -675,15 +701,17 @@
 
         <div class="grid grid-cols-12 gap-2 col-span-5">
             <div class=" col-span-12">
-                <h1 class=" text-blue-900 text-5xl font-semibold">ANIMATION DES EQUIPES</h1>
+                <h1 class=" TIT text-5xl font-semibold">ANIMATION DES EQUIPES</h1>
             </div>
-            <img class=" col-span-6" src="B_U/DIGITAL/22.png" alt="">
+            <img class=" col-span-6" src="B_U/RH/10.png" alt="">
+            <img class=" col-span-6" src="B_U/RH/11.png" alt="">
             <img class=" col-span-6" src="B_U/TPE/13.png" alt="">
-            <img class=" col-span-6" src="B_U/TPE/13.png" alt="">
+            {{-- <img class=" col-span-6" src="B_U/RH/10.png" alt=""> --}}
             <img class=" col-span-6" src="B_U/DIGITAL/22.png" alt="">
         </div>
     </div>
 </section>
+
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -702,6 +730,21 @@
             $(".TESTO2").hide();
             $(".TESTO3").show();
             $(".TESTO").show();
+        }); 
+
+        $("#next1").click(function (e) { 
+            e.preventDefault();
+            $(".A1").hide();
+            $(".B1").hide();
+            $(".A2").show();
+            $(".B2").show();
+        }); 
+        $("#back1").click(function (e) { 
+            e.preventDefault();
+            $(".A1").show();
+            $(".B1").show();
+            $(".A2").hide();
+            $(".B2").hide();
         }); 
     });
 </script>
