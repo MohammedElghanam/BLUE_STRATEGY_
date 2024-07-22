@@ -11,30 +11,49 @@
                 </div>
             </a>
             </div>
-            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                <div>
-                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+            <div class="grid grid-cols-2 gap-8 justify-end sm:gap-6 sm:grid-cols-3">
+                <div class=""></div>
+                <div class="">
+                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Qui Somme Nous</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-2">
-                            <a href="#" class="hover:underline">Flowbite</a>
+                            <a href="{{route('propos')}}" class="hover:underline">A propos</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="hover:underline">Notre equipe</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline">Tailwind CSS</a>
+                            <a href="{{route('vision')}}" class="hover:underline">Nos secteur d'activitè</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('/') }}#founder" class="hover:underline">Mot du fondatrice</a>
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                <div class="">
+                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Nos Domaines D'expertise</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-2">
-                            <a href="#" class="hover:underline ">Github</a>
+                            <a href="#" class="hover:underline ">PROJECT MANAGEMENT OFFICE</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline">Discord</a>
+                            <a href="#" class="hover:underline">Service TPM/PME</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Service Digitaux</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Carriere RH</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Formation Professionnelle</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Entreprenariat Et Project D’ess</a>
                         </li>
                     </ul>
                 </div>
-                <div>
+                {{-- <div>
                     <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-2">
@@ -44,7 +63,7 @@
                             <a href="#" class="hover:underline">Terms &amp; Conditions</a>
                         </li>
                     </ul>
-                </div>
+                </div> --}}
             </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />

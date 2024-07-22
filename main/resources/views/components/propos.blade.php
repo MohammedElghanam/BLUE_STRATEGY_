@@ -127,13 +127,16 @@
 .B_U6{
   background-color: #ff9a3c;  
 }
-
+XS.{
+    font-size: 15px ;
+    line-height: 19px ;
+}
 </style>
 
 
 <section class="grid grid-cols-1 lg:grid-cols-12 px-6 lg:px-40 pt-20 lg:pt-40 w-full">
     <div class="col-span-1 lg:col-span-6 mb-10 lg:mb-0 h-auto lg:h-3/4">
-        <h1 class="TOP text-3xl lg:text-4xl font-bold text-blue-800 mb-6">A propos de nous</h1>
+        <h1 class="TOP text-3xl lg:text-4xl font-bold text-blue-800 mb-6">A PROPOS DE NOUS</h1>
         <div class="grid grid-cols-12 justify-center items-center w-full bg-blue-900 p-6 lg:p-12 rounded-lg">
             <div class="DATA col-span-12">
                 <p class="col-span-12 text-lg font-light text-white mb-3">
@@ -187,7 +190,7 @@
 <section class="py-20">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 px-4 md:px-12 lg:px-36">
         <div class=" lg:col-span-12 md:col-span-1 mb-5 text-center">
-            <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl text-blue-800 z-50">Nos Domaines D'expertise</h1>
+            <h1 class="font-bold text-3xl md:text-4xl lg:text-4xl text-blue-900 z-50">NOS DOMAINES D'EXPERTISE</h1>
         </div>
 
         <div class="B_U1 grid grid-cols-1 lg:col-span-4 p-4 gap-2 rounded-lg transform translate-x-1 duration-150 hover:scale-105 ">
@@ -195,8 +198,7 @@
                 <img src="U_I/1.png" alt="PMO" class="w-20 h-20">
             </div>
             <div class="text-center text-white">
-                <h1 class="text-xl font-semibold">PMO</h1>
-                <h1 class="text-xl font-semibold w-full">PROJECT MANAGEMENT OFFICE</h1>
+                <h1 class="XS font-semibold w-full">PMO-PROJECT MANAGEMENT OFFICE</h1>
             </div>
         </div>
         
@@ -205,7 +207,7 @@
                 <img src="U_I/2.png" alt="Services TPE / PME" class="w-20 h-20">
             </div>
             <div class="text-center text-white">
-                <h1 class="text-xl font-semibold">SERVICES AUX TPE / PME</h1>
+                <h1 class="XS font-semibold">SERVICES AUX TPE / PME</h1>
             </div>
         </div>
         
@@ -214,7 +216,7 @@
                 <img src="U_I/3.png" alt="Services Digitaux" class="w-20 h-20">
             </div>
             <div class="text-center text-white">
-                <h1 class="text-xl font-semibold">SERVICES DIGITAUX</h1>
+                <h1 class="text-lg font-semibold">SERVICES DIGITAUX</h1>
             </div>
         </div>
         
@@ -223,7 +225,7 @@
                 <img src="U_I/4.png" alt="Carriere et RH" class="w-20 h-20">
             </div>
             <div class="text-center text-white">
-                <h1 class="text-xl font-semibold">CARRIERE ET RH</h1>
+                <h1 class="XS font-semibold">CARRIERE ET RH</h1>
             </div>
         </div>
         
@@ -232,7 +234,7 @@
                 <img src="U_I/5.png" alt="Formation Professionnelle" class="w-20 h-20">
             </div>
             <div class="text-center text-white">
-                <h1 class="text-xl font-semibold">FORMATION PROFESSIONNELLE</h1>
+                <h1 class="XS font-semibold">FORMATION PROFESSIONNELLE</h1>
             </div>
         </div>
         
@@ -241,7 +243,7 @@
                 <img src="U_I/6.png" alt="Entreprenariat et ESS" class="w-20 h-20">
             </div>
             <div class="text-center text-white">
-                <h1 class="text-xl font-semibold">ENTREPRENARIAT ET PROJETS D'ESS</h1>
+                <h1 class="XS font-semibold">ENTREPRENARIAT ET PROJETS D'ESS</h1>
             </div>
         </div>
     </div>
@@ -422,7 +424,7 @@
     </div>
     <div class="col-span-5 relative p-2">
         <div class="DESC bg-white absolute -left-16 -top-20 shadow-2xl">
-            <h1 class="text-4xl font-bold px-8 text-blue-800">Notre vision</h1>
+            <h1 class="text-4xl font-bold px-8 text-blue-800">NOTRE VISION</h1>
             <div class="grid grid-cols-12 justify-center items-center w-full px-4 pb-10 pt-5">
                 <h1 class=" col-span-12 pl-4 font-bold mb-4 text-gray-700">Accélérer votre développement</h1>
                 <p class="col-span-12 text-lg font-light pl-4 mb-2">
@@ -450,7 +452,7 @@
 <section class="grid grid-cols-12 w-full mt-10 bg-blue-900 relative" style="height: 500px;">
     <img src="AP/121.png" alt="" class="absolute left-40 top-32 w-96 shadow-2xl animate-left">
     <div class="bg-white absolute left-1/3 ml-16 top-20 shadow-2xl w-1/3 animate-right">
-        <h1 class="text-4xl font-bold text-blue-800 px-8 mt-4">Notre engagement</h1>
+        <h1 class="text-4xl font-bold text-blue-800 px-8 mt-4">NOTRE ENGAGEMENT</h1>
         <div class="grid grid-cols-12 justify-center items-center w-full px-4 py-4 ">
             <h1 class="col-span-12 pl-5 font-bold mb-4 text-gray-700">Un équipe engagée pour le développement.</h1>
             <p class="col-span-12 text-lg font-light pl-5 mb-2">

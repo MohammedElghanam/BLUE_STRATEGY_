@@ -225,7 +225,7 @@
     <div class="POL_RIGHT h-24 w-24 lg:h-36 lg:w-36 absolute top-0 left-0"></div>
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-2 p-2">
         <div class="col-span-12 h-full p-2 flex justify-start items-center">
-            <div class="TIT h-full w-full  text-3xl lg:text-5xl font-semibold pt-10">
+            <div class="TIT h-full w-full  text-3xl lg:text-3xl font-semibold pt-10">
                 <h1>RECHERCHE DU POTENTIEL</h1>
             </div>
         </div>
@@ -233,9 +233,10 @@
             <div class="col-span-4">
                 <img src="B_U/RH/2.svg" alt="" class="max-w-full">
             </div>
-            <div class="BG text-white col-span-4 p-4 bg-green-700">
+            <div class="BG text-white col-span-4 p-4">
                 <div class="p-4">
-                    <div class="font-bold text-xl mb-3">
+                    <div class="flex justify-start items-center gap-2 font-bold text-xl mb-3">
+                        <img class=" w-8 h-8" src="B_U/RH/12.png" alt="">
                         <h1>Recrutement</h1>
                     </div>
                     <div class="font-normal">
@@ -251,9 +252,10 @@
             <div class="col-span-4">
                 <img src="B_U/RH/3.svg" alt="" class="max-w-full">
             </div>
-            <div class="BG text-white col-span-4 p-4 bg-blue-700">
+            <div class="BG text-white col-span-4 p-4">
                 <div class="col-span-4 p-4">
-                    <div class="font-bold text-xl mb-3">
+                    <div class="flex justify-start items-center gap-2 font-bold text-xl mb-3">
+                        <img class=" w-8 h-8" src="B_U/RH/14.png" alt="">
                         <h1>Conseil en recrutement</h1>
                     </div>
                     <div class="font-normal">
@@ -270,9 +272,10 @@
             <div class="col-span-4">
                 <img src="B_U/RH/5.svg" alt="" class="max-w-full">
             </div>
-            <div class="BG text-white col-span-4 p-4 bg-gray-700">
+            <div class="BG text-white col-span-4 p-4">
                 <div class="col-span-4 p-4">
-                    <div class="font-bold text-xl mb-3">
+                    <div class="flex justify-start items-center gap-2 font-bold text-xl mb-3">
+                        <img class=" w-8 h-8" src="B_U/RH/13.png" alt="">
                         <h1>Cartographie des profils</h1>
                     </div>
                     <div class="font-normal">
@@ -439,11 +442,11 @@
     <div class=" grid grid-cols-12 gap-2 px-24">
         <div class=" col-span-6 relative">
             <img src="U_I/7.png" alt="">
-            <div class="BG h-72 w-56 p-6 absolute top-0 -right-32 grid justify-center items-end">
-               <div class="">
-                <h1 class="text-7xl font-bold text-white">*</h1>
+            <div class="BG h-72 w-56 p-6 absolute top-0 -right-32 flex justify-center items-end">
+               <div class=" relative p-2">
+                <div class="text-7xl font-bold text-white h-12">*</div>
                 <h1 class="B1 text-2xl font-bold text-white">COACHING PROFESSIONNEL</h1>
-                <h1 class="B2 hidden text-2xl font-bold text-white">NOS COACHS SONT</h1>
+                <h1 class="B2 hidden text-2xl font-bold text-white">NOS COACHS PROFESSIONNEL</h1>
                </div>
             </div>
         </div>
@@ -563,6 +566,66 @@
 <section class=" my-10">
     <div class=" grid grid-cols-12 gap-4 p-2 mx-32">
         <div class="grid grid-cols-1 gap-6 col-span-7">
+
+            <div class=" grid grid-cols-1 col-span-1 shadow-2xl p-8 bg-gray-100 rounded-xl">
+                <div class=" col-span-1">
+                    <h1 class=" TIT text-2xl font-semibold">Team Building</h1>
+                </div>
+                <div class=" col-span-1">
+                    <p>
+                        Nous organisons des activités de team building sur diverses thématiques originales, animées avec fun, dynamisme et bienveillance, dans le but de
+                        renforcer l'appartenance de vos équipes à la même entité.
+                    </p>
+                </div>
+                <div class=" col-span-1 h-16"></div>
+                <div class=" col-span-1 flex gap-4 justify-center items-center">
+                    <div class=" relative TIT1 w-32 h-32 rounded-lg">
+                        <div class=" absolute -top-8 grid gap-2">
+                            <div class=" w-full flex justify-center">
+                                <img class=" w-20 h-20 rounded-xl" src="B_U/RH/1.png" alt="">
+                            </div>
+                            <h1 class=" text-center font-medium text-white">
+                                Team building
+                                créatif
+                            </h1>
+                        </div>
+                    </div>
+                    <div class=" relative TIT1 w-32 h-32 rounded-lg">
+                        <div class=" absolute -top-8 grid gap-2">
+                            <div class=" w-full flex justify-center">
+                                <img class=" w-20 h-20 rounded-xl" src="B_U/RH/3.png" alt="">
+                            </div>
+                            <h1 class=" text-center font-medium text-white">
+                                Team building
+                                artistique
+                            </h1>
+                        </div>
+                    </div>
+                    <div class=" relative TIT1 w-32 h-32 rounded-lg">
+                        <div class=" absolute -top-8 grid gap-2">
+                            <div class=" w-full flex justify-center">
+                                <img class=" w-20 h-20 rounded-xl" src="B_U/RH/4.png" alt="">
+                            </div>
+                            <h1 class=" text-center font-medium text-white">
+                                Team building
+                                culturel
+                            </h1>
+                        </div>
+                    </div>
+                    <div class=" relative TIT1 w-32 h-32 rounded-lg">
+                        <div class=" absolute -top-8 grid gap-2">
+                            <div class=" w-full flex justify-center">
+                                <img class=" w-20 h-20 rounded-xl" src="B_U/RH/2.png" alt="">
+                            </div>
+                            <h1 class=" text-center font-medium text-white">
+                                Team building
+                                sportif
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <div class=" p-2 col-span-1 BG shadow-2xl">
                 <div class=" p-2 ">
                     <div class=" ml-6 flex items-end h-10 mb-4">
@@ -637,71 +700,12 @@
                     </div>
                 </div>
             </div>
-
-            <div class=" grid grid-cols-1 col-span-1 shadow-2xl p-8 bg-gray-100 rounded-xl">
-                <div class=" col-span-1">
-                    <h1 class=" text-2xl font-semibold">Team Building</h1>
-                </div>
-                <div class=" col-span-1">
-                    <p>
-                        Nous organisons des activités de team building sur diverses thématiques originales, animées avec fun, dynamisme et bienveillance, dans le but de
-                        renforcer l'appartenance de vos équipes à la même entité.
-                    </p>
-                </div>
-                <div class=" col-span-1 h-16"></div>
-                <div class=" col-span-1 flex gap-4 justify-center items-center">
-                    <div class=" relative TIT1 w-32 h-32 rounded-lg">
-                        <div class=" absolute -top-8 grid gap-2">
-                            <div class=" w-full flex justify-center">
-                                <img class=" w-20 h-20 rounded-xl" src="B_U/RH/1.png" alt="">
-                            </div>
-                            <h1 class=" text-center font-medium text-white">
-                                Team building
-                                créatif
-                            </h1>
-                        </div>
-                    </div>
-                    <div class=" relative TIT1 w-32 h-32 rounded-lg">
-                        <div class=" absolute -top-8 grid gap-2">
-                            <div class=" w-full flex justify-center">
-                                <img class=" w-20 h-20 rounded-xl" src="B_U/RH/3.png" alt="">
-                            </div>
-                            <h1 class=" text-center font-medium text-white">
-                                Team building
-                                artistique
-                            </h1>
-                        </div>
-                    </div>
-                    <div class=" relative TIT1 w-32 h-32 rounded-lg">
-                        <div class=" absolute -top-8 grid gap-2">
-                            <div class=" w-full flex justify-center">
-                                <img class=" w-20 h-20 rounded-xl" src="B_U/RH/4.png" alt="">
-                            </div>
-                            <h1 class=" text-center font-medium text-white">
-                                Team building
-                                culturel
-                            </h1>
-                        </div>
-                    </div>
-                    <div class=" relative TIT1 w-32 h-32 rounded-lg">
-                        <div class=" absolute -top-8 grid gap-2">
-                            <div class=" w-full flex justify-center">
-                                <img class=" w-20 h-20 rounded-xl" src="B_U/RH/2.png" alt="">
-                            </div>
-                            <h1 class=" text-center font-medium text-white">
-                                Team building
-                                sportif
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
 
 
         <div class="grid grid-cols-12 gap-2 col-span-5">
             <div class=" col-span-12">
-                <h1 class=" TIT text-5xl font-semibold">ANIMATION DES EQUIPES</h1>
+                <h1 class=" TIT text-4xl font-semibold">ANIMATION DES EQUIPES</h1>
             </div>
             <img class=" col-span-6" src="B_U/RH/10.png" alt="">
             <img class=" col-span-6" src="B_U/RH/11.png" alt="">

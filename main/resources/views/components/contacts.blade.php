@@ -56,7 +56,7 @@
                             <img src="https://pagedone.io/asset/uploads/1696488602.png" alt="ContactUs tailwind section"
                                 class="w-full h-full lg:rounded-l-2xl rounded-l-2xl bg-blend-multiply bg-indigo-700" />
                             <h1 class="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">
-                                Contact us</h1>
+                                Contact nous</h1>
                             <div class="absolute bottom-0 w-full lg:p-11 p-5">
                                 <div class="bg-blue-800 rounded-lg p-6 block text-white">
                                     <a href="javascript:;" class="flex items-center mb-6">
@@ -82,12 +82,11 @@
                 </div>
 
                 <div class="bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-r-2xl">
-                    <h2 class="text-indigo-600 font-manrope text-4xl font-semibold leading-10 mb-11">Send Us A Message
-                    </h2>
+                    <h2 class="text-indigo-600 font-manrope text-4xl font-semibold leading-10 mb-11">Envoyez nous un message </h2>
                     <div class=" mb-10">
                         <input name="name" type="text"
                         class="w-full h-12 text-gray-600 placeholder-gray-400  shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4"
-                        placeholder="Name">
+                        placeholder="Nom complet">
                         @error('name')
                             <p class=" text-red-500">{{$message}}*</p>
                         @enderror
@@ -103,14 +102,13 @@
                     <div class=" mb-10">
                         <input name="phone" type="text"
                         class="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4"
-                        placeholder="Phone">
+                        placeholder="Numéro de télephone">
                         @error('phone')
                             <p class=" text-red-500">{{$message}}*</p>
                         @enderror
                     </div>
                     <div class="mb-10">
-                        <h4 class="text-gray-500 text-lg font-normal leading-7 mb-4">Preferred method of communication
-                        </h4>
+                        <h4 class="text-gray-500 text-lg font-normal leading-7 mb-4">Method de communication préférérée</h4>
 
                         <div class="flex">
                             <div>
@@ -130,7 +128,7 @@
                                     <input id="radio-phone" type="radio" name="method" value="phone"
                                         class="checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100 mr-2">
                                     <label for="radio-phone" class="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
-                                        Phone
+                                        Télephone
                                     </label>
                                 </div>
                                 @error('method')
@@ -150,7 +148,7 @@
                         @enderror
                     </div>
                     <button
-                        class="w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-indigo-600 shadow-sm">Send</button>
+                        class="w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-indigo-600 shadow-sm">Envoyer</button>
                 </div>
             </div>
     </section>
