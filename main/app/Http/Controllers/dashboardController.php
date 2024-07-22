@@ -14,12 +14,17 @@ use App\Mail\ValideBooking;
 use Illuminate\Http\Request;
 use App\Mail\invalideBooking;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Cache;
 
 class dashboardController extends Controller
 {
     
     public function index()
     {
+        // Cache::get();
+        // Cache::has();
+        // Cache::forever();
+
         $valid = Booking::where('status', 'valid')->orderBy('date', 'asc')
         ->orderBy('time', 'asc')
         ->get();
