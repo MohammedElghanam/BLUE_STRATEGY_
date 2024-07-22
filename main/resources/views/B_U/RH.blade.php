@@ -44,7 +44,10 @@
     clip-path: polygon(50% 50%, 100% 0, 100% 100%, 0% 100%);
     background-color: #15803d;
 }
-
+.XS {
+    font-size: 14px ;
+    line-height: 18px ;
+}
 </style>
 
 {{-- first section  --}}
@@ -112,7 +115,7 @@
             <div class=" col-span-12 flex justify-center items-center">
                 <div
                     class="absolute -top-7 bg-white px-9 text-center text-4xl lg:text-4xl font-semibold text-gray-900">
-                    <h1 class=" text-gray-900">Notre business unty</h1>
+                    <h1 class=" text-gray-900">Notre business unit</h1>
                 </div>
             </div>
             <div
@@ -539,17 +542,79 @@
 </section>
 
 
-<section class=" px-20 my-20">
-    <div class=" grid grid-cols-12 gap-6 h-96 rounded-xl px-10 pb-20 border-4 border-gray-300">
-        <div class=" col-span-12 relative">
-            <div class=" TIT absolute -top-10 left-5 bg-white px-6">
-                <h1 class=" text-5xl font-bold">ANIMATION DES EQUIPES</h1>
+<section class=" my-24">
+    <div class=" grid grid-cols-12 gap-4 p-2 mx-32">
+        <div class="grid grid-cols-1 gap-6 col-span-7">
+            <div class=" p-2 col-span-1 bg-blue-900 shadow-2xl">
+                <div class=" p-2 ">
+                    <div class=" ml-6 flex items-end h-10 mb-4">
+                        <div class=" w-28 h-0.5 bg-white"></div>
+                    </div>
+
+                    <div class=" TESTO pl-6 mb-4 text-white h-48">
+                        <div class=" mb-6">
+                            <h1 class=" text-xl font-bold">Séminaires d'Intégration</h1>
+                        </div>
+                        <div class=" w-3/4">
+                            <p>
+                                Nous organisons des séminaires d’intégration afin de créer 
+                                le lien entre les nouveaux arrivants et 
+                                leur permettre de découvrir l’univers, 
+                                les enjeux et à la stratégie de votre organisation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class=" TESTO1 hidden ml-6 mb-4 text-white">
+                        <div class=" mb-4">
+                            <h1 class=" text-xl font-bold">Conventions</h1>
+                        </div>
+                        <div class=" col-span-1 w-3/4">
+                            <p>
+                                Nous vous assistons dans la planification de vos conventions en vous offrant :
+                            </p>
+                        </div>
+                        
+                    </div>
+
+                    <div class=" TESTO2 ml-6 grid grid-cols-6 gap-2 p-4" style=" display:none;">
+                        <div class=" col-span-3 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            </div>
+                            <p class=" text-white font-medium XS">Identification des sujets à aborder. </p>
+                        </div>
+                        <div class=" col-span-3 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            </div>
+                            <p class=" text-white font-medium XS">Coordination des conférences. </p>
+                        </div> 
+                        <div class=" col-span-3 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            </div>
+                            <p class=" text-white font-medium XS">Modération de l'événement. </p>
+                        </div>
+                        <div class=" col-span-3 flex justify-start items-center gap-4">
+                            <div class="">
+                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            </div>
+                            <p class=" text-white font-medium XS">Conception des supports. </p>
+                        </div>
+                    </div>
+
+
+                    <div class=" p-2 flex gap-2 justify-end">
+                        <button id="back" class=" w-12 h-12 rounded-full opacity-20 bg-white flex justify-center items-center">left</button>
+                        <button id="next" class=" w-12 h-12 rounded-full opacity-20 bg-white flex justify-center items-center">right</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class=" grid grid-cols-1 gap-2 p-2 col-span-7">
-            <div class=" grid grid-cols-1 col-span-1">
+
+            <div class=" grid grid-cols-1 col-span-1 shadow-2xl p-8 bg-gray-100 rounded-xl">
                 <div class=" col-span-1">
-                    <h1 class=" text-xl font-bold">Team Building</h1>
+                    <h1 class=" text-2xl font-semibold">Team Building</h1>
                 </div>
                 <div class=" col-span-1">
                     <p>
@@ -605,52 +670,38 @@
                     </div>
                 </div>
             </div>
-            
         </div>
-        <div class=" col-span-5">
 
-            <div class=" mb-3">
-                <h1 class=" text-xl font-bold">Séminaires d'Intégration</h1>
-                <p>
-                    Nous organisons des séminaires d’intégration afin de créer le lien entre les nouveaux arrivants et leur permettre de découvrir
-                    l’univers, les enjeux et à la stratégie de votre organisation.
-                </p>
-            </div>
 
-            <div class=" mb-3">
-                <h1 class=" text-xl font-bold">Conventions</h1>
-                <p>
-                    Nous vous assistons dans la planification de vos
-                    conventions en vous offrant :
-                </p>
+        <div class="grid grid-cols-12 gap-2 col-span-5">
+            <div class=" col-span-12">
+                <h1 class=" text-blue-900 text-5xl font-semibold">ANIMATION DES EQUIPES</h1>
             </div>
-
-            <div class=" ml-6">
-                <div class=" col-span-12 flex justify-start items-center gap-4">
-                    <div class="">
-                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
-                    </div>
-                    <p class=" text-gray-900 font-medium">Identification des sujets à aborder. </p>
-                </div>
-                <div class=" col-span-12 flex justify-start items-center gap-4">
-                    <div class="">
-                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
-                    </div>
-                    <p class=" text-gray-900 font-medium">Coordination des conférences. </p>
-                </div> 
-                <div class=" col-span-12 flex justify-start items-center gap-4">
-                    <div class="">
-                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
-                    </div>
-                    <p class=" text-gray-900 font-medium">Modération de l'événement. </p>
-                </div>
-                <div class=" col-span-12 flex justify-start items-center gap-4">
-                    <div class="">
-                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
-                    </div>
-                    <p class=" text-gray-900 font-medium">Conception des supports. </p>
-                </div>
-            </div>
+            <img class=" col-span-6" src="B_U/DIGITAL/22.png" alt="">
+            <img class=" col-span-6" src="B_U/TPE/13.png" alt="">
+            <img class=" col-span-6" src="B_U/TPE/13.png" alt="">
+            <img class=" col-span-6" src="B_U/DIGITAL/22.png" alt="">
         </div>
     </div>
 </section>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#next").click(function (e) { 
+            e.preventDefault();
+            $(".TESTO").hide();
+            $(".TESTO1").show();
+            $(".TESTO3").hide();
+            $(".TESTO2").show();
+        }); 
+        $("#back").click(function (e) { 
+            e.preventDefault();
+            $(".TESTO1").hide();
+            $(".TESTO2").hide();
+            $(".TESTO3").show();
+            $(".TESTO").show();
+        }); 
+    });
+</script>

@@ -1,7 +1,7 @@
 <footer class="p-4 bg-gray-50 sm:p-6 dark:bg-gray-800" id="footer">
     <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between">
-            <div class="mb-6 md:mb-0">
+            <div class="mb-6 md:mb-0 flex items-end">
             <a href="/" class="flex items-center">
                 <img src="AP/logo.png" class="mr-1 h-10 sm:h-[50%]" alt="Logo" />
                 <div class="w-full flex flex-col items-start">
@@ -13,7 +13,7 @@
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
-                    <h2 class="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-2">
                             <a href="#" class="hover:underline">Flowbite</a>
@@ -24,7 +24,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h2 class="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-2">
                             <a href="#" class="hover:underline ">Github</a>
@@ -35,7 +35,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h2 class="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-2">
                             <a href="#" class="hover:underline">Privacy Policy</a>

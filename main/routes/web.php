@@ -64,7 +64,11 @@ Route::middleware('guest')->group(function(){
     Route::get('/RH', function () {
         return view('4RH');
     })->name('RH');
-       
+   
+    Route::get('/TPE', function () {
+        return view('5TPE');
+    })->name('TPE');
+
 });
 
 
