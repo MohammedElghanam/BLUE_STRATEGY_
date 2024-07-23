@@ -183,10 +183,10 @@
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="col-span-12 h-20 mb-2">
             <div class="flex justify-center items-center mb-2">
-                <h1 class="font-medium text-5xl text-gray-700 z-30">Pourquoi nous choisir?</h1>
+                <h1 class="font-medium text-5xl text-gray-700 z-30">Nos Chiffres Clés</h1>
             </div>
             <div class="flex justify-center items-center">
-                <p class="text-2xl font-normal text-gray-700 z-30">Votre succès est notre mission</p>
+                <p class="text-2xl font-normal text-gray-700 z-30">Des résultats qui parlent d'eux-mêmes</p>
             </div>
         </div>
 
@@ -203,28 +203,32 @@
                     <div class="circular-progress CP0">
                         <span class="progress-value PV0">0%</span>
                     </div>
-                    <span class="text">Acquisitions</span>
+                    <span class="text text-center">Taux de Satisfaction Client</span>
                 </div>
 
                 <div class="container col-span-1 md:col-span-3 lg:col-span-3">
                     <div class="circular-progress CP1">
                         <span class="progress-value PV1">0%</span>
                     </div>
-                    <span class="text">HTML & CSS</span>
+                    <span class="text text-center">Projets réussis 
+                        dès la première phase
+                        </span>
                 </div>
 
                 <div class="container col-span-1 md:col-span-3 lg:col-span-3">
                     <div class="circular-progress CP2">
                         <span class="progress-value PV2">0%</span>
                     </div>
-                    <span class="text">Growth Rate</span>
+                    <span class="text text-center">Croissance des performances</span>
                 </div>
 
                 <div class="container col-span-1 md:col-span-3 lg:col-span-3">
                     <div class="circular-progress CP3">
                         <span class="progress-value PV3">0%</span>
                     </div>
-                    <span class="text">Founder NPS</span>
+                    <span class="text text-center">Réduction des 
+                        coûts opérationnels
+                        </span>
                 </div>
             </div>
         </div>
@@ -242,8 +246,7 @@
             CE QUE NOUS FAISONS.
         </h1>
         <p class="w-11/12 sm:w-3/4 lg:w-2/3 text-white text-xl text-center lg:text-left">
-            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
-            <span class="font-medium">layouts and visual mockups. Lorem ipsum is placeholder text commonly <span class="font-medium">used in the graphic,</span> print, and publishing.</span>
+            Chez BLUE STRATEGY, nous vous offrons une gamme dynamique de services pour libérer tout votre potentiel et activer les leviers de performance essentiels. Nos solutions sur-mesure sont conçues pour propulser vos résultats vers de nouveaux sommets et transformer vos défis en opportunités.
         </p>
         <div id="animated-elipse2" class="absolute -bottom-28 right-36 w-36 h-36 bg-blue-600 rounded-full opacity-50 hidden md:block"></div>
         <img id="animated-img2" class="absolute -bottom-28 right-16 hidden md:block" src="AP/19.png" alt="">
@@ -268,10 +271,10 @@
             progressStartValue1 = 0,
             progressStartValue2 = 0,
             progressStartValue3 = 0,
-            progressEndValue0 = 60,
-            progressEndValue1 = 70,
-            progressEndValue2 = 90,
-            progressEndValue3 = 45,
+            progressEndValue0 = 95,
+            progressEndValue1 = 90,
+            progressEndValue2 = 85,
+            progressEndValue3 = 80,
             speed = 15;
 
         let progress = setInterval(() => {

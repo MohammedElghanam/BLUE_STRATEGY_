@@ -124,7 +124,7 @@
             <div class=" col-span-12 flex justify-center items-center">
                 <div
                     class="absolute -top-7 bg-white px-9 text-center text-4xl lg:text-4xl font-semibold text-gray-900">
-                    <h1 class=" text-gray-900">Our Unity</h1>
+                    <h1 class=" text-gray-800">Notre business unit</h1>
                 </div>
             </div>
             <div

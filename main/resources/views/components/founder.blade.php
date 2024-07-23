@@ -52,24 +52,48 @@
 
 </style>
 
-<section  class="COUNT grid grid-cols-12 mb-12 my-10 relative bg-blue-900 select-none" style="height: 90vh;">
+<section  class="COUNT grid grid-cols-12 mb-12 my-10 relative bg-blue-900 select-none" style="height: 125vh;">
     <div id="founder" class=" hidden"></div>
-    <div class="h-full w-full flex absolute">
-        <div class="w-1/2 h-full grid items-end justify-center py-32 pl-28">
-            <div class="text-6xl font-semibold select-none text-animate">
-                <h1 class="mb-2 text-white">Opportunities</h1>
+    <div class="h-full w-full flex absolute ">
+        <div class="w-3/5 py-32 pl-28">
+            <div class=" select-none text-animate text-white">
+                {{-- <h1 class="mb-2 text-white">Opportunities</h1>
                 <h1 class="mb-2 text-white">don't happen, You</h1>
-                <h1 class="mb-2 text-blue-500 text-7xl font-bold">create them.</h1>
+                <h1 class="mb-2 text-blue-500 text-7xl font-bold">create them.</h1> --}}
+                <p class=" text-lg font-medium mb-4 mt-8">
+                    « <h class=" font-bold text-blue-400 text-xl">Chez BLUE STRATEGY,</h> nous ne nous contentons pas de rêver d'un avenir meilleur, nous le construisons activement. »
+                </p>
+                <p>
+                    Chez BLUE STRATEGY, nous ne faisons pas que suivre les tendances – nous les créons. Notre cabinet incarne une vision audacieuse et avant-gardiste, en parfaite harmonie avec les objectifs du nouveau modèle de développement économique du Maroc.
+                </p>
+                <p class=" mb-4">
+                    Avec une expertise éprouvée sur le terrain et une passion pour le développement économique, l'accompagnement, l'accélération des structures, et l'innovation sociale, j'ai eu le privilège de collaborer avec des clients de renom et de mener à bien des projets transformateurs à travers le Maroc. Aujourd'hui, entourée d'une équipe exceptionnelle de plus de 25 experts, nous sommes prêts à repousser les limites et à transformer les idées en réalité.
+                </p>
+                <p class=" mb-4">
+                    Notre mission est claire : catalyser le développement de la région Marrakech-Safi, du Maroc et de l'Afrique. En renforçant le tissu économique local, nous visons à élever et accélérer les structures, en particulier les petites entreprises et organisations, et à contribuer à l'émancipation des idées, des projets de croissance et des talents créateurs locaux. Nous aspirons à les aider à devenir les leaders de demain. »
+                </p>
+                <p class=" mb-4">
+                    BLUE STRATEGY se distingue par son engagement inébranlable envers l'accompagnement, l'accélération, l'alignement stratégique et le développement des territoires. Nous sommes des pionniers du développement local, de l'innovation sociale et économique, et de l'économie sociale et solidaire, transformant les défis en opportunités et guidant nos partenaires vers un avenir prospère et durable.
+                </p>
+                <p class=" mb-4">
+                    <h class=" font-semibold">Mme Houda BELAYDI</h>
+                    <h class=" font-semibold">Founder CEO du cabinet BLUE STRATEGY</h>
+                    <h class=" font-medium">
+                        Experte senior en accompagnement des entreprises et organisations, 
+                        en management et en développement des projets
+                    </h>
+                </p>
             </div>
 
-            <div class="">
+            {{-- <div class="">
                 <a class=" bg-blue-700 hover:bg-blue-800 px-14 py-2 text-xl text-white font-medium rounded-full" href="">Email</a>
-            </div>
+            </div> --}}
 
         </div>
-        <div class="w-1/2 h-full flex items-center justify-start relative">
 
-            <div id="conten1" class="w-80 h-80 rounded-full absolute right-20 z-30 flex justify-center items-center pt-5">
+        <div class="w-2/5 h-full flex items-center justify-start relative">
+
+            <div id="conten1" class="w-80 h-80 rounded-full absolute right-20 top-32 z-30 flex justify-center items-center pt-5">
                 {{-- <div class=" absolute bottom-40 -left-20 w-20 h-40 rounded-l-full border-l-8 border-white bg-red-400"></div> --}}
                 <div class="BG absolute -top-0 right-0 rounded-b-md rotate-45" style="width: 330px; height:350px;"></div>
                 <img class="rounded-full z-20" src="images/unsplash.png" alt="" style="width: 300px; height:300px;">
@@ -98,9 +122,6 @@
                 </div>
             </div>
 
-            
-
-            
         </div>
     </div>
 

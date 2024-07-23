@@ -315,14 +315,14 @@
             </div>
         </div>
         <div class=" grid grid-cols-12 pr-14 gap-2 col-span-4 BG">
-            <div class=" grid grid-cols-12 col-span-12 pt-10 pl-10 text-white">
-                <p class=" col-span-10 text-lg">
+            <div class="col-span-12 pt-10 pl-10 text-white">
+                <p class="  text-lg mb-4">
                     Le développement des talents comme levier de performance. Une meilleure connaissance de
                     l’individu pour une gestion des talents efficace.
                 </p>
-                <div class=" col-span-7 font-bold">
+                <p class="  font-bold mb-4">
                     Nos solutions pour développer vos talents :
-                </div>
+                </p>
                 <div class="grid grid-cols-8 p-2 gap-2 col-span-12">
                     <div class=" col-span-4 bg-blue-900 text-white grid p-5">
                         <svg class=" w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
@@ -362,9 +362,7 @@
                     </div>
                 </div>
             </div>
-            <div class=" grid grid-cols-12 col-span-12">
-                
-            </div>
+            
         </div>
     </div>
 </section>

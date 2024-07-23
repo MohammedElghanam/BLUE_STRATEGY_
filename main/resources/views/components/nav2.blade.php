@@ -92,19 +92,19 @@
                     <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button> --}}
                 
-                <a href="{{ url('/') }}#contact" class="text-white bg-blue-900 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 ml-4">Contact Us</a>
+                <a href="{{ url('/') }}#contact" class="text-white bg-blue-900 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 ml-4">Contactez nous</a>
             </div>
 
             {{-- navbar  --}}
             <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                     <li class="h-16 flex items-center justify-center px-4">
-                        <a href="{{route('home')}}" class="block py-2 pr-4 pl-3 text-white rounded bg-blue-700 lg:bg-transparent lg:text-blue-700 lg:p-0 dark:text-white" aria-current="page">Acceuil</a>
+                        <a href="{{route('home')}}" class="block py-2 pr-4 pl-3 text-white rounded bg-blue-700 lg:bg-transparent lg:text-blue-700 lg:p-0 dark:text-white" aria-current="page">ACCUEIL</a>
                     </li>
                     
                     <li class=" relative" x-data="{showChildren:false}" @click.away="showChildren=false">
                         <div class=" flex items-center gap-2 hover:text-blue-600 h-16">
-                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" @click.prevent="showChildren=!showChildren">A propos</a>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" @click.prevent="showChildren=!showChildren">À PROPOS DE NOUS</a>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
                                 viewBox="0 0 24 24">
                                 <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -112,16 +112,16 @@
                         </div>
                         <nav  class=" bg-white text-sm absolute top-auto left-0 w-60 z-30 mt-2 border-2 border-200 rounded-lg" x-show="showChildren" x-transition:enter="transition ease duration-300 transform" x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease duration-300 transform" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-4" style="display: none;">
                             <a href="{{route('propos')}}" class=" flex items-center justify-between w-full p-2 hover:bg-blue-200">   
-                                <p>Qui Somme Nous</p>
+                                <p>QUI SOMMES NOUS ?</p>
                             </a>
                             <a class=" flex items-center justify-between w-full p-2 hover:bg-blue-200">   
-                                <p>Notre equipe</p>
+                                <p>NOTRE EQUIPE</p>
                             </a>
                             <a href="{{route('vision')}}" class=" flex items-center justify-between w-full p-2 hover:bg-blue-100">   
-                               <p>Nos secteur d'activitè</p>
+                               <p>NOS SECTEURS D'ACTIVITES</p>
                             </a>
                             <a  href="{{ url('/') }}#founder" class=" flex items-center justify-between w-full p-2 hover:bg-blue-100">   
-                               <p>Mot du fondatrice</p>
+                               <p>MOT DU CEO & FOUNDER</p>
                             </a>
                         </nav>
                     </li>
@@ -129,7 +129,7 @@
                     
                     <li x-data="{showChildren:false}" @click.away="showChildren=false">
                         <div class=" flex items-center gap-2 hover:text-blue-600 h-16">
-                            <a href="#" class="block z-50 py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  hover:bg-white lg:hover:bg-transparent lg:border-0 hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" @click.prevent="showChildren=!showChildren">Nos Domaines D'expertise</a>
+                            <a href="#" class="block z-50 py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  hover:bg-white lg:hover:bg-transparent lg:border-0 hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" @click.prevent="showChildren=!showChildren">NOS DOMAINES D'EXPERTISE</a>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
                                 viewBox="0 0 24 24">
                                 <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -227,45 +227,45 @@
                                     </div>
                                 </div>
 
-                                <div id="S2" class=" flex-col grid grid-cols-12 gap-2 p-2 m-2" style=" display:none;">
+                                <div id="S2" class=" flex-col  gap-2 p-2 m-2" style=" display:none;">
                                     <h1 class=" col-span-12 select-none text-2xl mb-4 font-bold text-gray-900">SERVICES TPE/PME</h1>
-                                    <div class=" col-span-4 cursor-pointer flex gap-1 items-center mb-2  text-gray-600 font-normal hover:text-blue-700">
+                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
                                         <a  href="{{ url('/TPE') }}#about">About B.U</a>
                                     </div>
-                                    <div class=" col-span-4 cursor-pointer flex gap-1 items-center mb-2  text-gray-600 font-normal hover:text-blue-700">
+                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>Notre Equipe</span>
+                                        <a href="">Notre Equipe</a>
                                     </div>
-                                    <div class=" col-span-4 cursor-pointer flex gap-1 items-center mb-2  text-gray-600 font-normal hover:text-blue-700">
+                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
                                         <a href="">Conseil et Stratégie.</a>
                                     </div>
-                                    <div class=" col-span-4 cursor-pointer flex gap-1 items-center mb-2  text-gray-600 font-normal hover:text-blue-700">
+                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
                                         <a href="">Création et reprise.</a>
                                     </div>
-                                    <div class=" col-span-4 cursor-pointer flex gap-1 items-center mb-2  text-gray-600 font-normal hover:text-blue-700">
+                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>Management et organisation.</span>
+                                        <a href="">Management et organisation.</a>
                                     </div>
-                                    <div class=" col-span-4 cursor-pointer flex gap-1 items-center mb-2  text-gray-600 font-normal hover:text-blue-700">
+                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
                                         <a href="">Design et expérience client.</a>
                                     </div>
-                                    <div class=" col-span-4 cursor-pointer flex gap-1 items-center mb-2  text-gray-600 font-normal hover:text-blue-700">
+                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
                                         <a href="">Développement commercial.</a>
                                     </div>
-                                    <div class=" col-span-4 cursor-pointer flex gap-1 items-center mb-2  text-gray-600 font-normal hover:text-blue-700">
+                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
                                         <a href="">Marketing et communication.</a>
                                     </div>
-                                    <div class=" col-span-4 cursor-pointer flex gap-1 items-center mb-2  text-gray-600 font-normal hover:text-blue-700">
+                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
                                         <a href="">Finances et contrôle gestion.</a>
                                     </div>
-                                    <div class=" col-span-4 cursor-pointer flex gap-1 items-center mb-2  text-gray-600 font-normal hover:text-blue-700">
+                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
                                         <a href="">QHSE.</a>
                                     </div>
@@ -378,7 +378,7 @@
                     </li>
 
                     <li class="h-16 flex items-center justify-center px-4">
-                        <a href="{{route('home')}}" class="block py-2 pr-4 pl-3 rounded bg-blue-700 lg:bg-transparent text-gray-700 hover:text-blue-700 lg:p-0 dark:text-white" aria-current="page">No realisation</a>
+                        <a href="{{route('home')}}" class="block py-2 pr-4 pl-3 rounded bg-blue-700 lg:bg-transparent text-gray-700 hover:text-blue-700 lg:p-0 dark:text-white" aria-current="page">NOS REALISATIONS</a>
                     </li>
 
                 </ul>

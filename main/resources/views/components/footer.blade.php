@@ -30,7 +30,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="">
+                <div class=" mr-6">
                     <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Nos Domaines D'expertise</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-2">
@@ -53,17 +53,6 @@
                         </li>
                     </ul>
                 </div>
-                {{-- <div>
-                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                    <ul class="text-gray-600 dark:text-gray-400">
-                        <li class="mb-2">
-                            <a href="#" class="hover:underline">Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-                        </li>
-                    </ul>
-                </div> --}}
             </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />

@@ -78,6 +78,10 @@
 .SPIN{
     background-color: red;
 }
+.XS{
+    font-size: 12px;
+    line-height:  16px ;
+}
 </style>
 
 <section class=" bg-gray-100" style="min-height: 75vh;">
@@ -86,37 +90,46 @@
     <div class="w-full h-20"></div>
     <div class="grid max-w-screen-xl lg:gap-8 xl:gap-0 lg:grid-cols-12 h-full mx-16">
         <div class="mr-auto place-self-center lg:col-span-7 mb-12 lg:mb-0">
-            <div class="w-full h-20"></div>
-            <h1 class="max-w-2xl mb-5 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-white">
-                Payments tool for software companies
+            <div class="w-full h-10"></div>
+            <h1 class="max-w-2xl mb-5 text-4xl font-extrabold leading-none md:text-5xl xl:text-5xl dark:text-white">
+                Élevez vos projets vers la réussite et l'innovation avec BLUE STRATEGY
             </h1>
             <p class="max-w-2xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-                From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.
+                Bienvenue chez BLUE STRATEGY ! Nous transformons vos visions et vos 
+                idées en succès concrets grâce à notre expertise en études, management 
+                de projets et accompagnement multidisciplinaire. Nous développons des 
+                solutions parfaitement adaptées à vos besoins spécifiques, garantissant 
+                performance durable et croissance spectaculaire.
+            </p>
+            <p class="max-w-2xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                Découvrez comment nous pouvons révolutionner vos ambitions et atteindre 
+                ensemble de nouveaux sommets d'excellence. Rejoignez-nous pour écrire le 
+                prochain chapitre de votre réussite !
             </p>
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 w-full mb-10">
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
                         <img class="w-9 h-9" src="AP/112.png" alt="">
-                    <h1 class="text-center font-medium text-blue-900 ">TPE/PME</h1>
+                    <h1 class=" XS text-center font-medium text-blue-900 ">TPE/ PME/ GC</h1>
                 </div>
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
                         <img class="w-9 h-9" src="AP/110.png" alt="">
-                    <h1 class="text-center font-medium text-blue-900">Cooperative</h1>
+                    <h1 class=" XS text-center font-medium text-blue-900">LES ONG / LES ASSOCIATIONS</h1>
                 </div>
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
                         <img class="w-9 h-9" src="AP/111.png" alt="">
-                        <h1 class="text-center font-medium text-blue-900 ">Etablissement</h1>
+                        <h1 class=" XS text-center font-medium text-blue-900 ">LES ETABLISSEMENTS</h1>
                 </div>
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
                         <img class="w-9 h-9" src="AP/109.png" alt="">
-                    <h1 class="text-center font-medium text-blue-900">Association</h1>
+                    <h1 class=" XS text-center font-medium text-blue-900">LES COOPERATIVES</h1>
                 </div>
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
                         <img class="w-9 h-9" src="AP/115.png" alt="">
-                    <h1 class="text-center font-medium text-blue-900 ">Startup</h1>
+                    <h1 class=" XS text-center font-medium text-blue-900 ">LES STARTUPS</h1>
                 </div>
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
                         <img class="w-9 h-9 " src="AP/107.png" alt="">
-                    <h1 class="text-center font-medium text-blue-900 ">Professional</h1>
+                    <h1 class=" XS text-center font-medium text-blue-900 ">LES PROFESSIONNELS</h1>
                 </div>
             </div>
             <button href="{{route('booking_now')}}"
