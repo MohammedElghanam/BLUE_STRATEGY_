@@ -509,7 +509,7 @@
     </div>
 </section>
 
-<section class=" relative">
+<section class=" relative my-10">
     <div class="grid grid-cols-12 gap-6 px-20 absolute w-full h-full">
         <div class="col-span-4 relative">
             <div class=" bg-blue-900 text-white p-6 absolute">
