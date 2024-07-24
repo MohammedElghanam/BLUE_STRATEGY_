@@ -31,7 +31,7 @@
     }
 
     .TIT1{
-        background-color: #ff5722;
+        color: #ff5722;
     }
     .BOR_1{
         border-bottom: 3px solid #ff5722;
@@ -61,7 +61,16 @@
         font-size: 17px ;
         line-height: 19px ;
     }
-
+    .HOV{
+        border: 3px solid #ff5722;
+        background-color: white;
+    }
+    .HOV:hover{
+        background-color: #ff5722;
+    }
+    .BOR1{
+        border-color: #ff5722;
+    }
 </style>
 
 
@@ -206,58 +215,58 @@
                             de stimuler l'innovation à travers l'ensemble de
                             ses missions 
                         </p>
-                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
                             <div class="">
                                 <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" text-gray-700 font-medium">Project managers.  </p>
                         </div>
-                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
                             <div class="">
                                 <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" text-gray-700 font-medium">Coordinateurs.  </p>
                         </div>
-                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
                             <div class="">
                                 <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" text-gray-700 font-medium">Consultants.
                             </p>
                         </div>
-                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
                             <div class="">
                                 <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" text-gray-700 font-medium">Experts métiers.
                             </p>
                         </div>
-                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
                             <div class="">
                                 <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" text-gray-700 font-medium">Experts solidaires.
                             </p>
                         </div>
-                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
                             <div class="">
                                 <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" text-gray-700 font-medium">Spécialistes genre</p>
                         </div>
-                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
                             <div class="">
                                 <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" text-gray-700 font-medium">Mentors business.  </p>
                         </div>
-                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
                             <div class="">
                                 <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" text-gray-700 font-medium">Coachs professionnels.  </p>
                         </div>
-                        <div class=" col-span-12 flex justify-start items-center gap-4">
+                        <div class=" col-span-6 flex justify-start items-center gap-4">
                             <div class="">
                                 <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
@@ -270,4 +279,238 @@
         </div>
     </div>
 </section>
+
+
+
+<section class=" px-16 my-10">
+        <div class=" grid grid-cols-12 gap-8">
+            <div class=" col-span-6">
+                <div class=" relative">
+                    <img class=" rounded-2xl" src="SS/3.png" alt="">
+                    
+                    <div class=" grid grid-cols-1 gap-2 p-6 rounded-xl BG absolute bottom-10 left-5 w-11/12 transform translate-x-1 duration-300 hover:scale-105">
+                        <div class=" cols-span-1 flex justify-start items-center gap-2 ">
+                            <div class=" ">
+                                <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="m10 17.55l-1.77 1.72a2.47 2.47 0 0 1-3.5-3.5l4.54-4.55a2.46 2.46 0 0 1 3.39-.09l.12.1a1 1 0 0 0 1.4-1.43a2.75 2.75 0 0 0-.18-.21a4.46 4.46 0 0 0-6.09.22l-4.6 4.55a4.48 4.48 0 0 0 6.33 6.33L11.37 19A1 1 0 0 0 10 17.55M20.69 3.31a4.49 4.49 0 0 0-6.33 0L12.63 5A1 1 0 0 0 14 6.45l1.73-1.72a2.47 2.47 0 0 1 3.5 3.5l-4.54 4.55a2.46 2.46 0 0 1-3.39.09l-.12-.1a1 1 0 0 0-1.4 1.43a2.75 2.75 0 0 0 .23.21a4.47 4.47 0 0 0 6.09-.22l4.55-4.55a4.49 4.49 0 0 0 .04-6.33"/></svg>
+                            </div>
+                            <a href="" class=" font-medium text-white hover:underline">NOS SERVICES </a>
+                        </div>
+                        <div class=" cols-span-1 flex justify-start items-center gap-2 ">
+                            <div class=" ">
+                                <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="m10 17.55l-1.77 1.72a2.47 2.47 0 0 1-3.5-3.5l4.54-4.55a2.46 2.46 0 0 1 3.39-.09l.12.1a1 1 0 0 0 1.4-1.43a2.75 2.75 0 0 0-.18-.21a4.46 4.46 0 0 0-6.09.22l-4.6 4.55a4.48 4.48 0 0 0 6.33 6.33L11.37 19A1 1 0 0 0 10 17.55M20.69 3.31a4.49 4.49 0 0 0-6.33 0L12.63 5A1 1 0 0 0 14 6.45l1.73-1.72a2.47 2.47 0 0 1 3.5 3.5l-4.54 4.55a2.46 2.46 0 0 1-3.39.09l-.12-.1a1 1 0 0 0-1.4 1.43a2.75 2.75 0 0 0 .23.21a4.47 4.47 0 0 0 6.09-.22l4.55-4.55a4.49 4.49 0 0 0 .04-6.33"/></svg>
+                            </div>
+                            <a href="" class=" font-medium text-white hover:underline">ACCOMPAGNEMENT DES ORGANISMES ENGAGÉS </a>
+                        </div>
+                        <div class=" cols-span-1 flex justify-start items-center gap-2 ">
+                            <div class=" ">
+                                <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="m10 17.55l-1.77 1.72a2.47 2.47 0 0 1-3.5-3.5l4.54-4.55a2.46 2.46 0 0 1 3.39-.09l.12.1a1 1 0 0 0 1.4-1.43a2.75 2.75 0 0 0-.18-.21a4.46 4.46 0 0 0-6.09.22l-4.6 4.55a4.48 4.48 0 0 0 6.33 6.33L11.37 19A1 1 0 0 0 10 17.55M20.69 3.31a4.49 4.49 0 0 0-6.33 0L12.63 5A1 1 0 0 0 14 6.45l1.73-1.72a2.47 2.47 0 0 1 3.5 3.5l-4.54 4.55a2.46 2.46 0 0 1-3.39.09l-.12-.1a1 1 0 0 0-1.4 1.43a2.75 2.75 0 0 0 .23.21a4.47 4.47 0 0 0 6.09-.22l4.55-4.55a4.49 4.49 0 0 0 .04-6.33"/></svg>
+                            </div>
+                            <a href="" class=" font-medium text-white hover:underline">ACCOMPAGNEMENT AUX STARTUPS </a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" flex justify-start items-center gap-4 px-10 py-6">
+                    <div class="">
+                        <img class=" w-16 h-16" src="SS/4.png" alt="">
+                    </div>
+                    <h1 class=" font-semibold text-4xl TIT1">ENTREPREUNARIAT </h1>
+                </div>
+            </div>
+
+
+            <div class=" col-span-6">
+
+                <ol class="relative border-l-4 BOR1 dark:border-gray-700">                  
+                    <li class="mb-10 ms-4 relative">
+                        <div class="F1 absolute w-5 h-5 bg-gray-200 rounded-full -left-7 HOV"></div>
+                        <h3 class="H1 text-lg font-semibold TIT1 dark:text-white">
+                            Notre mission est de rendre simple et naturel l’entrepreneuriat pour libérer les
+                            potentiels, transformant ainsi l'acte d'entreprendre en une aventure épanouissante.
+                        </h3>
+                    </li>
+                    <li class="mb-10 ms-4 relative">
+                        <div class="F2 absolute w-5 h-5 bg-gray-200 rounded-full -left-7 HOV"></div>
+                        <h3 class="H2 text-lg  text-gray-900 dark:text-white">
+                            L'écosystème entrepreneurial au Maroc connaît une évolution continue et joue un rôle
+                            essentiel dans le développement économique et social du pays, tout comme dans
+                            d'autres nations. Dans cette optique, une variété d'initiatives sont déployées pour
+                            enrichir la culture entrepreneuriale, dans le but d'encourager la créativité et
+                            l'innovation, tout en renforçant la création opportunités d'emploi.
+                        </h3>
+                    </li>
+                    <li class="ms-4 relative">
+                        <div class="F3 absolute w-5 h-5 bg-gray-200 rounded-full -left-7 HOV"></div>
+                        <h3 class="H3 text-lg text-gray-900 dark:text-white">En tant qu'acteur engagé dans l'accompagnement de cette dynamique, le cabinet BLUE
+                            STRATEGY propose une vaste gamme de services et s'est doté d'une équipe hautement
+                            qualifiée. Sa mission consiste à fournir une assistance aux entrepreneurs en vue de :
+                        </h3>
+                    </li>
+                </ol>
+                
+                <div class=" grid grid-cols-1 gap-2 p-6 rounded-xl mt-4 ml-4 bg-gray-100 w-11/12 transform translate-x-1 duration-300 hover:scale-105">
+                    <div class=" cols-span-1 flex justify-start items-center gap-2 ">
+                        <div class=" ">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" font-medium text-gray-800">Libérer leur potentiel d'innovation. </p>
+                    </div>
+                    <div class=" cols-span-1 flex justify-start items-center gap-2  ">
+                        <div class=" ">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" font-medium text-gray-800">Maximiser le potentiel de leurs idées. </p>
+                    </div>
+                    <div class=" cols-span-1 flex justify-start items-center gap-2  ">
+                        <div class=" ">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" font-medium text-gray-800">Remettre en question leurs modèles d'entreprise.</p>
+                    </div>
+                    <div class=" cols-span-1 flex justify-start items-center gap-2  ">
+                        <div class=" ">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" font-medium text-gray-800">Identifier les leviers de succès de leurs startups. </p>
+                    </div>
+                    <div class=" cols-span-1 flex justify-start items-center gap-2  ">
+                        <div class=" ">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" font-medium text-gray-800">Adopter les bons réflexes en matière d'entrepreneuriat. </p>
+                    </div>
+                    <div class=" cols-span-1 flex justify-start items-center gap-2  ">
+                        <div class=" ">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" font-medium text-gray-800">Faire de l'esprit d'entreprendre une vraie culture. </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</section>
+
+
+
+
+<section class=" px-16 my-10">
+    <div class=" grid grid-cols-12 gap-8">
+
+        <div class=" col-span-6">
+
+            <ol class="relative border-l-4 BOR1 dark:border-gray-700">                  
+                <li class="mb-10 ms-4 relative">
+                    <div class="F1 absolute w-5 h-5 bg-gray-200 rounded-full -left-7 HOV"></div>
+                    <h3 class="H1 text-lg font-semibold TIT1 dark:text-white">
+                        Nous sommes à vos côtés pour vous aider à préparer l’avenir et à
+                        concilier performance économique et impact social positif.
+                    </h3>
+                </li>
+                <li class="mb-10 ms-4 relative">
+                    <div class="F2 absolute w-5 h-5 bg-gray-200 rounded-full -left-7 HOV"></div>
+                    <h3 class="H2 text-lg  text-gray-900 dark:text-white">
+                        Les évolutions sociales en cours exigent l'accompagnement de nouveaux modèles
+                        socio-économiques favorisant le bien-être à la fois individuel et collectif. 
+                        En outre, elles requièrent la nécessité d'une coopération coordonnée entre 
+                        les divers acteurs, afin de maintenir un équilibre entre l'insertion socio-economique
+                    </h3>
+                </li>
+                <li class="ms-4 relative">
+                    <div class="F3 absolute w-5 h-5 bg-gray-200 rounded-full -left-7 HOV"></div>
+                    <h3 class="H3 text-lg text-gray-900 dark:text-white">
+                        Dans le contexte de l'accompagnement de projets, en particulier ceux concernés de
+                        l'ESS, BLUE STRATEGY a développé une expertise solide dans le but de contribuer 
+                        activement à la création conjointe de valeur, à travers trois axes essentiels 
+                    </h3>
+                </li>
+            </ol>
+            
+            <div class=" grid grid-cols-1 gap-2 p-6 rounded-xl mt-4 ml-4 bg-gray-100 w-11/12 transform translate-x-1 duration-300 hover:scale-105">
+                <div class=" cols-span-1 flex justify-start items-center gap-2 ">
+                    <div class=" ">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class=" font-medium text-gray-800">La valorisation des contributions sociales des organisations. </p>
+                </div>
+                <div class=" cols-span-1 flex justify-start items-center gap-2  ">
+                    <div class=" ">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class=" font-medium text-gray-800">Le développement de la performance des structures d'ESS. </p>
+                </div>
+                <div class=" cols-span-1 flex justify-start items-center gap-2  ">
+                    <div class=" ">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class=" font-medium text-gray-800">La promotion de l'autonomisation économique des femmes et des jeunes dans divers milieux et secteurs.</p>
+                </div>
+            </div>
+
+            <p>
+                Notre expertise dans le domaine d’accompagnement et le développement de
+                stratégies de croissance optimisées et innovantes, vise à assister toute entité
+                désirant lancer des projets ou une initiative au service de la communauté.
+            </p>
+        </div>
+
+        
+        <div class=" col-span-6">
+            <div class=" relative">
+                <img class=" rounded-2xl" src="SS/3.png" alt="">
+                
+                <div class=" grid grid-cols-1 gap-2 p-6 rounded-xl BG absolute bottom-10 left-5 w-11/12 transform translate-x-1 duration-300 hover:scale-105">
+                    <div class=" cols-span-1 flex justify-start items-center gap-2 ">
+                        <div class=" ">
+                            <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="m10 17.55l-1.77 1.72a2.47 2.47 0 0 1-3.5-3.5l4.54-4.55a2.46 2.46 0 0 1 3.39-.09l.12.1a1 1 0 0 0 1.4-1.43a2.75 2.75 0 0 0-.18-.21a4.46 4.46 0 0 0-6.09.22l-4.6 4.55a4.48 4.48 0 0 0 6.33 6.33L11.37 19A1 1 0 0 0 10 17.55M20.69 3.31a4.49 4.49 0 0 0-6.33 0L12.63 5A1 1 0 0 0 14 6.45l1.73-1.72a2.47 2.47 0 0 1 3.5 3.5l-4.54 4.55a2.46 2.46 0 0 1-3.39.09l-.12-.1a1 1 0 0 0-1.4 1.43a2.75 2.75 0 0 0 .23.21a4.47 4.47 0 0 0 6.09-.22l4.55-4.55a4.49 4.49 0 0 0 .04-6.33"/></svg>
+                        </div>
+                        <a href="" class=" font-medium text-white hover:underline">NOS OFFRES D’ACCOMPAGNEMENT ESS </a>
+                    </div>
+                    <div class=" cols-span-1 flex justify-start items-center gap-2 ">
+                        <div class=" ">
+                            <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="m10 17.55l-1.77 1.72a2.47 2.47 0 0 1-3.5-3.5l4.54-4.55a2.46 2.46 0 0 1 3.39-.09l.12.1a1 1 0 0 0 1.4-1.43a2.75 2.75 0 0 0-.18-.21a4.46 4.46 0 0 0-6.09.22l-4.6 4.55a4.48 4.48 0 0 0 6.33 6.33L11.37 19A1 1 0 0 0 10 17.55M20.69 3.31a4.49 4.49 0 0 0-6.33 0L12.63 5A1 1 0 0 0 14 6.45l1.73-1.72a2.47 2.47 0 0 1 3.5 3.5l-4.54 4.55a2.46 2.46 0 0 1-3.39.09l-.12-.1a1 1 0 0 0-1.4 1.43a2.75 2.75 0 0 0 .23.21a4.47 4.47 0 0 0 6.09-.22l4.55-4.55a4.49 4.49 0 0 0 .04-6.33"/></svg>
+                        </div>
+                        <a href="" class=" font-medium text-white hover:underline">ACCOMPAGNEMENT DES ONG / ASSOCIATIONS</a>
+                    </div>
+                    <div class=" cols-span-1 flex justify-start items-center gap-2 ">
+                        <div class=" ">
+                            <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="m10 17.55l-1.77 1.72a2.47 2.47 0 0 1-3.5-3.5l4.54-4.55a2.46 2.46 0 0 1 3.39-.09l.12.1a1 1 0 0 0 1.4-1.43a2.75 2.75 0 0 0-.18-.21a4.46 4.46 0 0 0-6.09.22l-4.6 4.55a4.48 4.48 0 0 0 6.33 6.33L11.37 19A1 1 0 0 0 10 17.55M20.69 3.31a4.49 4.49 0 0 0-6.33 0L12.63 5A1 1 0 0 0 14 6.45l1.73-1.72a2.47 2.47 0 0 1 3.5 3.5l-4.54 4.55a2.46 2.46 0 0 1-3.39.09l-.12-.1a1 1 0 0 0-1.4 1.43a2.75 2.75 0 0 0 .23.21a4.47 4.47 0 0 0 6.09-.22l4.55-4.55a4.49 4.49 0 0 0 .04-6.33"/></svg>
+                        </div>
+                        <a href="" class=" font-medium text-white hover:underline">ACCOMPAGNEMENT AUX STARTUPS </a>
+                    </div>
+                </div>
+            </div>
+            <div class=" flex justify-start items-center gap-4 px-10 py-6">
+                <div class="">
+                    <img class=" w-16 h-16" src="SS/4.png" alt="">
+                </div>
+                <h1 class=" font-semibold text-4xl TIT1">ACCOMPAGNEMENT DES PROJETS D'ESS </h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".H1").hover(function () {
+                $(".F1").css('background-color', '#ff5722');
+            }, function () {
+                $(".F1").css('background-color', 'white');
+            }
+        );
+        $(".H2").hover(function () {
+                $(".F2").css('background-color', '#ff5722');
+            }, function () {
+                $(".F2").css('background-color', 'white');
+            }
+        );
+        $(".H3").hover(function () {
+                $(".F3").css('background-color', '#ff5722');
+            }, function () {
+                $(".F3").css('background-color', 'white');
+            }
+        );
+    });
+</script>
 

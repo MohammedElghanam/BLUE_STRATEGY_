@@ -47,7 +47,9 @@
     top: 112px;
     left: 410px;
 }
-
+.WIDTH{
+    width: fit-content;
+}
 </style>
 
 <div class=" bg-white pt-28">
@@ -63,9 +65,8 @@
         <div class=" H w-24 bg-blue-900 opacity-70"></div>
         <div class=" col-span-5"></div>
         <div class="  col-span-7 mt-4">
-            <div class="">
-                <h1 class=" text-5xl font-bold text-blue-900 mb-2">Nos secteurs d'activite</h1>
-                <div class=" w-3/4 h-1 bg-blue-900"></div>
+            <div class=" p-2">
+                <div class=" WIDTH pb-2 border-b-4 border-blue-900 text-5xl font-bold text-blue-900">Nos secteurs d'activite</div>
             </div>
             
             
@@ -77,11 +78,6 @@
                 otre cabinet intervient dans divers secteurs d'activité, aussi bien au sein d'entreprises que d'organisations de
                 toutes tailles, que ce soit dans le secteur public ou privé.
             </p>
-            {{-- <p class="TOP col-span-7 text-lg font-normal text-gray-900">
-                otre cabinet intervient dans divers secteurs d'activité, aussi bien au sein d'entreprises que d'organisations de
-                toutes tailles, que ce soit dans le secteur public ou privé.
-            </p> --}}
-
         </div>
     </div>
 </div>
