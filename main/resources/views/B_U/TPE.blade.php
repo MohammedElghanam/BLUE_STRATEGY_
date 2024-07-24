@@ -1,58 +1,66 @@
 <style>
     /* 050065, 0d00ff blue */
-.BOR{
-    border: 8px solid ;
-    border-color:  #050065;    
-}
-.polygon {
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    background: linear-gradient(to right, #050065, #0d00ff);
-}
-.COLOR{
-    background: linear-gradient(to bottom, #050065, #0d00ff);
-}
-.CO{
-    background-color: #050065;
-}
+    .BOR{
+        border: 8px solid ;
+        border-color:  #050065;    
+    }
+    .polygon {
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        background: linear-gradient(to right, #050065, #0d00ff);
+    }
+    .COLOR{
+        background: linear-gradient(to bottom, #050065, #0d00ff);
+    }
+    .CO{
+        background-color: #050065;
+    }
 
-.POL{
-    background-color: #050065;
-    clip-path: polygon(0 0, 90% 0%, 100% 20%, 100% 100%, 0% 100%);
-}
-.BG{
-    background-color: #050065;
-}
-.TIT{
-    color: #050065;
-}
+    .POL{
+        background-color: #050065;
+        clip-path: polygon(0 0, 90% 0%, 100% 20%, 100% 100%, 0% 100%);
+    }
+    .POL1{
+        /* background-color: #050065; */
+        clip-path: polygon(0 0, 90% 0%, 100% 20%, 100% 100%, 0% 100%);
+    }
+    .BG{
+        background-color: #050065;
+    }
+    .TIT{
+        color: #050065;
+    }
 
-.TIT1{
-    background-color: #1f0f89;
-}
-.BOR_1{
-    border-bottom: 3px solid #050065;
-}
-.BOT{
-    background: linear-gradient(to right, #050065, #0d00ff);
-}
+    .TIT1{
+        background-color: #1f0f89;
+    }
+    .BOR_1{
+        border-bottom: 3px solid #050065;
+    }
+    .BOT{
+        background: linear-gradient(to right, #050065, #0d00ff);
+    }
 
-.POL_RIGHT{
-    clip-path: polygon(0 0, 100% 0, 50% 50%, 0% 100%);
-    background-color: #050065;
-}
-.POL_LEFT{
-    clip-path: polygon(50% 50%, 100% 0, 100% 100%, 0% 100%);
-    background-color: #050065;
-}
+    .POL_RIGHT{
+        clip-path: polygon(0 0, 100% 0, 50% 50%, 0% 100%);
+        background-color: #050065;
+    }
+    .POL_LEFT{
+        clip-path: polygon(50% 50%, 100% 0, 100% 100%, 0% 100%);
+        background-color: #050065;
+    }
 
-.XS{
-    font-size: 12px ;
-    line-height: 16px ;
-}
-.LG{
-    font-size: 16px ;
-    line-height: 18px ;
-}
+    .XS{
+        font-size: 12px ;
+        line-height: 16px ;
+    }
+    .LG{
+        font-size: 16px ;
+        line-height: 18px ;
+    }
+    .XS1{
+        font-size: 17px ;
+        line-height: 19px ;
+    }
 
 </style>
 
@@ -264,7 +272,7 @@
 <section>
     <div class=" grid grid-cols-12 gap-2 px-20">
         <div class=" col-span-6 p-10 relative">
-            <div class=" BG absolute w-1/2 top-48 left-0 p-4 pl-10 justify-center items-center">
+            <div class=" BG absolute w-1/2 top-48 left-0 p-4 pl-10 justify-center items-center rounded-xl">
                 <div class=" mb-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
                         <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
@@ -277,7 +285,7 @@
                 </div>
                 <h1 class="  text-4xl font-bold text-white">CONSEIL ET STRATÉGIE</h1> 
             </div>
-            <img class="" src="B_U/FOR/18.svg" alt="">
+            <img class=" rounded-xl" src="B_U/FOR/18.svg" alt="">
         </div>
         <div class=" grid grid-cols-12 gap-2 col-span-6">
             <div class=" col-span-12 flex justify-center items-center">
@@ -511,8 +519,8 @@
 
 <section class=" relative my-10">
     <div class="grid grid-cols-12 gap-6 px-20 absolute w-full h-full">
-        <div class="col-span-4 relative">
-            <div class=" bg-blue-900 text-white p-6 absolute">
+        <div class="col-span-6 relative">
+            <div class=" bg-blue-900 text-white p-6 absolute rounded-xl transform translate-x-1 duration-300 hover:scale-105">
                 <div class=" flex justify-start items-center gap-2 mb-4">
                     <div class="">
                         <img class=" w-8 h-8" src="B_U/23.png" alt="">
@@ -525,7 +533,7 @@
                     leurs projets, depuis sa création jusqu'à sa mise en endroit réussi :
                 </p>
             </div>
-            <div class=" w-full grid grid-cols-1 gap-2 p-6 bg-gray-100 rounded-2xl absolute bottom-28">
+            <div class=" w-full grid grid-cols-1 gap-2 p-6 bg-gray-100 rounded-xl absolute top-56 transform translate-x-1 duration-300 hover:scale-105">
                 <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
                     <div class="">
                         <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
@@ -600,8 +608,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-span-4 relative">
-            <div class=" w-full grid grid-cols-1 gap-2 p-6 bg-gray-100 rounded-2xl absolute top-0">
+        <div class="col-span-6 relative">
+            <div class=" w-full grid grid-cols-1 gap-2 p-6 bg-gray-100 rounded-xl absolute top-56 transform translate-x-1 duration-300 hover:scale-105">
                 <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
                     <div class="">
                         <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
@@ -708,7 +716,7 @@
                 </div>
             </div>
             
-            <div class=" bg-blue-900 text-white p-6 absolute bottom-0">
+            <div class=" bg-blue-900 text-white p-6 absolute bottom-0 rounded-xl transform translate-x-1 duration-300 hover:scale-105">
                 <div class=" flex justify-start items-center gap-2 mb-4">
                     <div class="">
                         <img class=" w-8 h-8" src="B_U/22.png" alt="">
@@ -723,21 +731,283 @@
                 </p>
             </div>
         </div>
-        <div class="col-span-4 relative">
-            <div class=" bg-blue-900 text-white p-6 absolute">
-                <div class=" flex justify-start items-center gap-2 mb-4">
-                    <div class="">
-                        <img class=" w-8 h-8" src="B_U/21.png" alt="">
-                    </div>
-                    <h1 class=" text-2xl font-bold">FINANCES </h1>
-                </div>
-                <p>
-                    Bénéficiez d'une analyse approfondie de
-                    vos performances ainsi que d'une planification stratégique solide grâce à nos
-                    services en finance et contrôle de gestion.
-                </p>
+    </div>
+
+    <div class=" grid grid-cols-12 gap-2 p-8 bg-white">
+        <img class=" col-span-12 rounded-2xl" src="B_U/TPE/10.png" alt="">
+    </div>
+</section> 
+
+
+
+<section class=" px-20 my-20">
+    <div class=" grid grid-cols-1 gap-2">
+        <div class="grid grid-cols-12 gap-2 col-span-1 ">
+            
+            <div class=" col-span-6">
+                
+                    <p class="">
+                        Dans un monde évolutif et digitalisé, les consommateurs ont renforcé leur exigence
+                        tant sur les offres que sur l’expérience client. BLUE STRATEGY vous accompagne dans la
+                        réimagination et la conception de solutions novatrices, adaptées aux évolutions du marché tout en améliorant l'expérience pour vos clients.
+                    </p>
+                
             </div>
-            <div class=" w-full grid grid-cols-1 gap-2 p-6 bg-gray-100 rounded-2xl absolute bottom-0">
+            <div class=" col-span-5 grid items-end relative">
+                <div class=" absolute w-4/6 -bottom-24 -right-14 z-40">
+                    <div class="">
+                        <img class=" w-14 h-14" src="B_U/28.png" alt="">
+                    </div>
+                    <h1 class=" text-4xl font-semibold text-blue-900">DESIGN ET EXPÉRIENCE CLIENT</h1>    
+                </div>
+            </div>
+            <div class="col-span-1 relative">
+                <div class=" w-60 h-60 z-30 bg-blue-700 absolute top-0 -right-20"></div>
+            </div>
+        </div>
+        <div class="grid grid-cols-12 gap-2 p-2 col-span-1">
+            <div class=" col-span-4 grid gap-4">
+                <img class=" rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95 " src="B_U/32.png" alt="">
+                <img class=" rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95 " src="B_U/26.png" alt="">
+            </div>
+            <div class=" col-span-8">
+                <img class=" rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95 " src="B_U/27.png" alt="">
+            </div>
+            
+        </div>
+
+        <div class="grid grid-cols-12 gap-2 col-span-1">
+            
+            <div class="col-span-4 relative">
+                <div class=" POL1 w-60 h-32 bg-blue-800 absolute bottom-0 -left-20"></div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2 p-8 rounded-xl col-span-8 bg-gray-100 shadow-xl transform translate-x-1 duration-150 hover:scale-105">
+                
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class="LG">
+                        Redéfinition du modèle économique. 
+                    </p>
+                </div>   
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class="LG">
+                        Accompagnement à l'innovation. 
+                    </p>
+                </div>    
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class="LG">
+                        Conception de produits et services.
+                    </p>
+                </div>   
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class="LG">
+                        Mise en cadre les offres.
+                    </p>
+                </div>   
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class="LG">
+                        Définition de la feuille de route. 
+                    </p>
+                </div>   
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class="LG">
+                        Analyse du parcours client.
+                    </p>
+                </div>   
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class="LG">
+                        Mise en place cadrée du POC Agile.
+                    </p>
+                </div>   
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class="LG">
+                        Supervision du POC.
+                    </p>
+                </div>   
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class="LG">
+                        Formation des designers.
+                    </p>
+                </div>   
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class=" grid grid-cols-12 gap-2 px-20">
+        <div class=" col-span-6 p-10 relative">
+            <div class=" BG absolute w-4/6 top-48 left-0 p-4 pl-10 justify-center items-center rounded-xl">
+                <div class=" mb-2">
+                    <img class=" w-10 h-10" src="B_U/20.png" alt="">
+                </div>
+                <h1 class="  text-4xl font-bold text-white">MARKETING & COMMUNICATION</h1> 
+            </div>
+            <img class=" rounded-xl" src="B_U/FOR/18.svg" alt="">
+        </div>
+        <div class=" grid grid-cols-12 gap-2 col-span-6">
+            <div class=" col-span-12 flex justify-center items-center">
+                <div class="grid grid-cols-12 gap-2 p-2 col-span-11">
+                    
+                    <div class=" col-span-12 ">
+                        <p class=" font-medium">
+                            Optimisez votre visibilité et suscitez l'intérêt
+                            d'un public actif grâce à nos services de marketing et de communication spécialisés. Nous vous accompagnons tout au long du processus pour renforcer vos promotions et mettre en avant l'image de votre marque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-span-12">
+                <div class=" rounded-xl bg-gray-100 grid grid-cols-6 gap-3 p-6 font-medium text-gray-800 text-center lg:text-left shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">                        
+                    <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" text-gray-700 XS1 ">Gestion de projets marketing. </p>
+                    </div>
+                    <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                    <circle cx="12" cy="12" r="9"/>
+                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <p class=" text-gray-700 XS1 ">Développement de stratégies de com. </p>
+                    </div>
+                    <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" text-gray-700 XS1 ">Etudes et audits marketing.</p>
+                    </div>
+                    <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" text-gray-700 XS1 ">Marketing digital. </p>
+                    </div>
+                    <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" text-gray-700 XS1 ">Marketing d'influence.</p>
+                    </div>
+                    <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" text-gray-700 XS1 ">Marketing des services. </p>
+                    </div>
+                    <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" text-gray-700 XS1 ">Inbound marketing. </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-span-12">
+                <div class=" BG w-full rounded-xl p-4 grid grid-cols-1 gap-3 shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS1">
+                            Branding de marque. 
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS1">
+                            Conception de campagnes publicitaires. 
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS1">
+                            Gestion de communauté (CM).
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS1">
+                            Développement web et applications. 
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS1">                           
+                            Conception graphique.
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS1">
+                            Elaboration de supports et contenu.
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS1">
+                            Encadrement des équipes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class=" relative my-10">
+    <div class="grid grid-cols-12 gap-6 px-20 absolute w-full h-full">
+        
+        <div class="col-span-6 relative">
+            
+            <div class=" w-full grid grid-cols-1 gap-2 p-6 bg-gray-100 rounded-xl absolute bottom-48 transform translate-x-1 duration-300 hover:scale-105">
                 <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
                     <div class="">
                         <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
@@ -851,13 +1121,321 @@
                     </p>
                 </div>
             </div>
+            <div class=" bg-blue-900 text-white p-6 absolute bottom-0 rounded-xl transform translate-x-1 duration-300 hover:scale-105">
+                <div class=" flex justify-start items-center gap-2 mb-4">
+                    <div class="">
+                        <img class=" w-8 h-8" src="B_U/21.png" alt="">
+                    </div>
+                    <h1 class=" text-2xl font-bold">FINANCES </h1>
+                </div>
+                <p>
+                    Bénéficiez d'une analyse approfondie de
+                    vos performances ainsi que d'une planification stratégique solide grâce à nos
+                    services en finance et contrôle de gestion.
+                </p>
+            </div>
         </div>
+
+        <div class="col-span-6 relative">
+            <div class=" bg-blue-900 text-white p-6 absolute rounded-xl transform translate-x-1 duration-300 hover:scale-105">
+                <div class=" flex justify-start items-center gap-2 mb-4">
+                    <div class="">
+                        <img class=" w-8 h-8" src="B_U/30.png" alt="">
+                    </div>
+                    <h1 class=" text-2xl font-bold">DÉVELOPPEMENT COMMERCIAL</h1>
+                </div>
+                <p>
+                    Boostez votre croissance grâce à nos services
+                    de développement commercial, qui allient
+                    expertise stratégique et opérationnelle. Nous
+                    vous accompagnons dans l'exploration de
+                    nouveaux marchés, l'optimisation de vos
+                    ventes et l'augmentation de votre chiffre
+                    d'affaires.
+                </p>
+            </div>
+            <div class=" w-full grid grid-cols-1 gap-2 p-6 bg-gray-100 rounded-xl absolute top-56 transform translate-x-1 duration-300 hover:scale-105">
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                        <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                    </div>
+                    <p class=" text-lg">
+                        Conseil stratégique.
+                    </p>
+                </div>
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                    <p class=" text-lg">
+                        Analyses de marché.
+                    </p>
+                </div>
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                    <p class=" text-lg">
+                        Restructuration du département C. 
+                    </p>
+                </div>
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                    <p class=" text-lg">
+                        Développement d'opportunités B2B. 
+                    </p>
+                </div>
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                    <p class=" text-lg">
+                        Développement des offres . 
+                    </p>
+                </div>
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                    <p class=" text-lg">
+                        Digitalisation des processus.
+                    </p>
+                </div>
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                    <p class=" text-lg">
+                        Gestion de la relation client. 
+                    </p>
+                </div>
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                    <p class=" text-lg">
+                        Développement de plan PAC et de plans
+                    </p>
+                </div>
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                    <p class=" text-lg">
+                        Marketing. 
+                    </p>
+                </div>
+                <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
+                    <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                    <p class=" text-lg">
+                        Amélioration de la force de vente.
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <div class=" grid grid-cols-12 gap-2 p-8 bg-white">
-        <img class=" col-span-12" src="B_U/TPE/12.png" alt="">
+        <img class=" col-span-12 rounded-2xl" src="B_U/TPE/10.png" alt="">
     </div>
 </section> 
+
+
+
+
+<section>
+    <div class=" grid grid-cols-12 gap-2 px-20">
+        
+        <div class=" grid grid-cols-12 gap-2 col-span-6">
+            <div class=" col-span-12 flex justify-center items-center">
+                <div class="grid grid-cols-12 gap-2 p-2 col-span-11">
+                    
+                    <div class=" col-span-12 ">
+                        <p class=" font-medium">
+                            Conseil et accompagnement pour la mise en place de
+                            systèmes de management :
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-span-12">
+                <div class=" rounded-xl bg-gray-100 grid grid-cols-6 gap-3 p-6 font-medium text-gray-800 text-center lg:text-left shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">                        
+                    <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" text-gray-700 XS ">
+                            GQualité –Iso 9001 (Approche Processus/ Gestion des
+                            indicateurs), 
+                        </p>
+                    </div>
+                    <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                    <circle cx="12" cy="12" r="9"/>
+                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <p class=" text-gray-700 XS ">Hygiène et sécurité des Aliments Iso 22000/ BRC et IFS ; </p>
+                    </div>
+                    <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" text-gray-700 XS ">
+                            Santé et sécurité au travail Iso 45001, (Document Unique, Comité
+                            Hygiène et Sécurité au travail, Situations d’urgences…)
+                            Environnement- ISO 14001 ;
+                        </p>
+                    </div>
+                    <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class="">
+                            <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" text-gray-700 XS ">Autres normes : 17025 (Laboratoire) / 22 916 (Cosmétiques-Bonnes Pratiques de Fabrication)</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class=" col-span-12">
+                <div class=" BG w-full rounded-xl p-4 grid grid-cols-1 gap-3 shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS">
+                            Formation et sensibilisation, en matière : 
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS">
+                            Sécurité des aliments et conditions d’hygiène ; 
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS">
+                            Management des risques à travers la méthode HACCP ;
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS">
+                            Méthodes et outils d’analyses de Risques professionnels,
+                            Arbre des Causes…
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS">                           
+                            Analyse environnementale et Cycle de vie (Impacts et
+                            Aspect environnementaux…) ;
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS">
+                            Exigences des normes ISO ;
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS">
+                            Outils et démarches Lean : Six Sigma, VSM, 5S, résolution
+                            de problèmes….
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS">
+                            ccompagnement lors des transitions des systèmes de management vers les nouvelles versions des normes
+                            HQSE (Diagnostics et élaboration des plans d'actions
+                            adaptés).
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS">
+                            Audit de conformité aux exigences des normes et aux
+                            références réglementaires propres à chaque secteur
+                            d'activité (Veille réglementaire).
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS">
+                            Accompagnement pour l'agrément ou l’autorisation
+                            sanitaire de l'ONSSA
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <div class="">
+                            <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class=" XS">
+                            Accompagnement des ressources humaines en vue
+                            d'assurer leur engagement dans les projets
+                            d'amélioration continue et de renforcer leur
+                            responsabilité individuelle et collective.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" col-span-6 p-10 relative ml-4">
+            <div class=" BG absolute w-4/6 top-48 left-0 p-4 pl-10 justify-center items-center rounded-xl">
+                <div class=" mb-2">
+                    <img class=" w-10 h-10" src="B_U/33.png" alt="">
+                </div>
+                <h1 class="  text-4xl font-bold text-white mb-4">QHSE</h1> 
+                <h1 class=" text-lg font-medium text-white ">QUALITÉ, HYGIÈNE, SÉCURITÉ ET ENVIRONNEMENT</h1>
+            </div>
+
+            <div class=" bg-white absolute w-4/5 bottom-16 left-14 p-4 pl-10 justify-center items-center rounded-xl">
+                <p class=" text-gray-800 font-medium">
+                    Notre équipe est disponible pour vous accompagner dans vos
+                    projets d'amélioration de vos performances opérationnelles et
+                    organisationnelles. Elle vous oriente dans l'alignement de vos
+                    pratiques avec les diverses exigences des normes ISO en matière
+                    d'hygiène, de qualité, de sécurité et d'environnement.   
+                </p>
+            </div>
+
+            <img class=" rounded-xl" src="B_U/FOR/18.svg" alt="">
+        </div>
+    </div>
+</section>
+
+
 
 
 {{-- <section class=" p-2 bg-red-500">
