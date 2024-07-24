@@ -69,6 +69,10 @@ Route::middleware('guest')->group(function(){
         return view('5TPE');
     })->name('TPE');
 
+    Route::get('/DESS', function () {
+        return view('6DESS');
+    })->name('DESS');
+
 });
 
 

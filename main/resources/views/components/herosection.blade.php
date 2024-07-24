@@ -91,7 +91,7 @@
     <div class="grid max-w-screen-xl lg:gap-8 xl:gap-0 lg:grid-cols-12 h-full mx-16">
         <div class="mr-auto place-self-center lg:col-span-7 mb-12 lg:mb-0">
             <div class="w-full h-10"></div>
-            <h1 class="max-w-2xl mb-5 text-4xl font-extrabold leading-none md:text-5xl xl:text-5xl dark:text-white">
+            <h1 class="max-w-2xl mb-5 text-4xl font-extrabold leading-none md:text-5xl xl:text-4xl dark:text-white">
                 Élevez vos projets vers la réussite et l'innovation avec BLUE STRATEGY
             </h1>
             <p class="max-w-2xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
@@ -109,27 +109,27 @@
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 w-full mb-10">
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
                         <img class="w-9 h-9" src="AP/112.png" alt="">
-                    <h1 class=" XS text-center font-medium text-blue-900 ">TPE/ PME/ GC</h1>
+                    <h1 class=" XS text-center font-medium text-blue-900 ">TPE/PME/GC</h1>
                 </div>
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
                         <img class="w-9 h-9" src="AP/110.png" alt="">
-                    <h1 class=" XS text-center font-medium text-blue-900">LES ONG / LES ASSOCIATIONS</h1>
+                    <h1 class=" XS text-center font-medium text-blue-900">ONG/ASSOCIATIONS</h1>
                 </div>
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
                         <img class="w-9 h-9" src="AP/111.png" alt="">
-                        <h1 class=" XS text-center font-medium text-blue-900 ">LES ETABLISSEMENTS</h1>
+                        <h1 class=" XS text-center font-medium text-blue-900 ">ETABLISSEMENTS</h1>
                 </div>
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
                         <img class="w-9 h-9" src="AP/109.png" alt="">
-                    <h1 class=" XS text-center font-medium text-blue-900">LES COOPERATIVES</h1>
+                    <h1 class=" XS text-center font-medium text-blue-900">COOPERATIVES</h1>
                 </div>
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
                         <img class="w-9 h-9" src="AP/115.png" alt="">
-                    <h1 class=" XS text-center font-medium text-blue-900 ">LES STARTUPS</h1>
+                    <h1 class=" XS text-center font-medium text-blue-900 ">STARTUPS</h1>
                 </div>
                 <div class="p-1 rounded-md hover:scale-105 transition-transform  col-span-1 flex flex-col justify-center items-center gap-2">
                         <img class="w-9 h-9 " src="AP/107.png" alt="">
-                    <h1 class=" XS text-center font-medium text-blue-900 ">LES PROFESSIONNELS</h1>
+                    <h1 class=" XS text-center font-medium text-blue-900 ">PROFESSIONNELS</h1>
                 </div>
             </div>
             <button href="{{route('booking_now')}}"

@@ -32,7 +32,7 @@
         <div class="col-span-12 h-20 mb-8 lg:mb-2">
             <div id="content" class="flex flex-col justify-center items-center">
                 <h1 class="font-medium lg:text-5xl text-gray-700 z-30 md:text-center md:text-5xl">Pourquoi nous choisir?</h1>
-                <p class="lg:text-2xl font-normal text-gray-700 z-30 mt-2 md:text-center md:text-lg">NOUS SOMMES CENTRÉS SUR</p>
+                <p class="lg:text-xl font-normal text-gray-700 z-30 mt-4 md:text-center md:text-lg">NOUS SOMMES CENTRÉS SUR</p>
             </div>            
         </div>
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-5 justify-center items-center col-span-12 px-8 lg:px-20 lg:mt-10">

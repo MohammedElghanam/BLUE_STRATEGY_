@@ -60,8 +60,8 @@
                 {{-- <h1 class="mb-2 text-white">Opportunities</h1>
                 <h1 class="mb-2 text-white">don't happen, You</h1>
                 <h1 class="mb-2 text-blue-500 text-7xl font-bold">create them.</h1> --}}
-                <p class=" text-lg font-medium mb-4 mt-8">
-                    « <h class=" font-bold text-blue-400 text-xl">Chez BLUE STRATEGY,</h> nous ne nous contentons pas de rêver d'un avenir meilleur, nous le construisons activement. »
+                <p class="font-bold text-blue-400 text-xl mb-4 mt-8">
+                    « Chez BLUE STRATEGY, nous ne nous contentons pas de rêver d'un avenir meilleur, nous le construisons activement. »
                 </p>
                 <p>
                     Chez BLUE STRATEGY, nous ne faisons pas que suivre les tendances – nous les créons. Notre cabinet incarne une vision audacieuse et avant-gardiste, en parfaite harmonie avec les objectifs du nouveau modèle de développement économique du Maroc.

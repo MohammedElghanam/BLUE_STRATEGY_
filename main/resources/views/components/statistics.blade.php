@@ -203,14 +203,14 @@
                     <div class="circular-progress CP0">
                         <span class="progress-value PV0">0%</span>
                     </div>
-                    <span class="text text-center">Taux de Satisfaction Client</span>
+                    <span class="text text-center w-4/6">Taux de Satisfaction Client</span>
                 </div>
 
                 <div class="container col-span-1 md:col-span-3 lg:col-span-3">
                     <div class="circular-progress CP1">
                         <span class="progress-value PV1">0%</span>
                     </div>
-                    <span class="text text-center">Projets réussis 
+                    <span class="text text-center w-4/6">Projets réussis 
                         dès la première phase
                         </span>
                 </div>
@@ -219,14 +219,14 @@
                     <div class="circular-progress CP2">
                         <span class="progress-value PV2">0%</span>
                     </div>
-                    <span class="text text-center">Croissance des performances</span>
+                    <span class="text text-center w-3/5">Croissance des performances</span>
                 </div>
 
                 <div class="container col-span-1 md:col-span-3 lg:col-span-3">
                     <div class="circular-progress CP3">
                         <span class="progress-value PV3">0%</span>
                     </div>
-                    <span class="text text-center">Réduction des 
+                    <span class="text text-center w-3/4">Réduction des 
                         coûts opérationnels
                         </span>
                 </div>
