@@ -36,7 +36,7 @@
 
 
 {{-- first section  --}}
-<section class="">
+<section id="3" class="">
     <div class="flex justify-center items-center relative">
         <img class="w-full md:w-auto" src="B_U/2.png" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
@@ -209,7 +209,7 @@
     </div>
 </section>
 
-<section class=" h-96 bg-blue-500 flex justify-center items-center font-extralight text-6xl">
+<section id="digital" class=" h-96 bg-blue-500 flex justify-center items-center font-extralight text-6xl">
     <h1>section marketing</h1>
 </section>
 

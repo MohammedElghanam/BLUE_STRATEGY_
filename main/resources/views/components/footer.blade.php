@@ -34,22 +34,22 @@
                     <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">NOS DOMAINES D'EXPERTISE</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="">
-                            <a href="#" class="hover:underline XS">PMO - PROJECT MANAGEMENT OFFICE</a>
+                            <a href="{{ url('/PMO') }}#1" class="hover:underline XS">PMO - PROJECT MANAGEMENT OFFICE</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline XS">SERVICES AUX TPE/PME</a>
+                            <a href="{{ url('/TPE') }}#2" class="hover:underline XS">SERVICES AUX TPE/PME</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline XS">SERVICES DIGITAUX</a>
+                            <a href="{{ url('/DIGITAL') }}#3" class="hover:underline XS">SERVICES DIGITAUX</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline XS">SERVICES RH & CARRIERE</a>
+                            <a href="{{ url('/RH') }}#4" class="hover:underline XS">SERVICES RH & CARRIERE</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline XS">FFORMATION PROFESSIONNELLE</a>
+                            <a href="{{ url('/FORMATION') }}#5" class="hover:underline XS">FORMATION PROFESSIONNELLE</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline XS">ENTREUPRENARIAT ET PROJETS ESS</a>
+                            <a href="{{ url('/DESS') }}#5" class="hover:underline XS">ENTREUPRENARIAT ET PROJETS ESS</a>
                         </li>
                     </ul>
                 </div>

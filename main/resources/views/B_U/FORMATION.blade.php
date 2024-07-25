@@ -45,7 +45,7 @@
     }
 </style>
 {{-- first section --}}
-<section class="">
+<section id="5" class="">
     <div class="flex justify-center items-center relative">
         <img class="w-full md:w-auto" src="B_U/FOR/3.svg" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
@@ -65,7 +65,7 @@
 </section>
 
 {{-- about --}}
-<section>
+<section id="about">
     <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12 md:col-span-6 grid grid-cols-12 gap-4">
             <div class="col-span-12 grid grid-cols-12 gap-2 mt-10">
@@ -193,9 +193,9 @@
 </section>
 
 
-<section class="pt-8 pl-8 my-7">
+<section id="SOLUTIONS" class="pt-8 pl-8 my-7">
     <div class="F grid grid-cols-12 relative">
-        <div class="md:w-2/5 lg:w-1/2 absolute -top-2.5 left-0 px-2 bg-white">
+        <div class="md:w-2/5 lg:w-1/2 absolute -top-3 left-0 px-2 bg-white">
             <h1 class="TIT text-2xl md:text-4xl lg:text-4xl font-bold">NOS SOLUTIONS DE FORMATIONS</h1>
         </div>
 
@@ -299,7 +299,7 @@
 </section>
 
 
-<section class="my-20">
+<section id="INGENIERIE" class="my-20">
     <div class="grid grid-cols-12 lg:pl-20 gap-10">
 
         <div class="grid grid-cols-12 col-span-12 h-20 justify-start items-center bg-white mb-2">
@@ -402,7 +402,7 @@
 </section>
 
 
-<section>
+<section id="DOMAINES">
     <div class=" grid grid-cols-12 gap-2 px-20">
         <div class=" col-span-6 p-10 relative">
             <div class=" BG absolute w-3/5 bottom-28 left-0  p-4 flex justify-center items-center">
@@ -671,7 +671,7 @@
 </section>
 
 
-<section>
+<section id="SECTORIELLES">
     <div class=" grid grid-cols-12 gap-8 px-20">
         <div class=" grid grid-cols-12 items-center gap-2 col-span-6">
             <div class=" col-span-12">

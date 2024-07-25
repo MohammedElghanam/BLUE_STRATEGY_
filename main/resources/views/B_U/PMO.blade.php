@@ -69,7 +69,7 @@
 </style>
 
 {{-- first section  --}}
-<section class="pt-20">
+<section id="1" class="pt-20">
         <div class="flex justify-center items-center relative">
             <img class="w-full md:w-auto" src="B_U/8.png" alt="">
             <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>

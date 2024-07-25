@@ -279,10 +279,11 @@
                             </h2>
                             <p class="mt-2 text-sm text-gray-400">Lorem ipsum is placeholder text.</p>
                         </div>
-                        <form  action="#" method="POST" class="mt-8 space-y-3">
+                        <form  action="{{route('ref')}}" method="POST" class="mt-8 space-y-3">
+                            @csrf
                                     <div class="grid grid-cols-1 space-y-2">
                                         <label class="text-sm font-bold text-gray-500 tracking-wide">Nom</label>
-                                            <input class="text-base p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="" placeholder="Ajouter nom de references">
+                                            <input name="name" class="text-base p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="" placeholder="Ajouter nom de references">
                                     </div>
                                     <div class="grid grid-cols-1 space-y-2">
                                                     <label class="text-sm font-bold text-gray-500 tracking-wide">Attach Document</label>
@@ -294,7 +295,7 @@
                                                     </svg>                                                    
                                                     <p class="pointer-none text-gray-500 "><span class="text-sm">Drag and drop</span> files here <br /> or <a href="" id="" class="text-blue-600 hover:underline">select a file</a> from your computer</p>
                                                 </div>
-                                                <input type="file" class="hidden">
+                                                <input name="image" type="file" class="hidden">
                                             </label>
                                         </div>
                                     </div>

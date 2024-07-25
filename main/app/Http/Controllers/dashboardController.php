@@ -8,6 +8,7 @@ use App\Models\Visit;
 use App\Models\Booking;
 
 use App\Models\Contact;
+use App\Models\reference;
 use App\Mail\Send_Message;
 use App\Mail\validBooking;
 use App\Mail\ValideBooking;

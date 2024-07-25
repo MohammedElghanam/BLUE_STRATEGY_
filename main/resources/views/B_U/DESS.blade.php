@@ -75,7 +75,7 @@
 
 
 {{-- first section  --}}
-<section class="">
+<section id="6" class="">
     <div class="flex justify-center items-center relative">
         <img class="w-full md:w-auto" src="B_U/TPE/1.png" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>

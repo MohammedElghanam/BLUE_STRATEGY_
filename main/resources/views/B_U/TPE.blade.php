@@ -65,7 +65,7 @@
 </style>
 
 {{-- first section  --}}
-<section class="">
+<section id="2" class="">
     <div class="flex justify-center items-center relative">
         <img class="w-full md:w-auto" src="B_U/TPE/1.png" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
@@ -269,7 +269,7 @@
 </section>
 
 
-<section>
+<section id="stratégie">
     <div class=" grid grid-cols-12 gap-2 px-20">
         <div class=" col-span-6 p-10 relative">
             <div class=" BG absolute w-3/5 top-48 left-0 p-4 pl-10 flex justify-center items-center gap-2 rounded-xl">
@@ -517,7 +517,7 @@
     </div>
 </section>
 
-<section class=" relative my-10">
+<section id="creation" class=" relative my-10">
     <div class="grid grid-cols-12 gap-6 px-20 absolute w-full h-full">
         <div class="col-span-6 relative">
             <div class=" bg-gray-100 p-6 absolute rounded-xl transform translate-x-1 duration-300 hover:scale-105">
@@ -864,7 +864,7 @@
 </section> --}}
 
 
-<section class=" px-20 bg-gray-50">
+<section id="design" class=" px-20 bg-gray-50">
     <div class=" grid grid-cols-12 gap-2 p-2">
         
         <div class="grid grid-cols-12 gap-2 p-2 col-span-4">
@@ -979,7 +979,7 @@
 
 
 
-<section>
+<section id="marketing" >
     <div class=" grid grid-cols-12 gap-2 px-20">
         <div class=" col-span-6 p-10 relative">
             <div class=" BG absolute w-3/4 top-48 left-0 p-4 pl-10 flex justify-center items-center gap-4 rounded-xl">
@@ -1119,7 +1119,7 @@
     </div>
 </section>
 
-<section class=" relative my-10">
+<section id="COMMERCIAL" class=" relative my-10">
     <div class="grid grid-cols-12 gap-6 px-20 absolute w-full h-full">
         
         <div class="col-span-6 relative">
@@ -1365,7 +1365,7 @@
 
 
 
-<section>
+<section id="QHSE">
     <div class=" grid grid-cols-12 gap-2 px-20">
         
         <div class=" grid grid-cols-12 gap-2 col-span-6">

@@ -55,7 +55,7 @@
 
 
 {{-- first section  --}}
-<section class="">
+<section id="4" class="">
     <div class="flex justify-center items-center relative">
         <img class="w-full md:w-auto" src="B_U/RH/8.svg" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
@@ -224,7 +224,7 @@
 </section>
 
 
-<section class="px-6 lg:px-20 pb-28 relative">
+<section id="POTENTIEL" class="px-6 lg:px-20 pb-28 relative">
     <div class="POL_RIGHT h-24 w-24 lg:h-36 lg:w-36 absolute top-0 left-0"></div>
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-2 p-2">
         <div class="col-span-12 h-full p-2 flex justify-start items-center">
@@ -298,7 +298,7 @@
 </section>
 
 
-<section class=" mb-20 relative">
+<section id="TALENTS" class=" mb-20 relative">
     <div class=" grid grid-cols-12">
         <div class=" col-span-1 bg-gray-200"></div>
         <div class=" grid grid-cols-12 col-span-7 relative">
@@ -371,7 +371,7 @@
 </section>
 
 
-<section>
+<section id="ORGANISATION">
     <div class=" grid grid-cols-12 gap-6 px-32 my-10">
         <div class=" col-span-12 text-center text-3xl font-bold TIT flex justify-center items-center mb-3">
             <h1 class=" w-1/2">L'ORGANISATION DE L'UNIVERS RHET LE BIEN-ÊTRE AU TRAVAIL </h1>
@@ -439,7 +439,7 @@
 </section>
 
 
-<section class=" my-20 bg-gray-100">
+<section id="COACHING" class=" my-20 bg-gray-100">
     <div class=" grid grid-cols-12 gap-2 px-24">
         <div class=" col-span-6 relative">
             <img src="U_I/7.png" alt="">
@@ -564,7 +564,7 @@
     </div>
 </section>
 
-<section class=" my-10">
+<section id="ANIMATION" class=" my-10">
     <div class=" grid grid-cols-12 gap-4 p-2 mx-32">
         <div class="grid grid-cols-1 gap-6 col-span-7">
 

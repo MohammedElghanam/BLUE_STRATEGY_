@@ -73,6 +73,10 @@ Route::middleware('guest')->group(function(){
         return view('6DESS');
     })->name('DESS');
 
+    Route::get('/ENTREPREUNARIAT', function () {
+        return view('1ENTREPREUNARIAT');
+    })->name('ENTREPREUNARIAT');
+
 });
 
 
@@ -81,3 +85,7 @@ Route::middleware('guest')->group(function(){
 /* ------------------------------------------------------- */
 
 Route::post('contact_callback', [ContactController::class, 'store'])->name('contact_callback');
+
+
+Route::post('ref', [dashboardController::class, 'store'])->name('ref');
+

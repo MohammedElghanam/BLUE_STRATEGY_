@@ -235,35 +235,35 @@
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Services de conseil et stratégie</a>
+                                        <a href="{{ url('/TPE') }}#stratégie">Services de conseil et stratégie</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Services de création et reprise d'entreprise</a>
+                                        <a href="{{ url('/TPE') }}#creation">Services de création et reprise d'entreprise</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Services de management et organisation</a>
+                                        <a href="{{ url('/TPE') }}#creation">Services de management et organisation</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Services de design et expérience client</a>
+                                        <a href="{{ url('/TPE') }}#design">Services de design et expérience client</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Services de développement commercial</a>
+                                        <a href="{{ url('/TPE') }}#marketing">Services de marketing et communication</a>
+                                    </div>                                    
+                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
+                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
+                                        <a href="{{ url('/TPE') }}#COMMERCIAL">Services de développement commercial</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Services de marketing et communication</a>
+                                        <a href="{{ url('/TPE') }}#COMMERCIAL">Services de finance et controle gestion</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Services de finance et controle gestion</a>
-                                    </div>
-                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
-                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Services de QHSE</a>
+                                        <a href="{{ url('/TPE') }}#QHSE">Services de QHSE</a>
                                     </div>
                                 </div>
 
@@ -275,7 +275,7 @@
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{ url('/DIGITAL') }}#marketing">Services de marketing digital</a>
+                                        <a href="{{ url('/DIGITAL') }}#digital">Services de marketing digital</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
@@ -299,31 +299,31 @@
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">SERVICES RH & CARRIERE</h1>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{ url('/RH') }}" >About B.U</a>
+                                        <a href="{{ url('/RH') }}#" >About B.U</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >Services de recherche de potentiel</a>
+                                        <a href="{{ url('/RH') }}#POTENTIEL" >Services de recherche de potentiel</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >Services de développement des talents </a>
+                                        <a href="{{ url('/RH') }}#TALENTS" >Services de développement des talents </a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >Services d'organisation de l'univers RH</a>
+                                        <a href="{{ url('/RH') }}#ORGANISATION" >Services d'organisation de l'univers RH</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >Services de bien-être au travail</a>
+                                        <a href="{{ url('/RH') }}#" >Services de bien-être au travail</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >Services de coaching professionnel</a>
+                                        <a href="{{ url('/RH') }}#COACHING" >Services de coaching professionnel</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >Services d'animation des équipes </a>
+                                        <a href="{{ url('/RH') }}#ANIMATION" >Services d'animation des équipes </a>
                                     </div>
                                 </div>
 
@@ -335,15 +335,19 @@
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{url('/FORMATION')}}#equipe">Nos solutions de formation</a>
+                                        <a href="{{url('/FORMATION')}}#SOLUTIONS">Nos solutions de formation</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{url('/FORMATION')}}#Solution">Nos services d'ingenierie de formation</a>
+                                        <a href="{{url('/FORMATION')}}#INGENIERIE">Nos services d'ingenierie de formation</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{url('/FORMATION')}}#Ingenierie">Nos domaines de formation</a>
+                                        <a href="{{url('/FORMATION')}}#DOMAINES">Nos domaines de formation</a>
+                                    </div>
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
+                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
+                                        <a href="{{url('/FORMATION')}}#SECTORIELLES">Nos formation sectorielles</a>
                                     </div>
                                 </div>
 
@@ -351,15 +355,27 @@
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">ENTREUPRENARIAT ET PROJETS ESS</h1>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>About</span>
+                                        <a href="{{url('/DESS')}}#about">About B.U</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>Notre Equipe</span>
+                                        <a href="{{url('/DESS')}}#about">Accompagnement entrepreneurial</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <span>Nos Service</span>
+                                        <a href="{{url('/DESS')}}#about">Accompagnement aux coopératives.</a>
+                                    </div>
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
+                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
+                                        <a href="{{url('/DESS')}}#about">Accompagnement aux femmes.</a>
+                                    </div>
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
+                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
+                                        <a href="{{url('/DESS')}}#about">Accompagnement aux jeunes</a>
+                                    </div>
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
+                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
+                                        <a href="{{url('/DESS')}}#about">Accompagnement des associations et ONG.</a>
                                     </div>
                                 </div>
 
