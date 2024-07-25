@@ -705,7 +705,10 @@
 
 
         <div class="grid grid-cols-12 gap-2 col-span-5">
-            <div class=" col-span-12">
+            <div class=" col-span-12 flex justify-start items-center gap-4">
+                <div class="">
+                    <img class=" w-10 h-10" src="B_U/7.png" alt="">
+                </div>
                 <h1 class=" TIT text-3xl font-semibold">ANIMATION DES EQUIPES</h1>
             </div>
             <img class=" col-span-6" src="B_U/RH/10.png" alt="">
