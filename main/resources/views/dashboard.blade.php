@@ -1,3 +1,10 @@
+<style>
+	.has-mask {
+		position: absolute;
+		clip: rect(10px, 150px, 130px, 10px);
+	}
+</style>
+
 <!-- component -->
 <!DOCTYPE html>
 <html x-data="data()" lang="en">
@@ -34,14 +41,10 @@
                     <div>
                         <ul class="mt-6 leading-10">
                             <li class="relative px-2 py-1 ">
-                                <a class="inline-flex items-center w-full text-sm font-semibold text-white transition-colors duration-150 cursor-pointer hover:text-green-500" 
+                                <a id="ajouter" class="inline-flex items-center w-full text-sm font-semibold text-white transition-colors duration-150 cursor-pointer hover:text-green-500" 
                                     href=" #">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                                    </svg>
-                                    <span class="ml-4">DASHBOARD</span>
+                                    <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"><circle cx="128" cy="128" r="112"/><path d="M 79.999992,128 H 176.0001"/><path d="m 128.00004,79.99995 v 96.0001"/></g></svg>
+                                    <span class="ml-4">AJOUTER UNE REFERENCES</span>
                                 </a>
                             </li>
                             <li class="relative px-2 py-1" x-data="{ Open : false  }">
@@ -54,7 +57,7 @@
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20" />
                                         </svg>
-                                        <span class="ml-4">ITEM</span>
+                                        <span class="ml-4">DASHBOARD</span>
                                     </span>
                                     <svg xmlns="http://www.w3.org/2000/svg" x-show="!Open"
                                         class="ml-1  text-white w-4 h-4" fill="none" viewBox="0 0 24 24"
@@ -79,20 +82,15 @@
                                         x-transition:leave="transition-all ease-in-out duration-300"
                                         x-transition:leave-start="opacity-100 max-h-xl"
                                         x-transition:leave-end="opacity-0 max-h-0"
-                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-blue-800"
+                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-blue-800 hover:bg-blue-900"
                                         aria-label="submenu">
 
                                         <li class="px-2 py-1 text-white transition-colors duration-150">
-                                            <div class="px-1 hover:text-gray-800 hover:bg-gray-100 rounded-md">
+                                            <div class="px-1 rounded-md">
                                                 <div class="flex items-center">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
-                                                        viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            stroke-width="2"
-                                                            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                                                    </svg>
+                                                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M8 44V4h23l9 10.5V44z"/><path d="M34 25c0 5.523-4.477 10-10 10s-10-4.477-10-10s4.477-10 10-10a9.965 9.965 0 0 1 6.865 2.729A9.972 9.972 0 0 1 34 25m-17-7l14 14"/><path d="M34 25c0 5.523-4.477 10-10 10M14 25c0-5.523 4.477-10 10-10"/></g></svg>
                                                     <a href="#"
-                                                        class="w-full ml-2  text-sm font-semibold text-white hover:text-gray-800">Users invalide</a>
+                                                        class="w-full ml-2  text-sm font-semibold text-white ">Users invalide</a>
                                                 </div>
                                             </div>
                                         </li>
@@ -104,20 +102,15 @@
                                         x-transition:leave="transition-all ease-in-out duration-300"
                                         x-transition:leave-start="opacity-100 max-h-xl"
                                         x-transition:leave-end="opacity-0 max-h-0"
-                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-blue-800"
+                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-blue-800 hover:bg-blue-900"
                                         aria-label="submenu">
 
                                         <li class="px-2 py-1 text-white transition-colors duration-150">
-                                            <div class="px-1 hover:text-gray-800 hover:bg-gray-100 rounded-md">
+                                            <div class="px-1 rounded-md">
                                                 <div class="flex items-center">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
-                                                        viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            stroke-width="2"
-                                                            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                                                    </svg>
+                                                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M22 3H2C.9 3 0 3.9 0 5v14c0 1.1.9 2 2 2h20c1.1 0 1.99-.9 1.99-2L24 5c0-1.1-.9-2-2-2M8 6c1.66 0 3 1.34 3 3s-1.34 3-3 3s-3-1.34-3-3s1.34-3 3-3m6 12H2v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1zm3.85-4h1.64L21 16l-1.99 1.99A7.512 7.512 0 0 1 16.28 14c-.18-.64-.28-1.31-.28-2s.1-1.36.28-2a7.474 7.474 0 0 1 2.73-3.99L21 8l-1.51 2h-1.64c-.22.63-.35 1.3-.35 2s.13 1.37.35 2"/></svg>
                                                     <a href="#"
-                                                        class="w-full ml-2  text-sm font-semibold text-white hover:text-gray-800">Contact</a>
+                                                        class="w-full ml-2  text-sm font-semibold text-white ">Contact</a>
                                                 </div>
                                             </div>
                                         </li>
@@ -275,6 +268,53 @@
                 </div>
             </header>
 
+
+            <!-- pop up ajouter references -->
+            <div id="form_references" class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 hidden z-50">
+                <div class="container mx-auto mt-10 shadow-lg max-w-md rounded-md">
+                    <div id="popup-form" class="sm:max-w-lg w-full p-10 bg-white rounded-xl z-10">
+                        <div class="text-center">
+                            <h2 class="mt-5 text-3xl font-bold text-gray-900">
+                                File Upload!
+                            </h2>
+                            <p class="mt-2 text-sm text-gray-400">Lorem ipsum is placeholder text.</p>
+                        </div>
+                        <form  action="#" method="POST" class="mt-8 space-y-3">
+                                    <div class="grid grid-cols-1 space-y-2">
+                                        <label class="text-sm font-bold text-gray-500 tracking-wide">Nom</label>
+                                            <input class="text-base p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="" placeholder="Ajouter nom de references">
+                                    </div>
+                                    <div class="grid grid-cols-1 space-y-2">
+                                                    <label class="text-sm font-bold text-gray-500 tracking-wide">Attach Document</label>
+                                        <div class="flex items-center justify-center w-full">
+                                            <label class="flex flex-col rounded-lg border-4 border-dashed w-full h-40 p-10 group text-center">
+                                                <div class="h-full w-full text-center flex flex-col items-center justify-center ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-blue-400 group-hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                                                    </svg>                                                    
+                                                    <p class="pointer-none text-gray-500 "><span class="text-sm">Drag and drop</span> files here <br /> or <a href="" id="" class="text-blue-600 hover:underline">select a file</a> from your computer</p>
+                                                </div>
+                                                <input type="file" class="hidden">
+                                            </label>
+                                        </div>
+                                    </div>
+                                            <p class="text-sm text-gray-300">
+                                                <span>File type: doc,pdf,types of images</span>
+                                            </p>
+                                    <div>
+                                        <button type="submit" class="my-5 w-full flex justify-center bg-blue-500 text-gray-100 p-4  rounded-full tracking-wide
+                                                    font-semibold  focus:outline-none focus:shadow-outline hover:bg-blue-600 shadow-lg cursor-pointer transition ease-in duration-300">
+                                        Upload
+                                    </button>
+                                    </div>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+
+
+
             <main class="">
                 <div class="grid mb-4 pb-10 px-8 mx-4 rounded-3xl bg-gray-100 border-4 border-green-400">
 
@@ -290,12 +330,7 @@
                                         href="#">
                                         <div class="p-5">
                                             <div class="flex justify-between">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-blue-400"
-                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        stroke-width="2"
-                                                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-                                                </svg>
+                                                <svg class=" h-7 w-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><circle cx="16" cy="16" r="4" fill="#60a5fa"/><path fill="#60a5fa" d="M30.94 15.66A16.69 16.69 0 0 0 16 5A16.69 16.69 0 0 0 1.06 15.66a1 1 0 0 0 0 .68A16.69 16.69 0 0 0 16 27a16.69 16.69 0 0 0 14.94-10.66a1 1 0 0 0 0-.68M16 22.5a6.5 6.5 0 1 1 6.5-6.5a6.51 6.51 0 0 1-6.5 6.5"/></svg>
                                                 <div
                                                     class="bg-green-500 rounded-full h-6 px-2 flex justify-items-center text-white font-semibold text-sm">
                                                     <span class="flex items-center">30%</span>
@@ -305,7 +340,7 @@
                                                 <div>
                                                     <div class="mt-3 text-3xl font-bold leading-8">{{ $visitCount }}</div>
 
-                                                    <div class="mt-1 text-base text-gray-600">Item Sales</div>
+                                                    <div class="mt-1 text-base text-gray-600">Nombre de vues du site</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1045,7 +1080,18 @@
                 $(".valid").hide();
                 $(".contact").hide();
                 $(".User_invalid").show();
-           }); 
+           });
+
+           // Show form ajouter references
+           $("#ajouter").click(function () {
+                $("#form_references").show();
+            });
+
+            $("#form_references").click(function (event) {
+                if (event.target === this) {
+                    $(this).hide();
+                }
+            });
         });
     </script>
 </body>
