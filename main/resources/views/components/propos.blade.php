@@ -136,7 +136,7 @@ XS.{
 
 <section class="grid grid-cols-1 lg:grid-cols-12 px-6 lg:px-40 pt-20 lg:pt-40 w-full">
     <div class="col-span-1 lg:col-span-6 mb-10 lg:mb-0 h-auto lg:h-3/4">
-        <h1 class="TOP text-3xl lg:text-3xl font-bold text-blue-800 mb-6">A PROPOS DE NOUS</h1>
+        <h1 class="TOP text-3xl lg:text-3xl font-bold text-blue-800 mb-6">QUI SOMMES NOUS ?</h1>
         <div class="grid grid-cols-12 justify-center items-center w-full bg-blue-900 p-6 lg:p-12 rounded-lg">
             <div class="DATA col-span-12">
                 <p class="col-span-12 text-lg font-light text-white mb-3">
@@ -190,7 +190,7 @@ XS.{
 <section class="py-20">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 px-4 md:px-12 lg:px-36">
         <div class=" lg:col-span-12 md:col-span-1 mb-5 text-center">
-            <h1 class="font-bold text-3xl md:text-4xl lg:text-3xl text-blue-900 z-50">NOS DOMAINES D'EXPERTISE</h1>
+            <h1 class="font-bold text-3xl md:text-4xl lg:text-2xl text-blue-900 z-50">NOS DOMAINES D'EXPERTISE</h1>
         </div>
 
         <div class="B_U1 grid grid-cols-1 lg:col-span-4 p-4 gap-2 rounded-lg transform translate-x-1 duration-150 hover:scale-105 ">
@@ -211,12 +211,12 @@ XS.{
             </div>
         </div>
         
-        <div class="B_U3 grid grid-cols-1 lg:col-span-4 p-4 gap-2 rounded-lg transform translate-x-1 duration-150 hover:scale-105">
-            <div class="flex justify-center">
-                <img src="U_I/3.png" alt="Services Digitaux" class="w-20 h-20">
+        <div class="B_U3 pt-4 grid grid-cols-1 lg:col-span-4 p-4 rounded-lg transform translate-x-1 duration-150 hover:scale-105">
+            <div class="flex justify-center ">
+                <img src="B_U/34.png" alt="Services Digitaux" class="w-16 h-16">
             </div>
-            <div class="text-center text-white">
-                <h1 class="text-lg font-semibold">SERVICES DIGITAUX</h1>
+            <div class="text-center text-white ">
+                <h1 class="XS pt-4 font-semibold">SERVICES DIGITAUX</h1>
             </div>
         </div>
         
@@ -225,7 +225,7 @@ XS.{
                 <img src="U_I/4.png" alt="Carriere et RH" class="w-20 h-20">
             </div>
             <div class="text-center text-white">
-                <h1 class="XS font-semibold">CARRIERE ET RH</h1>
+                <h1 class="XS font-semibold">SERVICES RH & CARRIERE</h1>
             </div>
         </div>
         
@@ -243,7 +243,7 @@ XS.{
                 <img src="U_I/6.png" alt="Entreprenariat et ESS" class="w-20 h-20">
             </div>
             <div class="text-center text-white">
-                <h1 class="XS font-semibold">ENTREPRENARIAT ET PROJETS D'ESS</h1>
+                <h1 class="XS font-semibold">ENTREUPRENARIAT ET PROJETS ESS</h1>
             </div>
         </div>
     </div>
@@ -259,20 +259,20 @@ XS.{
         </div>
         <div class="w-2/3 mx-auto">
 
-            <div class="flex flex-row justify-center w-full">
+            <div class="1 flex flex-row justify-center w-full">                              
                 <!-- left col -->
                 <div class="left-col w-3/12 py-8">
-                    <div class="flex justify-center w-fulld px-4 py-5">
+                    <div class="flex justify-center w-full px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
-                                <img src="images/lamp.png" alt="" class=" w-12 h-12">                
+                                <img src="images/31.png" alt="" class=" w-12 h-12">
                             </div>
                             <div class="flex flex-row text-center">
-                                Soutien à l'innovation et digitalisation
+                                Accélération de la croissance
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>   
                 <!--line column-->
                 <div class="w-1/5 flex justify-center items-end">
                     <div class="relative flex items-start justify-center h-1/2 w-1 bg-blue-900">
@@ -285,33 +285,33 @@ XS.{
                 <div class="right-col w-3/12 px-2 py-10"></div>
             </div>
 
-            <div class="flex flex-row justify-center w-full">                
-                <!--right column-->
+            <div class="2 flex flex-row justify-center w-full">
+                <!-- left col -->
                 <div class="right-col w-3/12 px-2 py-10"></div>
                 <!--line column-->
                 <div class="w-1/5 flex justify-center">
-                    <div class="relative flex h-full w-1 bg-blue-900 items-center justify-center">
+                    <div class="relative flex items-center justify-center h-full w-1 bg-blue-900">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">02</div>
                         </div>
                     </div>
                 </div>
-                <!-- left col -->
+                <!--right column-->
                 <div class="left-col w-3/12 py-8">
                     <div class="flex justify-center w-full px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
-                                <img src="images/33.png" alt="" class=" w-12 h-12">
+                                <img src="images/35.png" alt="" class=" w-12 h-12">
                             </div>
                             <div class="flex flex-row text-center">
-                                Soutien à l'economie sociale et solidaire
+                                Alignement sur le marché
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>                
             </div>
 
-            <div class="flex flex-row justify-center w-full">
+            <div class="3 flex flex-row justify-center w-full">
                 <!-- left col -->
                 <div class="left-col w-3/12 py-8">
                     <div class="flex justify-center w-full px-4 py-5">
@@ -337,7 +337,7 @@ XS.{
                 <div class="right-col w-3/12 px-2 py-10"></div>
             </div>
 
-            <div class="flex flex-row justify-center w-full">                
+            <div class="4 flex flex-row justify-center w-full">                
                 <!--right column-->
                 <div class="right-col w-3/12 px-2 py-10"></div>
                 <!--line column-->
@@ -362,36 +362,36 @@ XS.{
                     </div>
                 </div>
             </div>
-
-            <div class="flex flex-row justify-center w-full">
+            
+            <div class="5 flex flex-row justify-center w-full">
                 <!-- left col -->
                 <div class="left-col w-3/12 py-8">
-                    <div class="flex justify-center w-full px-4 py-5">
+                    <div class="flex justify-center w-fulld px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
-                                <img src="images/35.png" alt="" class=" w-12 h-12">
+                                <img src="images/lamp.png" alt="" class=" w-12 h-12">                
                             </div>
                             <div class="flex flex-row text-center">
-                                Alignement sur le marché
+                                Soutien à l'innovation et digitalisation
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>  
                 <!--line column-->
                 <div class="w-1/5 flex justify-center">
-                    <div class="relative flex items-center justify-center h-full w-1 bg-blue-900">
+                    <div class="relative flex h-full w-1 bg-blue-900 items-center justify-center">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">05</div>
                         </div>
                     </div>
-                </div>
+                </div>                             
                 <!--right column-->
                 <div class="right-col w-3/12 px-2 py-10"></div>
             </div>
 
-            <div class="flex flex-row justify-center w-full">                
-                <!--right column-->
-                <div class="right-col w-3/12 px-2 py-10"></div>
+            <div class="6 flex flex-row justify-center w-full">
+                <!--left column-->
+                <div class="right-col w-3/12 px-2 py-10"></div>                
                 <!--line column-->
                 <div class="w-1/5 flex justify-center">
                     <div class="relative flex justify-center items-end h-1/2 w-1 bg-blue-900">
@@ -400,20 +400,21 @@ XS.{
                         </div>
                     </div>
                 </div>
-                <!-- left col -->
+                <!-- right col -->
                 <div class="left-col w-3/12 py-8">
                     <div class="flex justify-center w-full px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
-                                <img src="images/31.png" alt="" class=" w-12 h-12">
+                                <img src="images/33.png" alt="" class=" w-12 h-12">
                             </div>
                             <div class="flex flex-row text-center">
-                                Accélération de la croissance
+                                Soutien à l'economie sociale et solidaire
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>

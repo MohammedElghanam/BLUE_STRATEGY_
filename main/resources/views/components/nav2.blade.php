@@ -142,7 +142,7 @@
                                 <li id="C1" class=" px-6 flex items-center justify-between relative parent hover:bg-blue-800">
                                     <a href="#"
                                         class="flex justify-between md:inline-flex p-4 items-center text-white space-x-2 xl:text-[15px]">
-                                        <span>PROJECT MANAGEMENT OFFICE</span>
+                                        <span>PMO - PROJECT MANAGEMENT OFFICE</span>
                                     </a>
                                     <svg class=" w-4 h-4 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
                                         <path fill="white" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/>
@@ -152,8 +152,8 @@
                                 {{-- TME/PME --}}
                                 <li id="C2" class=" px-6 flex items-center justify-between relative parent hover:bg-blue-800">
                                     <a href="#"
-                                        class="flex justify-between md:inline-flex p-4 items-center text-white space-x-2 xl:text-[15px] w-44">
-                                        <span>Service TPM/PME</span>
+                                        class=" flex justify-between md:inline-flex p-4 items-center text-white space-x-2 xl:text-[15px] w-full">
+                                        <span>SERVICES AUX TPE/PME</span>
                                         
                                     </a>
                                     <svg class=" w-4 h-4 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
@@ -163,8 +163,8 @@
                                 {{-- SERVICES DIGITAUX  --}}
                                 <li id="C3" class=" px-6 flex items-center justify-between relative parent hover:bg-blue-800">
                                     <a href="#"
-                                        class="flex justify-between md:inline-flex p-4 items-center text-white space-x-2 xl:text-[15px] w-44">
-                                        <span>Service Digitaux</span>
+                                        class="flex justify-between md:inline-flex p-4 items-center text-white space-x-2 xl:text-[15px] w-full">
+                                        <span>SERVICES DIGITAUX</span>
                                         
                                     </a>
                                     <svg class=" w-4 h-4 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
@@ -174,8 +174,8 @@
                                 {{-- RH  --}}
                                 <li id="C4" class=" px-6 flex items-center justify-between relative parent hover:bg-blue-800">
                                     <a href="#"
-                                        class="flex justify-between md:inline-flex p-4 items-center text-white space-x-2 xl:text-[15px] w-40">
-                                        <span>Carriere RH</span>
+                                        class="flex justify-between md:inline-flex p-4 items-center text-white space-x-2 xl:text-[15px] w-full">
+                                        <span>SERVICES RH & CARRIERE</span>
                                         
                                     </a>
                                     <svg class=" w-4 h-4 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
@@ -185,8 +185,8 @@
                                 {{-- FORMATION PRO  --}}
                                 <li id="C5" class=" px-6 flex items-center justify-between relative parent hover:bg-blue-800">
                                     <a href="#"
-                                        class="flex justify-between md:inline-flex p-4 items-center text-white space-x-2 xl:text-[15px] w-60">
-                                        <span>Formation Professionnelle</span>
+                                        class="flex justify-between md:inline-flex p-4 items-center text-white space-x-2 xl:text-[15px] w-full">
+                                        <span>FORMATION PROFESSIONNELLE</span>
                                         
                                     </a>
                                     <svg class=" w-4 h-4 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
@@ -196,8 +196,8 @@
                                 {{-- PROJECT D'ESS  --}}
                                 <li id="C6" class=" px-6 flex items-center justify-between relative parent hover:bg-blue-800">
                                     <a href="#"
-                                        class="flex justify-between md:inline-flex p-4 items-center text-white space-x-2 xl:text-[15px] w-64">
-                                        <span>Entreprenariat Et Project D’ess</span>
+                                        class="flex justify-between md:inline-flex p-4 items-center text-white space-x-2 xl:text-[15px] w-full">
+                                        <span>ENTREUPRENARIAT ET PROJETS ESS</span>
                                         
                                     </a>
                                     <svg class=" w-4 h-4 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
@@ -215,59 +215,55 @@
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{ url('/PMO') }}#service">Nos Service PMO</a>
+                                        <a href="{{ url('/PMO') }}#service">Nos services PMO</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{ url('/PMO') }}#type">Nos types de projet</a>
+                                        <a href="{{ url('/PMO') }}#type">Nos services outsourcing PMO</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{ url('/PMO') }}#outsoursing">Out sourcing PMO</a>
+                                        <a href="{{ url('/PMO') }}#outsoursing">Nos types de projets</a>
                                     </div>
                                 </div>
 
                                 <div id="S2" class=" flex-col  gap-2 p-2 m-2" style=" display:none;">
-                                    <h1 class=" col-span-12 select-none text-2xl mb-4 font-bold text-gray-900">SERVICES TPE/PME</h1>
+                                    <h1 class=" col-span-12 select-none text-2xl mb-4 font-bold text-gray-900">SERVICES AUX TPE/PME</h1>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
                                         <a  href="{{ url('/TPE') }}#about">About B.U</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Notre Equipe</a>
+                                        <a href="">Services de conseil et stratégie</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Conseil et Stratégie.</a>
+                                        <a href="">Services de création et reprise d'entreprise</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Création et reprise.</a>
+                                        <a href="">Services de management et organisation</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Management et organisation.</a>
+                                        <a href="">Services de design et expérience client</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Design et expérience client.</a>
+                                        <a href="">Services de développement commercial</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Développement commercial.</a>
+                                        <a href="">Services de marketing et communication</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Marketing et communication.</a>
+                                        <a href="">Services de finance et controle gestion</a>
                                     </div>
                                     <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">Finances et contrôle gestion.</a>
-                                    </div>
-                                    <div class="  cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
-                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="">QHSE.</a>
+                                        <a href="">Services de QHSE</a>
                                     </div>
                                 </div>
 
@@ -275,59 +271,59 @@
                                     <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">SERVICES DIGITAUX</h1>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href=" {{ url('/DIGITAL') }}#about">About</a>
+                                        <a href=" {{ url('/DIGITAL') }}#about">About B.U</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{ url('/DIGITAL') }}#AMOA">AMOA</a>
+                                        <a href="{{ url('/DIGITAL') }}#marketing">Services de marketing digital</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{ url('/DIGITAL') }}#Intégration">Intégration ERP/CRM </a>
+                                        <a href="{{ url('/DIGITAL') }}#web">Services de développement WEB</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{ url('/DIGITAL') }}#web">Développement WEB </a>
+                                        <a href="{{ url('/DIGITAL') }}#UX">Services de design UX/UI</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{ url('/DIGITAL') }}#UX">DESIGN UX/UI </a>
+                                        <a href="{{ url('/DIGITAL') }}#Intégration">Services d'intégration ERP/CRM</a>
+                                    </div>
+                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
+                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
+                                        <a href="{{ url('/DIGITAL') }}#AMOA">Services AMOA IT </a>
                                     </div>
                                 </div>
 
                                 <div id="S4" class=" hidden flex-col gap-2 p-2 m-2">
-                                    <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">CARRIERE RH</h1>
+                                    <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">SERVICES RH & CARRIERE</h1>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
                                         <a href="{{ url('/RH') }}" >About B.U</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >Notre Equipe</a>
+                                        <a href="" >Services de recherche de potentiel</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >La recherche du potentiel </a>
+                                        <a href="" >Services de développement des talents </a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >Le développement des talents</a>
+                                        <a href="" >Services d'organisation de l'univers RH</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >L'organisation de l'univers RH</a>
+                                        <a href="" >Services de bien-être au travail</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >Le bien-être au travail </a>
+                                        <a href="" >Services de coaching professionnel</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >Le coaching professionnel </a>
-                                    </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
-                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="" >L’animation des équipes </a>
+                                        <a href="" >Services d'animation des équipes </a>
                                     </div>
                                 </div>
 
@@ -339,24 +335,20 @@
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{url('/FORMATION')}}#equipe">Notre Equipe</a>
+                                        <a href="{{url('/FORMATION')}}#equipe">Nos solutions de formation</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{url('/FORMATION')}}#Solution">Nos Solution De Formation</a>
+                                        <a href="{{url('/FORMATION')}}#Solution">Nos services d'ingenierie de formation</a>
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{url('/FORMATION')}}#Ingenierie">Ingenierie De Formation</a>
-                                    </div>
-                                    <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
-                                        <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{url('/FORMATION')}}#Domaines">Nos Domaines De Formation</a>
+                                        <a href="{{url('/FORMATION')}}#Ingenierie">Nos domaines de formation</a>
                                     </div>
                                 </div>
 
                                 <div id="S6" class=" hidden flex-col gap-2 p-2 m-2 ">
-                                    <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">ENTREPRENARIAT ET PROJECT D'ESS</h1>
+                                    <h1 class=" select-none text-2xl mb-4 font-bold text-gray-900">ENTREUPRENARIAT ET PROJETS ESS</h1>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
                                         <span>About</span>
@@ -373,12 +365,8 @@
 
                                 
                             </div>
-                            </div>
+                           </div>
                         </nav>
-                    </li>
-
-                    <li class="h-16 flex items-center justify-center px-4">
-                        <a href="{{route('home')}}" class="block py-2 pr-4 pl-3 rounded bg-blue-700 lg:bg-transparent text-gray-700 hover:text-blue-700 lg:p-0 dark:text-white" aria-current="page">NOS REALISATIONS</a>
                     </li>
 
                 </ul>

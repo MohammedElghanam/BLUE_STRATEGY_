@@ -56,7 +56,8 @@
                             <img src="https://pagedone.io/asset/uploads/1696488602.png" alt="ContactUs tailwind section"
                                 class="w-full h-full lg:rounded-l-2xl rounded-l-2xl bg-blend-multiply bg-indigo-700" />
                             <h1 class="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">
-                                Contact nous</h1>
+                                Contactez-nous
+                            </h1>
                             <div class="absolute bottom-0 w-full lg:p-11 p-5">
                                 <div class="bg-blue-800 rounded-lg p-6 block text-white">
                                     <a href="javascript:;" class="flex items-center mb-6">
@@ -71,7 +72,10 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/>
                                         </svg>
-                                        <h5 class=" text-base font-normal leading-6 ml-5">Buraux N° 14 RUE IDRISS 1, QU PLATEAU VN-SAFI</h5>
+                                        <div class="  ml-5">
+                                            <h5 class=" text-xs font-medium leading-6">Bureau N° 14, 2ème étage, imm OMAR, rue idriss 1, ville nouvelle - Safi  </h5>
+                                            <p class=" text-xs">(au-dessus du showroom renault et dacia AUTO ABDA )</p>
+                                        </div>
                                     </a>
                                 </div>
                             </div>
@@ -80,7 +84,7 @@
                 </div>
 
                 <div class="bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-r-2xl">
-                    <h2 class="text-blue-800 font-manrope text-4xl font-semibold leading-10 mb-11">Envoyez nous un message </h2>
+                    <h2 class="text-blue-800 font-manrope text-3xl font-semibold leading-10 mb-11">Envoyez nous un message </h2>
                     <div class=" mb-10">
                         <input name="name" type="text"
                         class="w-full h-12 text-gray-600 placeholder-gray-400  shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4"
@@ -106,7 +110,7 @@
                         @enderror
                     </div>
                     <div class="mb-10">
-                        <h4 class="text-gray-500 text-lg font-normal leading-7 mb-4">Method de communication préférérée</h4>
+                        <h4 class="text-gray-500 text-lg font-normal leading-7 mb-4">Mode de communication favori</h4>
 
                         <div class="flex">
                             <div>

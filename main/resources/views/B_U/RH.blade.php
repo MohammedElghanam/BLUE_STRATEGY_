@@ -29,6 +29,9 @@
 .TIT1{
     background-color: #1f0f89;
 }
+.TIT2{
+    color: #1f0f89;
+}
 .BOR_1{
     border-bottom: 3px solid #00cf0a;
 }
@@ -567,7 +570,7 @@
 
             <div class=" grid grid-cols-1 col-span-1 shadow-2xl p-8 bg-gray-100 rounded-xl">
                 <div class=" col-span-1">
-                    <h1 class=" TIT text-2xl font-semibold">Team Building</h1>
+                    <h1 class=" TIT2 text-2xl font-semibold">Team Building</h1>
                 </div>
                 <div class=" col-span-1">
                     <p>
@@ -703,7 +706,7 @@
 
         <div class="grid grid-cols-12 gap-2 col-span-5">
             <div class=" col-span-12">
-                <h1 class=" TIT text-4xl font-semibold">ANIMATION DES EQUIPES</h1>
+                <h1 class=" TIT text-3xl font-semibold">ANIMATION DES EQUIPES</h1>
             </div>
             <img class=" col-span-6" src="B_U/RH/10.png" alt="">
             <img class=" col-span-6" src="B_U/RH/11.png" alt="">

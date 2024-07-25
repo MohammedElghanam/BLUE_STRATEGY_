@@ -89,11 +89,16 @@
     <div id="FLOAT1" class=" lg:block md:hidden xl: sm:hidden"></div>
     <div class="w-full h-20"></div>
     <div class="grid max-w-screen-xl lg:gap-8 xl:gap-0 lg:grid-cols-12 h-full mx-16">
-        <div class="mr-auto place-self-center lg:col-span-7 mb-12 lg:mb-0">
+        <div class="mr-auto place-self-center lg:col-span-8 mb-12 lg:mb-0">
             <div class="w-full h-10"></div>
-            <h1 class="max-w-2xl mb-5 text-4xl font-extrabold leading-none md:text-5xl xl:text-4xl dark:text-white">
-                Élevez vos projets vers la réussite et l'innovation avec BLUE STRATEGY
-            </h1>
+            <div class=" ">
+                <h1 class=" w-full text-xl font-bold mb-2 leading-none md:text-5xl xl:text-3xl dark:text-white">
+                    Élevez vos projets vers la réussite et l'innovation
+                </h1>
+                <h1 class="max-w-2xl mb-5 text-xl font-bold leading-none md:text-5xl xl:text-3xl dark:text-white">
+                    avec le cabinet BLUE STRATEGY
+                </h1>
+            </div>
             <p class="max-w-2xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                 Bienvenue chez BLUE STRATEGY ! Nous transformons vos visions et vos 
                 idées en succès concrets grâce à notre expertise en études, management 
@@ -147,7 +152,7 @@
             
         </div>
         <!-- Conditionally remove this div on md screens -->
-        <div id="img_zoom" class="hidden h-full md:flex col-span-5 justify-end items-end">
+        <div id="img_zoom" class="hidden h-full md:flex col-span-4 justify-end items-end">
             <div id="FLOATT"></div>
             <img src="AP/117.png" alt="mockup" class=" h-5/6 z-20 mt-3">
         </div>

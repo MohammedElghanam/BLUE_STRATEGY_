@@ -14,42 +14,42 @@
             <div class="grid grid-cols-2 gap-8 justify-end sm:gap-6 sm:grid-cols-3">
                 <div class=""></div>
                 <div class="">
-                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Qui Somme Nous</h2>
+                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">A PROPOS DE NOUS</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
-                        <li class="mb-2">
-                            <a href="{{route('propos')}}" class="hover:underline">A propos</a>
+                        <li class="">
+                            <a href="{{route('propos')}}" class="hover:underline XS">Qui somme nous</a>
                         </li>
-                        <li class="mb-2">
-                            <a href="#" class="hover:underline">Notre equipe</a>
-                        </li>
-                        <li>
-                            <a href="{{route('vision')}}" class="hover:underline">Nos secteur d'activitè</a>
+                        <li class="">
+                            <a href="#" class="hover:underline XS">Notre equipe</a>
                         </li>
                         <li>
-                            <a href="{{ url('/') }}#founder" class="hover:underline">Mot du fondatrice</a>
+                            <a href="{{route('vision')}}" class="hover:underline XS">Nos secteurs d'activitès</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('/') }}#founder" class="hover:underline XS">Mot du ceo and founder</a>
                         </li>
                     </ul>
                 </div>
-                <div class=" mr-6">
-                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Nos Domaines D'expertise</h2>
+                <div class=" mr-2">
+                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">NOS DOMAINES D'EXPERTISE</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
-                        <li class="mb-2">
-                            <a href="#" class="hover:underline ">PROJECT MANAGEMENT OFFICE</a>
+                        <li class="">
+                            <a href="#" class="hover:underline XS">PMO - PROJECT MANAGEMENT OFFICE</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline">Service TPM/PME</a>
+                            <a href="#" class="hover:underline XS">SERVICES AUX TPE/PME</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline">Service Digitaux</a>
+                            <a href="#" class="hover:underline XS">SERVICES DIGITAUX</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline">Carriere RH</a>
+                            <a href="#" class="hover:underline XS">SERVICES RH & CARRIERE</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline">Formation Professionnelle</a>
+                            <a href="#" class="hover:underline XS">FFORMATION PROFESSIONNELLE</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline">Entreprenariat Et Project D’ess</a>
+                            <a href="#" class="hover:underline XS">ENTREUPRENARIAT ET PROJETS ESS</a>
                         </li>
                     </ul>
                 </div>
