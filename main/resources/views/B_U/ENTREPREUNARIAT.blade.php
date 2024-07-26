@@ -25,7 +25,7 @@
     <div class="BG w-24 h-24 md:w-48 md:h-48 absolute top-0 left-0 z-40 hidden md:block"></div>
     <div class="SHADOW p-6 md:p-20 h-auto grid justify-center items-center relative">
         <div class="pt-6 md:pt-10">
-            <h1 class="text-center mb-8 md:mb-16 text-lg md:text-2xl lg:text-8xl lg:leading-[16px] lg:font-medium">
+            <h1 class="text-center mb-8 md:mb-16 text-lg md:text-2xl lg:text-8xl lg:leading-[16px] TIT">
                 ENTREPREUNARIAT
             </h1>
             <p class="mb-2 md:mb-4 text-center font-medium text-sm md:text-base">
@@ -155,13 +155,69 @@
     </div>
 </section>
 
-{{-- NOS SERVICES  --}}
-{{-- <section class=" p-2 bg-red-500">
-    <div class=" grid grid-cols-12 gap-2 p-2 bg-blue-500 h-96">
-        <div class=" col-span-6 bg-purple-500"></div>
-        <div class=" col-span-6 bg-purple-500"></div>
+{{-- NOS SERVICES --}}
+<section class="my-16 px-4 md:px-20">
+    <div class="grid grid-cols-1 gap-4">
+
+        <!-- Services Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Header and Introduction -->
+            <div class=" flex items-end p-4 text-center md:text-left">
+                <div class="mb-4">
+                    <h1 class="text-3xl md:text-4xl mb-2 font-semibold TIT">NOS SERVICES</h1>
+                    <p class="font-medium text-gray-800">
+                        Notre ambition est de connecter les bonnes personnes aux bonnes idées et notre approche est aussi bien adaptée sur le porteur du projet que sur son projet.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Service 1 -->
+            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <img class="rounded-xl mb-2" src="VI/18.png" alt="Gestion de projet">
+                <h2 class="font-semibold text-lg">GESTION DE PROJET</h2>
+                <p class="text-gray-900">
+                    Planifier et gérer les projets afin de respecter leurs objectifs et leurs livrables prévus.
+                </p>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <img class="rounded-xl mb-2" src="VI/126.png" alt="Mentorat">
+                <h2 class="font-semibold text-lg">MENTORAT</h2>
+                <p class="text-gray-900">
+                    Préparer les entrepreneurs pour les prochaines étapes de leur carrière professionnelle.
+                </p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <img class="rounded-xl mb-2" src="VI/18.png" alt="Coaching">
+                <h2 class="font-semibold text-lg">COACHING</h2>
+                <p class="text-gray-900">
+                    Optimiser les performances des entrepreneurs, dans un cadre bienveillant et de changement.
+                </p>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <img class="rounded-xl mb-2" src="VI/126.png" alt="Formation">
+                <h2 class="font-semibold text-lg">FORMATION</h2>
+                <p class="text-gray-900">
+                    Développer les compétences des entrepreneurs et leurs niveaux supérieurs de qualification.
+                </p>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <img class="rounded-xl mb-2" src="VI/5.png" alt="Conseil">
+                <h2 class="font-semibold text-lg">CONSEIL</h2>
+                <p class="text-gray-900">
+                    Analyser les startups, déterminer leurs forces, faiblesses et leurs axes d'amélioration.
+                </p>
+            </div>
+        </div>
     </div>
-</section> --}}
+</section>
 
 
 
