@@ -41,9 +41,13 @@
                 </div> --}}
             </div>
             <div class=" w-32 bg-blue-900 opacity-70 h-3/4 absolute top-[84px] right-1/3"></div>
-            <div class="  col-span-5 mt-4">
-                <h1 class=" text-7xl font-semibold text-gray-900 mb-5">BOOking</h1>
-                <p class=" text-4xl font-light text-gray-900">Enjoy a better experience with our company</p>
+            <div class="  col-span-7 mt-4">
+                <h1 class=" text-3xl font-semibold text-gray-900 mb-5 w-3/4">Facilitez votre succès : Réservez votre RDV dès maintenant</h1>
+                <p class=" text-xl font-light text-gray-900">
+                    Réservez votre rendez-vous dès maintenant et 
+                    bénéficiez de notre expertise personnalisée 
+                    pour répondre à tous vos besoins professionnels.
+                </p>
             </div>
         </div>
         <div class=" grid grid-cols-12 h-56 rounded-bl-full bg-white"></div>
@@ -125,13 +129,13 @@
                     </button>
                 </div>
                 <div class="flex bg-gray-200 rounded">
-                    <p class="p-3 font-semibold">Sun</p>
-                    <p class="p-3 font-semibold">Mon</p>
-                    <p class="p-3 font-semibold">Tue</p>
-                    <p class="p-3 font-semibold">Wed</p>
-                    <p class="p-3 font-semibold">Thu</p>
-                    <p class="p-3 font-semibold">Fri</p>
-                    <p class="p-3 font-semibold">Sat</p>
+                    <p class="p-3 font-semibold">Dim</p>
+                    <p class="p-3 font-semibold">Lun</p>
+                    <p class="p-3 font-semibold">Mar</p>
+                    <p class="p-3 font-semibold">Mer</p>
+                    <p class="p-3 font-semibold">Jeu</p>
+                    <p class="p-3 font-semibold">Ven</p>
+                    <p class="p-3 font-semibold">Sam</p>
                 </div>
                 <div id="calendarBody" class="grid grid-cols-7 gap-1 p-3">
 
@@ -146,7 +150,7 @@
                 class=" grid grid-cols-4 gap-4 p-8 rounded-lg bg-white shadow-lg">
                 @csrf
                 <div class="  h-16 col-span-4 mb-4">
-                    <h1 class=" font-medium mb-1 text-gray-600">Full name *</h1>
+                    <h1 class=" font-medium mb-1 text-gray-600">Nom complet *</h1>
                     <input name="name" class=" w-full rounded-md bg-gray-100 border-none" type="text"
                         placeholder=" Enter name">
                     @error('name')
@@ -246,9 +250,10 @@
 
 <script>
     const Array_months = [
-        "January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December"
+        "Janvier", "Février", "Mars", "Avril", "Mai", "Juin",
+        "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"
     ];
+
 
     let today = new Date();
     let currentYear = today.getFullYear();

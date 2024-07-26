@@ -137,7 +137,7 @@
                     <h1 class=" XS text-center font-medium text-blue-900 ">PROFESSIONNELS</h1>
                 </div>
             </div>
-            <button href="{{route('booking_now')}}"
+            <a href="{{route('booking_now')}}"
                class=" relative inline-flex items-center justify-center px-5 py-3 mr-3 mb-5 text-base font-medium text-center text-white rounded-md bg-blue-700 hover:bg-blue-800">
                 Reservez votre RDV
                 <img class=" w-6 h-6 ml-2 -mr-1" src="B_U/19.png" alt="">
@@ -147,7 +147,7 @@
                         <span class=" SPIN relative inline-flex rounded-full h-3 w-3"></span>
                     </span>
                 </div>
-            </button>
+            </a>
 
             
         </div>

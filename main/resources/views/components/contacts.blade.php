@@ -109,7 +109,7 @@
                             <p class=" text-red-500">{{$message}}*</p>
                         @enderror
                     </div>
-                    <div class="mb-10">
+                    {{-- <div class="mb-10">
                         <h4 class="text-gray-500 text-lg font-normal leading-7 mb-4">Mode de communication favori</h4>
 
                         <div class="flex">
@@ -140,11 +140,11 @@
                         </div>
                         
                         
-                    </div>
+                    </div> --}}
                     <div class="mb-10">
                         <input name="content" type="text"
                         class="w-full h-12 text-gray-600 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-3"
-                        placeholder="Message">
+                        placeholder="Décrivez votre demande">
                         @error('content')
                             <p class=" text-red-500">{{$message}}*</p>
                         @enderror
