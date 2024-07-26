@@ -40,9 +40,162 @@
                 entrepreneurs dans leurs parcours.
             </p>
         </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 w-full">
+            <!-- Service 1 -->
+            <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-gray-800 text-lg">Libérer leur potentiel d'innovation.</h1>
+            </div>
+            <!-- Service 2 -->
+            <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-gray-800 text-lg">Maximiser le potentiel de leurs idées.</h1>
+            </div>
+            <!-- Service 3 -->
+            <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-gray-800 text-lg">Remettre en question leurs modèles d'entreprise.</h1>
+            </div>
+            <!-- Service 4 -->
+            <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-gray-800 text-lg">Identifier les leviers de succès de leurs startups.</h1>
+            </div>
+            <!-- Service 5 -->
+            <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-gray-800 text-lg">Adopter les bons réflexes en matière d'entrepreneuriat.</h1>
+            </div>
+            <!-- Service 6 -->
+            <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-gray-800 text-lg">Faire de l'esprit d'entreprendre une vraie culture.</h1>
+            </div>
+        </div>
+        
         <div class="BG w-8 h-24 md:w-16 md:h-48 absolute bottom-10 md:bottom-20 right-0 z-40 hidden md:block"></div>
     </div>
 </section>
+
+
+{{-- NOS SERVICES --}}
+<section class="my-16 px-4 md:px-20">
+    <div class="grid grid-cols-1 gap-4">
+
+        <!-- Services Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Header and Introduction -->
+            <div class=" flex items-end p-4 text-center md:text-left">
+                <div class="mb-4">
+                    <h1 class="text-3xl md:text-4xl mb-2 font-semibold TIT">NOS SERVICES</h1>
+                    <p class="font-medium text-gray-800">
+                        Notre ambition est de connecter les bonnes personnes aux bonnes idées et notre approche est aussi bien adaptée sur le porteur du projet que sur son projet.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Service 1 -->
+            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <img class="rounded-xl mb-2" src="VI/18.png" alt="Gestion de projet">
+                <h2 class="font-semibold text-lg">GESTION DE PROJET</h2>
+                <p class="text-gray-900">
+                    Planifier et gérer les projets afin de respecter leurs objectifs et leurs livrables prévus.
+                </p>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <img class="rounded-xl mb-2" src="VI/126.png" alt="Mentorat">
+                <h2 class="font-semibold text-lg">MENTORAT</h2>
+                <p class="text-gray-900">
+                    Préparer les entrepreneurs pour les prochaines étapes de leur carrière professionnelle.
+                </p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <img class="rounded-xl mb-2" src="VI/18.png" alt="Coaching">
+                <h2 class="font-semibold text-lg">COACHING</h2>
+                <p class="text-gray-900">
+                    Optimiser les performances des entrepreneurs, dans un cadre bienveillant et de changement.
+                </p>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <img class="rounded-xl mb-2" src="VI/126.png" alt="Formation">
+                <h2 class="font-semibold text-lg">FORMATION</h2>
+                <p class="text-gray-900">
+                    Développer les compétences des entrepreneurs et leurs niveaux supérieurs de qualification.
+                </p>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <img class="rounded-xl mb-2" src="VI/5.png" alt="Conseil">
+                <h2 class="font-semibold text-lg">CONSEIL</h2>
+                <p class="text-gray-900">
+                    Analyser les startups, déterminer leurs forces, faiblesses et leurs axes d'amélioration.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 {{-- ACCOMPAGNEMENT DES ORGANISMES ENGAGÉS  --}}
 <section class="px-4 md:px-20">
@@ -150,70 +303,6 @@
                         <p class="text-white font-medium XS">Mobiliser les locaux pour la réalisation de vos programmes</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-{{-- NOS SERVICES --}}
-<section class="my-16 px-4 md:px-20">
-    <div class="grid grid-cols-1 gap-4">
-
-        <!-- Services Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <!-- Header and Introduction -->
-            <div class=" flex items-end p-4 text-center md:text-left">
-                <div class="mb-4">
-                    <h1 class="text-3xl md:text-4xl mb-2 font-semibold TIT">NOS SERVICES</h1>
-                    <p class="font-medium text-gray-800">
-                        Notre ambition est de connecter les bonnes personnes aux bonnes idées et notre approche est aussi bien adaptée sur le porteur du projet que sur son projet.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Service 1 -->
-            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/18.png" alt="Gestion de projet">
-                <h2 class="font-semibold text-lg">GESTION DE PROJET</h2>
-                <p class="text-gray-900">
-                    Planifier et gérer les projets afin de respecter leurs objectifs et leurs livrables prévus.
-                </p>
-            </div>
-
-            <!-- Service 2 -->
-            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/126.png" alt="Mentorat">
-                <h2 class="font-semibold text-lg">MENTORAT</h2>
-                <p class="text-gray-900">
-                    Préparer les entrepreneurs pour les prochaines étapes de leur carrière professionnelle.
-                </p>
-            </div>
-
-            <!-- Service 3 -->
-            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/18.png" alt="Coaching">
-                <h2 class="font-semibold text-lg">COACHING</h2>
-                <p class="text-gray-900">
-                    Optimiser les performances des entrepreneurs, dans un cadre bienveillant et de changement.
-                </p>
-            </div>
-
-            <!-- Service 4 -->
-            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/126.png" alt="Formation">
-                <h2 class="font-semibold text-lg">FORMATION</h2>
-                <p class="text-gray-900">
-                    Développer les compétences des entrepreneurs et leurs niveaux supérieurs de qualification.
-                </p>
-            </div>
-
-            <!-- Service 5 -->
-            <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/5.png" alt="Conseil">
-                <h2 class="font-semibold text-lg">CONSEIL</h2>
-                <p class="text-gray-900">
-                    Analyser les startups, déterminer leurs forces, faiblesses et leurs axes d'amélioration.
-                </p>
             </div>
         </div>
     </div>
