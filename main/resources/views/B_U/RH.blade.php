@@ -57,7 +57,7 @@
 {{-- first section  --}}
 <section id="4" class="">
     <div class="flex justify-center items-center relative">
-        <img class="w-full md:w-auto" src="B_U/RH/8.svg" alt="">
+        <img class="w-full md:w-auto" src="B_U/RH/8.svg" loading="lazy" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
         <div class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0">
             <div class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5 bg-red-500"></div>
@@ -106,7 +106,7 @@
         </div>
         <div class="col-span-12 md:col-span-6 grid grid-cols-12 justify-end gap-3">
             <div class="col-span-12">
-                <img src="B_U/RH/5.svg" alt="">
+                <img src="B_U/RH/5.svg" loading="lazy" alt="">
             </div>
         </div>
     </div>
@@ -234,7 +234,7 @@
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-2 p-2 col-span-12 h-full">
             <div class="col-span-4">
-                <img src="B_U/RH/2.svg" alt="" class="max-w-full">
+                <img src="B_U/RH/2.svg" loading="lazy" alt="" class="max-w-full">
             </div>
             <div class="BG text-white col-span-4 p-4">
                 <div class="p-4">
@@ -253,7 +253,7 @@
                 </div>
             </div>
             <div class="col-span-4">
-                <img src="B_U/RH/3.svg" alt="" class="max-w-full">
+                <img src="B_U/RH/3.svg" loading="lazy" alt="" class="max-w-full">
             </div>
             <div class="BG text-white col-span-4 p-4">
                 <div class="col-span-4 p-4">
@@ -273,7 +273,7 @@
                 </div>
             </div>
             <div class="col-span-4">
-                <img src="B_U/RH/5.svg" alt="" class="max-w-full">
+                <img src="B_U/RH/5.svg" alt="" loading="lazy" class="max-w-full">
             </div>
             <div class="BG text-white col-span-4 p-4">
                 <div class="col-span-4 p-4">
@@ -371,7 +371,7 @@
 </section>
 
 
-<section id="ORGANISATION">
+{{-- <section id="ORGANISATION">
     <div class=" grid grid-cols-12 gap-6 px-32 my-10">
         <div class=" col-span-12 text-center text-3xl font-bold TIT flex justify-center items-center mb-3">
             <h1 class=" w-1/2">L'ORGANISATION DE L'UNIVERS RHET LE BIEN-ÊTRE AU TRAVAIL </h1>
@@ -436,10 +436,151 @@
         </div>
 
     </div>
+</section> --}}
+
+{{-- <section id="ORGANISATION" class=" my-16">
+    <div class=" grid grid-cols-1 gap-6">
+        <div class=" col-span-1 flex justify-start items-end gap-3">
+            <div class=" border-b-4 border-blue-900 w-20 h-20"></div>
+            <h1 class=" text-4xl font-semibold text-gray-800 w-1/2">L'ORGANISATION DE L'UNIVERS RHET LE BIEN-ÊTRE AU TRAVAIL</h1>
+        </div>
+        <div class=" col-span-1 flex justify-center">
+            <div class=" w-3/4 relative transform translate-x-1 duration-300 hover:scale-105">
+                <img class=" h-64 w-full rounded-3xl" src="B_U/11.png" alt="">
+                <div class=" flex justify-center items-center absolute BG w-full h-full top-0 opacity-80 rounded-3xl">
+                    <h1 class="lg:text-9xl lg:leading-[16px] lg:font-bold text-white tracking-widest z-50">R.P.C.R.F</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-10 gap-6 px-16 col-span-1">
+            <div class=" col-span-2">
+                <div class="">
+                    <h1 class=" text-sm font-bold mb-2">REFERENTIEL DE COMPETENCES</h1>
+                    <p class=" text-xs">
+                        Nous développons un référentiel de
+                        compétences personnalisé pour votre organisation, afin de traduire vos exigences en critères objectifs pour le
+                        recrutement et l'évaluation internes.
+                    </p>
+                </div>
+            </div>
+            <div class=" col-span-2">
+                <div class="">
+                    <h1 class=" text-sm font-bold mb-2">PROCESSUS RH</h1>
+                    <p class=" text-xs">
+                        Nous intervenons sur différents volets afin de faciliter votre processus de gestion RH
+                        : stratégie, intégration SIRH, plan des compétences, ingénierie de la formation, programmes de formation, sourcing et sélection de profils et profilage RH 
+                    </p>
+                </div>
+            </div>
+            <div class=" col-span-2">
+                <div class="">
+                    <h1 class=" text-sm font-bold mb-2">CHANGE MANAGEMENT (CM)</h1>
+                    <p class=" text-xs">
+                        Nous vous accompagnons dans la
+                        conduite du changement au sein de
+                        votre organisation, nous prenons en
+                        charge la conversion de la stratégie, la
+                        conception de supports pédagogiques,
+                        la gestion des événements et la mise
+                        en œuvre d'un suivi continu.
+                    </p>
+                </div>
+            </div>
+            <div class=" col-span-2">
+                <div class="">
+                    <h1 class=" text-sm font-bold mb-2">RENCONTRES THEMATIQUES</h1>
+                    <p class=" text-xs">
+                        Pour faciliter vos rencontres thématiques, nous vous accompagnons dans les aspects suivants : La définition des sujets
+                        soulevés, la création de supports de
+                        communication, la modération de
+                        l'événement et la rédaction des comptes
+                        rendus essentiels.                        
+                    </p>
+                </div>
+            </div>
+            <div class=" col-span-2">
+                <div class="">
+                    <h1 class=" text-sm font-bold mb-2">FORMATION</h1>
+                    <p class=" text-xs">
+                        Nos formations reposent sur 50% pratique
+                        et 50% théorie, en implémentant des mesures précises pour atteindre les objectifs de votre organisation. 
+                        consultez notre catalogue de formation
+                    </p>
+                </div>  
+            </div>
+        </div>
+    </div>
+</section> --}}
+
+<section id="ORGANISATION" class="my-8 md:my-16">
+    <div class="grid grid-cols-1 gap-4 md:gap-6">
+        <!-- Header Section -->
+        <div class="col-span-1 flex flex-col md:flex-row justify-start items-start md:items-end gap-3 px-4 md:px-0">
+            <div class="border-b-4 border-blue-900 w-12 h-12 md:w-20 md:h-20"></div>
+            <h1 class="text-2xl md:text-4xl font-semibold text-gray-800 w-full md:w-1/2">
+                L'ORGANISATION DE L'UNIVERS RH ET LE BIEN-ÊTRE AU TRAVAIL
+            </h1>
+        </div>
+        
+        <!-- Image and Overlay Text Section -->
+        <div class="col-span-1 flex justify-center px-4 md:px-0">
+            <div class="w-full md:w-3/4 relative transform hover:scale-105 duration-300">
+                <img class="h-40 md:h-64 w-full rounded-3xl" src="B_U/11.png" alt="Image description">
+                <div class="flex justify-center items-center absolute BG w-full h-full top-0 opacity-80 rounded-3xl">
+                    <h1 class="text-5xl md:text-9xl leading-tight md:leading-[16px] font-bold text-white tracking-widest z-50">R.P.C.R.F</h1>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Content Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-6 px-4 md:px-16 col-span-1">
+            <div class="col-span-1">
+                <div>
+                    <h1 class="text-base md:text-sm font-bold mb-2">REFERENTIEL DE COMPETENCES</h1>
+                    <p class="text-xs">
+                        Nous développons un référentiel de compétences personnalisé pour votre organisation, afin de traduire vos exigences en critères objectifs pour le recrutement et l'évaluation internes.
+                    </p>
+                </div>
+            </div>
+            <div class="col-span-1">
+                <div>
+                    <h1 class="text-base md:text-sm font-bold mb-2">PROCESSUS RH</h1>
+                    <p class="text-xs">
+                        Nous intervenons sur différents volets afin de faciliter votre processus de gestion RH : stratégie, intégration SIRH, plan des compétences, ingénierie de la formation, programmes de formation, sourcing et sélection de profils et profilage RH.
+                    </p>
+                </div>
+            </div>
+            <div class="col-span-1">
+                <div>
+                    <h1 class="text-base md:text-sm font-bold mb-2">CHANGE MANAGEMENT (CM)</h1>
+                    <p class="text-xs">
+                        Nous vous accompagnons dans la conduite du changement au sein de votre organisation, nous prenons en charge la conversion de la stratégie, la conception de supports pédagogiques, la gestion des événements et la mise en œuvre d'un suivi continu.
+                    </p>
+                </div>
+            </div>
+            <div class="col-span-1">
+                <div>
+                    <h1 class="text-base md:text-sm font-bold mb-2">RENCONTRES THEMATIQUES</h1>
+                    <p class="text-xs">
+                        Pour faciliter vos rencontres thématiques, nous vous accompagnons dans les aspects suivants : La définition des sujets soulevés, la création de supports de communication, la modération de l'événement et la rédaction des comptes rendus essentiels.
+                    </p>
+                </div>
+            </div>
+            <div class="col-span-1">
+                <div>
+                    <h1 class="text-base md:text-sm font-bold mb-2">FORMATION</h1>
+                    <p class="text-xs">
+                        Nos formations reposent sur 50% pratique et 50% théorie, en implémentant des mesures précises pour atteindre les objectifs de votre organisation. Consultez notre catalogue de formation.
+                    </p>
+                </div>  
+            </div>
+        </div>
+    </div>
 </section>
 
 
-<section id="COACHING" class=" my-20 bg-gray-100">
+{{-- <section id="COACHING" class=" my-20 bg-gray-100">
     <div class=" grid grid-cols-12 gap-2 px-24">
         <div class=" col-span-6 relative">
             <img src="U_I/7.png" alt="">
@@ -562,7 +703,125 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
+
+<section id="COACHING" class="my-10 md:my-20 bg-gray-100">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-2 px-4 md:px-24">
+        <!-- Image and Overlay Text -->
+        <div class="col-span-1 md:col-span-6 relative">
+            <img class="w-full h-auto rounded-lg" src="U_I/7.png" alt="Coaching Image">
+            <div class="BG h-72 w-56 p-6 absolute top-0 -right-8 md:-right-32 flex justify-center items-end rounded-lg">
+               <div class="relative p-2">
+                <div class="text-5xl md:text-7xl font-bold text-white h-12">*</div>
+                <h1 class="B1 text-xl md:text-2xl font-bold text-white">COACHING PROFESSIONNEL</h1>
+                <h1 class="B2 hidden text-xl md:text-2xl font-bold text-white">NOS COACHS PROFESSIONNELS</h1>
+               </div>
+            </div>
+        </div>
+
+        <!-- Coaching Description and Details -->
+        <div class="grid grid-cols-1 gap-4 md:gap-2 p-2 col-span-1 md:col-span-6">
+            <div class="A1 p-4">
+                <div class="mb-4 md:ml-28">
+                    <p class="text-sm md:text-base">
+                        Chez BLUE STRATEGY, nous accomplissons que le coaching est une réponse solide et professionnelle à des attentes clairement démontrées par une personne, une équipe ou une organisation, dans son processus de changement. C'est pourquoi nous avons soigneusement sélectionné une équipe de coachs professionnels hautement qualifiés afin de vous aider à développer vos talents.
+                    </p>
+                </div>
+                <div class="mb-4 md:ml-28">
+                    <h1 class="TIT text-lg md:text-2xl font-bold mb-3">Les différents formats de coaching :  </h1>
+                    <p class="text-sm md:text-base">
+                        Nos coachs s'adaptent à vos besoins grâce aux divers formats de coaching que nous proposons.
+                    </p>
+                </div>
+
+                <!-- Coaching Types -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-2 md:ml-8 mt-4">
+                    <div class="col-span-1 flex justify-start items-center gap-4">
+                        <div class="w-7 h-7">
+                            <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class="font-medium text-sm md:text-base">Coaching individuel</p>
+                    </div>
+                    <div class="col-span-1 flex justify-start items-center gap-4">
+                        <div class="w-7 h-7">
+                            <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class="font-medium text-sm md:text-base">Coaching d'équipe</p>
+                    </div>
+                    <div class="col-span-1">
+                        <div class="flex justify-start items-center gap-4">
+                            <div class="w-7 h-7">
+                                <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            </div>
+                            <p class="font-medium text-sm md:text-base">Boost coaching :</p>
+                        </div>
+                        <p class="pl-11 text-gray-800 text-xs md:text-sm">
+                            Un accompagnement réalisé en une seule séance d’environ deux heures.                
+                        </p>
+                    </div>
+                    <div class="col-span-1">
+                        <div class="flex justify-start items-center gap-4">
+                            <div class="w-7 h-7">
+                                <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            </div>
+                            <p class="font-medium text-sm md:text-base">Coaching flash :</p>
+                        </div>
+                        <p class="pl-11 text-gray-800 text-xs md:text-sm">
+                            Un accompagnement réalisé en trois séances individuelles après une formation suivie.                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Information Section -->
+            <div class="A2 hidden col-span-1 p-4">
+                <div class="ml-4 md:ml-32 mt-4 md:mt-10 grid gap-3">
+                    <div class="flex justify-start items-center gap-4">
+                        <div class="w-7 h-7">
+                            <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class="text-sm md:text-base">
+                            Des coachs certifiés qui disposent d’une formation diplômante d'Instituts de International de coaching.
+                        </p>
+                    </div>
+                    <div class="flex justify-start items-center gap-4">
+                        <div class="w-7 h-7">
+                            <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class="text-sm md:text-base">
+                            Représentants d'éthique et font preuve de professionnalisme en appliquant les principes du code de déontologie du coaching, tant par leur savoir-faire que par leur savoir-être.
+                        </p>
+                    </div>
+                    <div class="flex justify-start items-center gap-4">
+                        <div class="w-7 h-7">
+                            <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                        </div>
+                        <p class="text-sm md:text-base">
+                            Bénéficient d’une supervision dans leur pratique afin de garantir un accompagnement efficace, ainsi que pour actualiser leurs connaissances et développer leurs compétences opérationnelles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="col-span-1">
+                <div class="p-2 flex gap-2 justify-end">
+                    <button id="back1" class="BG w-12 h-12 rounded-full flex justify-center items-center">
+                        <svg class="w-6 h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+                            <path fill="white" d="M685.248 104.704a64 64 0 0 1 0 90.496L368.448 512l316.8 316.8a64 64 0 0 1-90.496 90.496L232.704 557.248a64 64 0 0 1 0-90.496l362.048-362.048a64 64 0 0 1 90.496 0"/>
+                        </svg>
+                    </button>
+                    <button id="next1" class="BG w-12 h-12 rounded-full flex justify-center items-center">
+                        <svg class="w-6 h-6 md:w-7 md:h-7 rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+                            <path fill="white" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
 
 <section id="ANIMATION" class=" my-10">
     <div class=" grid grid-cols-12 gap-4 p-2 mx-32">
@@ -719,6 +978,8 @@
         </div>
     </div>
 </section>
+
+
 
 
 
