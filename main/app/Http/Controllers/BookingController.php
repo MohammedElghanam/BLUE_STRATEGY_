@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use Carbon\Carbon;
 use App\Models\Heurs;
 use App\Models\Booking;
 use Illuminate\Http\Request;
@@ -49,13 +50,22 @@ class BookingController extends Controller
     {
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
+            'Vous' => 'required|string|in:personne,organisation',
             'email' => 'required|email|max:255',
             'phone' => 'required|string|max:255',
             'sujet' => 'required|string|max:255',
-            'description' => 'nullable|string', // Allow null values
+            'description' => 'nullable|string', 
             'time' => 'required|string|max:255',
             'date' => 'required|date',
         ]);
+
+        $inputDate = Carbon::parse($request->input('date'));
+        $currentDate = Carbon::today(); 
+
+        
+        if ($inputDate->lt($currentDate)) {
+            return redirect()->back()->withErrors(['date' => 'La date sélectionnée ne peut pas être dans le passé.'])->withInput();
+        }
 
         $validatedData['phone'] = str_replace(' ', '', $validatedData['phone']);
     

@@ -294,7 +294,7 @@
                 </div>
             </header>
 
-            <!-- pop up valid image -->
+            <!-- pop up valid image true -->
             @if(session('success'))
                 <div id="form_image1" class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 pt-14 z-50">
                     <!-- pop up validation true -->
@@ -318,7 +318,7 @@
                 </div>
             @endif
 
-            <!-- pop up valid image -->
+            <!-- pop up valid image false -->
             @if ($errors->has('image'))
             <div id="form_image2" class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 pt-14 z-50">
                 <!-- pop up validation false -->
@@ -951,6 +951,12 @@
                                                                         <th
                                                                             class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                                                                             <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">Vous êtes</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
                                                                                 <span class="mr-2">STATUS</span>
                                                                             </div>
                                                                         </th>
@@ -991,6 +997,12 @@
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
                                                                             <div class="flex text-green-500">
                                                                                 <p>{{ $item->phone }}</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+                                                                            <div class="flex text-green-500">
+                                                                                <p>{{ $item->Vous }}</p>
                                                                             </div>
                                                                         </td>
                                                                         <td
