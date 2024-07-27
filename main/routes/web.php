@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Heurs;
+use App\Models\Image;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BookingController;
@@ -38,7 +39,8 @@ Route::middleware('guest')->group(function(){
     Route::get('/login', [AuthController::class, 'index'])->name('login');
 
     Route::get('/', function () {
-        return view('home');
+        $images = Image::all();
+        return view('home', compact('images'));
     })->name('home')->middleware('track_visits'); 
 
     Route::get('/A propos de nous', function () { 

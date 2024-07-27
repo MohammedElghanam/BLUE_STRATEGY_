@@ -4,9 +4,10 @@ namespace App\Http\Controllers;
 
 
 
+use App\Models\Image;
 use App\Models\Visit;
-use App\Models\Booking;
 
+use App\Models\Booking;
 use App\Models\Contact;
 use App\Models\reference;
 use App\Mail\Send_Message;
@@ -36,8 +37,9 @@ class dashboardController extends Controller
         $user = Auth()->user();
         $contacts = Contact::all();
         $visitCount = Visit::count();
+        $images = Image::all();
         // dd($user);
-        return view('dashboard', compact('contacts', 'user', 'valid', 'later','invalid', 'visitCount'));
+        return view('dashboard', compact('contacts', 'user', 'valid', 'later','invalid', 'visitCount', 'images'));
     }
 
     public function valid(Request $request)
@@ -73,5 +75,25 @@ class dashboardController extends Controller
         return redirect()->route('dashboard');
     }
 
+    public function store(Request $request)
+    {
+        $request->validate([
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+        ]);        
+
+        $imageName = time().'.'.$request->image->extension();  
+        $request->image->move(public_path('references'), $imageName);
+
+        $image = new Image();
+        $image->image = 'references/' . $imageName;
+        $image->save();
+
+        if ($image) {
+            return redirect()->back()->with('success', 'Image uploaded successfully.');
+        } else {
+            return redirect()->back()->with('error', 'Image upload failed.');
+        }
+    
+    }
     
 }

@@ -1,8 +1,8 @@
 <style>
-	.has-mask {
-		position: absolute;
-		clip: rect(10px, 150px, 130px, 10px);
-	}
+    .has-mask {
+        position: absolute;
+        clip: rect(10px, 150px, 130px, 10px);
+    }
 </style>
 
 <!-- component -->
@@ -20,30 +20,43 @@
 </head>
 
 <body>
+
     <div class="flex h-screen bg-gray-800 " :class="{ 'overflow-hidden': isSideMenuOpen }">
 
+        
         <!-- Desktop sidebar -->
         <aside class="z-20 flex-shrink-0 hidden w-60 pl-2 overflow-y-auto bg-gray-800 md:block">
             <div>
                 <div class="text-white">
                     <div class="flex p-2  bg-gray-800">
                         <div class="flex py-3 px-2 items-center gap-1">
-                            <p class="text-2xl text-blue-500 font-semibold mb-2 ">Blue</p <p class="ml-2 font-semibold italic">
+                            <p class="text-2xl text-blue-500 font-semibold mb-2 ">Blue</p <p
+                                class="ml-2 font-semibold italic">
                             STRATEGY</p>
                         </div>
                     </div>
                     <div class="grid justify-center">
                         <div class=" grid justify-center items-center">
-                            <img class="hidden h-24 w-24 rounded-full sm:block object-cover mr-2 border-4 border-green-400" src="images/unsplash.png" alt="">
+                            <img class="hidden h-24 w-24 rounded-full sm:block object-cover mr-2 border-4 border-green-400"
+                                src="images/unsplash.png" alt="">
                         </div>
                         <p class="font-bold text-base  text-gray-400 pt-2 text-center w-40">{{$user->name}}</p>
                     </div>
                     <div>
                         <ul class="mt-6 leading-10">
                             <li class="relative px-2 py-1 ">
-                                <a id="ajouter" class="inline-flex items-center w-full text-sm font-semibold text-white transition-colors duration-150 cursor-pointer hover:text-green-500" 
+                                <a id="ajouter"
+                                    class="inline-flex items-center w-full text-sm font-semibold text-white transition-colors duration-150 cursor-pointer hover:text-green-500"
                                     href=" #">
-                                    <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"><circle cx="128" cy="128" r="112"/><path d="M 79.999992,128 H 176.0001"/><path d="m 128.00004,79.99995 v 96.0001"/></g></svg>
+                                    <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                        viewBox="0 0 256 256">
+                                        <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="16">
+                                            <circle cx="128" cy="128" r="112" />
+                                            <path d="M 79.999992,128 H 176.0001" />
+                                            <path d="m 128.00004,79.99995 v 96.0001" />
+                                        </g>
+                                    </svg>
                                     <span class="ml-4">AJOUTER UNE REFERENCES</span>
                                 </a>
                             </li>
@@ -75,8 +88,7 @@
                                 </div>
 
                                 <div x-show.transition="Open" style="display:none;">
-                                    <ul id="User_Invalid"
-                                        x-transition:enter="transition-all ease-in-out duration-300"
+                                    <ul id="User_Invalid" x-transition:enter="transition-all ease-in-out duration-300"
                                         x-transition:enter-start="opacity-25 max-h-0"
                                         x-transition:enter-end="opacity-100 max-h-xl"
                                         x-transition:leave="transition-all ease-in-out duration-300"
@@ -88,15 +100,25 @@
                                         <li class="px-2 py-1 text-white transition-colors duration-150">
                                             <div class="px-1 rounded-md">
                                                 <div class="flex items-center">
-                                                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M8 44V4h23l9 10.5V44z"/><path d="M34 25c0 5.523-4.477 10-10 10s-10-4.477-10-10s4.477-10 10-10a9.965 9.965 0 0 1 6.865 2.729A9.972 9.972 0 0 1 34 25m-17-7l14 14"/><path d="M34 25c0 5.523-4.477 10-10 10M14 25c0-5.523 4.477-10 10-10"/></g></svg>
+                                                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em"
+                                                        height="1em" viewBox="0 0 48 48">
+                                                        <g fill="none" stroke="white" stroke-linecap="round"
+                                                            stroke-linejoin="round" stroke-width="4">
+                                                            <path d="M8 44V4h23l9 10.5V44z" />
+                                                            <path
+                                                                d="M34 25c0 5.523-4.477 10-10 10s-10-4.477-10-10s4.477-10 10-10a9.965 9.965 0 0 1 6.865 2.729A9.972 9.972 0 0 1 34 25m-17-7l14 14" />
+                                                            <path
+                                                                d="M34 25c0 5.523-4.477 10-10 10M14 25c0-5.523 4.477-10 10-10" />
+                                                        </g>
+                                                    </svg>
                                                     <a href="#"
-                                                        class="w-full ml-2  text-sm font-semibold text-white ">Users invalide</a>
+                                                        class="w-full ml-2  text-sm font-semibold text-white ">Users
+                                                        invalide</a>
                                                 </div>
                                             </div>
                                         </li>
                                     </ul>
-                                    <ul id="Contact"
-                                        x-transition:enter="transition-all ease-in-out duration-300"
+                                    <ul id="Contact" x-transition:enter="transition-all ease-in-out duration-300"
                                         x-transition:enter-start="opacity-25 max-h-0"
                                         x-transition:enter-end="opacity-100 max-h-xl"
                                         x-transition:leave="transition-all ease-in-out duration-300"
@@ -108,7 +130,11 @@
                                         <li class="px-2 py-1 text-white transition-colors duration-150">
                                             <div class="px-1 rounded-md">
                                                 <div class="flex items-center">
-                                                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M22 3H2C.9 3 0 3.9 0 5v14c0 1.1.9 2 2 2h20c1.1 0 1.99-.9 1.99-2L24 5c0-1.1-.9-2-2-2M8 6c1.66 0 3 1.34 3 3s-1.34 3-3 3s-3-1.34-3-3s1.34-3 3-3m6 12H2v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1zm3.85-4h1.64L21 16l-1.99 1.99A7.512 7.512 0 0 1 16.28 14c-.18-.64-.28-1.31-.28-2s.1-1.36.28-2a7.474 7.474 0 0 1 2.73-3.99L21 8l-1.51 2h-1.64c-.22.63-.35 1.3-.35 2s.13 1.37.35 2"/></svg>
+                                                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em"
+                                                        height="1em" viewBox="0 0 24 24">
+                                                        <path fill="white"
+                                                            d="M22 3H2C.9 3 0 3.9 0 5v14c0 1.1.9 2 2 2h20c1.1 0 1.99-.9 1.99-2L24 5c0-1.1-.9-2-2-2M8 6c1.66 0 3 1.34 3 3s-1.34 3-3 3s-3-1.34-3-3s1.34-3 3-3m6 12H2v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1zm3.85-4h1.64L21 16l-1.99 1.99A7.512 7.512 0 0 1 16.28 14c-.18-.64-.28-1.31-.28-2s.1-1.36.28-2a7.474 7.474 0 0 1 2.73-3.99L21 8l-1.51 2h-1.64c-.22.63-.35 1.3-.35 2s.13 1.37.35 2" />
+                                                    </svg>
                                                     <a href="#"
                                                         class="w-full ml-2  text-sm font-semibold text-white ">Contact</a>
                                                 </div>
@@ -268,6 +294,54 @@
                 </div>
             </header>
 
+            <!-- pop up valid image -->
+            @if(session('success'))
+                <div id="form_image1" class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 pt-14 z-50">
+                    <!-- pop up validation true -->
+                    <div
+                        class="container grid grid-cols-12 items-end relative mx-auto mt-8 p-4 bg-gray-100 shadow-lg max-w-md w-80 h-80 rounded-md">
+                        <div class=" w-28 h-28 bg-green-500 absolute left-24 -top-11 rounded-full flex justify-center items-center">
+                            <svg class=" w-20 h-20 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="#ffffff"
+                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                        </svg>
+                        </div>
+                    
+                            <div id="popup-form" class="popup col-span-12 grid justify-center items-end">
+                            <h1 class="text-lg font-bold mb-4 text-center"> {{ session('success') }}</h1>
+                            <p class=" text-center">Lorem ipsum, or lipsum as it is sometimes known</p>
+                        </div>
+                    
+                            <button id="OK1"
+                            class=" bg-green-500 col-span-12 h-10 rounded-lg text-white text-xl hover:bg-green-600">Ok</button>
+                    </div>
+                </div>
+            @endif
+
+            <!-- pop up valid image -->
+            @if ($errors->has('image'))
+            <div id="form_image2" class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 pt-14 z-50">
+                <!-- pop up validation false -->
+                    <div
+                        class="container grid grid-cols-12 items-end relative mx-auto mt-8 p-4 bg-gray-100 shadow-lg max-w-md w-80 h-80 rounded-md">
+                        <div class=" w-28 h-28 bg-red-700 absolute left-24 -top-11 rounded-full flex justify-center items-center">
+                            <svg class=" w-20 h-20 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="#ffffff"
+                                    d="M459.1 52.4L442.6 6.5C440.7 2.6 436.5 0 432.1 0s-8.5 2.6-10.4 6.5L405.2 52.4l-46 16.8c-4.3 1.6-7.3 5.9-7.2 10.4c0 4.5 3 8.7 7.2 10.2l45.7 16.8 16.8 45.8c1.5 4.4 5.8 7.5 10.4 7.5s8.9-3.1 10.4-7.5l16.5-45.8 45.7-16.8c4.2-1.5 7.2-5.7 7.2-10.2c0-4.6-3-8.9-7.2-10.4L459.1 52.4zm-132.4 53c-12.5-12.5-32.8-12.5-45.3 0l-2.9 2.9C256.5 100.3 232.7 96 208 96C93.1 96 0 189.1 0 304S93.1 512 208 512s208-93.1 208-208c0-24.7-4.3-48.5-12.2-70.5l2.9-2.9c12.5-12.5 12.5-32.8 0-45.3l-80-80zM200 192c-57.4 0-104 46.6-104 104v8c0 8.8-7.2 16-16 16s-16-7.2-16-16v-8c0-75.1 60.9-136 136-136h8c8.8 0 16 7.2 16 16s-7.2 16-16 16h-8z" />
+                            </svg>
+                        </div>
+                    
+                        <div id="popup-form" class="popup col-span-12 grid justify-center items-end">
+                            <h1 class="text-lg font-bold mb-4 text-center">{{ $errors->first('image') }}</h1>
+                            <p class=" text-center">Lorem ipsum, or lipsum as it is sometimes known</p>
+                        </div>
+                    
+                        <button id="OK2"
+                            class=" bg-red-700 col-span-12 h-10 rounded-lg text-white text-xl hover:bg-red-600">Ok</button>
+                    </div>
+                </div>
+            @endif
+
 
             <!-- pop up ajouter references -->
             <div id="form_references" class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 hidden z-50">
@@ -279,42 +353,49 @@
                             </h2>
                             <p class="mt-2 text-sm text-gray-400">Lorem ipsum is placeholder text.</p>
                         </div>
-                        <form  action="{{route('ref')}}" method="POST" class="mt-8 space-y-3">
+                        <form action="{{route('ref')}}" method="POST" enctype="multipart/form-data" class="mt-8 space-y-3">
                             @csrf
-                                    <div class="grid grid-cols-1 space-y-2">
-                                        <label class="text-sm font-bold text-gray-500 tracking-wide">Nom</label>
-                                            <input name="name" class="text-base p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="" placeholder="Ajouter nom de references">
-                                    </div>
-                                    <div class="grid grid-cols-1 space-y-2">
-                                                    <label class="text-sm font-bold text-gray-500 tracking-wide">Attach Document</label>
-                                        <div class="flex items-center justify-center w-full">
-                                            <label class="flex flex-col rounded-lg border-4 border-dashed w-full h-40 p-10 group text-center">
-                                                <div class="h-full w-full text-center flex flex-col items-center justify-center ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-blue-400 group-hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                                                    </svg>                                                    
-                                                    <p class="pointer-none text-gray-500 "><span class="text-sm">Drag and drop</span> files here <br /> or <a href="" id="" class="text-blue-600 hover:underline">select a file</a> from your computer</p>
-                                                </div>
-                                                <input name="image" type="file" class="hidden">
-                                            </label>
+                            <div class="grid grid-cols-1 space-y-2">
+                                <label class="text-sm font-bold text-gray-500 tracking-wide">Attach Document</label>
+                                <div class="flex items-center justify-center w-full">
+                                    <label
+                                        class="flex flex-col rounded-lg border-4 border-dashed w-full h-40 p-10 group text-center">
+                                        <div
+                                            class="h-full w-full text-center flex flex-col items-center justify-center ">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="w-10 h-10 text-blue-400 group-hover:text-blue-600" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                                            </svg>
+                                            <p class="pointer-none text-gray-500 "><span class="text-sm">Drag and
+                                                    drop</span> files here <br /> or <a href="" id=""
+                                                    class="text-blue-600 hover:underline">select a file</a> from your
+                                                computer</p>
                                         </div>
-                                    </div>
-                                            <p class="text-sm text-gray-300">
-                                                <span>File type: doc,pdf,types of images</span>
-                                            </p>
-                                    <div>
-                                        <button type="submit" class="my-5 w-full flex justify-center bg-blue-500 text-gray-100 p-4  rounded-full tracking-wide
+                                        <input name="image" type="file" class="hidden">
+                                    </label>
+                                </div>
+                            </div>
+                            @error('image')
+                            <p class=" text-red-500">{{$message}} *</p>
+                            @enderror                            
+                            <p class="text-sm text-gray-300">
+                                <span>File type: doc,pdf,types of images</span>
+                            </p>
+                            <div>
+                                <button type="submit"
+                                    class="my-5 w-full flex justify-center bg-blue-500 text-gray-100 p-4  rounded-full tracking-wide
                                                     font-semibold  focus:outline-none focus:shadow-outline hover:bg-blue-600 shadow-lg cursor-pointer transition ease-in duration-300">
-                                        Upload
-                                    </button>
-                                    </div>
+                                    Upload
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>
-                
             </div>
 
-
+            
 
             <main class="">
                 <div class="grid mb-4 pb-10 px-8 mx-4 rounded-3xl bg-gray-100 border-4 border-green-400">
@@ -325,13 +406,18 @@
                                 <div class="flex items-center h-10 intro-y">
                                     <h2 class="mr-5 text-lg font-medium truncate">Dashboard</h2>
                                 </div>
-                                {{-- statistique  --}}
+                                {{-- statistique --}}
                                 <div class="grid grid-cols-12 gap-6 mt-5">
                                     <a class="transform  hover:scale-105 transition duration-300 shadow-xl rounded-lg col-span-12 sm:col-span-6 xl:col-span-3 intro-y bg-white"
                                         href="#">
                                         <div class="p-5">
                                             <div class="flex justify-between">
-                                                <svg class=" h-7 w-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><circle cx="16" cy="16" r="4" fill="#60a5fa"/><path fill="#60a5fa" d="M30.94 15.66A16.69 16.69 0 0 0 16 5A16.69 16.69 0 0 0 1.06 15.66a1 1 0 0 0 0 .68A16.69 16.69 0 0 0 16 27a16.69 16.69 0 0 0 14.94-10.66a1 1 0 0 0 0-.68M16 22.5a6.5 6.5 0 1 1 6.5-6.5a6.51 6.51 0 0 1-6.5 6.5"/></svg>
+                                                <svg class=" h-7 w-7" xmlns="http://www.w3.org/2000/svg" width="1em"
+                                                    height="1em" viewBox="0 0 32 32">
+                                                    <circle cx="16" cy="16" r="4" fill="#60a5fa" />
+                                                    <path fill="#60a5fa"
+                                                        d="M30.94 15.66A16.69 16.69 0 0 0 16 5A16.69 16.69 0 0 0 1.06 15.66a1 1 0 0 0 0 .68A16.69 16.69 0 0 0 16 27a16.69 16.69 0 0 0 14.94-10.66a1 1 0 0 0 0-.68M16 22.5a6.5 6.5 0 1 1 6.5-6.5a6.51 6.51 0 0 1-6.5 6.5" />
+                                                </svg>
                                                 <div
                                                     class="bg-green-500 rounded-full h-6 px-2 flex justify-items-center text-white font-semibold text-sm">
                                                     <span class="flex items-center">30%</span>
@@ -339,9 +425,11 @@
                                             </div>
                                             <div class="ml-2 w-full flex-1">
                                                 <div>
-                                                    <div class="mt-3 text-3xl font-bold leading-8">{{ $visitCount }}</div>
+                                                    <div class="mt-3 text-3xl font-bold leading-8">{{ $visitCount }}
+                                                    </div>
 
-                                                    <div class="mt-1 text-base text-gray-600">Nombre de vues du site</div>
+                                                    <div class="mt-1 text-base text-gray-600">Nombre de vues du site
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -424,7 +512,7 @@
                                 </div>
                             </div>
 
-                            {{-- table rende vous  --}}
+                            {{-- table rende vous --}}
                             <div class="valid col-span-12 mt-5">
                                 <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
                                     <div class="bg-white p-4 shadow-lg rounded-lg">
@@ -504,7 +592,7 @@
                                                                             @if ($item->description === null)
                                                                             <p class=" text-red-500">Null</p>
                                                                             @else
-                                                                                <p>{{ $item->description }}</p>
+                                                                            <p>{{ $item->description }}</p>
                                                                             @endif
                                                                         </td>
                                                                         <td
@@ -527,16 +615,23 @@
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            
+
                                                                             <div class="flex space-x-4 select-none">
-                                                                                <span class="text-blue-500 hover:text-blue-600 flex items-center">
-                                                                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                                                <span
+                                                                                    class="text-blue-500 hover:text-blue-600 flex items-center">
+                                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                        class="w-5 h-5 mr-1" fill="none"
+                                                                                        viewBox="0 0 24 24"
+                                                                                        stroke="currentColor">
+                                                                                        <path stroke-linecap="round"
+                                                                                            stroke-linejoin="round"
+                                                                                            stroke-width="2"
+                                                                                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                                                                     </svg>
                                                                                     Valide
                                                                                 </span>
                                                                             </div>
-                                                                            
+
                                                                         </td>
                                                                     </tr>
                                                                     @endforeach
@@ -552,7 +647,7 @@
                                 </div>
                             </div>
 
-                            {{-- table contact  --}}
+                            {{-- table contact --}}
                             <div class="contact hidden col-span-12 mt-5">
                                 <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
                                     <div class="bg-white p-4 shadow-lg rounded-lg">
@@ -617,7 +712,7 @@
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
-                                                                                <p>{{ $item->phone }}</p>
+                                                                            <p>{{ $item->phone }}</p>
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
@@ -630,16 +725,24 @@
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
                                                                             @if ($item->method == 'email')
-                                                                                <form action="{{ route('message') }}" method="POST" class=" flex p-1 gap-2">
-                                                                                    @csrf
-                                                                                    <input class="hidden" value="{{ $item->name }}" type="text" name="name">
-                                                                                    <input class="hidden" value="{{ $item->email }}" type="text" name="email">
-                                                                                    <input type="text" name="content" class=" bg-gray-200 rounded-md border-2 border-blue-200 caret-blue-500" placeholder=" write message">
-                                                                                    <button class="text-white flex items-center px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-md">
-                                                                                        Send
-                                                                                    </button>
-                                                                                </form>
-                                                                            @endif    
+                                                                            <form action="{{ route('message') }}"
+                                                                                method="POST" class=" flex p-1 gap-2">
+                                                                                @csrf
+                                                                                <input class="hidden"
+                                                                                    value="{{ $item->name }}"
+                                                                                    type="text" name="name">
+                                                                                <input class="hidden"
+                                                                                    value="{{ $item->email }}"
+                                                                                    type="text" name="email">
+                                                                                <input type="text" name="content"
+                                                                                    class=" bg-gray-200 rounded-md border-2 border-blue-200 caret-blue-500"
+                                                                                    placeholder=" write message">
+                                                                                <button
+                                                                                    class="text-white flex items-center px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-md">
+                                                                                    Send
+                                                                                </button>
+                                                                            </form>
+                                                                            @endif
                                                                         </td>
                                                                     </tr>
                                                                     @endforeach
@@ -656,7 +759,7 @@
                             </div>
 
 
-                            {{-- Table Users invalide  --}}
+                            {{-- Table Users invalide --}}
                             <div class="User_invalid hidden col-span-12 mt-5">
                                 <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
                                     <div class="bg-white p-4 shadow-lg rounded-lg">
@@ -734,9 +837,9 @@
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
                                                                             @if ($item->description === null)
-                                                                                <p class=" text-red-500">Null</p>
+                                                                            <p class=" text-red-500">Null</p>
                                                                             @else
-                                                                                <p>{{ $item->description }}</p>
+                                                                            <p>{{ $item->description }}</p>
                                                                             @endif
                                                                         </td>
                                                                         <td
@@ -759,12 +862,20 @@
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            <form action="{{ route('message') }}" method="POST" class=" flex p-1 gap-2">
+                                                                            <form action="{{ route('message') }}"
+                                                                                method="POST" class=" flex p-1 gap-2">
                                                                                 @csrf
-                                                                                <input class="hidden" value="{{ $item->name }}" type="text" name="name">
-                                                                                <input class="hidden" value="{{ $item->email }}" type="text" name="email">
-                                                                                <input type="text" name="content" class=" bg-gray-200 rounded-md border-2 border-blue-200 caret-blue-500" placeholder=" write message">
-                                                                                <button class="text-white flex items-center px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-md">
+                                                                                <input class="hidden"
+                                                                                    value="{{ $item->name }}"
+                                                                                    type="text" name="name">
+                                                                                <input class="hidden"
+                                                                                    value="{{ $item->email }}"
+                                                                                    type="text" name="email">
+                                                                                <input type="text" name="content"
+                                                                                    class=" bg-gray-200 rounded-md border-2 border-blue-200 caret-blue-500"
+                                                                                    placeholder=" write message">
+                                                                                <button
+                                                                                    class="text-white flex items-center px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-md">
                                                                                     Send
                                                                                 </button>
                                                                             </form>
@@ -783,7 +894,7 @@
                                 </div>
                             </div>
 
-                            {{-- table boking  --}}
+                            {{-- table boking --}}
                             <div class="booking col-span-12 mt-5">
                                 <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
                                     <div class="bg-white p-4 shadow-lg rounded-lg">
@@ -863,7 +974,7 @@
                                                                             @if ($item->description === null)
                                                                             <p class=" text-red-500">Null</p>
                                                                             @else
-                                                                                <p>{{ $item->description }}</p>
+                                                                            <p>{{ $item->description }}</p>
                                                                             @endif
                                                                         </td>
                                                                         <td
@@ -886,32 +997,58 @@
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            
+
                                                                             <div class="flex space-x-4">
-                                                                                <form action="{{ route('valid') }}" method="POST">
+                                                                                <form action="{{ route('valid') }}"
+                                                                                    method="POST">
                                                                                     @csrf
-                                                                                    <input class="hidden" value="{{ $item->id }}" type="text" name="id" id="">
-                                                                                    <input class="hidden" value="{{ $item->email }}" type="text" name="email" id="">
-                                                                                    <button class="text-blue-500 hover:text-blue-600 flex items-center">
-                                                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                                                    <input class="hidden"
+                                                                                        value="{{ $item->id }}"
+                                                                                        type="text" name="id" id="">
+                                                                                    <input class="hidden"
+                                                                                        value="{{ $item->email }}"
+                                                                                        type="text" name="email" id="">
+                                                                                    <button
+                                                                                        class="text-blue-500 hover:text-blue-600 flex items-center">
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            class="w-5 h-5 mr-1"
+                                                                                            fill="none"
+                                                                                            viewBox="0 0 24 24"
+                                                                                            stroke="currentColor">
+                                                                                            <path stroke-linecap="round"
+                                                                                                stroke-linejoin="round"
+                                                                                                stroke-width="2"
+                                                                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                                                                         </svg>
                                                                                         Valide
                                                                                     </button>
                                                                                 </form>
-                                                                                <form action="{{ route('invalid') }}" method="POST">
+                                                                                <form action="{{ route('invalid') }}"
+                                                                                    method="POST">
                                                                                     @csrf
-                                                                                    <input class="hidden" value="{{ $item->id }}" type="text" name="id" id="">
-                                                                                    <input class="hidden" value="{{ $item->email }}" type="text" name="email" id="">
-                                                                                    <button class="text-red-500 hover:text-red-600 flex items-center">
-                                                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                                                                    <input class="hidden"
+                                                                                        value="{{ $item->id }}"
+                                                                                        type="text" name="id" id="">
+                                                                                    <input class="hidden"
+                                                                                        value="{{ $item->email }}"
+                                                                                        type="text" name="email" id="">
+                                                                                    <button
+                                                                                        class="text-red-500 hover:text-red-600 flex items-center">
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            class="w-5 h-5 mr-1 ml-3"
+                                                                                            fill="none"
+                                                                                            viewBox="0 0 24 24"
+                                                                                            stroke="currentColor">
+                                                                                            <path stroke-linecap="round"
+                                                                                                stroke-linejoin="round"
+                                                                                                stroke-width="2"
+                                                                                                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
                                                                                         </svg>
                                                                                         Invalide
                                                                                     </button>
                                                                                 </form>
                                                                             </div>
-                                                                            
+
                                                                         </td>
                                                                     </tr>
                                                                     @endforeach
@@ -919,6 +1056,31 @@
                                                             </table>
                                                         </div>
                                                         {{-- {{ $bookings->links() }} --}}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {{-- table REFERENCES --}}
+                            <div class="contact col-span-12 mt-5">
+                                <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
+                                    <div class="bg-white p-4 shadow-lg rounded-lg">
+                                        <h1 class="font-bold text-base">Table REFERENCES</h1>
+                                        <div class="mt-4">
+                                            <div class="flex flex-col">
+                                                <div class="-my-2 overflow-x-auto">
+                                                    <div class="py-2 align-middle inline-block min-w-full">
+                                                        <div
+                                                            class="shadow overflow-hidden border-t border-gray-200 sm:rounded-lg bg-white">
+                                                            <div class=" flex justify-start items-center gap-10">
+                                                                @foreach ($images as $item)
+                                                                    <img class=" w-12 h-12" src="{{ asset($item->image) }}" alt="Image">
+                                                                @endforeach
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -941,9 +1103,9 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script>
         function data() {
-          
+
             return {
-               
+
                 isSideMenuOpen: false,
                 toggleSideMenu() {
                     this.isSideMenuOpen = !this.isSideMenuOpen
@@ -969,7 +1131,7 @@
                 togglePagesMenu() {
                     this.isPagesMenuOpen = !this.isPagesMenuOpen
                 },
-               
+
             }
         }
     </script>
@@ -1006,22 +1168,22 @@
                 size: 0
             },
             yaxis: [{
-                    title: {
-                        text: 'Series A',
-                    },
+                title: {
+                    text: 'Series A',
                 },
-                {
-                    opposite: true,
-                    title: {
-                        text: 'Series B',
-                    },
+            },
+            {
+                opposite: true,
+                title: {
+                    text: 'Series B',
                 },
+            },
             ],
             tooltip: {
                 shared: true,
                 intersect: false,
                 y: {
-                    formatter: function(y) {
+                    formatter: function (y) {
                         if (typeof y !== "undefined") {
                             return y.toFixed(0) + " points";
                         }
@@ -1053,7 +1215,7 @@
                         total: {
                             show: true,
                             label: 'Total',
-                            formatter: function(w) {
+                            formatter: function (w) {
                                 // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
                                 return 249
                             }
@@ -1068,23 +1230,23 @@
     </script>
     <script>
         $(document).ready(function () {
-           $("#Contact").click(function (e) { 
+            $("#Contact").click(function (e) {
                 e.preventDefault();
                 $(".booking").hide();
                 $(".valid").hide();
                 $(".User_invalid").hide();
                 $(".contact").show();
-           }); 
-           $("#User_Invalid").click(function (e) { 
+            });
+            $("#User_Invalid").click(function (e) {
                 e.preventDefault();
                 $(".booking").hide();
                 $(".valid").hide();
                 $(".contact").hide();
                 $(".User_invalid").show();
-           });
+            });
 
-           // Show form ajouter references
-           $("#ajouter").click(function () {
+            // Show form ajouter references
+            $("#ajouter").click(function () {
                 $("#form_references").show();
             });
 
@@ -1092,6 +1254,26 @@
                 if (event.target === this) {
                     $(this).hide();
                 }
+            });
+
+            $("#form_image1").click(function () {
+                if (event.target === this) {
+                    $(this).hide();
+                }
+            });
+
+            $("#OK1").click(function () {
+                $("#form_image1").hide();
+            });
+
+            $("#form_image2").click(function () {
+                if (event.target === this) {
+                    $(this).hide();
+                }
+            });
+
+            $("#OK2").click(function () {
+                $("#form_image2").hide();
             });
         });
     </script>
