@@ -31,9 +31,9 @@ class ContactController extends Controller
         // dd($request);
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
-            'email' => 'required|email|max:255|unique:contacts',
+            'email' => 'required|email|max:255',
             'phone' => 'required|string|max:20',
-            'method' => 'required|string|in:email,phone',
+            'method' => 'required|string|in:personne,organisation',
             'content' => 'required|string',
         ]);
 

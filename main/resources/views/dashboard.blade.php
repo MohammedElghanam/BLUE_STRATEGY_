@@ -682,7 +682,7 @@
                                                                         <th
                                                                             class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                                                                             <div class="flex cursor-pointer">
-                                                                                <span class="mr-2">Method</span>
+                                                                                <span class="mr-2">Vous êtes</span>
                                                                             </div>
                                                                         </th>
                                                                         <th
@@ -724,7 +724,6 @@
                                                                         </td>
                                                                         <td
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
-                                                                            @if ($item->method == 'email')
                                                                             <form action="{{ route('message') }}"
                                                                                 method="POST" class=" flex p-1 gap-2">
                                                                                 @csrf
@@ -742,7 +741,6 @@
                                                                                     Send
                                                                                 </button>
                                                                             </form>
-                                                                            @endif
                                                                         </td>
                                                                     </tr>
                                                                     @endforeach

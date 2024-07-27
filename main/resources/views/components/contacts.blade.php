@@ -109,16 +109,17 @@
                             <p class=" text-red-500">{{$message}}*</p>
                         @enderror
                     </div>
-                    {{-- <div class="mb-10">
-                        <h4 class="text-gray-500 text-lg font-normal leading-7 mb-4">Mode de communication favori</h4>
+
+                    <div class="mb-10">
+                        <h4 class="text-gray-500 text-lg font-normal leading-7 mb-4">Vous êtes</h4>
 
                         <div class="flex">
                             <div>
                                 <div class="flex items-center mr-11">
-                                    <input id="radio-email" type="radio" name="method" value="email"
+                                    <input id="personne" type="radio" name="method" value="personne"
                                         class="checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100 mr-2">
-                                    <label for="radio-email" class="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
-                                        Email
+                                    <label for="personne" class="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
+                                        Une personne
                                     </label>
                                 </div>
                                 @error('method')
@@ -127,20 +128,19 @@
                             </div>
                             <div>
                                 <div class="flex items-center">
-                                    <input id="radio-phone" type="radio" name="method" value="phone"
+                                    <input id="organisation" type="radio" name="method" value="organisation"
                                         class="checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100 mr-2">
-                                    <label for="radio-phone" class="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
-                                        Télephone
+                                    <label for="organisation" class="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
+                                        Une organisation
                                     </label>
                                 </div>
                                 @error('method')
                                     <p class="text-red-500">{{$message}}*</p>
                                 @enderror
                             </div>
-                        </div>
-                        
-                        
-                    </div> --}}
+                        </div>                        
+                    </div>
+
                     <div class="mb-10">
                         <input name="content" type="text"
                         class="w-full h-12 text-gray-600 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-3"
