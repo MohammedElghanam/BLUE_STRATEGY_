@@ -1,4 +1,59 @@
 <style>
+.BOR{
+    border: 8px solid ;
+    border-color:  #f96d00;    
+}
+.polygon {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: linear-gradient(to right, #ff6f3c, #f96d00);
+}
+.COLOR{
+    background: linear-gradient(to bottom, #ff6f3c, #f96d00);
+}
+.CO{
+    background-color: #f96d00;
+}
+
+.ONE{
+    background-color: rgb(255, 255, 255);
+}
+
+.BOX{
+    box-shadow: 0  0px 3px 0.7px rgb(224, 215, 215) ;
+}
+
+.LINE{
+    /* width: screen; */
+    height: 220px;
+    position: absolute;
+    top: 80px;
+    left: -144px;
+    border-top: 8px solid #ff0000;
+    border-left: 8px solid #ff0000;
+}
+
+.C1{
+    background-color: #d70707;
+}
+.C2{
+    color: #d70707;
+}
+
+.BG{
+    background-color: #ff0000;
+}
+.POL{
+    background-color: #ff0000;
+    clip-path: polygon(0 0, 90% 0%, 100% 20%, 100% 100%, 0% 100%);
+    opacity: 0.9;
+}
+
+.RR{
+    background-color: #ff0000;
+}
+.BB{
+    background-color: #020085;
+}
 .XS {
     font-size:  12px ;
     line-height:  16px ;
@@ -17,11 +72,28 @@
 .SHADOW{
     box-shadow: 0 0 28px 5px rgb(208, 208, 207) ;
 }
+
+
 </style>
 
+{{-- first section  --}}
+<section id="1" class="pt-20">
+    <div class="flex justify-center items-center relative">
+        <img class="w-full md:w-auto" src="B_U/29.png" alt="">
+        <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
+        <div class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0">
+            <div class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5 bg-red-500"></div>
+            <div class="text-white absolute left-1/2 transform -translate-x-1/2 md:-right-40 md:bottom-4 text-center md:text-left animate-fade-in">
+                {{-- <h1 class="font-bold text-2xl md:text-4xl">B.U 01</h1> --}}
+                <h1 class="font-bold text-2xl md:text-4xl">PMO</h1>
+                {{-- <p class="font-normal">PROJECT MANAGEMENT OFFICE</p> --}}
+            </div>
+            <div class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28"></div>
+        </div>
+    </div>
+</section>
 
-
-<section class="p-6 md:p-20 relative ">
+{{-- <section class="p-6 md:p-20 relative ">
     <div class="BG w-24 h-24 md:w-48 md:h-48 absolute top-0 left-0 z-40 hidden md:block"></div>
     <div class="SHADOW p-6 md:p-20 h-auto grid justify-center items-center relative">
         <div class="pt-6 md:pt-10">
@@ -134,7 +206,7 @@
         
         <div class="BG w-8 h-24 md:w-16 md:h-48 absolute bottom-10 md:bottom-20 right-0 z-40 hidden md:block"></div>
     </div>
-</section>
+</section> --}}
 
 
 {{-- NOS SERVICES --}}
@@ -677,9 +749,7 @@
 
 
 <section>
-    <div class=" grid grid-cols-12 gap-2 p-2 justify-center items-center text-9xl font-bold bg-blue-600 h-96">
+    <div class=" grid grid-cols-12 gap-2 p-2 justify-center items-center text-9xl bg-blue-700 font-bold h-96">
         the images
     </div>
 </section>
-
-
