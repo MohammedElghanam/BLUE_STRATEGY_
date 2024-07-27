@@ -411,7 +411,7 @@
     <div class="grid grid-cols-12 gap-4 mt-20">
         <div class="col-span-12 lg:col-span-6 relative">
             <img class="w-11/12 mx-auto lg:mx-0" src="B_U/15.png" alt="">
-            <div class="BG grid grid-cols-12 gap-1 w-11/12 lg:w-2/3 absolute top-64 z-30 right-1 lg:right-0 lg:-right-10 p-4 rounded-xl">
+            <div class="BG grid grid-cols-12 gap-1 w-11/12 lg:w-2/3 absolute top-64 z-30 right-1 lg:-right-10 p-4 rounded-xl">
                 <div class="col-span-12 h-10 flex justify-start items-center gap-2 mb-2">
                     <span class="font-bold text-gray-100 text-2xl">PROJETS EXTRA-ENTREPRISE :</span>
                 </div>

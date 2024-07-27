@@ -514,21 +514,13 @@
 </section> --}}
 
 <section id="ORGANISATION" class="my-8 md:my-16">
-    <div class="grid grid-cols-1 gap-4 md:gap-6">
-        <!-- Header Section -->
-        <div class="col-span-1 flex flex-col md:flex-row justify-start items-start md:items-end gap-3 px-4 md:px-0">
-            <div class="border-b-4 border-blue-900 w-12 h-12 md:w-20 md:h-20"></div>
-            <h1 class="text-2xl md:text-4xl font-semibold text-gray-800 w-full md:w-1/2">
-                L'ORGANISATION DE L'UNIVERS RH ET LE BIEN-ÊTRE AU TRAVAIL
-            </h1>
-        </div>
-        
+    <div class="grid grid-cols-1 gap-4 md:gap-6">        
         <!-- Image and Overlay Text Section -->
         <div class="col-span-1 flex justify-center px-4 md:px-0">
             <div class="w-full md:w-3/4 relative transform hover:scale-105 duration-300">
-                <img class="h-40 md:h-64 w-full rounded-3xl" src="B_U/11.png" alt="Image description">
+                <img class="h-40 md:h-64 w-full rounded-3xl" src="B_U/11.png" alt="Image description" loading="lazy">
                 <div class="flex justify-center items-center absolute BG w-full h-full top-0 opacity-80 rounded-3xl">
-                    <h1 class="text-5xl md:text-9xl leading-tight md:leading-[16px] font-bold text-white tracking-widest z-50">R.P.C.R.F</h1>
+                    <h1 class="text-xl text-center md:text-5xl leading-tight md:leading-[16px] font-bold text-white tracking-widest z-50">L'ORGANISATION DE L'UNIVERS RH ET LE BIEN-ÊTRE AU TRAVAIL</h1>
                 </div>
             </div>
         </div>
