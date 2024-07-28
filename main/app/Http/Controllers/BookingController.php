@@ -48,6 +48,7 @@ class BookingController extends Controller
      */
     public function store(Request $request)
     {
+        // dd($request);
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
             'Vous' => 'required|string|in:personne,organisation',
@@ -72,9 +73,9 @@ class BookingController extends Controller
         $booking = Booking::create($validatedData);
 
         if ($booking) {
-        return redirect()->back()->with('success', 'User created successfully!');
+        return redirect()->back()->with("success", "Vous recevrez un email indiquant si votre candidature a été acceptée ou non.");
         } else {
-            return redirect()->back()->with('error', 'Failed to create user.');
+            return redirect()->back()->with("error", "Votre demande n'a pas été envoyée, veuillez répéter la procédure.");
         }
         
     }

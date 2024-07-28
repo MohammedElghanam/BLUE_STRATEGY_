@@ -71,7 +71,7 @@
 <!-- pop up validation false -->
 @if ($errors->has('date'))
 <div id="form_booking2" class="fixed inset-0 bg-gray-800 bg-opacity-50 z-50 flex items-center justify-center p-4 sm:p-0">
-    <div class="relative bg-gray-100 shadow-lg rounded-md p-4 max-w-md w-full sm:w-80 sm:max-w-sm sm:h-80">
+    <div class="relative bg-gray-100 shadow-lg rounded-md p-4 max-w-md w-full sm:w-80 sm:max-w-sm sm:h-80 grid justify-center items-end">
         <div class="absolute -top-11 left-1/2 transform -translate-x-1/2 w-28 h-28 bg-red-700 rounded-full flex justify-center items-center">
             <svg class="w-20 h-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                 <path fill="#ffffff" d="M459.1 52.4L442.6 6.5C440.7 2.6 436.5 0 432.1 0s-8.5 2.6-10.4 6.5L405.2 52.4l-46 16.8c-4.3 1.6-7.3 5.9-7.2 10.4 0 4.5 3 8.7 7.2 10.2l45.7 16.8 16.8 45.8c1.5 4.4 5.8 7.5 10.4 7.5s8.9-3.1 10.4-7.5l16.5-45.8 45.7-16.8c4.2-1.5 7.2-5.7 7.2-10.2 0-4.6-3-8.9-7.2-10.4L459.1 52.4zm-132.4 53c-12.5-12.5-32.8-12.5-45.3 0l-2.9 2.9C256.5 100.3 232.7 96 208 96C93.1 96 0 189.1 0 304S93.1 512 208 512s208-93.1 208-208c0-24.7-4.3-48.5-12.2-70.5l2.9-2.9c12.5-12.5 12.5-32.8 0-45.3l-80-80zM200 192c-57.4 0-104 46.6-104 104v8c0 8.8-7.2 16-16 16s-16-7.2-16-16v-8c0-75.1 60.9-136 136-136h8c8.8 0 16 7.2 16 16s-7.2 16-16 16h-8z" />
@@ -79,7 +79,7 @@
         </div>
 
         <div id="popup-form" class="popup grid justify-center items-end mt-12 sm:mt-16">
-            <h1 class="text-lg font-bold mb-4 text-center">{{ $errors->first('date') }}</h1>
+            <h1 class="text-lg font-medium text-gray-800 mb-4 text-center">{{ $errors->first('date') }}</h1>                
         </div>
 
         <button id="OK2" class="bg-red-700 w-full h-10 rounded-lg text-white text-xl hover:bg-red-600">
@@ -106,7 +106,10 @@
         </div>
 
         <div id="popup-form" class="popup grid justify-center items-end mt-12 sm:mt-16">
-            <h1 class="text-lg font-bold mb-4 text-center">{{ session('success') }}</h1>
+            <p class="text-lg font-bold mb-4 text-center">
+                Je vous remercie de votre réservation
+            </p>
+            <h1 class="text-lg text-gray-800 mb-4 text-center">{{ session('success') }}</h1>
         </div>
 
         <button id="OK" class="bg-green-500 w-full h-10 rounded-lg text-white text-xl hover:bg-green-600">
@@ -120,7 +123,7 @@
 <!-- pop up validation false -->
 @if(session('error'))
 <div id="validation1" class="fixed inset-0 bg-gray-800 bg-opacity-50 z-50 flex items-center justify-center p-4 sm:p-0">
-    <div class="relative bg-gray-100 shadow-lg rounded-md p-4 max-w-md w-full sm:w-80 sm:max-w-sm sm:h-80">
+    <div class="relative bg-gray-100 shadow-lg rounded-md p-4 max-w-md w-full sm:w-80 sm:max-w-sm sm:h-80 grid justify-center items-end">
         <div class="absolute -top-11 left-1/2 transform -translate-x-1/2 w-28 h-28 bg-red-700 rounded-full flex justify-center items-center">
             <svg class="w-20 h-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                 <path fill="#ffffff" d="M459.1 52.4L442.6 6.5C440.7 2.6 436.5 0 432.1 0s-8.5 2.6-10.4 6.5L405.2 52.4l-46 16.8c-4.3 1.6-7.3 5.9-7.2 10.4 0 4.5 3 8.7 7.2 10.2l45.7 16.8 16.8 45.8c1.5 4.4 5.8 7.5 10.4 7.5s8.9-3.1 10.4-7.5l16.5-45.8 45.7-16.8c4.2-1.5 7.2-5.7 7.2-10.2 0-4.6-3-8.9-7.2-10.4L459.1 52.4zm-132.4 53c-12.5-12.5-32.8-12.5-45.3 0l-2.9 2.9C256.5 100.3 232.7 96 208 96C93.1 96 0 189.1 0 304S93.1 512 208 512s208-93.1 208-208c0-24.7-4.3-48.5-12.2-70.5l2.9-2.9c12.5-12.5 12.5-32.8 0-45.3l-80-80zM200 192c-57.4 0-104 46.6-104 104v8c0 8.8-7.2 16-16 16s-16-7.2-16-16v-8c0-75.1 60.9-136 136-136h8c8.8 0 16 7.2 16 16s-7.2 16-16 16h-8z"/>
@@ -128,7 +131,7 @@
         </div>
 
         <div id="popup-form" class="popup grid justify-center items-end mt-12 sm:mt-16">
-            <h1 class="text-lg font-bold mb-4 text-center w-3/4">{{ session('error') }}</h1>
+            <h1 class="text-lg font-medium text-gray-800 mb-4 text-center ">{{ session('error') }}</h1>
         </div>
 
         <button id="OK1" class="bg-red-700 w-full h-10 rounded-lg text-white text-xl hover:bg-red-600">
