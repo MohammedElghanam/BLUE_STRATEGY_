@@ -1125,15 +1125,9 @@
                                                                             class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
 
                                                                             <div class="flex space-x-4">
-                                                                                <form action="{{ route('invalid') }}"
-                                                                                    method="POST">
+                                                                                <form action="{{ route('destroy', $item->id) }}"  method="POST">
                                                                                     @csrf
-                                                                                    <input class="hidden"
-                                                                                        value="{{ $item->id }}"
-                                                                                        type="text" name="id" id="">
-                                                                                    <input class="hidden"
-                                                                                        value="{{ $item->email }}"
-                                                                                        type="text" name="email" id="">
+                                                                                    @method('DELETE')
                                                                                     <button
                                                                                         class="text-red-500 hover:text-red-600 flex items-center">
                                                                                         <svg xmlns="http://www.w3.org/2000/svg"
@@ -1157,8 +1151,8 @@
                                                                 </tbody>
                                                             </table>
                                                         </div>
-                                                        {{-- {{ $bookings->links() }} --}}
                                                     </div>
+                                                    {{ $images->links() }}
                                                 </div>
                                             </div>
                                         </div>

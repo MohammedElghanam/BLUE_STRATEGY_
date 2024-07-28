@@ -37,7 +37,7 @@ class dashboardController extends Controller
         $user = Auth()->user();
         $contacts = Contact::all();
         $visitCount = Visit::count();
-        $images = Image::paginate(5);
+        $images = Image::paginate(4);
         // dd($user);
         return view('dashboard', compact('contacts', 'user', 'valid', 'later','invalid', 'visitCount', 'images'));
     }
@@ -96,4 +96,24 @@ class dashboardController extends Controller
     
     }
     
+    public function destroy($id)
+    {
+        $image = Image::find($id);
+        // dd($image);
+
+        
+        if ($image->image) {
+            $imagePath = public_path($image->image);
+
+            if (file_exists($imagePath)) {
+                unlink($imagePath);
+            }
+        }
+
+        
+        $image->delete();
+
+        return redirect()->back()->with('success', 'Product deleted successfully.');
+    }
+
 }

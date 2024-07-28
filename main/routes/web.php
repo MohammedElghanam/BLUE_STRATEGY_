@@ -27,6 +27,7 @@ Route::middleware('auth')->group(function(){
     Route::post('/content_messaging', [DashboardController::class, 'send_message'])->name('message');
     Route::post('/valid', [DashboardController::class, 'valid'])->name('valid');
     Route::post('/invalid', [DashboardController::class, 'invalid'])->name('invalid');
+    Route::delete('/ref/{id}', [DashboardController::class, 'destroy'])->name('destroy');
     Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 });
 
