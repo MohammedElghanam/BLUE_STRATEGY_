@@ -38,7 +38,7 @@
                     <div class="grid justify-center">
                         <div class=" grid justify-center items-center">
                             <img class="hidden h-24 w-24 rounded-full sm:block object-cover mr-2 border-4 border-green-400"
-                                src="images/unsplash.png" alt="">
+                                src="B_U/40.jpeg" alt="">
                         </div>
                         <p class="font-bold text-base  text-gray-400 pt-2 text-center w-40">{{$user->name}}</p>
                     </div>
@@ -398,7 +398,7 @@
             
 
             <main class="">
-                <div class="grid mb-4 pb-10 px-8 mx-4 rounded-3xl bg-gray-100 border-4 border-green-400">
+                <div class="grid mb-4 pb-10 px-8 mx-4 rounded-3xl bg-gray-100 border-4 border-blue-400">
 
                     <div class="grid grid-cols-12 gap-6">
                         <div class="grid grid-cols-12 col-span-12 gap-6 xxl:col-span-9">
@@ -451,9 +451,9 @@
                                             </div>
                                             <div class="ml-2 w-full flex-1">
                                                 <div>
-                                                    <div class="mt-3 text-3xl font-bold leading-8">4.510</div>
+                                                    <div class="mt-3 text-3xl font-bold leading-8">{{$bookingCount}}</div>
 
-                                                    <div class="mt-1 text-base text-gray-600">Item Sales</div>
+                                                    <div class="mt-1 text-base text-gray-600">Nombre de rendez-vous pris</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -478,9 +478,9 @@
                                             </div>
                                             <div class="ml-2 w-full flex-1">
                                                 <div>
-                                                    <div class="mt-3 text-3xl font-bold leading-8">4.510</div>
+                                                    <div class="mt-3 text-3xl font-bold leading-8">{{$Contact}}</div>
 
-                                                    <div class="mt-1 text-base text-gray-600">Item Sales</div>
+                                                    <div class="mt-1 text-base text-gray-600">Nombre de religion contactez-nous</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -502,9 +502,9 @@
                                             </div>
                                             <div class="ml-2 w-full flex-1">
                                                 <div>
-                                                    <div class="mt-3 text-3xl font-bold leading-8">4.510</div>
+                                                    <div class="mt-3 text-3xl font-bold leading-8">{{$organisationCount}}</div>
 
-                                                    <div class="mt-1 text-base text-gray-600">Item Sales</div>
+                                                    <div class="mt-1 text-base text-gray-600">B2B</div>
                                                 </div>
                                             </div>
                                         </div>

@@ -37,9 +37,13 @@ class dashboardController extends Controller
         $user = Auth()->user();
         $contacts = Contact::all();
         $visitCount = Visit::count();
+        $bookingCount = Booking::count();
+        $Contact = Contact::count();
         $images = Image::paginate(4);
+        $organisationCount = Booking::where('Vous', 'organisation')->count();
+
         // dd($user);
-        return view('dashboard', compact('contacts', 'user', 'valid', 'later','invalid', 'visitCount', 'images'));
+        return view('dashboard', compact('contacts', 'user', 'valid', 'later','invalid', 'visitCount', 'images', 'bookingCount', 'Contact', 'organisationCount'));
     }
 
     public function valid(Request $request)
@@ -99,8 +103,6 @@ class dashboardController extends Controller
     public function destroy($id)
     {
         $image = Image::find($id);
-        // dd($image);
-
         
         if ($image->image) {
             $imagePath = public_path($image->image);
