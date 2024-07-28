@@ -96,7 +96,7 @@
             <div id="conten1" class="w-80 h-80 rounded-full absolute right-20 top-32 z-30 flex justify-center items-center pt-5">
                 {{-- <div class=" absolute bottom-40 -left-20 w-20 h-40 rounded-l-full border-l-8 border-white bg-red-400"></div> --}}
                 <div class="BG absolute -top-0 right-0 rounded-b-md rotate-45" style="width: 330px; height:350px;"></div>
-                <img class="rounded-full z-20" src="images/unsplash.png" alt="" style="width: 300px; height:300px;">
+                <img class="rounded-full z-20" src="B_U/40.jpeg" alt="" style="width: 300px; height:300px;">
                 <div class="w-28 h-28 rounded-full absolute top-0 -right-4 z-30 flex justify-center items-center rotate-90">
                     <img src="AP/4.svg" alt="" class="w-10 h-10 absolute left-3 bottom-10">
                 </div>

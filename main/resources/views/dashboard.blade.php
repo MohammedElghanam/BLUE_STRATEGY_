@@ -1074,23 +1074,90 @@
                                 </div>
                             </div>
 
+                            
+
                             {{-- table REFERENCES --}}
-                            <div class="contact col-span-12 mt-5">
+                            <div class="booking col-span-12 mt-5">
                                 <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
                                     <div class="bg-white p-4 shadow-lg rounded-lg">
-                                        <h1 class="font-bold text-base">Table REFERENCES</h1>
+                                        <h1 class="font-bold text-base">Table Booking</h1>
                                         <div class="mt-4">
                                             <div class="flex flex-col">
                                                 <div class="-my-2 overflow-x-auto">
                                                     <div class="py-2 align-middle inline-block min-w-full">
                                                         <div
-                                                            class="shadow overflow-hidden border-t border-gray-200 sm:rounded-lg bg-white">
-                                                            <div class=" flex justify-start items-center gap-10">
-                                                                @foreach ($images as $item)
-                                                                    <img class=" w-12 h-12" src="{{ asset($item->image) }}" alt="Image">
-                                                                @endforeach
-                                                            </div>
+                                                            class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg bg-white">
+                                                            <table class="min-w-full divide-y divide-gray-200">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">ID</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">IMAGE</span>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th
+                                                                            class="px-6 py-3 bg-gray-50 text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                                                            <div class="flex cursor-pointer">
+                                                                                <span class="mr-2">STATUS</span>
+                                                                            </div>
+                                                                        </th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody class="bg-white divide-y divide-gray-200">
+                                                                    @foreach ($images as $item)
+                                                                    <tr>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+                                                                            <p>{{ $item->id }}</p>
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm text-green-500 leading-5">
+                                                                            <img class=" w-12 h-12" src="{{ asset($item->image) }}" alt="Image">
+                                                                        </td>
+                                                                        <td
+                                                                            class="px-6 py-4 whitespace-no-wrap text-sm leading-5">
+
+                                                                            <div class="flex space-x-4">
+                                                                                <form action="{{ route('invalid') }}"
+                                                                                    method="POST">
+                                                                                    @csrf
+                                                                                    <input class="hidden"
+                                                                                        value="{{ $item->id }}"
+                                                                                        type="text" name="id" id="">
+                                                                                    <input class="hidden"
+                                                                                        value="{{ $item->email }}"
+                                                                                        type="text" name="email" id="">
+                                                                                    <button
+                                                                                        class="text-red-500 hover:text-red-600 flex items-center">
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            class="w-5 h-5 mr-1 ml-3"
+                                                                                            fill="none"
+                                                                                            viewBox="0 0 24 24"
+                                                                                            stroke="currentColor">
+                                                                                            <path stroke-linecap="round"
+                                                                                                stroke-linejoin="round"
+                                                                                                stroke-width="2"
+                                                                                                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                                                                        </svg>
+                                                                                        Suprimer reference
+                                                                                    </button>
+                                                                                </form>
+                                                                            </div>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                    @endforeach
+                                                                </tbody>
+                                                            </table>
                                                         </div>
+                                                        {{-- {{ $bookings->links() }} --}}
                                                     </div>
                                                 </div>
                                             </div>

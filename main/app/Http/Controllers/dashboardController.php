@@ -37,7 +37,7 @@ class dashboardController extends Controller
         $user = Auth()->user();
         $contacts = Contact::all();
         $visitCount = Visit::count();
-        $images = Image::all();
+        $images = Image::paginate(5);
         // dd($user);
         return view('dashboard', compact('contacts', 'user', 'valid', 'later','invalid', 'visitCount', 'images'));
     }

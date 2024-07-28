@@ -41,20 +41,20 @@
 </style>
 
 
-<div class=" bg-white pt-28">
+{{-- <div class=" bg-white pt-28">
     <div class=" bg-blue-900">
         <div class=" grid grid-cols-12 px-20 w-full bg-white">
             <div class=" col-span-12 h-96 relative">
                 <img src="AP/91.png" alt="fo bar" class=" h-96 w-full">
-                <img src="AP/22.png" alt="" class=" absolute right-40 -bottom-40 w-68 h-64">
-                {{-- <div class=" flex items-end justify-start w-1/2 absolute bottom-0 left-0">
+                <img id="1" src="AP/22.png" alt="" class=" absolute right-40 -bottom-40 w-68 h-64">
+                <div class=" flex items-end justify-start w-1/2 absolute bottom-0 left-0">
                     <div class=" w-96 h-28 bg-white flex items-end justify-center">
                         <div class=" w-96 h-1 bg-blue-900"></div>
                     </div>
                     <div class=" h-16 w-40 bg-white"></div>
-                </div> --}}
+                </div>
             </div>
-            <div class=" w-32 bg-blue-900 opacity-70 h-3/4 absolute top-[84px] right-1/3"></div>
+            <div id="2" class=" w-32 bg-blue-900 opacity-70 h-3/4 absolute top-[84px] right-1/3"></div>
             <div class="  col-span-7 mt-4">
                 <h1 class=" text-3xl font-semibold text-gray-900 mb-5 w-3/4">Facilitez votre succès : Réservez votre RDV dès maintenant</h1>
                 <p class=" text-xl font-light text-gray-900">
@@ -64,8 +64,37 @@
                 </p>
             </div>
         </div>
-        <div class=" grid grid-cols-12 h-56 rounded-bl-full bg-white"></div>
+        <div id="3" class=" grid grid-cols-12 h-56 rounded-bl-full bg-white"></div>
+</div> --}}
+
+<div class="bg-white pt-28">
+    <div class="bg-blue-900">
+        <div class="grid grid-cols-12 px-4 md:px-20 w-full bg-white">
+            <div class="col-span-12 h-96 relative">
+                <img src="AP/91.png" alt="fo bar" class="h-96 w-full object-cover">
+                <img id="1" src="AP/22.png" alt="" class="absolute right-10 md:right-40 bottom-10 md:-bottom-40 w-68 h-64 hidden md:block">
+                <!-- Optional Additional Content (Uncomment if needed) -->
+                <!-- <div class="flex items-end justify-start w-1/2 absolute bottom-0 left-0">
+                    <div class="w-96 h-28 bg-white flex items-end justify-center">
+                        <div class="w-96 h-1 bg-blue-900"></div>
+                    </div>
+                    <div class="h-16 w-40 bg-white"></div>
+                </div> -->
+            </div>
+            <div id="2" class="w-32 bg-blue-900 opacity-70 h-3/4 absolute top-[84px] right-1/3 hidden md:block"></div>
+            <div class="col-span-12 md:col-span-7 mt-4">
+                <h1 class="text-3xl font-semibold text-gray-900 mb-5 w-full md:w-3/4">Facilitez votre succès : Réservez votre RDV dès maintenant</h1>
+                <p class="text-xl font-light text-gray-900">
+                    Réservez votre rendez-vous dès maintenant et 
+                    bénéficiez de notre expertise personnalisée 
+                    pour répondre à tous vos besoins professionnels.
+                </p>
+            </div>
+        </div>
+        <div id="3" class="grid grid-cols-12 h-56 rounded-bl-full bg-white hidden md:block"></div>
+    </div>
 </div>
+
 
 
 <!-- pop up validation false -->
@@ -325,6 +354,7 @@
     const holidays = [
         { month: 0, day: 1 },  
         { month: 4, day: 1 },  
+        { month: 7, day: 30 }, 
         { month: 10, day: 18 }, 
     ];
 

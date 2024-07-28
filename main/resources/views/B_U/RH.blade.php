@@ -519,8 +519,8 @@
         <div class="col-span-1 flex justify-center px-4 md:px-0">
             <div class="w-full md:w-3/4 relative transform hover:scale-105 duration-300">
                 <img class="h-40 md:h-64 w-full rounded-3xl" src="B_U/11.png" alt="Image description" loading="lazy">
-                <div class="flex justify-center items-center absolute BG w-full h-full top-0 opacity-80 rounded-3xl">
-                    <h1 class="text-xl text-center md:text-5xl leading-tight md:leading-[16px] font-bold text-white tracking-widest z-50">L'ORGANISATION DE L'UNIVERS RH ET LE BIEN-ÊTRE AU TRAVAIL</h1>
+                <div class=" px-20 flex justify-center items-center absolute BG w-full h-full top-0 opacity-80 rounded-3xl">
+                    <h1 class="text-xl text-center md:text-3xl leading-tight md:leading-[16px] font-bold text-white tracking-widest z-50">L'ORGANISATION DE L'UNIVERS RH <br> ET LE BIEN-ÊTRE AU TRAVAIL</h1>
                 </div>
             </div>
         </div>
