@@ -2,7 +2,12 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {},
+      extend: {
+        colors: {
+          primary: '#000',
+          secondary: '#888',
+        },
+      },
     },
     plugins: [
         require('@iconify/tailwind'),
