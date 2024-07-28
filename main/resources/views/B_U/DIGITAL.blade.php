@@ -32,6 +32,11 @@
 .BOT{
     background: linear-gradient(to right, #4f0074, #ae00ff);
 }
+.XS {
+    font-size: 14px ;
+    line-height: 20px ;
+}
+
 </style>
 
 
@@ -209,8 +214,126 @@
     </div>
 </section>
 
-<section id="digital" class=" h-96 bg-blue-500 flex justify-center items-center font-extralight text-6xl">
-    <h1>section marketing</h1>
+
+<section id="digital" class=" mt-4">
+    <div class=" grid grid-cols-12 gap-8 px-20">
+        
+        <div class=" col-span-6 flex justify-end items-center relative">
+            <div class=" BG  absolute w-1/2 top-24 -left-16 p-4 py-6 flex justify-start items-center">
+                <h1 class=" w-1/3 text-4xl font-bold text-white">MARKETING DIGITALE</h1> 
+            </div>
+            <img class="" src="B_U/FOR/21.svg" alt="">
+        </div>
+
+        <div class=" grid grid-cols-12 items-center gap-2 col-span-6">
+            <div class=" col-span-12 p-2">
+                <div class=" p-6">
+                    <p class=" font-medium text-gray-900">
+                        Chez BLUE STRATEGY, nous offrons des services de marketing digital complets et personnalisés pour renforcer votre présence en ligne et atteindre vos objectifs commerciaux.    
+                    </p>
+                </div>
+
+                <div class=" BG w-full p-4 grid grid-cols-1 gap-4 rounded-xl shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">
+                    <p class=" font-medium text-white">Nos principaux services incluent :</p>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Conseils en Marketing
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Stratégies digitales et plans d'execution
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Design d'Identité Visuelle
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Branding de marque
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Personal branding et e-réputation
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Médias Sociaux et Community Management
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Conception graphique
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Création de contenus digitaux
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Inbound Marketing
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Référencement SEO / SEA
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Campagnes Publicitaires
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Création de sites web / E-commerce
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Audit de Sites Web
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+        
+    </div>
 </section>
 
 <section id="UX" class="px-4 lg:px-32 my-10">

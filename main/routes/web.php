@@ -52,6 +52,10 @@ Route::middleware('guest')->group(function(){
         return view('vision');
     })->name('vision');
 
+    Route::get('/Notre Equipe', function () {
+        return view('equipe');
+    })->name('equipe');
+
     Route::get('/PMO', function () {
         return view('1PMO');
     })->name('PMO');

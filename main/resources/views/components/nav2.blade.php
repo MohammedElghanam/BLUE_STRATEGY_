@@ -114,7 +114,7 @@
                             <a href="{{route('propos')}}" class=" flex items-center justify-between w-full p-2 hover:bg-blue-200">   
                                 <p>QUI SOMMES NOUS ?</p>
                             </a>
-                            <a class=" flex items-center justify-between w-full p-2 hover:bg-blue-200">   
+                            <a href="{{route('equipe')}}" class=" flex items-center justify-between w-full p-2 hover:bg-blue-200">   
                                 <p>NOTRE EQUIPE</p>
                             </a>
                             <a href="{{route('vision')}}" class=" flex items-center justify-between w-full p-2 hover:bg-blue-100">   
