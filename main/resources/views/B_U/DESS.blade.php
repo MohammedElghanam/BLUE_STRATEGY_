@@ -446,7 +446,7 @@
                 </div>
             </div>
 
-            <p>
+            <p class=" font-semibold p-4 text-gray-900">
                 Notre expertise dans le domaine d’accompagnement et le développement de
                 stratégies de croissance optimisées et innovantes, vise à assister toute entité
                 désirant lancer des projets ou une initiative au service de la communauté.
@@ -493,9 +493,9 @@
             </div>
             <div class=" flex justify-start items-center gap-4 px-10 py-6">
                 <div class="">
-                    <img class=" w-16 h-16" src="SS/4.png" alt="">
+                    <img class=" w-16 h-16" src="SS/5.png" alt="">
                 </div>
-                <h1 class=" font-semibold text-3xl TIT1 w-4/6">ACCOMPAGNEMENT AUX COOPERTIVES</h1>
+                <h1 class=" font-semibold text-3xl TIT1 w-4/6">ACCOMPAGNEMENT DES PROJETS D'ESS</h1>
             </div>
         </div>
     </div>

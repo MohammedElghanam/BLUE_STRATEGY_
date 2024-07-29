@@ -81,8 +81,8 @@
     }
 </style>
 
-{{-- ÉQUIPE --}}
-<section class=" px-40 pt-36">
+{{-- ÉQUIPE old version --}}
+{{-- <section class=" px-40 pt-36">
     <div class="grid grid-cols-12 gap-4 p-2 ">
         <div class=" relative col-span-6 ">
             <div class="">
@@ -110,6 +110,31 @@
             </div>
         </div>
     </div>
+</section> --}}
+
+{{-- ÉQUIPE new version --}}
+<section class="px-4 md:px-20 lg:px-40 pt-16 md:pt-24 lg:pt-36">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Left Column (Image Section) -->
+        <div class="relative">
+            <img src="B_U/11.png" alt="Main Image" class="w-full h-auto">
+            <img id="1" src="AP/22.png" alt="Overlay Image" class="absolute left-10 -bottom-10 md:right-10 md:-bottom-10 w-24 h-24 md:w-48 md:h-48 hidden md:block">
+        </div>
+        
+        <!-- Right Column (Text Section) -->
+        <div class="flex flex-col justify-center">
+            <div>
+                <h1 class="text-2xl md:text-4xl font-semibold text-gray-900">UNE ÉQUIPE CRÉATIVE <br>.. UN RÉSEAU UNIQUE</h1>
+            </div>
+            <div class="relative mt-4 md:mt-6">
+                <div class=" bg-gradient-to-b from-blue-800 to-blue-500 text-white p-6 md:p-10 rounded-lg transform duration-300 hover:scale-105">
+                    <p>
+                        Chez BLUE STRATEGY, nous croyons fermement que chaque défi mérite une solution unique. Notre équipe, composée d'experts de terrain et de profils inspirants, couvre un large éventail de domaines. Nous réunissons des professionnels diversifiés pour traiter vos enjeux sous tous les angles, toujours informés des dernières tendances et des meilleures pratiques, qualifiés et certifiés.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
@@ -126,7 +151,9 @@
             <div class="col-span-3 lg:col-span-3 rounded-lg">
                 <img class="w-full h-auto rounded-lg" src="Equipe/6.jpg" alt="">
             </div>
-            <div class="bg-gradient-to-b from-blue-600 to-blue-800 col-span-3 lg:col-span-3 rounded-lg p-4"></div>
+            <div class="bg-gradient-to-b from-blue-600 to-blue-800 col-span-3 lg:col-span-3 rounded-lg p-4 flex justify-center items-center">
+                <img class=" h-20 w-20" src="equipe/12.png" alt="">
+            </div>
         </div>
 
         <div class="shadow-2xl col-span-1 md:col-span-2 lg:col-span-6 bg-white rounded-xl p-6 md:p-8 lg:p-10 text-center transform translate-x-1 duration-300 hover:scale-105 select-none">
@@ -243,7 +270,7 @@
         </div>
         <!-- Services Cards -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <!-- Service 5 -->
+            <!-- Service 0 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
                 <img class="rounded-xl mb-2" src="Equipe/1.jpg" alt="Conseil" loading="lazy">
                 <h2 class="font-semibold text-lg">EXPERTS MÉTIERS DE TERRAIN</h2>
@@ -259,7 +286,7 @@
             <!-- Service 1 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
                 <img class="rounded-xl mb-2" src="Equipe/2.jpg" alt="Gestion de projet" loading="lazy">
-                <h2 class="font-semibold text-lg">CONSULTANTS AMOA TECHNICO-FONCTIONNELS</h2>
+                <h2 class="font-semibold text-lg">CONSULTANTS AMOA</h2>
                 <p class="text-gray-900">
                     Nos consultants technico-fonctionnels possèdent une double compétence essentielle : comprendre vos besoins techniques tout en intégrant les aspects fonctionnels. Ils assurent une mise en œuvre fluide et efficace de vos projets, en alignant parfaitement les solutions technologiques avec vos objectifs stratégiques.
                 </p>
