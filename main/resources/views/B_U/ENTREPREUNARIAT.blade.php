@@ -564,7 +564,7 @@
 
 
 {{-- NOS SERVICES --}}
-{{-- <section class="my-16 px-4 md:px-20">
+<section class="my-16 px-4 md:px-20">
     <div class="grid grid-cols-1 gap-4">
 
         <!-- Services Cards -->
@@ -625,12 +625,12 @@
             </div>
         </div>
     </div>
-</section> --}}
+</section>
 
 
 
 {{-- ACCOMPAGNEMENT DES ORGANISMES ENGAGÉS  --}}
-{{-- <section class="px-4 md:px-20">
+<section class="px-4 md:px-20">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-2 p-2">
         <div class="md:col-span-5 p-5 md:p-10 md:pt-28">
             <div class="flex flex-col md:flex-row items-start md:items-center mb-4">
@@ -738,10 +738,10 @@
             </div>
         </div>
     </div>
-</section> --}}
+</section>
 
 
-{{-- <section class=" px-16 my-16">
+<section class=" px-16 my-16">
     <div class=" grid grid-cols-1 gap-4">
         <div class=" grid grid-cols-12 gap-4 col-span-1">
             <div class=" col-span-3 p-4 flex items-end">
@@ -1100,7 +1100,7 @@
             </div>
         </div>
     </div>
-</section> --}}
+</section>
 
 
 {{-- <section>

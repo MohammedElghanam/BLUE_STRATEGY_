@@ -354,7 +354,7 @@
     const holidays = [
         { month: 0, day: 1 },  
         { month: 4, day: 1 },  
-        { month: 7, day: 30 }, 
+        { month: 6, day: 30 }, 
         { month: 10, day: 18 }, 
     ];
 
