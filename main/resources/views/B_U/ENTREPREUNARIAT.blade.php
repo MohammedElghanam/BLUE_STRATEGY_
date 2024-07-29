@@ -22,47 +22,21 @@
     box-shadow: 0  0px 3px 0.7px rgb(224, 215, 215) ;
 }
 
-.LINE{
-    /* width: screen; */
-    height: 220px;
-    position: absolute;
-    top: 80px;
-    left: -144px;
-    border-top: 8px solid #ff0000;
-    border-left: 8px solid #ff0000;
-}
 
-.C1{
-    background-color: #d70707;
-}
-.C2{
-    color: #d70707;
-}
 
-.BG{
-    background-color: #ff0000;
-}
-.POL{
-    background-color: #ff0000;
-    clip-path: polygon(0 0, 90% 0%, 100% 20%, 100% 100%, 0% 100%);
-    opacity: 0.9;
-}
 
-.RR{
-    background-color: #ff0000;
-}
-.BB{
-    background-color: #020085;
-}
 .XS {
     font-size:  12px ;
     line-height:  16px ;
 }
 .TIT{
-    color: #f96d00;
+    color: #ff5722;
+}
+.TIT1{
+    color: #ff5722;
 }
 .BG{
-    background-color: #f96d00;
+    /* background-color: #e8751a; */
 }
 .FONT{
     font-size: 70px ;
@@ -72,7 +46,9 @@
 .SHADOW{
     box-shadow: 0 0 28px 5px rgb(208, 208, 207) ;
 }
-
+.BG{
+    background-color: #ff5722;
+}
 
 </style>
 
@@ -94,14 +70,161 @@
 </section> --}}
 
 
-<section class=" mb-40 p-2 bg-red-500">
+{{-- <section class=" mb-40 bg-red-500">
     <div class=" relative">
         <img class=" w-full h-3/4" src="B_U/11.png" alt="">
-        <div class=" absolute top-0 w-full h-full bg-blue-600 opacity-50">
-            <div class=""></div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 w-full bg-red-700 px-20">
+        <div class=" absolute top-0 w-full h-full bg-blue-600 flex-col justify-end opacity-50 px-20 py-10">
+            <div class=" grid grid-cols-12 gap-4 p-2 bg-yellow-500 z-50">
+                <div class="col-span-7 bg-pink-700 flex items-end">
+                    <h1 class="text-center mb-8 md:mb-4 text-lg md:text-2xl lg:text-7xl lg:leading-[16px] font-semibold text-white">
+                        ENTREPREUNARIAT
+                    </h1>
+                </div>
+                <div class="col-span-5 bg-pink-700 p-6 rounded-2xl text-gray-50 text-sm">
+                    <p class=" mb-3"> 
+                        Notre mission est de rendre simple et naturel l’entrepreneuriat pour libérer les
+                        potentiels, transformant ainsi l'acte d'entreprendre en une aventure épanouissante.
+                    </p>
+                    <p class=" mb-3">
+                        L'écosystème entrepreneurial au Maroc connaît une évolution continue et joue un rôle
+                        essentiel dans le développement économique et social du pays, tout comme dans
+                        d'autres nations. Dans cette optique, une variété d'initiatives sont déployées pour
+                        enrichir la culture entrepreneuriale, dans le but d'encourager la créativité et
+                        l'innovation, tout en renforçant la création opportunités d'emploi.
+                    </p>
+                    <p class=" mb-3">
+                        En tant qu'acteur engagé dans l'accompagnement de cette dynamique, le cabinet BLUE
+                        STRATEGY propose une vaste gamme de services et s'est doté d'une équipe hautement
+                        qualifiée. Sa mission consiste à fournir une assistance aux entrepreneurs en vue de :
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 col-span-12 bg-blue-600">
+                    <!-- Service 1 -->
+                    <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                        <div>
+                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                    <circle cx="12" cy="12" r="9"/>
+                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h1 class="text-gray-800 text-lg">Libérer leur potentiel d'innovation.</h1>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                        <div>
+                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                    <circle cx="12" cy="12" r="9"/>
+                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h1 class="text-gray-800 text-lg">Maximiser le potentiel de leurs idées.</h1>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                        <div>
+                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                    <circle cx="12" cy="12" r="9"/>
+                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h1 class="text-gray-800 text-lg">Remettre en question leurs modèles d'entreprise.</h1>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                        <div>
+                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                    <circle cx="12" cy="12" r="9"/>
+                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h1 class="text-gray-800 text-lg">Identifier les leviers de succès de leurs startups.</h1>
+                    </div>
+                    <!-- Service 5 -->
+                    <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                        <div>
+                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                    <circle cx="12" cy="12" r="9"/>
+                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h1 class="text-gray-800 text-lg">Adopter les bons réflexes en matière d'entrepreneuriat.</h1>
+                    </div>
+                    <!-- Service 6 -->
+                    <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                        <div>
+                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                    <circle cx="12" cy="12" r="9"/>
+                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h1 class="text-gray-800 text-lg">Faire de l'esprit d'entreprendre une vraie culture.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> --}}
+
+<section class="relative mb-20">
+    <div class="relative">
+        <!-- Image with overlay effect -->
+        <img class="w-full h-3/4" src="B_U/11.png" alt="">
+        <div class="absolute inset-0 BG opacity-25"></div>
+        <!-- Content section -->
+        <div class="absolute top-0 w-full h-full flex flex-col justify-end gap-8 px-20 py-10">
+            <div class="grid grid-cols-12 gap-8">
+                <div class="col-span-7 flex items-end">
+                    <h1 class="text-center mb-8 md:mb-4 text-lg md:text-2xl lg:text-7xl lg:leading-[16px] font-semibold text-white border-b-8 pb-6">
+                        ENTREPREUNARIAT
+                    </h1>
+                </div>
+                <div class="BG col-span-5 p-6 rounded-2xl text-gray-50 text-sm">
+                    <p class="mb-3 font-medium"> 
+                        Notre mission est de rendre simple et naturel l’entrepreneuriat pour libérer les
+                        potentiels, transformant ainsi l'acte d'entreprendre en une aventure épanouissante.
+                    </p>
+                    <p class="mb-3">
+                        L'écosystème entrepreneurial au Maroc connaît une évolution continue et joue un rôle
+                        essentiel dans le développement économique et social du pays, tout comme dans
+                        d'autres nations. Dans cette optique, une variété d'initiatives sont déployées pour
+                        enrichir la culture entrepreneuriale, dans le but d'encourager la créativité et
+                        l'innovation, tout en renforçant la création d'opportunités d'emploi.
+                    </p>
+                    <p class="mb-3">
+                        En tant qu'acteur engagé dans l'accompagnement de cette dynamique, le cabinet BLUE
+                        STRATEGY propose une vaste gamme de services et s'est doté d'une équipe hautement
+                        qualifiée. Sa mission consiste à fournir une assistance aux entrepreneurs en vue de :
+                    </p>
+                </div>
+                
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 col-span-12">
                 <!-- Service 1 -->
-                <div class="rounded-xl p-2 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
                     <div>
                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                             <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -112,7 +235,7 @@
                             </g>
                         </svg>
                     </div>
-                    <h1 class="text-gray-800 text-sm">Libérer leur potentiel d'innovation.</h1>
+                    <h1 class="text-gray-800 text-lg">Libérer leur potentiel d'innovation.</h1>
                 </div>
                 <!-- Service 2 -->
                 <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
@@ -188,6 +311,140 @@
         </div>
     </div>
 </section>
+
+{{-- 
+<section class="relative mb-20">
+    <img class="w-full h-auto max-h-[50vh] object-cover hidden md:block" src="B_U/11.png" alt="">
+    <!-- Overlay for background effect -->
+    <div class="BG absolute inset-0 lg:opacity-25 lg:pt-20"></div>
+    
+    <!-- Content section -->
+    <div class=" relative lg:absolute top-0 w-full h-full flex flex-col justify-end gap-8 px-4 py-6 md:px-8 md:py-10 lg:px-20 lg:py-12">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-4 pt-52 md:gap-8 bg-blue-600">
+            <div class=" md:col-span-12 h20 bg-yellow-400"></div>
+            <!-- Title -->
+            <div class="col-span-1 md:col-span-7 flex items-end">
+                <h1 class="text-center mb-6 md:mb-8 text-4xl md:text-3xl lg:text-7xl font-semibold text-white lg:border-b-4 md:border-b-8 pb-4 md:pb-6">
+                    ENTREPREUNARIAT
+                </h1>
+            </div>
+            
+            <!-- Description -->
+            <div class="col-span-1 md:col-span-5 bg-white p-4 md:p-6 rounded-xl text-gray-800 text-sm md:text-base">
+                <p class="mb-3 font-medium">
+                    Notre mission est de rendre simple et naturel l’entrepreneuriat pour libérer les
+                    potentiels, transformant ainsi l'acte d'entreprendre en une aventure épanouissante.
+                </p>
+                <p class="mb-3">
+                    L'écosystème entrepreneurial au Maroc connaît une évolution continue et joue un rôle
+                    essentiel dans le développement économique et social du pays, tout comme dans
+                    d'autres nations. Dans cette optique, une variété d'initiatives sont déployées pour
+                    enrichir la culture entrepreneuriale, dans le but d'encourager la créativité et
+                    l'innovation, tout en renforçant la création d'opportunités d'emploi.
+                </p>
+                <p class="mb-3">
+                    En tant qu'acteur engagé dans l'accompagnement de cette dynamique, le cabinet BLUE
+                    STRATEGY propose une vaste gamme de services et s'est doté d'une équipe hautement
+                    qualifiée. Sa mission consiste à fournir une assistance aux entrepreneurs en vue de :
+                </p>
+            </div>
+        </div>
+        
+        <!-- Services -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+            <!-- Service 1 -->
+            <div class="rounded-xl p-4 border border-gray-300 flex items-center gap-4 shadow-lg bg-white transform transition-transform duration-300 hover:scale-105">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h2 class="text-gray-800 text-sm md:text-base">Libérer leur potentiel d'innovation.</h2>
+            </div>
+            
+            <!-- Service 2 -->
+            <div class="rounded-xl p-4 border border-gray-300 flex items-center gap-4 shadow-lg bg-white transform transition-transform duration-300 hover:scale-105">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h2 class="text-gray-800 text-sm md:text-base">Maximiser le potentiel de leurs idées.</h2>
+            </div>
+            
+            <!-- Service 3 -->
+            <div class="rounded-xl p-4 border border-gray-300 flex items-center gap-4 shadow-lg bg-white transform transition-transform duration-300 hover:scale-105">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h2 class="text-gray-800 text-sm md:text-base">Remettre en question leurs modèles d'entreprise.</h2>
+            </div>
+            
+            <!-- Service 4 -->
+            <div class="rounded-xl p-4 border border-gray-300 flex items-center gap-4 shadow-lg bg-white transform transition-transform duration-300 hover:scale-105">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h2 class="text-gray-800 text-sm md:text-base">Identifier les leviers de succès de leurs startups.</h2>
+            </div>
+            
+            <!-- Service 5 -->
+            <div class="rounded-xl p-4 border border-gray-300 flex items-center gap-4 shadow-lg bg-white transform transition-transform duration-300 hover:scale-105">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h2 class="text-gray-800 text-sm md:text-base">Adopter les bons réflexes en matière d'entrepreneuriat.</h2>
+            </div>
+            
+            <!-- Service 6 -->
+            <div class="rounded-xl p-4 border border-gray-300 flex items-center gap-4 shadow-lg bg-white transform transition-transform duration-300 hover:scale-105">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h2 class="text-gray-800 text-sm md:text-base">Faire de l'esprit d'entreprendre une vraie culture.</h2>
+            </div>
+        </div>
+    </div>
+</section> --}}
+
 
 
 {{-- <section class="p-6 md:p-20 relative ">
@@ -307,7 +564,7 @@
 
 
 {{-- NOS SERVICES --}}
-<section class="my-16 px-4 md:px-20">
+{{-- <section class="my-16 px-4 md:px-20">
     <div class="grid grid-cols-1 gap-4">
 
         <!-- Services Cards -->
@@ -368,12 +625,12 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 
 
 {{-- ACCOMPAGNEMENT DES ORGANISMES ENGAGÉS  --}}
-<section class="px-4 md:px-20">
+{{-- <section class="px-4 md:px-20">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-2 p-2">
         <div class="md:col-span-5 p-5 md:p-10 md:pt-28">
             <div class="flex flex-col md:flex-row items-start md:items-center mb-4">
@@ -481,10 +738,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 
-<section class=" px-16 my-16">
+{{-- <section class=" px-16 my-16">
     <div class=" grid grid-cols-1 gap-4">
         <div class=" grid grid-cols-12 gap-4 col-span-1">
             <div class=" col-span-3 p-4 flex items-end">
@@ -843,11 +1100,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 
-<section>
+{{-- <section>
     <div class=" grid grid-cols-12 gap-2 p-2 justify-center items-center text-9xl bg-blue-700 font-bold h-96">
         the images
     </div>
-</section>
+</section> --}}
