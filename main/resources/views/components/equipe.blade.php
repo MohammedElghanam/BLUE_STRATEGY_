@@ -76,7 +76,161 @@
         border-radius: 50%;
         background: linear-gradient(to bottom, blue, rgb(0, 110, 255));
     }
+    .POL{
+        clip-path: polygon(0 25%, 10% 0, 100% 0, 100% 100%, 0 100%)
+    }
 </style>
+
+{{-- ÉQUIPE --}}
+<section class=" px-40 pt-36">
+    <div class="grid grid-cols-12 gap-4 p-2 ">
+        <div class=" relative col-span-6 ">
+            <div class="">
+                <img src="B_U/11.png" alt="">
+                <img id="1" src="AP/22.png" alt="" class="absolute left-28 bottom-20 md:right-40 md:bottom-4 w-48 h-48 hidden md:block">
+            </div>
+            
+        </div>
+        <div class="grid grid-cols-1 gap-4 p-2 col-span-6 ">
+            <div class=" col-span-1">
+                <h1 class=" text-4xl font-semibold text-gray-900">UNE ÉQUIPE CRÉATIVE <br>.. UN RÉSEAU UNIQUE</h1>
+            </div>
+            <div class=" col-span-1 p-2 relative h-80">
+                <div class="POL p-10 absolute -left-28 bottom-0 bg-gradient-to-b from-blue-800 to-blue-500 text-white transform translate-x-1 duration-300 hover:scale-105 select-none">
+                    <p>
+                        Chez BLUE STRATEGY, nous croyons fermement que chaque défi 
+                        mérite une solution unique. Notre équipe, composée d'experts 
+                        de terrain et de profils inspirants, couvre un large éventail 
+                        de domaines. Nous réunissons des professionnels diversifiés 
+                        pour traiter vos enjeux sous tous les angles, toujours informés 
+                        des dernières tendances et des meilleures pratiques, qualifiés 
+                        et certifiés.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{{-- NOTRE APPROCHE --}}
+<section>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 px-4 md:px-8 lg:px-28 my-10 md:my-20">
+        <div id="1" class="grid grid-cols-6 md:grid-cols-2 lg:grid-cols-6 gap-4 p-2 md:p-4 col-span-1 md:col-span-2 lg:col-span-6 rounded-xl">
+            <div class="col-span-3 lg:col-span-3 rounded-lg">
+                <img class="w-full h-auto rounded-lg" src="Equipe/1.jpg" alt="">
+            </div>
+            <div class="col-span-3 lg:col-span-3 rounded-lg">
+                <img class="w-full h-auto rounded-lg" src="Equipe/2.jpg" alt="">
+            </div>
+            <div class="col-span-3 lg:col-span-3 rounded-lg">
+                <img class="w-full h-auto rounded-lg" src="Equipe/6.jpg" alt="">
+            </div>
+            <div class="bg-gradient-to-b from-blue-600 to-blue-800 col-span-3 lg:col-span-3 rounded-lg p-4"></div>
+        </div>
+
+        <div class="shadow-2xl col-span-1 md:col-span-2 lg:col-span-6 bg-white rounded-xl p-6 md:p-8 lg:p-10 text-center transform translate-x-1 duration-300 hover:scale-105 select-none">
+            <div class="h-12 w-full flex justify-center items-center gap-1">
+                <div class="w-2.5 h-2.5 rounded-lg bg-blue-300"></div>
+                <div class="w-3.5 h-3.5 rounded-lg bg-blue-500"></div>
+                <div class="w-2.5 h-2.5 rounded-lg bg-blue-300"></div>
+            </div>
+            <h1 class="text-2xl md:text-3xl font-semibold mb-6 md:mb-10 mt-10 text-gray-900">NOTRE APPROCHE</h1>
+            <p class="text-gray-900 text-sm md:text-base">
+                À chaque projet, nous constituons une équipe « AD HOC » spécialement dédiée 
+                pour répondre précisément à vos objectifs. Cette flexibilité nous permet 
+                de fournir des solutions sur mesure et d’assurer une satisfaction maximale 
+                de nos partenaires.
+            </p>
+        </div>
+    </div>
+</section>
+
+{{-- NOS FORCES --}}
+<section class="bg-gray-100 mt-20 md:mt-40 px-4 sm:px-8 md:px-16 lg:px-32 py-10 lg:py-10 ">
+    <div class=" mb-6 flex justify-center items-center">
+        <h1 class=" text-4xl font-semibold text-gray-900">NOS FORCES</h1>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 lg:gap-8">
+        <!-- First Column -->
+        <div class="flex flex-col items-center justify-evenly p-2 bg-gradient-to-b from-blue-800 to-blue-500 rounded-xl transform translate-x-1 duration-300 hover:scale-105 select-none">
+            <div class="w-20 h-20 flex justify-center items-center rounded-full">
+                <img class="w-16 h-16" src="Equipe/11.png" alt="Équipe polyvalente">
+            </div>
+            <div class=" p-6 text-center text-white mt-6 h-52">
+                <h1 class="font-medium mb-2">Équipe polyvalente</h1>
+                <p class="">
+                    Chez BLUE STRATEGY, notre équipe diversifiée s'attaque à vos défis sous tous les angles, offrant des perspectives uniques et des compétences spécialisées.
+                </p>
+            </div>
+        </div>
+
+        <!-- Second Column -->
+        <div class="flex flex-col items-center justify-evenly p-2 bg-white shadow-xl rounded-xl transform translate-x-1 duration-300 hover:scale-105 select-none">
+            <div class="Circle w-20 h-20 flex justify-center items-center rounded-full">
+                <img class="w-10 h-10" src="Equipe/10.png" alt="Expertise approfondie">
+            </div>
+            <div class=" p-6 text-center text-gray-900 rounded-lg mt-6 h-52">
+                <h1 class="font-medium mb-2">Expertise approfondie</h1>
+                <p class="text-gray-700">
+                    Avec plus de 20 experts et jusqu'à 25 ans d'expérience, nous offrons une expertise approfondie et reconnue, toujours à la pointe des tendances.
+                </p>
+            </div>
+        </div>
+
+        <!-- Third Column -->
+        <div class="flex flex-col items-center justify-evenly p-2 bg-gradient-to-b from-blue-800 to-blue-500 rounded-xl transform translate-x-1 duration-300 hover:scale-105 select-none">
+            <div class="w-20 h-20 flex justify-center items-center rounded-full">
+                <img class="w-16 h-16" src="Equipe/9.png" alt="Équipe polyvalente">
+            </div>
+            <div class=" p-6 text-center text-white mt-6 h-52">
+                <h1 class="font-medium mb-2">Mobilité et flexibilité</h1>
+                <p class="">
+                    Présents sur tout le territoire marocain, nous sommes réactifs et proches de vous, garantissant des solutions rapides et efficaces.
+                </p>
+            </div>
+        </div>
+
+        <!-- Second Column -->
+        <div class="flex flex-col items-center justify-evenly p-2 bg-white shadow-xl rounded-xl transform translate-x-1 duration-300 hover:scale-105 select-none">
+            <div class="Circle w-20 h-20 flex justify-center items-center rounded-full">
+                <img class="w-10 h-10" src="Equipe/10.png" alt="Expertise approfondie">
+            </div>
+            <div class=" p-6 text-center text-gray-900 rounded-lg mt-6 h-52">
+                <h1 class="font-medium mb-2">Innovation et créativité</h1>
+                <p class="text-gray-700">
+                    Nos développeurs utilisent les technologies de pointe et des méthodes innovantes pour concevoir des solutions adaptées à vos besoins spécifiques.
+                </p>
+            </div>
+        </div>
+
+        <!-- First Column -->
+        <div class="flex flex-col items-center justify-evenly p-2 bg-gradient-to-b from-blue-800 to-blue-500 rounded-xl transform translate-x-1 duration-300 hover:scale-105 select-none">
+            <div class="w-20 h-20 flex justify-center items-center rounded-full">
+                <img class="w-16 h-16" src="Equipe/11.png" alt="Équipe polyvalente">
+            </div>
+            <div class=" p-6 text-center text-white mt-6 h-52">
+                <h1 class="font-medium mb-2"> Accompagnement Continu</h1>
+                <p class="">
+                    Nous vous accompagnons tout au long de la mise en œuvre de nos solutions, assurant un support continu pour maximiser les bénéfices de nos interventions.
+                </p>
+            </div>
+        </div>
+
+        <!-- Second Column -->
+        <div class="flex flex-col items-center justify-evenly p-2 bg-white shadow-xl rounded-xl transform translate-x-1 duration-300 hover:scale-105 select-none">
+            <div class="Circle w-20 h-20 flex justify-center items-center rounded-full">
+                <img class="w-10 h-10" src="Equipe/10.png" alt="Expertise approfondie">
+            </div>
+            <div class=" p-6 text-center text-gray-900 rounded-lg mt-6 h-52">
+                <h1 class="font-medium mb-2"> Engagement envers l'excellence </h1>
+                <p class="text-gray-700">
+                    Nous nous engageons à fournir des services de haute qualité, avec un souci constant du détail et une recherche perpétuelle de l'amélioration.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
 {{-- NOS Experts --}}
 <section class="my-16 px-4 md:px-20">
@@ -144,247 +298,6 @@
                 <h2 class="font-semibold text-lg">FORMATEURS PROFESSIONNELS</h2>
                 <p class="text-gray-900">
                     Nos formateurs professionnels sont spécialisés dans la transmission des compétences essentielles. Ils travaillent en étroite collaboration avec vos équipes pour favoriser leur développement et les préparer à relever de nouveaux défis avec succès.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 px-4 md:px-8 lg:px-28 my-10 md:my-20">
-        <div id="1" class="grid grid-cols-6 md:grid-cols-2 lg:grid-cols-6 gap-4 p-2 md:p-4 col-span-1 md:col-span-2 lg:col-span-6 rounded-xl">
-            <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="Equipe/1.jpg" alt="">
-            </div>
-            <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="Equipe/2.jpg" alt="">
-            </div>
-            <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="Equipe/6.jpg" alt="">
-            </div>
-            <div class="bg-gradient-to-b from-blue-600 to-blue-800 col-span-3 lg:col-span-3 rounded-lg p-4"></div>
-        </div>
-
-        <div class="shadow-2xl col-span-1 md:col-span-2 lg:col-span-6 bg-white rounded-xl p-6 md:p-8 lg:p-10 text-center">
-            <div class="h-12 w-full flex justify-center items-center gap-1">
-                <div class="w-2.5 h-2.5 rounded-lg bg-blue-300"></div>
-                <div class="w-3.5 h-3.5 rounded-lg bg-blue-500"></div>
-                <div class="w-2.5 h-2.5 rounded-lg bg-blue-300"></div>
-            </div>
-            <h1 class="text-2xl md:text-3xl font-semibold mb-6 md:mb-10">UNE ÉQUIPE CRÉATIVE <br> .. UN RÉSEAU UNIQUE</h1>
-            <p class="text-gray-900 text-sm md:text-base">
-                Chez BLUE STRATEGY, nous croyons fermement 
-                que chaque défi mérite une solution unique. Notre équipe, 
-                composée d'experts de terrain et de profils inspirants, couvre 
-                un large éventail de domaines. Nous réunissons des professionnels 
-                diversifiés pour traiter vos enjeux sous tous les angles, toujours 
-                informés des dernières tendances et des meilleures pratiques, qualifiés et certifiés.
-            </p>
-        </div>
-    </div>
-</section>
-
-
-{{-- <div class=" flex mt-40 px-20 bg-blue-600 p-6">
-
-    <div class=" bg-red-500">
-        <div class=" w-1/4 h-48 bg-white shadow-2xl p-4 rounded-xl">
-            <h1 class=" font-medium mb-2">Équipe polyvalente </h1>
-            <p class=" text-gray-900 ">Chez BLUE STRATEGY, notre équipe diversifiée s'attaque à vos défis sous tous les angles, offrant des perspectives uniques et des compétences spécialisées.</p>
-        </div>
-
-        <div class="w-1/4 h-20 flex items-center bg-yellow-400">
-            <div class="relative flex items-center justify-center h-1 w-full bg-red-900">
-                <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
-                    <div class=" text-blue-900">03</div>
-                </div>
-            </div>
-        </div>
-        <div class=" w-1/4 h-48 bg-white shadow-2xl p-4 rounded-xl"></div>
-
-    </div>
-    <div class=" bg-red-600">
-        <div class=" w-1/4 h-48 bg-white shadow-2xl p-4 rounded-xl">
-            <h1 class=" font-medium mb-2">Équipe polyvalente </h1>
-            <p class=" text-gray-900 ">Chez BLUE STRATEGY, notre équipe diversifiée s'attaque à vos défis sous tous les angles, offrant des perspectives uniques et des compétences spécialisées.</p>
-        </div>
-
-        <div class="w-1/4 h-20 flex items-center bg-yellow-400">
-            <div class="relative flex items-center justify-center h-1 w-full bg-red-900">
-                <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
-                    <div class=" text-blue-900">03</div>
-                </div>
-            </div>
-        </div>
-        <div class=" w-1/4 h-48 bg-white shadow-2xl p-4 rounded-xl"></div>
-
-    </div>
-
-    
-    <div class=" flex gap-4 bg-pink-600">
-        <div class=" w-1/4 bg-white shadow-2xl p-4 rounded-xl">
-            <h1 class=" font-medium mb-2">Équipe polyvalente </h1>
-            <p class=" text-gray-900 ">Chez BLUE STRATEGY, notre équipe diversifiée s'attaque à vos défis sous tous les angles, offrant des perspectives uniques et des compétences spécialisées.</p>
-        </div>
-        <div class=" bg-white shadow-2xl p-4 rounded-xl"></div>
-        <div class=" w-1/4 bg-white shadow-2xl p-4 rounded-xl">
-            <h1 class=" font-medium mb-2">Équipe polyvalente </h1>
-            <p class=" text-gray-900 ">Chez BLUE STRATEGY, notre équipe diversifiée s'attaque à vos défis sous tous les angles, offrant des perspectives uniques et des compétences spécialisées.</p>
-        </div>
-        <div class=" bg-white shadow-2xl p-4 rounded-xl"></div>
-        <div class=" w-1/4 bg-white shadow-2xl p-4 rounded-xl">
-            <h1 class=" font-medium mb-2">Équipe polyvalente </h1>
-            <p class=" text-gray-900 ">Chez BLUE STRATEGY, notre équipe diversifiée s'attaque à vos défis sous tous les angles, offrant des perspectives uniques et des compétences spécialisées.</p>
-        </div>
-        <div class=" bg-white shadow-2xl p-4 rounded-xl"></div>
-    </div>
-
-    <div class="  flex justify-center w-full">
-        <div class="w-1/5 h-10 bg-yellow-400">
-            <div class="relative flex items-center justify-start h-1 w-full bg-red-900">
-                <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
-                    <div class=" text-blue-900">03</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-1/5 flex justify-end bg-yellow-400">
-            <div class="relative flex items-center justify-center h-1 w-full bg-red-900">
-                <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
-                    <div class=" text-blue-900">03</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-1/5 flex justify-end bg-yellow-400">
-            <div class="relative flex items-center justify-center h-1 w-full bg-red-900">
-                <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
-                    <div class=" text-blue-900">03</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-1/5 flex justify-end bg-yellow-400">
-            <div class="relative flex items-center justify-center h-1 w-full bg-red-900">
-                <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
-                    <div class=" text-blue-900">03</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-1/5 flex justify-end bg-yellow-400">
-            <div class="relative flex items-center justify-center h-1 w-full bg-red-900">
-                <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
-                    <div class=" text-blue-900">03</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-1/5 flex justify-end bg-yellow-400">
-            <div class="relative flex items-center justify-end h-1 w-full bg-red-900">
-                <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
-                    <div class=" text-blue-900">03</div>
-                </div>
-            </div>
-        </div>
-    
-    </div>
-    <div class=" flex gap-4 bg-pink-600">
-        <div class=" bg-white shadow-2xl p-4 rounded-xl"></div>
-        <div class=" w-1/4 bg-white shadow-2xl p-4 rounded-xl">
-            <h1 class=" font-medium mb-2">Équipe polyvalente </h1>
-            <p class=" text-gray-900 ">Chez BLUE STRATEGY, notre équipe diversifiée s'attaque à vos défis sous tous les angles, offrant des perspectives uniques et des compétences spécialisées.</p>
-        </div>
-        <div class=" bg-white shadow-2xl p-4 rounded-xl"></div>
-        <div class=" w-1/4 bg-white shadow-2xl p-4 rounded-xl">
-            <h1 class=" font-medium mb-2">Équipe polyvalente </h1>
-            <p class=" text-gray-900 ">Chez BLUE STRATEGY, notre équipe diversifiée s'attaque à vos défis sous tous les angles, offrant des perspectives uniques et des compétences spécialisées.</p>
-        </div>
-        <div class=" bg-white shadow-2xl p-4 rounded-xl"></div>
-        <div class=" w-1/4 bg-white shadow-2xl p-4 rounded-xl">
-            <h1 class=" font-medium mb-2">Équipe polyvalente </h1>
-            <p class=" text-gray-900 ">Chez BLUE STRATEGY, notre équipe diversifiée s'attaque à vos défis sous tous les angles, offrant des perspectives uniques et des compétences spécialisées.</p>
-        </div>
-    </div>
-</div> --}}
-
-
-<section class=" bg-gray-100 mt-40 px-32 py-20">
-    <div class=" grid grid-cols-12 h-80">
-
-        <div class="grid grid-cols-1 col-span-4">
-            <div class=" BOR col-span-1 flex justify-center items-center">
-                <div class=" Circle w-20 h-20 flex justify-center items-center rounded-full">
-                    <img class=" w-10 h-10" src="Equipe/11.png" alt="">
-                </div>
-            </div>
-            <div class=" BOR2 col-span-1 p-6 text-center text-white relative">
-                <h1 class=" text-gray-900 font-medium mb-2">Équipe polyvalente </h1>
-                <p class=" text-gray-700">Chez BLUE STRATEGY, notre équipe diversifiée s'attaque à vos défis sous tous les angles, offrant des perspectives uniques et des compétences spécialisées.</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 col-span-4">
-            <div class=" col-span-1 flex justify-center items-center">
-                <div class=" Circle w-20 h-20 flex justify-center items-center rounded-full">
-                    <img class=" w-10 h-10" src="Equipe/10.png" alt="">                
-                </div>
-            </div>
-            <div class=" col-span-1 p-6 text-center text-white">
-                <h1 class=" text-gray-900 font-medium mb-2">Expertise approfondie </h1>
-                <p class=" text-gray-700">
-                    Avec plus de 20 experts et jusqu'à 25 ans d'expérience, nous offrons une expertise approfondie et reconnue, toujours à la pointe des tendances.                
-                </p>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 col-span-4">
-            <div class=" BOR1 col-span-1 flex justify-center items-center">
-                <div class=" Circle w-20 h-20 flex justify-center items-center rounded-full">
-                    <img class=" w-10 h-10" src="Equipe/9.png" alt="">                </div>
-            </div>
-            <div class=" BOR3 col-span-1 p-6 text-center text-white relative">
-                <h1 class=" text-gray-900 font-medium mb-2"> Mobilité et flexibilité </h1>
-                <p class=" text-gray-700">
-                    Présents sur tout le territoire marocain, nous sommes réactifs et proches de vous, garantissant des solutions rapides et efficaces.                
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-  
-
-<section class="bg-gray-100 mt-20 md:mt-40 px-4 sm:px-8 md:px-16 lg:px-32 py-10 lg:py-20">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 lg:gap-8">
-        <!-- First Column -->
-        <div class="flex flex-col items-center">
-            <div class="w-20 h-20 flex justify-center items-center rounded-full bg-white shadow-lg">
-                <img class="w-10 h-10" src="Equipe/11.png" alt="Équipe polyvalente">
-            </div>
-            <div class="bg-white p-6 text-center text-gray-900 rounded-lg shadow-md mt-6">
-                <h1 class="font-medium mb-2">Équipe polyvalente</h1>
-                <p class="text-gray-700">
-                    Chez BLUE STRATEGY, notre équipe diversifiée s'attaque à vos défis sous tous les angles, offrant des perspectives uniques et des compétences spécialisées.
-                </p>
-            </div>
-        </div>
-
-        <!-- Second Column -->
-        <div class="flex flex-col items-center">
-            <div class="w-20 h-20 flex justify-center items-center rounded-full bg-white shadow-lg">
-                <img class="w-10 h-10" src="Equipe/10.png" alt="Expertise approfondie">
-            </div>
-            <div class="bg-white p-6 text-center text-gray-900 rounded-lg shadow-md mt-6">
-                <h1 class="font-medium mb-2">Expertise approfondie</h1>
-                <p class="text-gray-700">
-                    Avec plus de 20 experts et jusqu'à 25 ans d'expérience, nous offrons une expertise approfondie et reconnue, toujours à la pointe des tendances.
-                </p>
-            </div>
-        </div>
-
-        <!-- Third Column -->
-        <div class="flex flex-col items-center">
-            <div class="w-20 h-20 flex justify-center items-center rounded-full bg-white shadow-lg">
-                <img class="w-10 h-10" src="Equipe/9.png" alt="Mobilité et flexibilité">
-            </div>
-            <div class="bg-white p-6 text-center text-gray-900 rounded-lg shadow-md mt-6">
-                <h1 class="font-medium mb-2">Mobilité et flexibilité</h1>
-                <p class="text-gray-700">
-                    Présents sur tout le territoire marocain, nous sommes réactifs et proches de vous, garantissant des solutions rapides et efficaces.
                 </p>
             </div>
         </div>
