@@ -77,21 +77,118 @@
 </style>
 
 {{-- first section  --}}
-<section id="1" class="pt-20">
+{{-- <section id="1" class="pt-20">
     <div class="flex justify-center items-center relative">
         <img class="w-full md:w-auto" src="B_U/29.png" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
         <div class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0">
             <div class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5 bg-red-500"></div>
             <div class="text-white absolute left-1/2 transform -translate-x-1/2 md:-right-40 md:bottom-4 text-center md:text-left animate-fade-in">
-                {{-- <h1 class="font-bold text-2xl md:text-4xl">B.U 01</h1> --}}
+                <h1 class="font-bold text-2xl md:text-4xl">B.U 01</h1>
                 <h1 class="font-bold text-2xl md:text-4xl">PMO</h1>
-                {{-- <p class="font-normal">PROJECT MANAGEMENT OFFICE</p> --}}
+                <p class="font-normal">PROJECT MANAGEMENT OFFICE</p>
             </div>
             <div class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28"></div>
         </div>
     </div>
+</section> --}}
+
+
+<section class=" mb-40 p-2 bg-red-500">
+    <div class=" relative">
+        <img class=" w-full h-3/4" src="B_U/11.png" alt="">
+        <div class=" absolute top-0 w-full h-full bg-blue-600 opacity-50">
+            <div class=""></div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 w-full bg-red-700 px-20">
+                <!-- Service 1 -->
+                <div class="rounded-xl p-2 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-gray-800 text-sm">Libérer leur potentiel d'innovation.</h1>
+                </div>
+                <!-- Service 2 -->
+                <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-gray-800 text-lg">Maximiser le potentiel de leurs idées.</h1>
+                </div>
+                <!-- Service 3 -->
+                <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-gray-800 text-lg">Remettre en question leurs modèles d'entreprise.</h1>
+                </div>
+                <!-- Service 4 -->
+                <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-gray-800 text-lg">Identifier les leviers de succès de leurs startups.</h1>
+                </div>
+                <!-- Service 5 -->
+                <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-gray-800 text-lg">Adopter les bons réflexes en matière d'entrepreneuriat.</h1>
+                </div>
+                <!-- Service 6 -->
+                <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-gray-800 text-lg">Faire de l'esprit d'entreprendre une vraie culture.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 
 {{-- <section class="p-6 md:p-20 relative ">
     <div class="BG w-24 h-24 md:w-48 md:h-48 absolute top-0 left-0 z-40 hidden md:block"></div>
@@ -272,6 +369,7 @@
         </div>
     </div>
 </section>
+
 
 
 {{-- ACCOMPAGNEMENT DES ORGANISMES ENGAGÉS  --}}
