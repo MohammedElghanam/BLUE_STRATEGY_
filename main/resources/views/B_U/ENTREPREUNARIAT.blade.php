@@ -47,149 +47,18 @@
     box-shadow: 0 0 28px 5px rgb(208, 208, 207) ;
 }
 .BG{
-    background-color: #ff5722;
+    /* background-color: #ff5722; */
+    background: linear-gradient(to bottom, #ff5200, #ff2400);
+}
+
+.BG1{
+    background: linear-gradient(to bottom, #ff5200, #ff2400);
 }
 
 </style>
 
 {{-- first section  --}}
-{{-- <section id="1" class="pt-20">
-    <div class="flex justify-center items-center relative">
-        <img class="w-full md:w-auto" src="B_U/29.png" alt="">
-        <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
-        <div class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0">
-            <div class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5 bg-red-500"></div>
-            <div class="text-white absolute left-1/2 transform -translate-x-1/2 md:-right-40 md:bottom-4 text-center md:text-left animate-fade-in">
-                <h1 class="font-bold text-2xl md:text-4xl">B.U 01</h1>
-                <h1 class="font-bold text-2xl md:text-4xl">PMO</h1>
-                <p class="font-normal">PROJECT MANAGEMENT OFFICE</p>
-            </div>
-            <div class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28"></div>
-        </div>
-    </div>
-</section> --}}
-
-
-{{-- <section class=" mb-40 bg-red-500">
-    <div class=" relative">
-        <img class=" w-full h-3/4" src="B_U/11.png" alt="">
-        <div class=" absolute top-0 w-full h-full bg-blue-600 flex-col justify-end opacity-50 px-20 py-10">
-            <div class=" grid grid-cols-12 gap-4 p-2 bg-yellow-500 z-50">
-                <div class="col-span-7 bg-pink-700 flex items-end">
-                    <h1 class="text-center mb-8 md:mb-4 text-lg md:text-2xl lg:text-7xl lg:leading-[16px] font-semibold text-white">
-                        ENTREPREUNARIAT
-                    </h1>
-                </div>
-                <div class="col-span-5 bg-pink-700 p-6 rounded-2xl text-gray-50 text-sm">
-                    <p class=" mb-3"> 
-                        Notre mission est de rendre simple et naturel l’entrepreneuriat pour libérer les
-                        potentiels, transformant ainsi l'acte d'entreprendre en une aventure épanouissante.
-                    </p>
-                    <p class=" mb-3">
-                        L'écosystème entrepreneurial au Maroc connaît une évolution continue et joue un rôle
-                        essentiel dans le développement économique et social du pays, tout comme dans
-                        d'autres nations. Dans cette optique, une variété d'initiatives sont déployées pour
-                        enrichir la culture entrepreneuriale, dans le but d'encourager la créativité et
-                        l'innovation, tout en renforçant la création opportunités d'emploi.
-                    </p>
-                    <p class=" mb-3">
-                        En tant qu'acteur engagé dans l'accompagnement de cette dynamique, le cabinet BLUE
-                        STRATEGY propose une vaste gamme de services et s'est doté d'une équipe hautement
-                        qualifiée. Sa mission consiste à fournir une assistance aux entrepreneurs en vue de :
-                    </p>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 col-span-12 bg-blue-600">
-                    <!-- Service 1 -->
-                    <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-gray-800 text-lg">Libérer leur potentiel d'innovation.</h1>
-                    </div>
-                    <!-- Service 2 -->
-                    <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-gray-800 text-lg">Maximiser le potentiel de leurs idées.</h1>
-                    </div>
-                    <!-- Service 3 -->
-                    <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-gray-800 text-lg">Remettre en question leurs modèles d'entreprise.</h1>
-                    </div>
-                    <!-- Service 4 -->
-                    <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-gray-800 text-lg">Identifier les leviers de succès de leurs startups.</h1>
-                    </div>
-                    <!-- Service 5 -->
-                    <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-gray-800 text-lg">Adopter les bons réflexes en matière d'entrepreneuriat.</h1>
-                    </div>
-                    <!-- Service 6 -->
-                    <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-gray-800 text-lg">Faire de l'esprit d'entreprendre une vraie culture.</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-
-<section class="relative mb-20">
+{{-- <section class="relative mb-20">
     <div class="relative">
         <!-- Image with overlay effect -->
         <img class="w-full h-3/4" src="B_U/11.png" alt="">
@@ -310,168 +179,284 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
-{{-- 
-<section class="relative mb-20">
-    <img class="w-full h-auto max-h-[50vh] object-cover hidden md:block" src="B_U/11.png" alt="">
-    <!-- Overlay for background effect -->
-    <div class="BG absolute inset-0 lg:opacity-25 lg:pt-20"></div>
+{{-- <section class="p-10 bg-blue-600 grid grid-cols-1 md:grid-cols-12 gap-8 pt-32">
+    <!-- First Column (Red Background) -->
+    <div class="col-span-1 md:col-span-6 bg-red-400">
+        <!-- Content or image here if needed -->
+        <p class="mb-3 font-medium">
+            Notre mission est de rendre simple et naturel l’entrepreneuriat pour libérer les
+            p
+    </div>
     
-    <!-- Content section -->
-    <div class=" relative lg:absolute top-0 w-full h-full flex flex-col justify-end gap-8 px-4 py-6 md:px-8 md:py-10 lg:px-20 lg:py-12">
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-4 pt-52 md:gap-8 bg-blue-600">
-            <div class=" md:col-span-12 h20 bg-yellow-400"></div>
-            <!-- Title -->
-            <div class="col-span-1 md:col-span-7 flex items-end">
-                <h1 class="text-center mb-6 md:mb-8 text-4xl md:text-3xl lg:text-7xl font-semibold text-white lg:border-b-4 md:border-b-8 pb-4 md:pb-6">
-                    ENTREPREUNARIAT
-                </h1>
+    <!-- Second Column (Text Content) -->
+    <div class="col-span-1 md:col-span-6 lg:col-span-5 p-4 md:p-6 rounded-2xl bg-gray-800 text-gray-50 text-sm">
+        <p class="mb-3 font-medium">
+            Notre mission est de rendre simple et naturel l’entrepreneuriat pour libérer les
+            potentiels, transformant ainsi l'acte d'entreprendre en une aventure épanouissante.
+        </p>
+        <p class="mb-3">
+            L'écosystème entrepreneurial au Maroc connaît une évolution continue et joue un rôle
+            essentiel dans le développement économique et social du pays, tout comme dans
+            d'autres nations. Dans cette optique, une variété d'initiatives sont déployées pour
+            enrichir la culture entrepreneuriale, dans le but d'encourager la créativité et
+            l'innovation, tout en renforçant la création d'opportunités d'emploi.
+        </p>
+        <p class="mb-3">
+            En tant qu'acteur engagé dans l'accompagnement de cette dynamique, le cabinet BLUE
+            STRATEGY propose une vaste gamme de services et s'est doté d'une équipe hautement
+            qualifiée. Sa mission consiste à fournir une assistance aux entrepreneurs en vue de :
+        </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 col-span-12">
+        <!-- Service 1 -->
+        <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+            <div>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                        </path>
+                    </g>
+                </svg>
             </div>
-            
-            <!-- Description -->
-            <div class="col-span-1 md:col-span-5 bg-white p-4 md:p-6 rounded-xl text-gray-800 text-sm md:text-base">
-                <p class="mb-3 font-medium">
-                    Notre mission est de rendre simple et naturel l’entrepreneuriat pour libérer les
-                    potentiels, transformant ainsi l'acte d'entreprendre en une aventure épanouissante.
-                </p>
-                <p class="mb-3">
-                    L'écosystème entrepreneurial au Maroc connaît une évolution continue et joue un rôle
-                    essentiel dans le développement économique et social du pays, tout comme dans
-                    d'autres nations. Dans cette optique, une variété d'initiatives sont déployées pour
-                    enrichir la culture entrepreneuriale, dans le but d'encourager la créativité et
-                    l'innovation, tout en renforçant la création d'opportunités d'emploi.
-                </p>
-                <p class="mb-3">
-                    En tant qu'acteur engagé dans l'accompagnement de cette dynamique, le cabinet BLUE
-                    STRATEGY propose une vaste gamme de services et s'est doté d'une équipe hautement
-                    qualifiée. Sa mission consiste à fournir une assistance aux entrepreneurs en vue de :
-                </p>
-            </div>
+            <h1 class="text-gray-800 text-lg">Libérer leur potentiel d'innovation.</h1>
         </div>
-        
-        <!-- Services -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
-            <!-- Service 1 -->
-            <div class="rounded-xl p-4 border border-gray-300 flex items-center gap-4 shadow-lg bg-white transform transition-transform duration-300 hover:scale-105">
-                <div>
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                            <circle cx="12" cy="12" r="9"/>
-                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                            </path>
-                        </g>
-                    </svg>
-                </div>
-                <h2 class="text-gray-800 text-sm md:text-base">Libérer leur potentiel d'innovation.</h2>
+        <!-- Service 2 -->
+        <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+            <div>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                        </path>
+                    </g>
+                </svg>
             </div>
-            
-            <!-- Service 2 -->
-            <div class="rounded-xl p-4 border border-gray-300 flex items-center gap-4 shadow-lg bg-white transform transition-transform duration-300 hover:scale-105">
-                <div>
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                            <circle cx="12" cy="12" r="9"/>
-                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                            </path>
-                        </g>
-                    </svg>
-                </div>
-                <h2 class="text-gray-800 text-sm md:text-base">Maximiser le potentiel de leurs idées.</h2>
+            <h1 class="text-gray-800 text-lg">Maximiser le potentiel de leurs idées.</h1>
+        </div>
+        <!-- Service 3 -->
+        <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+            <div>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                        </path>
+                    </g>
+                </svg>
             </div>
-            
-            <!-- Service 3 -->
-            <div class="rounded-xl p-4 border border-gray-300 flex items-center gap-4 shadow-lg bg-white transform transition-transform duration-300 hover:scale-105">
-                <div>
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                            <circle cx="12" cy="12" r="9"/>
-                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                            </path>
-                        </g>
-                    </svg>
-                </div>
-                <h2 class="text-gray-800 text-sm md:text-base">Remettre en question leurs modèles d'entreprise.</h2>
+            <h1 class="text-gray-800 text-lg">Remettre en question leurs modèles d'entreprise.</h1>
+        </div>
+        <!-- Service 4 -->
+        <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+            <div>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                        </path>
+                    </g>
+                </svg>
             </div>
-            
-            <!-- Service 4 -->
-            <div class="rounded-xl p-4 border border-gray-300 flex items-center gap-4 shadow-lg bg-white transform transition-transform duration-300 hover:scale-105">
-                <div>
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                            <circle cx="12" cy="12" r="9"/>
-                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                            </path>
-                        </g>
-                    </svg>
-                </div>
-                <h2 class="text-gray-800 text-sm md:text-base">Identifier les leviers de succès de leurs startups.</h2>
+            <h1 class="text-gray-800 text-lg">Identifier les leviers de succès de leurs startups.</h1>
+        </div>
+        <!-- Service 5 -->
+        <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+            <div>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                        </path>
+                    </g>
+                </svg>
             </div>
-            
-            <!-- Service 5 -->
-            <div class="rounded-xl p-4 border border-gray-300 flex items-center gap-4 shadow-lg bg-white transform transition-transform duration-300 hover:scale-105">
-                <div>
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                            <circle cx="12" cy="12" r="9"/>
-                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                            </path>
-                        </g>
-                    </svg>
-                </div>
-                <h2 class="text-gray-800 text-sm md:text-base">Adopter les bons réflexes en matière d'entrepreneuriat.</h2>
+            <h1 class="text-gray-800 text-lg">Adopter les bons réflexes en matière d'entrepreneuriat.</h1>
+        </div>
+        <!-- Service 6 -->
+        <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+            <div>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                        </path>
+                    </g>
+                </svg>
             </div>
-            
-            <!-- Service 6 -->
-            <div class="rounded-xl p-4 border border-gray-300 flex items-center gap-4 shadow-lg bg-white transform transition-transform duration-300 hover:scale-105">
-                <div>
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                            <circle cx="12" cy="12" r="9"/>
-                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                            </path>
-                        </g>
-                    </svg>
-                </div>
-                <h2 class="text-gray-800 text-sm md:text-base">Faire de l'esprit d'entreprendre une vraie culture.</h2>
-            </div>
+            <h1 class="text-gray-800 text-lg">Faire de l'esprit d'entreprendre une vraie culture.</h1>
         </div>
     </div>
 </section> --}}
 
+{{-- <section class="">
+    <!-- Image with overlay effect -->
+    <img class="w-full h-3/4 hidden lg:block" src="B_U/11.png" alt="">
+    <div class="absolute inset-0 BG opacity-25 hidden lg:block"></div>
+
+    <div class=" md:absolute top-0 p-10 grid grid-cols-1 md:grid-cols-12 gap-8 pt-32">
+    <!-- First Column (Red Background) -->
+    <div class="col-span-1 md:col-span-7 md:h-auto flex items-end">
+        <h1 class="text-center md:mb-4 text-4xl md:text-2xl lg:text-7xl lg:leading-[16px] md:font-semibold font-bold md:text-white text-orange-600  lg:border-b-8 pb-6">
+            ENTREPREUNARIAT
+        </h1>
+    </div>
+    
+    <!-- Second Column (Text Content) -->
+    <div class="BG col-span-1 md:col-span-6 lg:col-span-5 p-4 md:p-6 rounded-2xl text-gray-50 text-sm">
+        <p class="mb-3 font-medium">
+            Notre mission est de rendre simple et naturel l’entrepreneuriat pour libérer les
+            potentiels, transformant ainsi l'acte d'entreprendre en une aventure épanouissante.
+        </p>
+        <p class="mb-3">
+            L'écosystème entrepreneurial au Maroc connaît une évolution continue et joue un rôle
+            essentiel dans le développement économique et social du pays, tout comme dans
+            d'autres nations. Dans cette optique, une variété d'initiatives sont déployées pour
+            enrichir la culture entrepreneuriale, dans le but d'encourager la créativité et
+            l'innovation, tout en renforçant la création d'opportunités d'emploi.
+        </p>
+        <p class="mb-3">
+            En tant qu'acteur engagé dans l'accompagnement de cette dynamique, le cabinet BLUE
+            STRATEGY propose une vaste gamme de services et s'est doté d'une équipe hautement
+            qualifiée. Sa mission consiste à fournir une assistance aux entrepreneurs en vue de :
+        </p>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="col-span-1 md:col-span-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2">
+        <!-- Service 1 -->
+        <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+            <div>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <h1 class="text-gray-800 text-lg">Libérer leur potentiel d'innovation.</h1>
+        </div>
+        <!-- Service 2 -->
+        <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+            <div>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <h1 class="text-gray-800 text-lg">Maximiser le potentiel de leurs idées.</h1>
+        </div>
+        <!-- Service 3 -->
+        <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+            <div>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <h1 class="text-gray-800 text-lg">Remettre en question leurs modèles d'entreprise.</h1>
+        </div>
+        <!-- Service 4 -->
+        <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+            <div>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <h1 class="text-gray-800 text-lg">Identifier les leviers de succès de leurs startups.</h1>
+        </div>
+        <!-- Service 5 -->
+        <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+            <div>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <h1 class="text-gray-800 text-lg">Adopter les bons réflexes en matière d'entrepreneuriat.</h1>
+        </div>
+        <!-- Service 6 -->
+        <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
+            <div>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <h1 class="text-gray-800 text-lg">Faire de l'esprit d'entreprendre une vraie culture.</h1>
+        </div>
+    </div>
+    </div>
+</section> --}}
 
 
-{{-- <section class="p-6 md:p-20 relative ">
-    <div class="BG w-24 h-24 md:w-48 md:h-48 absolute top-0 left-0 z-40 hidden md:block"></div>
-    <div class="SHADOW p-6 md:p-20 h-auto grid justify-center items-center relative">
-        <div class="pt-6 md:pt-10">
-            <h1 class="text-center mb-8 md:mb-16 text-lg md:text-2xl lg:text-8xl lg:leading-[16px] TIT">
+<section class="">
+    <!-- Image with overlay effect -->
+    <img class="w-full h-3/4 hidden lg:block" src="B_U/11.png" alt="">
+    <div class="absolute inset-0 BG opacity-25 hidden lg:block"></div>
+
+    <div class="md:absolute top-0 p-10 grid grid-cols-1 md:grid-cols-12 gap-8 pt-32">
+        <!-- First Column (Red Background) -->
+        <div class="col-span-1 md:col-span-7 md:h-auto flex items-end">
+            <h1 class="text-center md:mb-4 text-4xl md:text-2xl lg:text-7xl lg:leading-[16px] md:font-semibold font-bold md:text-white text-orange-500 lg:border-b-8 pb-6">
                 ENTREPREUNARIAT
             </h1>
-            <p class="mb-2 md:mb-4 text-center font-medium text-sm md:text-base">
+        </div>
+        
+        <!-- Second Column (Text Content) -->
+        <div class="BG col-span-1 md:col-span-6 lg:col-span-5 p-4 md:p-6 rounded-2xl text-gray-50 text-sm">
+            <p class="mb-3 font-medium">
                 Notre mission est de rendre simple et naturel l’entrepreneuriat pour libérer les
                 potentiels, transformant ainsi l'acte d'entreprendre en une aventure épanouissante.
             </p>
-            <p class="mb-2 md:mb-4 text-center text-gray-800 text-sm md:text-base">
+            <p class="mb-3">
                 L'écosystème entrepreneurial au Maroc connaît une évolution continue et joue un rôle
                 essentiel dans le développement économique et social du pays, tout comme dans
                 d'autres nations. Dans cette optique, une variété d'initiatives sont déployées pour
-                enrichir la culture entrepreneuriale, dans le but d'encourager et de soutenir les
-                entrepreneurs dans leurs parcours.
+                enrichir la culture entrepreneuriale, dans le but d'encourager la créativité et
+                l'innovation, tout en renforçant la création d'opportunités d'emploi.
             </p>
-            <p class="mb-2 md:mb-4 text-center text-gray-800 text-sm md:text-base">
+            <p class="mb-3">
                 En tant qu'acteur engagé dans l'accompagnement de cette dynamique, le cabinet BLUE
                 STRATEGY propose une vaste gamme de services et s'est doté d'une équipe hautement
                 qualifiée. Sa mission consiste à fournir une assistance aux entrepreneurs en vue de :
             </p>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 w-full">
+
+        <!-- Services Grid -->
+        <div class="col-span-1 md:col-span-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2">
             <!-- Service 1 -->
             <div class="rounded-xl p-5 border border-gray-500 flex items-center gap-4 shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
                 <div>
@@ -557,10 +542,8 @@
                 <h1 class="text-gray-800 text-lg">Faire de l'esprit d'entreprendre une vraie culture.</h1>
             </div>
         </div>
-        
-        <div class="BG w-8 h-24 md:w-16 md:h-48 absolute bottom-10 md:bottom-20 right-0 z-40 hidden md:block"></div>
     </div>
-</section> --}}
+</section>
 
 
 {{-- NOS SERVICES --}}
@@ -628,7 +611,6 @@
 </section>
 
 
-
 {{-- ACCOMPAGNEMENT DES ORGANISMES ENGAGÉS  --}}
 <section class="px-4 md:px-20">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-2 p-2">
@@ -663,7 +645,7 @@
             </div>
             <div class="BG md:col-span-7 rounded-xl p-5">
                 <p class="font-medium text-white">Offre de services :</p>
-                <div class="grid grid-cols-12 gap-3 text-white text-center md:text-left mr-2 p-2">
+                <div class="grid grid-cols-12 gap-3 text-white md:text-left mr-2 p-2">
                     <div class="col-span-12 flex justify-start items-center gap-4">
                         <div class="">
                             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
@@ -741,370 +723,358 @@
 </section>
 
 
-<section class=" px-16 my-16">
-    <div class=" grid grid-cols-1 gap-4">
-        <div class=" grid grid-cols-12 gap-4 col-span-1">
-            <div class=" col-span-3 p-4 flex items-end">
-                <div class="">
-                    <div class="">
-                        <img class=" w-14 h-14" src="B_U/36.png" alt="">
-                    </div>
-                    <div class="">
-                        <h1 class=" text-3xl font-semibold text-gray-800">ACCOMPAGNEMENT <h class=" TIT">AUX STARTUPS</h></h1>
-                        <div class=" flex gap-2 mt-1">
-                            <div class=" w-16 h-1 BG rounded-xl"></div>
-                            <div class=" w-8  h-1 bg-gray-900 rounded-xl"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class=" col-span-4 p-4 flex items-end">
-                <p class="">
-                    Quel que soit votre stade de maturité, votre sujet et votre secteur d’activité, les équipes de BLUE STRATEGY vous accompagnent pour
-                    structurer votre projet, développer votre activité et orienter vos démarches en tant qu'entrepreneur innovant.
-                </p>
-            </div>
-            <div class=" col-span-5 p-4 bg-gray-200 rounded-xl transform transition-transform duration-300 hover:scale-105">
-                <p class=" font-medium text-gray-900 mb-2">Nos atouts :</p>
-                <!-- Service 1 -->
-                <div class=" flex items-center gap-4  ">
-                    <div>
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                            <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                <circle cx="12" cy="12" r="9"/>
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <h1 class="text-gray-800 text-lg">Accompagnement personnalisé et de proximité</h1>
-                </div>
-                <!-- Service 1 -->
-                <div class=" flex items-center gap-4  ">
-                    <div>
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                            <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                <circle cx="12" cy="12" r="9"/>
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <h1 class="text-gray-800 text-lg">
-                        Conseil sur les aspects techniques, humains,
-                        intellectuels, commerciaux, marketing et financiers.
-                    </h1>
-                </div>
-                <!-- Service 1 -->
-                <div class=" flex items-center gap-4  ">
-                    <div>
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                            <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                <circle cx="12" cy="12" r="9"/>
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <h1 class="text-gray-800 text-lg">Séances de mentorat</h1>
-                </div>
-                <!-- Service 1 -->
-                <div class=" flex items-center gap-4  ">
-                    <div>
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                            <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                <circle cx="12" cy="12" r="9"/>
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <h1 class="text-gray-800 text-lg">Séances de coaching pour le dirigeant et l'équipe</h1>
-                </div>
-                <!-- Service 1 -->
-                <div class=" flex items-center gap-4  ">
-                    <div>
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                            <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                <circle cx="12" cy="12" r="9"/>
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <h1 class="text-gray-800 text-lg">Sessions de formations clés</h1>
-                </div>
-                <!-- Service 1 -->
-                <div class=" flex items-center gap-4  ">
-                    <div>
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                            <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                <circle cx="12" cy="12" r="9"/>
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <h1 class="text-gray-800 text-lg">Réseautage et lobbying</h1>
-                </div>
-            </div>
-        </div>
-        <div class=" grid grid-cols-12 gap-4 p-2 col-span-1">
-            <div class=" col-span-4 p-4 BG rounded-xl transform transition-transform duration-300 hover:scale-105">
-                <!-- Service 1 -->
-                <div class=" flex items-center gap-4  ">
-                    <div>
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                            <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                <circle cx="12" cy="12" r="9"/>
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <h1 class="text-white text-lg">Souhaitez-vous entreprendre et créer votre start-up ?
-                    </h1>
-                </div>
-                <!-- Service 1 -->
-                <div class=" flex items-center gap-4  ">
-                    <div>
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                            <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                <circle cx="12" cy="12" r="9"/>
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <h1 class="text-white text-lg">
-                        Vous avez déjà une première idée, ou simplement
-                        l'envie de créer ?
-                    </h1>
-                </div>
-                <!-- Service 1 -->
-                <div class=" flex items-center gap-4  ">
-                    <div>
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                            <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                <circle cx="12" cy="12" r="9"/>
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <h1 class="text-white text-lg">
-                        Vous avez déjà créé votre entreprise / coopérative et
-                        souhaitez-vous être accompagné lors des premières
-                        phases de croissance ?
-                    </h1>
-                </div>
-            </div>
-            <div class=" col-span-8 relative">
-                <div class="">
-                    <img class=" h-80 w-full rounded-xl" src="B_U/8.png" alt="">
-                </div>
-                <div class=" h-80 grid grid-cols-2 col-span-8 p-5 bg-gray-600 opacity-75 rounded-xl absolute top-0">
-                    <p class=" col-span-2 font-medium text-white mb-2">Offre de services :</p>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Examiner et formuler votre projet</h1>
-                    </div>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Définir la feuille de route.  </h1>
-                    </div>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Accompagner le processus de l’Idéation.</h1>
-                    </div>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Valider le POC. </h1>
-                    </div>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Transférer les compétences. </h1>
-                    </div>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Accompagner le processus de l'innovation. </h1>
-                    </div>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Accompagner le prototypage et la fabrication. </h1>
-                    </div>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Accompagner le plan stratégique et technique.</h1>
-                    </div>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Accompagner la mise sur le marché.</h1>
-                    </div>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Accompagner le processus de transition.</h1>
-                    </div>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Accompagner l'accès au financement.</h1>
-                    </div>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Accompagner la création juridique. </h1>
-                    </div>
-                    <!-- Service 1 -->
-                    <div class=" col-span-1 flex items-center gap-4  ">
-                        <div>
-                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <circle cx="12" cy="12" r="9"/>
-                                    <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
-                                    </path>
-                                </g>
-                            </svg>
-                        </div>
-                        <h1 class="text-white text-lg">Accompagner à la première commande.</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 {{-- <section>
     <div class=" grid grid-cols-12 gap-2 p-2 justify-center items-center text-9xl bg-blue-700 font-bold h-96">
         the images
     </div>
 </section> --}}
+
+
+<section class="my-20 px-4 sm:px-6 lg:px-36">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        <div class="col-span-12 lg:col-span-6 rounded-3xl relative transform transition-transform duration-300 hover:scale-105">
+            <img class="rounded-3xl w-full" src="SS/2.png" alt="">
+            <div class="absolute inset-0 BG opacity-50 rounded-3xl"></div>
+            <div class="absolute w-full h-full top-0 rounded-3xl p-10 text-white flex flex-col justify-end">
+                <div>
+                    <div class="w-36 h-1 bg-white mb-4"></div>
+                    <h1 class="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4">ACCOMPAGNEMENT AUX STARTUPS</h1>
+                    <p class="text-sm sm:text-base lg:text-lg">Quel que soit votre stade de maturité, votre sujet et votre secteur d’activité, les équipes de BLUE STRATEGY vous accompagnent pour structurer votre projet, développer votre activité et orienter vos démarches en tant qu'entrepreneur innovant.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-span-12 lg:col-span-6 p-10 bg-white rounded-3xl transform transition-transform duration-300 hover:scale-105">
+            <p class="font-medium text-gray-900 mb-8">Nos atouts :</p>
+            <!-- Service 1 -->
+            <div class="flex items-center gap-4 mb-6">
+                <div class="">
+                    <svg class="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-gray-800 text-lg">Accompagnement personnalisé et de proximité</h1>
+            </div>
+            <!-- Service 2 -->
+            <div class="flex items-center gap-4 mb-6">
+                <div class="">
+                    <svg class="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-gray-800 text-lg">Conseil sur les aspects techniques, humains, intellectuels, commerciaux, marketing et financiers.</h1>
+            </div>
+            <!-- Service 3 -->
+            <div class="flex items-center gap-4 mb-6">
+                <div class="">
+                    <svg class="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-gray-800 text-lg">Séances de mentorat</h1>
+            </div>
+            <!-- Service 4 -->
+            <div class="flex items-center gap-4 mb-6">
+                <div class="">
+                    <svg class="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-gray-800 text-lg">Séances de coaching pour le dirigeant et l'équipe</h1>
+            </div>
+            <!-- Service 5 -->
+            <div class="flex items-center gap-4 mb-6">
+                <div class="">
+                    <svg class="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-gray-800 text-lg">Sessions de formations clés</h1>
+            </div>
+            <!-- Service 6 -->
+            <div class="flex items-center gap-4 mb-6">
+                <div class="">
+                    <svg class="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#1f2937" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-gray-800 text-lg">Réseautage et lobbying</h1>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="mb-20 p-4 px-2 md:px-4 lg:px-20">
+    <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 p-2">
+           
+
+        <div class="col-span-1 lg:col-span-8 relative">
+            <div class="h-auto md:h-80 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 col-span-1 md:col-span-8 p-5 rounded-xl bg-gray-100">
+                <p class="col-span-1 md:col-span-2 lg:col-span-3 font-semibold text-gray-900 mb-4">Offre de services :</p>
+                <!-- Service 1 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" aria-label="Examiner et formuler votre projet">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Examiner et formuler votre projet</h1>
+                </div>
+                <!-- Service 2 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Définir la feuille de route.</h1>
+                </div>
+                <!-- Service 3 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Accompagner le processus de l’Idéation.</h1>
+                </div>
+                <!-- Service 4 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Valider le POC.</h1>
+                </div>
+                <!-- Service 5 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Transférer les compétences.</h1>
+                </div>
+                <!-- Service 6 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Accompagner le processus de l'innovation.</h1>
+                </div>
+                <!-- Service 7 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Accompagner le prototypage et la fabrication.</h1>
+                </div>
+                <!-- Service 8 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Accompagner le plan stratégique et technique.</h1>
+                </div>
+                <!-- Service 9 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Accompagner la mise sur le marché.</h1>
+                </div>
+                <!-- Service 10 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Accompagner le processus de transition.</h1>
+                </div>
+                <!-- Service 11 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Accompagner l'accès au financement.</h1>
+                </div>
+                <!-- Service 12 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Accompagner la création juridique.</h1>
+                </div>
+                <!-- Service 13 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">Accompagner à la première commande.</h1>
+                </div>
+            </div>
+        </div>
+        
+        <div class=" BG1 col-span-1 md:col-span-2 lg:col-span-4 p-4 rounded-xl transform transition-transform duration-300 hover:scale-105">
+            <!-- Service 1 -->
+            <div class="flex items-center gap-4 mb-4">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-white text-sm md:text-base lg:text-lg">Souhaitez-vous entreprendre et créer votre start-up ?</h1>
+            </div>
+            <!-- Service 2 -->
+            <div class="flex items-center gap-4 mb-4">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-white text-sm md:text-base lg:text-lg">
+                    Vous avez déjà une première idée, ou simplement l'envie de créer ?
+                </h1>
+            </div>
+            <!-- Service 3 -->
+            <div class="flex items-center gap-4 mb-4">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-white text-sm md:text-base lg:text-lg">
+                    Vous avez déjà créé votre entreprise / coopérative et souhaitez-vous être accompagné lors des premières phases de croissance ?
+                </h1>
+            </div>
+        </div>
+        
+    </div>
+</section>
