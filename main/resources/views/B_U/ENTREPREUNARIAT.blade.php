@@ -183,7 +183,7 @@
 
 
 {{-- NOS SERVICES --}}
-<section class="my-16 px-4 md:px-20">
+<section id="1" class="my-16 px-4 md:px-20">
     <div class="grid grid-cols-1 gap-4">
 
         <!-- Services Cards -->
@@ -248,7 +248,7 @@
 
 
 {{-- ACCOMPAGNEMENT DES ORGANISMES ENGAGÉS  --}}
-<section class="px-4 md:px-20">
+<section id="2" class="px-4 md:px-20">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-2 p-2">
         <div class="md:col-span-5 p-5 md:p-10 md:pt-28">
             <div class="flex flex-col md:flex-row items-start md:items-center mb-4">
@@ -366,7 +366,7 @@
 </section> --}}
 
 
-<section class="my-20 px-4 sm:px-6 lg:px-36">
+<section id="3" class="my-20 px-4 sm:px-6 lg:px-36">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
         <div class="col-span-12 lg:col-span-6 rounded-3xl relative transform transition-transform duration-300 hover:scale-105">
             <img class="rounded-3xl w-full" src="SS/2.png" alt="">

@@ -67,11 +67,22 @@
         background: linear-gradient(to bottom, #ff5200, #ff2400);
     }
 
-
+    .BG2X{
+        background-color: #e94822;
+    }
+    .BG3X{
+        background-color: #f2910a;
+    }
+    .BG4X{
+        background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
+    }
+    .BG5X{
+        background-color: #efd510;
+    }
 </style>
 
 {{-- first section --}}
-<section class="">
+<section id="1" class="">
     <!-- Image with overlay effect -->
     <img class="w-full h-full hidden lg:block" src="B_U/11.png" alt="">
     <div class="absolute inset-0 BG opacity-25 hidden lg:block h-full"></div>
@@ -173,7 +184,7 @@
 
 
 {{-- NOS offre --}}
-<section class="my-16 px-4 md:px-20">
+<section id="2" class="my-16 px-4 md:px-20">
     <div class="grid grid-cols-1 gap-4">
 
         <!-- Header and Introduction -->
@@ -225,7 +236,7 @@
 </section>
 
 
-<section id="">
+<section id="3">
     <div class="grid grid-cols-12 gap-8 px-4 sm:px-8 md:px-16 lg:px-20">
         <!-- Div with id="2" - Will be the first element on phone screens -->
         <div id="2"
@@ -442,7 +453,7 @@
 </section>
 
 
-<section id="" class=" my-10">
+<section id="4" class=" my-10">
     <div class="grid grid-cols-12 gap-8 px-4 sm:px-8 md:px-16 lg:px-20">
 
         <!-- Div with id="1" - Will be the second element on phone screens -->
@@ -792,131 +803,8 @@
     </div>
 </section>
 
-{{-- <section class=" my-10">
-    <div class=" grid grid-cols-12 gap-4 p-2 px-36">
-        <div class="BG col-span-5 rounded-2xl flex justify-center items-end p-10 pb-20">
-            <div class="">
-                <div class="flex justify-start items-center gap-4 mb-4">
-                    <div class="">
-                        <img class="w-12 h-12" src="SS/8.png" alt="">
-                    </div>
-                    <h1 class="text-lg md:text-xl lg:text-2xl font-bold text-white">ACCOMPAGNEMENT AUX FEMMES</h1>
-                </div>
-                <p class=" text-white">
-                    Dans le cadre de sa mission, BLUE STRATEGY offre son
-                    accompagnement aux <h class=" font-bold">organisations communautaires
-                    souhaitant mettre en œuvre des projets</h> visant à :
-                </p>
-            </div>
-        </div>
 
-        <div class=" col-span-7 p-10">
-            <div class=" BOR1 text-gray-50 p-6 font-medium col-span-1 flex justify-start items-center gap-2 mb-5 transform translate-x-1 duration-300 hover:scale-105">
-                <p class=" text-gray-900 text-sm"> 
-                    Encourager l'autonomisation économique des femmes, en
-                    particulier celles évoluant en milieu rural et les plus
-                    vulnérables.
-                </p>
-            </div>
-            <div class=" BOR1 text-gray-50 p-6 font-medium col-span-1 flex justify-start items-center gap-2 mb-5 transform translate-x-1 duration-300 hover:scale-105">
-                <p class=" text-gray-900 text-sm"> 
-                    Promouvoir l'entrepreneuriat féminin.
-                </p>
-            </div>
-            <div class=" BOR1 text-gray-50 p-6 font-medium col-span-1 flex justify-start items-center gap-2 mb-5 transform translate-x-1 duration-300 hover:scale-105">
-                <p class=" text-gray-900 text-sm"> 
-                    Optimiser l'employabilité des femmes et leur permettre de
-                    s'épanouir sur le marché du travail.
-                </p>
-            </div>
-            <h1 class=" text-2xl font-bold TIT mb-2"> Public cible :</h1>
-            <div class=" grid grid-cols-2 ">
-                <div class=" text-gray-50 p-2 font-medium col-span-1 flex justify-start items-center gap-2">
-                    <div class="">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                            viewBox="0 0 24 24">
-                            <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2">
-                                <circle cx="12" cy="12" r="9" />
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s"
-                                        values="14;0" />
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <p class=" text-gray-900 text-sm"> Femmes entrepreneures. </p>
-                </div>
-                <div class=" text-gray-50 p-2 font-medium col-span-1 flex justify-start items-center gap-2">
-                    <div class="">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                            viewBox="0 0 24 24">
-                            <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2">
-                                <circle cx="12" cy="12" r="9" />
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s"
-                                        values="14;0" />
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <p class=" text-gray-900 text-sm"> Femmes porteuses de projets. </p>
-                </div>
-                <div class=" text-gray-50 p-2 font-medium col-span-1 flex justify-start items-center gap-2">
-                    <div class="">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                            viewBox="0 0 24 24">
-                            <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2">
-                                <circle cx="12" cy="12" r="9" />
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s"
-                                        values="14;0" />
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <p class=" text-gray-900 text-sm"> Coopératives féminines.  </p>
-                </div>
-                <div class=" text-gray-50 p-2 font-medium col-span-1 flex justify-start items-center gap-2">
-                    <div class="">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                            viewBox="0 0 24 24">
-                            <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2">
-                                <circle cx="12" cy="12" r="9" />
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s"
-                                        values="14;0" />
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <p class=" text-gray-900 text-sm"> Agricultrices. </p>
-                </div>
-                <div class=" text-gray-50 p-2 font-medium col-span-1 flex justify-start items-center gap-2">
-                    <div class="">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                            viewBox="0 0 24 24">
-                            <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2">
-                                <circle cx="12" cy="12" r="9" />
-                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
-                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s"
-                                        values="14;0" />
-                                </path>
-                            </g>
-                        </svg>
-                    </div>
-                    <p class=" text-gray-900 text-sm">  Femmes sans emploi. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-
-<section class="my-10">
+<section id="5" class="my-10">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 p-2 lg:px-36">
         <!-- Left side - Image and title -->
         <div class="BG col-span-1 lg:col-span-5 rounded-2xl flex justify-center items-end p-10 pb-20">
@@ -1216,6 +1104,228 @@
                 </h1>
             </div>
         </div>
+        
+    </div>
+</section>
+
+
+<section id="6" class="my-10 px-4 md:px-10 lg:px-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-2xl shadow-2xl p-6 md:p-10 transform duration-300 hover:scale-105">
+            <div class="flex justify-start items-center gap-4 mb-4">
+                <div>
+                    <img class="w-12 h-12" src="SS/12.png" alt="">
+                </div>
+                <h1 class="text-lg md:text-xl lg:text-2xl font-bold TIT">ACCOMPAGNEMENT AUX JEUNES</h1>
+            </div>
+            <p class="text-gray-900 mb-4">
+                Au Maroc, de nombreuses projets sont intensivement mis en
+                place pour soutenir et accompagner les jeunes dans leur
+                transition vers la formation, l'emploi ou l'entrepreneuriat,
+                considérant que le développement du pays repose sur une
+                jeunesse compétente qui s'épanouit en exploitant ses capacités
+                et ses talents.
+            </p>
+            <p class="text-gray-900">
+                Dans ce cadre, BLUE STRATEGY propose son expertise pour
+                accompagner les initiatives et les projets visant à soutenir les
+                jeunes <span class="font-bold">(Jeunes diplômés, porteurs de projets et en situations
+                NEET)</span> et faciliter leur insertion socio-économique, tant en
+                milieu urbain que rural. En couvrant trois volets :
+            </p>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+            <div class="BG1 col-span-2 md:col-span-1 p-4 flex justify-center items-center shadow-xl rounded-3xl transform duration-300 hover:scale-105">
+                <div>
+                    <div class="flex justify-center mb-3">
+                        <img class="w-16 h-16" src="SS/9.png" alt="">
+                    </div>
+                    <h1 class="text-center font-medium text-white">Le renforcement des compétences professionnelles.</h1>
+                </div>
+            </div>
+            <div class="BG1 col-span-2 md:col-span-1 p-4 flex justify-center items-center shadow-xl rounded-3xl transform duration-300 hover:scale-105">
+                <div>
+                    <div class="flex justify-center mb-3">
+                        <img class="w-16 h-16" src="SS/10.png" alt="">
+                    </div>
+                    <h1 class="text-center font-medium text-white">L'orientation professionnelle et le conseil en carrière.</h1>
+                </div>
+            </div>
+            <div class="BG1 col-span-2 md:col-span-1 p-4 flex justify-center items-center shadow-xl rounded-3xl transform duration-300 hover:scale-105">
+                <div>
+                    <div class="flex justify-center mb-3">
+                        <img class="w-16 h-16" src="SS/11.png" alt="">
+                    </div>
+                    <h1 class="text-center font-medium text-white">La promotion de l'entrepreneuriat des jeunes.</h1>
+                </div>
+            </div>
+            {{-- <div class="bg-yellow-500 col-span-2 md:col-span-1 p-4 flex justify-center items-center shadow-xl rounded-3xl transform duration-300 hover:scale-105">
+                <div>
+                    <div class="flex justify-center mb-3">
+                        <img class="w-16 h-16" src="SS/11.png" alt="">
+                    </div>
+                    <h1 class="text-center font-medium text-white">Autre compétence ou service.</h1>
+                </div>
+            </div> --}}
+        </div>
+    </div>
+</section>
+
+
+<section class="mb-20 p-4 px-2 md:px-4 lg:px-20">
+    <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 p-2">
+           
+
+        <div class=" BG1 col-span-1 md:col-span-2 lg:col-span-5 p-4 rounded-xl transform transition-transform duration-300 hover:scale-105">
+            <p class="col-span-1 md:col-span-2 lg:col-span-3 font-semibold text-white mb-4"> Axe de compétences :  </p>
+            <!-- Service 1 -->
+            <div class="flex items-center gap-4 mb-4">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-white text-sm md:text-base lg:text-lg">
+                    Former les jeunes dans divers domaines en vue de
+                    renforcer leurs compétences techniques, managériales,
+                    professionnelles et leurs soft skills.
+                </h1>
+            </div>
+            <!-- Service 2 -->
+            <div class="flex items-center gap-4 mb-4">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-white text-sm md:text-base lg:text-lg">
+                    Mettre en place des programmes de mentorat et de
+                    coaching adaptés visant à renforcer l'estime de soi des
+                    jeunes, leur leadership ainsi que leurs capacités à
+                    s'exprimer et à agir.
+                </h1>
+            </div>
+            <!-- Service 3 -->
+            <div class="flex items-center gap-4 mb-4">
+                <div>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <h1 class="text-white text-sm md:text-base lg:text-lg">
+                    Organiser des sessions portées sur la sensibilisation,
+                    l’orientation, le networking et l’échange.
+                </h1>
+            </div>
+        </div>
+
+
+        <div class="col-span-1 lg:col-span-7 relative">
+            <div class="h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 col-span-1 md:col-span-8 p-5 rounded-xl bg-gray-100">
+                <p class="col-span-1 md:col-span-2 lg:col-span-3 font-semibold text-gray-900 mb-4">Offre de services :</p>
+                <!-- Service 1 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-4 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" aria-label="Examiner et formuler votre projet">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg"> 
+                        Proposer des projets visant l’émergence une nouvelle élite
+                        de jeunes, dynamiques et compétents capable de
+                        s'impliquer.
+                    </h1>
+                </div>
+                <!-- Service 2 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-4 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg"> 
+                        Etudier et planifier des projets à mettre en œuvre au
+                        service de l'autonomisation économique des jeunes.
+                    </h1>
+                </div>
+                <!-- Service 3 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-4 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg"> Accompagner  les jeunes souhaitant se lancer dans
+                        l'entrepreneuriat et créer de leurs startups génératrices de
+                        revenus( individuelles ou collectives ).</h1>
+                </div>
+                <!-- Service 4 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-4 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">
+                        Connecter les jeunes de nouvelles idées et opportunités
+                        de carrière.</h1>
+                </div>
+                <!-- Service 5 -->
+                <div class="flex items-center gap-4 mb-4 lg:col-span-4 md:col-span-2">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="12" cy="12" r="9"/>
+                                <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/>
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h1 class="text-black text-sm md:text-base lg:text-lg">
+                        Elaborer des plans de renforcement des compétences des
+                        jeunes et des NEETs, adaptés à leurs exigences
+                        environnementales et culturelles.
+                    </h1>
+                </div>
+            </div>
+        </div>
+        
         
     </div>
 </section>
