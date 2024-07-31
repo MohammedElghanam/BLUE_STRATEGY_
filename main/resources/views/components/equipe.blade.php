@@ -221,7 +221,7 @@
         <!-- Second Column -->
         <div class="flex flex-col items-center justify-evenly p-2 bg-white shadow-xl rounded-xl transform translate-x-1 duration-300 hover:scale-105 select-none">
             <div class="Circle w-20 h-20 flex justify-center items-center rounded-full">
-                <img class="w-10 h-10" src="Equipe/10.png" alt="Expertise approfondie">
+                <img class="w-10 h-10" src="SS/13.png" alt="Expertise approfondie">
             </div>
             <div class=" p-6 text-center text-gray-900 rounded-lg mt-6 h-52">
                 <h1 class="font-medium mb-2">Innovation et créativité</h1>
@@ -234,7 +234,7 @@
         <!-- First Column -->
         <div class="flex flex-col items-center justify-evenly p-2 bg-gradient-to-b from-blue-800 to-blue-500 rounded-xl transform translate-x-1 duration-300 hover:scale-105 select-none">
             <div class="w-20 h-20 flex justify-center items-center rounded-full">
-                <img class="w-16 h-16" src="Equipe/11.png" alt="Équipe polyvalente">
+                <img class="w-16 h-16" src="SS/14.png" alt="Équipe polyvalente">
             </div>
             <div class=" p-6 text-center text-white mt-6 h-52">
                 <h1 class="font-medium mb-2"> Accompagnement Continu</h1>
@@ -247,7 +247,7 @@
         <!-- Second Column -->
         <div class="flex flex-col items-center justify-evenly p-2 bg-white shadow-xl rounded-xl transform translate-x-1 duration-300 hover:scale-105 select-none">
             <div class="Circle w-20 h-20 flex justify-center items-center rounded-full">
-                <img class="w-10 h-10" src="Equipe/10.png" alt="Expertise approfondie">
+                <img class="w-10 h-10" src="SS/15.png" alt="Expertise approfondie">
             </div>
             <div class=" p-6 text-center text-gray-900 rounded-lg mt-6 h-52">
                 <h1 class="font-medium mb-2"> Engagement envers l'excellence </h1>
