@@ -24,8 +24,8 @@
                 </div>
             </a>
             {{-- lang --}}
-            <div class="flex items-center lg:order-2">
-                <div class="">
+            <div class="flex items-center lg:order-2 ">
+                <div class="  hidden md:block">
                     <button type="button" data-dropdown-toggle="language-dropdown-menu"
                         class="tooltip cursor-not-allowed inline-flex items-center font-medium justify-center px-5 py-2.5 text-sm text-gray-500 rounded-lg hover:bg-gray-200 bg-gray-100 relative">
                         <svg class="w-5 h-5 rounded-full me-3" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
@@ -35,7 +35,7 @@
                                 <path fill="#e1000f" d="M341.3 0H512v512H341.3z"/>
                             </g>
                         </svg>
-                        <p class=" hidden md:block">Frensh</p>
+                        <p class="">Frensh</p>
                     </button>
                     <div id="progress" class="  absolute flex justify-center items-center gap-4 rounded-md py-5 px-4 h-8 bg-blue-800 text-white mt-4 opacity-30 font-medium" style=" display:none;">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" viewBox="0 0 24 24"><path fill="#ffffff" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity="0.25"/><path fill="#ffffff" d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" dur="0.75s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></path></svg>    
@@ -84,15 +84,15 @@
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div> --}}
              
+                <a href="{{ url('/') }}#contact" class="text-white bg-blue-900 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 ml-4">Contactez nous</a>
                 <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                     <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </button> --}}
+                </button>
                 
-                <a href="{{ url('/') }}#contact" class="text-white bg-blue-900 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 ml-4">Contactez nous</a>
             </div>
 
             {{-- navbar  --}}

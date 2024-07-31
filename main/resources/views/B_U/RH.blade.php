@@ -304,8 +304,10 @@
 
 <section id="TALENTS" class="my-20">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:px-32 px-4">
-      <div class="GRAD col-span-1 lg:col-span-6 flex justify-center items-end p-6 lg:p-20 rounded-3xl transform lg:translate-x-1 duration-300 hover:scale-105">
-        <div class="text-white">
+      <div class=" bg-blue-500 col-span-1 lg:col-span-6 flex justify-center items-end rounded-3xl transform lg:translate-x-1 duration-300 hover:scale-105">
+        <img class=" w-full h-full  rounded-3xl" src="B_U/11.png" alt="">
+        <div class="absolute inset-0 BG opacity-50 rounded-3xl"></div>
+        <div class="text-white absolute top-0 lg:p-16 p-10">
           <div class="w-24 h-1 bg-white mb-4"></div>
           <h1 class="text-2xl lg:text-3xl font-bold mb-4">DEVELOPPEMENT DES TALENTS</h1>
           <p class="text-sm lg:text-base">Le développement des talents comme levier de performance. Une meilleure connaissance de l’individu pour une gestion des talents efficace.</p>

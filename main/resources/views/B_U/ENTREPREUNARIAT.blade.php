@@ -476,7 +476,7 @@
            
 
         <div class="col-span-1 lg:col-span-8 relative">
-            <div class="h-auto md:h-80 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 col-span-1 md:col-span-8 p-5 rounded-xl bg-gray-100">
+            <div class="h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 col-span-1 md:col-span-8 p-5 rounded-xl bg-gray-100">
                 <p class="col-span-1 md:col-span-2 lg:col-span-3 font-semibold text-gray-900 mb-4">Offre de services :</p>
                 <!-- Service 1 -->
                 <div class="flex items-center gap-4 mb-4 lg:col-span-2 md:col-span-2">
