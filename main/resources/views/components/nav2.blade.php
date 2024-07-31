@@ -35,7 +35,7 @@
                                 <path fill="#e1000f" d="M341.3 0H512v512H341.3z"/>
                             </g>
                         </svg>
-                        Frensh
+                        <p class=" hidden md:block">Frensh</p>
                     </button>
                     <div id="progress" class="  absolute flex justify-center items-center gap-4 rounded-md py-5 px-4 h-8 bg-blue-800 text-white mt-4 opacity-30 font-medium" style=" display:none;">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" viewBox="0 0 24 24"><path fill="#ffffff" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity="0.25"/><path fill="#ffffff" d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" dur="0.75s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></path></svg>    
@@ -92,7 +92,7 @@
                     <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button> --}}
                 
-                <a href="{{ url('/') }}#contact" class="text-white bg-blue-900 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 ml-4">Contactez nous</a>
+                <a href="{{ url('/') }}#contact" class="text-white bg-blue-900 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 ml-4">Contactez nous</a>
             </div>
 
             {{-- navbar  --}}
@@ -359,7 +359,7 @@
                                     </div>
                                     <div class=" cursor-pointer flex gap-1 items-center mb-2 text-lg text-gray-600 font-normal hover:text-blue-700">
                                         <svg class=" rotate-90" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#4b5563" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"/></svg>                                        
-                                        <a href="{{url('/DESS')}}#about">ACCOMPAGNEMENT DES PROJETS D'ESS - ÉCONOMIE SOCIALE ET SOLIDAIRE</a>
+                                        <a href="{{url('/PROJETS_DESS')}}">ACCOMPAGNEMENT DES PROJETS D'ESS - ÉCONOMIE SOCIALE ET SOLIDAIRE</a>
                                     </div>
                                 </div>
 

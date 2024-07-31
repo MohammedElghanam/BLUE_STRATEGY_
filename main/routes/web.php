@@ -84,6 +84,10 @@ Route::middleware('guest')->group(function(){
         return view('1ENTREPREUNARIAT');
     })->name('ENTREPREUNARIAT');
 
+    Route::get('/PROJETS_DESS', function () {
+        return view('1PROJETS_DESS');
+    })->name('PROJETS_DESS');
+
 });
 
 
