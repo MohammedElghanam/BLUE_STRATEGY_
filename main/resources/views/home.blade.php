@@ -1,6 +1,6 @@
 @include('components/header')
 
-<body class="overflow-x-hidden">
+
     @include('components.header')
     @include('components.nav2')
     @include('components.sosial') <!-- This includes the floating icon -->

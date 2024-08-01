@@ -18,4 +18,4 @@
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}">   
 </head>
-<body>
+<body class="overflow-x-hidden">

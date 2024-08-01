@@ -124,7 +124,7 @@
         <!-- Right Column (Text Section) -->
         <div class="flex flex-col justify-center">
             <div>
-                <h1 class="text-2xl md:text-4xl font-semibold text-gray-900">UNE ÉQUIPE CRÉATIVE <br>.. UN RÉSEAU UNIQUE</h1>
+                <h1 class="text-2xl md:text-2xl font-semibold text-blue-600">UNE ÉQUIPE CRÉATIVE .. UN RÉSEAU UNIQUE</h1>
             </div>
             <div class="relative mt-4 md:mt-6">
                 <div class=" bg-gradient-to-b from-blue-800 to-blue-500 text-white p-6 md:p-10 rounded-lg transform duration-300 hover:scale-105">
@@ -176,12 +176,12 @@
 {{-- NOS FORCES --}}
 <section class="bg-gray-100 mt-20 md:mt-40 px-4 sm:px-8 md:px-16 lg:px-32 py-10 lg:py-10 ">
     <div class=" mb-6 flex justify-center items-center">
-        <h1 class=" text-4xl font-semibold text-gray-900">NOS FORCES</h1>
+        <h1 class=" text-4xl font-semibold text-gray-900 select-none">NOS FORCES</h1>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 lg:gap-8">
         <!-- First Column -->
         <div class="flex flex-col items-center justify-evenly p-2 bg-gradient-to-b from-blue-800 to-blue-500 rounded-xl transform translate-x-1 duration-300 hover:scale-105 select-none">
-            <div class="w-20 h-20 flex justify-center items-center rounded-full">
+            <div class="w-20 h-20 flex justify-center items-center rounded-full mt-10">
                 <img class="w-16 h-16" src="Equipe/11.png" alt="Équipe polyvalente">
             </div>
             <div class=" p-6 text-center text-white mt-6 h-52">
