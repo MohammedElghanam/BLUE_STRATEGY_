@@ -17,6 +17,9 @@ class AuthController extends Controller
         return view('login');
     }
 
+    public function create(){
+        return view('register');
+    }
 
     public function register(Request $request){
         
@@ -27,15 +30,28 @@ class AuthController extends Controller
             'email' => 'required|email|max:255||unique:users,email',
             'password' => 'required|string|min:6',
         ]);
-        
-        User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
-        ]);
 
-        
-        return 'nadi';
+        $users_count = User::count();
+
+        if ($users_count == 0) {
+            $role = "ADMIN";
+            $user = User::create([
+                'name' => $data['name'],
+                'email' => $data['email'],
+                'password' => Hash::make($data['password']),
+                'role' => $role,
+            ]);
+
+            if ($user) {
+                return view('login');
+            }else {
+                
+                return redirect()->back()->with(['error' => 'error in backlogdoge.']);
+            }
+
+        } else {
+            return abort(500);
+        }
     }
 
     public function store(Request $request){

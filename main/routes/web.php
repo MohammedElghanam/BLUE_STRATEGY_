@@ -38,6 +38,7 @@ Route::middleware('guest')->group(function(){
     Route::post('/register_callback', [AuthController::class, 'register'])->name('register_callback');
     Route::post('/login_callback', [AuthController::class, 'store'])->name('login_callback');
     Route::get('/login', [AuthController::class, 'index'])->name('login');
+    Route::get('/register', [AuthController::class, 'create'])->name('register');
 
     Route::get('/', function () {
         $images = Image::all();
