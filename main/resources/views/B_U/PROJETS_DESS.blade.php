@@ -1,4 +1,5 @@
 <style>
+    /* #bae8e8 xibi  */
     .BOR {
         border: 8px solid;
         border-color: #f96d00;
