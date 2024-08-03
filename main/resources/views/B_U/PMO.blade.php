@@ -73,18 +73,24 @@
         <div class="flex justify-center items-center relative">
             <img class="w-full md:w-auto" src="B_U/8.png" alt="">
             <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
-            <div class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0">
-                <div class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5 bg-red-500"></div>
+            <div id="bor" class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0 hidden md:block">
+                <div id="red" class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5"></div>
                 <div class="text-white absolute left-1/2 transform -translate-x-1/2 md:-right-40 md:bottom-4 text-center md:text-left animate-fade-in">
                     <h1 class="font-bold text-2xl md:text-4xl">B.U 01</h1>
                     <h1 class="font-bold text-2xl md:text-4xl">PMO</h1>
                     <p class="font-normal">PROJECT MANAGEMENT OFFICE</p>
                 </div>
-                <div class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28"></div>
+                <div id="polygon" class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28 hidden md:block"></div>
+            </div>
+            <div class=" w-full h-full absolute top-0 p-10 lg:hidden md:hidden">
+                <div class="BG h-full text-white p-6 rounded-xl">
+                    <h1 class="font-bold text-2xl md:text-4xl">B.U 01</h1>
+                    <h1 class="font-bold text-2xl md:text-4xl">PMO</h1>
+                    <p class="font-normal">PROJECT MANAGEMENT OFFICE</p>
+                </div>
             </div>
         </div>
 </section>
-
 
 {{-- about  --}}
 <section class=" mb-10">
@@ -407,9 +413,6 @@
 </section>
 
 {{-- TYPES project  --}}
-
-
-
 <section class=" my-10 ">
     <div class="w-full relative hidden lg:block">
         <img src="AP/91.png" class="h-80 w-full object-cover" alt="">
