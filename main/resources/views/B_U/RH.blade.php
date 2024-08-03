@@ -58,21 +58,26 @@
 
 
 {{-- first section  --}}
-<section id="4" class="">
+<section id="4" class="pt-16 lg:pt-0">
     <div class="flex justify-center items-center relative">
         <img class="w-full md:w-auto" src="B_U/RH/8.svg" loading="lazy" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
-        <div class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0">
-            <div class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5 bg-red-500"></div>
+        <div id="bor" class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0 hidden md:block">
+            <div id="red" class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5"></div>
             <div class="text-white absolute left-1/2 transform -translate-x-1/2 md:-right-40 md:bottom-4 text-center md:text-left animate-fade-in">
                 <h1 class="font-bold text-2xl md:text-4xl">B.U 04</h1>
                 <h1 class="font-bold text-2xl md:text-4xl">CARRIERE ET RH</h1>
             </div>
-            <div class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28"></div>
+            <div id="polygon" class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28 hidden md:block"></div>
+        </div>
+        <div class=" w-full  absolute top-0 p-10 lg:hidden md:hidden ">
+            <div class="BG text-white p-6 rounded-xl">
+                <h1 class="font-bold text-2xl md:text-4xl">B.U 04</h1>
+                <h1 class="font-bold text-2xl md:text-4xl">CARRIERE ET RH</h1>
+            </div>
         </div>
     </div>
 </section>
-
 
 {{-- about  --}}
 <section id="about">
@@ -101,9 +106,13 @@
                 </div>
             </div>
             <div class="col-span-12 grid grid-cols-12 gap-4">
-                <div class="POL col-span-12 md:col-span-7 h-40 mb-3"></div>
-                <div class="col-span-12 md:col-span-5 flex items-center">
-                    <h1 class="TIT text-2xl md:text-4xl lg:text-4xl font-bold pb-2">ABOUT B.U 04</h1>
+                <div class="POL col-span-12 md:col-span-7 h-40 mb-3 flex justify-center items-center">
+                    <div class=" lg:hidden block">
+                        <h1 class=" text-white text-4xl md:text-4xl font-bold pb-2">ABOUT B.U 04</h1>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-5 items-center hidden lg:flex">
+                    <h1 class="TIT md:text-4xl lg:text-4xl font-bold pb-2">ABOUT B.U 04</h1>
                 </div>
             </div>
         </div>
@@ -122,12 +131,11 @@
             class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-6 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
             <div class=" col-span-12 flex justify-center items-center">
                 <div
-                    class="absolute -top-7 bg-white px-9 text-center text-4xl lg:text-4xl font-semibold text-gray-900">
+                    class="absolute -top-7 bg-white px-6 lg:px-8 text-center text-3xl lg:text-4xl font-semibold text-gray-900">
                     <h1 class=" text-gray-900">Notre business unit</h1>
                 </div>
             </div>
-            <div
-                class="col-span-12 lg:col-span-6 bg-gray-100 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
+            <div class="col-span-12 lg:col-span-6 bg-gray-100 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
 
                 <div class="grid grid-cols-1">
                     <div
@@ -136,7 +144,7 @@
                         <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#15803d" d="m10 17l-4-4l1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5z"/></svg>
                         <h1 class=" TIT">Nos specialités</h1>
                     </div>
-                    <div class=" grid grid-cols-12 gap-3 text-white text-center p-2 lg:text-left mr-2">
+                    <div class=" grid grid-cols-12 gap-3 text-white p-2 lg:text-left mr-2">
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
                                 <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
@@ -177,18 +185,16 @@
                 </div>
             </div>
 
-            <div
-                class="col-span-12 lg:col-span-6 p-6 bg-gray-100 lg:p-10 rounded-xl transition-transform transform hover:scale-105 ml-2">
+            <div class="col-span-12 lg:col-span-6 p-6 bg-gray-100 lg:p-10 rounded-xl transition-transform transform hover:scale-105 ml-2">
 
                 <div class="grid grid-cols-1">
-                    <div
-                        class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
+                    <div class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
                         
                         <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#15803d" fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7m-1.5 8a4 4 0 0 0-4 4a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2a4 4 0 0 0-4-4zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293a3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2a4 4 0 0 0-4-4h-1.1a5.5 5.5 0 0 1-.471.762A6 6 0 0 1 19.5 18M4 7.5a3.5 3.5 0 0 1 5.477-2.889a5.5 5.5 0 0 0-2.796 6.293A3.5 3.5 0 0 1 4 7.5M7.1 12H6a4 4 0 0 0-4 4a2 2 0 0 0 2 2h.5a6 6 0 0 1 3.071-5.238A5.5 5.5 0 0 1 7.1 12" clip-rule="evenodd"/></svg>
                         <h1 class=" TIT">Notre equipe</h1>
                     </div>
-                    <div class=" grid grid-cols-12 gap-3 font-medium text-gray-800 text-center p-2 lg:text-left">
-                        <p class=" col-span-12">
+                    <div class=" grid grid-cols-12 gap-3 text-gray-800 text-center p-2 lg:text-left">
+                        <p class=" col-span-12 lg:font-medium font-normal">
                             Des experts de terrain, sélectionnés pour
                             leur expertise métier, leur valeur ajoutée
                             en développement de capital RH et

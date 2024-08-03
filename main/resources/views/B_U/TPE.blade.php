@@ -65,20 +65,28 @@
 </style>
 
 {{-- first section  --}}
-<section id="2" class="">
+<section id="2" class="pt-16 lg:pt-0">
     <div class="flex justify-center items-center relative">
         <img class="w-full md:w-auto" src="B_U/TPE/1.png" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
-        <div class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0">
-            <div class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5 bg-red-500"></div>
+        <div id="bor" class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0 hidden md:block">
+            <div id="red" class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5"></div>
             <div class="text-white absolute left-1/2 transform -translate-x-1/2 md:-right-40 md:bottom-4 text-center md:text-left animate-fade-in">
                 <h1 class="font-bold text-2xl md:text-4xl">B.U 02</h1>
                 <h1 class="font-bold text-2xl md:text-4xl">SERVICES AUX TPE / PME </h1>
             </div>
-            <div class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28"></div>
+            <div id="polygon" class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28 hidden md:block"></div>
+        </div>
+        <div class=" w-full h-full absolute top-0 p-10 lg:hidden md:hidden">
+            <div class="BG h-full text-white p-6 rounded-xl">
+                <h1 class="font-bold text-2xl md:text-4xl">B.U 02</h1>
+                <h1 class="font-bold text-2xl md:text-4xl">SERVICES AUX TPE / PME </h1>
+            </div>
         </div>
     </div>
 </section>
+
+
 
 
 {{-- about  --}}
@@ -92,7 +100,7 @@
                 </div>
                 <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
                     
-                    <div class="lg:col-span-12 md:col-span-11">
+                    <div class="col-span-12 md:col-span-11">
                         <p class="text-lg md:text-xl font-light mb-3">
                             Forts de notre expertise dans l'accompagnement, associée à
                             notre engagement envers le développement, nous nous
@@ -114,9 +122,13 @@
                 </div>
             </div>
             <div class="col-span-12 grid grid-cols-12 gap-4">
-                <div class="POL col-span-12 md:col-span-7 h-40 mb-3"></div>
-                <div class="col-span-12 md:col-span-5 flex items-center">
-                    <h1 class="TIT text-2xl md:text-4xl lg:text-4xl font-bold pb-2">ABOUT B.U 02</h1>
+                <div class="POL col-span-12 md:col-span-7 h-40 mb-3 flex justify-center items-center">
+                    <div class=" lg:hidden block">
+                        <h1 class=" text-white text-4xl md:text-4xl font-bold pb-2">ABOUT B.U 02</h1>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-5 items-center hidden lg:flex">
+                    <h1 class="TIT md:text-4xl lg:text-4xl font-bold pb-2">ABOUT B.U 02</h1>
                 </div>
             </div>
         </div>

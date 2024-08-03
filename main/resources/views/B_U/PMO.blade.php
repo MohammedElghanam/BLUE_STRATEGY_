@@ -124,9 +124,13 @@
                 </div>
             </div>
             <div class="col-span-12 grid grid-cols-12 gap-4">
-                <div class="POL col-span-12 md:col-span-7 h-40 mb-3"></div>
-                <div class="col-span-12 md:col-span-5 flex items-center">
-                    <h1 class="TIT text-2xl md:text-4xl lg:text-4xl font-bold pb-2">ABOUT B.U 01</h1>
+                <div class="POL col-span-12 md:col-span-7 h-40 mb-3 flex justify-center items-center">
+                    <div class=" lg:hidden block">
+                        <h1 class=" text-white text-4xl md:text-4xl font-bold pb-2">ABOUT B.U 01</h1>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-5 items-center hidden lg:flex">
+                    <h1 class="TIT md:text-4xl lg:text-4xl font-bold pb-2">ABOUT B.U 01</h1>
                 </div>
             </div>
         </div>

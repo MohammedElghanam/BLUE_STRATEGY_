@@ -41,7 +41,7 @@
 
 
 {{-- first section  --}}
-<section id="3" class="">
+{{-- <section id="3" class="">
     <div class="flex justify-center items-center relative">
         <img class="w-full md:w-auto" src="B_U/2.png" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
@@ -54,8 +54,28 @@
             <div class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28"></div>
         </div>
     </div>
-</section>
+</section> --}}
 
+<section id="3" class="pt-16 lg:pt-0">
+    <div class="flex justify-center items-center relative">
+        <img class="w-full md:w-auto" src="B_U/2.png" alt="">
+        <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
+        <div id="bor" class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0 hidden md:block">
+            <div id="red" class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5"></div>
+            <div class="text-white absolute left-1/2 transform -translate-x-1/2 md:-right-40 md:bottom-4 text-center md:text-left animate-fade-in">
+                <h1 class="font-bold text-2xl md:text-4xl">B.U 03</h1>
+                <h1 class="font-bold text-2xl md:text-4xl">Services Digitaux</h1>
+            </div>
+            <div id="polygon" class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28 hidden md:block"></div>
+        </div>
+        <div class=" w-full  absolute top-0 p-10 lg:hidden md:hidden ">
+            <div class="BG text-white p-6 rounded-xl">
+                <h1 class="font-bold text-2xl md:text-4xl">B.U 03</h1>
+                <h1 class="font-bold text-2xl md:text-4xl">Services Digitaux</h1>
+            </div>
+        </div>
+    </div>
+</section>
 
 {{-- about  --}}
 <section id="about">
@@ -66,11 +86,11 @@
                     <span class="BG w-20 h-1"></span>
                     <h1 class="TIT font-bold text-xl">BLUE STRATEGY- SERVICES DEGITAUX</h1>
                 </div>
-                <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
-                    <div class="lg:col-span-12 md:col-span-8">
+                <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 p-3 pl-2 md:pl-16 pt-6">
+                    <div class="col-span-12 md:col-span-8">
                         <h1 class="font-medium md:text-xl lg:text-lg">Nous élèvons vos projets digitaux à des niveaux supérieurs. </h1>
                     </div>
-                    <div class=" grid grid-cols-12 lg:col-span-12 md:col-span-11">
+                    <div class=" grid grid-cols-12 col-span-12 md:col-span-11">
                         <p class="col-span-11 text-lg md:text-xl font-light mb-3">
                             Nous ne nous limitons pas à réaliser simplement des projets, nous allons au-delà en offrant une valeur stratégique durable qui dépasse
                             les attentes.
@@ -85,9 +105,13 @@
                 </div>
             </div>
             <div class="col-span-12 grid grid-cols-12 gap-4">
-                <div class="POL col-span-12 md:col-span-7 h-40 mb-3"></div>
-                <div class="col-span-12 md:col-span-5 flex items-center">
-                    <h1 class="TIT text-2xl md:text-4xl lg:text-4xl font-bold pb-2">ABOUT B.U 03</h1>
+                <div class="POL col-span-12 md:col-span-7 h-40 mb-3 flex justify-center items-center">
+                    <div class=" lg:hidden block">
+                        <h1 class=" text-white text-4xl md:text-4xl font-bold pb-2">ABOUT B.U 03</h1>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-5 items-center hidden lg:flex">
+                    <h1 class="TIT md:text-4xl lg:text-4xl font-bold pb-2">ABOUT B.U 03</h1>
                 </div>
             </div>
         </div>
@@ -104,13 +128,12 @@
     <div class="grid grid-cols-1 lg:grid-cols-12 justify-center items-center p-2 mt-20">
         <div class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-6 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
             <div class=" col-span-12 flex justify-center items-center">
-                <div class="absolute -top-7 bg-white px-8 text-center text-4xl lg:text-4xl font-bold text-gray-900">
+                <div class="absolute -top-7 bg-white px-6 lg:px-8 text-center text-3xl lg:text-4xl font-bold text-gray-900">
                     <h1 class=" text-gray-900">Notre business unit</h1>
                 </div>
             </div>
 
-            <div
-                class="col-span-12 lg:col-span-6 bg-gray-100 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
+            <div class="col-span-12 lg:col-span-6 bg-gray-100 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
 
                 <div class="grid grid-cols-1">
                     <div
@@ -119,93 +142,90 @@
                         <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#ae00ff" d="m10 17l-4-4l1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5z"/></svg>
                         <h1 class=" TIT">Nos specialités</h1>
                     </div>
-                    <div class=" grid grid-cols-12 gap-3 text-white text-center p-2 lg:text-left mr-2">
+                    <div class=" grid grid-cols-12 gap-3 text-white p-2 lg:text-left mr-2">
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">AMOA</p>
+                            <p class=" text-gray-700 font-medium lg:text-base text-sm">AMOA</p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Intégration ERP/CRM</p>
+                            <p class=" text-gray-700 font-medium lg:text-base text-sm">Intégration ERP/CRM</p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Développement WEB</p>
+                            <p class=" text-gray-700 font-medium lg:text-base text-sm">Développement WEB</p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">DESIGN UX/UI</p>
+                            <p class=" text-gray-700 font-medium lg:text-base text-sm">DESIGN UX/UI</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div
-                class="col-span-12 lg:col-span-6 p-6 bg-gray-100 lg:p-10 rounded-xl transition-transform transform hover:scale-105 ml-2">
+            <div class="col-span-12 lg:col-span-6 p-6 bg-gray-100 lg:p-10 rounded-xl transition-transform transform hover:scale-105 ml-2">
 
                 <div class="grid grid-cols-1">
-                    <div
-                        class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
-                        
+                    <div class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
                         <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#ae00ff" fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7m-1.5 8a4 4 0 0 0-4 4a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2a4 4 0 0 0-4-4zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293a3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2a4 4 0 0 0-4-4h-1.1a5.5 5.5 0 0 1-.471.762A6 6 0 0 1 19.5 18M4 7.5a3.5 3.5 0 0 1 5.477-2.889a5.5 5.5 0 0 0-2.796 6.293A3.5 3.5 0 0 1 4 7.5M7.1 12H6a4 4 0 0 0-4 4a2 2 0 0 0 2 2h.5a6 6 0 0 1 3.071-5.238A5.5 5.5 0 0 1 7.1 12" clip-rule="evenodd"/></svg>
                         <h1 class=" TIT">Notre equipe</h1>
                     </div>
-                    <div class=" grid grid-cols-12 gap-3 text-white text-center p-2 lg:text-left">
-                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                    <div class=" grid grid-cols-12 gap-3 text-white p-2 lg:text-left">
+                        <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">PMO</p>
+                            <p class=" text-gray-700 font-medium lg:text-base text-sm">PMO</p>
                         </div>
-                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Consultants AMOA</p>
+                            <p class=" text-gray-700 font-medium lg:text-base text-sm">Consultants AMOA</p>
                         </div>
-                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Chefs de projets</p>
+                            <p class=" text-gray-700 font-medium lg:text-base text-sm">Chefs de projets</p>
                         </div>
-                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Ingenieurs IT</p>
+                            <p class=" text-gray-700 font-medium lg:text-base text-sm">Ingenieurs IT</p>
                         </div>
-                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Business analysts </p>
+                            <p class=" text-gray-700 font-medium lg:text-base text-sm">Business analysts </p>
                         </div>
-                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Consultants technico-fonctionnels</p>
+                            <p class=" text-gray-700 font-medium lg:text-base text-sm">Consultants technico-fonctionnels</p>
                         </div>
-                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Développeurs web</p>
+                            <p class=" text-gray-700 font-medium lg:text-base text-sm">Développeurs web</p>
                         </div>
-                        <div class=" col-span-6 flex justify-start items-center gap-4">
+                        <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Designers UX</p>
+                            <p class=" text-gray-700 font-medium lg:text-base text-sm">Designers UX</p>
                         </div>
                     </div>
                 </div>
@@ -215,21 +235,25 @@
 </section>
 
 
-<section id="digital" class=" mt-4">
-    <div class=" grid grid-cols-12 gap-8 px-20">
+
+
+<section id="digital" class="mt-4">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 px-4 md:px-20">
         
-        <div class=" col-span-6 flex justify-end items-center relative">
-            <div class=" BG  absolute w-1/2 top-24 -left-16 p-4 py-6 flex justify-start items-center">
-                <h1 class=" w-1/3 text-4xl font-bold text-white">MARKETING DIGITALE</h1> 
+        <!-- Left Side -->
+        <div class="col-span-1 md:col-span-6 flex justify-center md:justify-end items-center relative">
+            <div class="BG absolute w-11/12 md:w-1/2 md:h-40 rounded-xl md:rounded-none bottom-5 left-4 md:top-24 md:-left-16 p-4 py-6 flex justify-center md:justify-start items-center">
+                <h1 class="text-2xl md:text-4xl font-bold text-white text-center md:text-left">MARKETING DIGITALE</h1>
             </div>
-            <img class="" src="B_U/FOR/21.svg" alt="">
+            <img class="w-full md:w-auto " src="B_U/FOR/21.svg" alt="">
         </div>
 
-        <div class=" grid grid-cols-12 items-center gap-2 col-span-6">
-            <div class=" col-span-12 p-2">
-                <div class=" p-6">
-                    <p class=" font-medium text-gray-900">
-                        Chez BLUE STRATEGY, nous offrons des services de marketing digital complets et personnalisés pour renforcer votre présence en ligne et atteindre vos objectifs commerciaux.    
+        <!-- Right Side -->
+        <div class="col-span-1 md:col-span-6 grid grid-cols-1 gap-4">
+            <div class="p-2">
+                <div class="p-6">
+                    <p class="font-medium text-gray-900">
+                        Chez BLUE STRATEGY, nous offrons des services de marketing digital complets et personnalisés pour renforcer votre présence en ligne et atteindre vos objectifs commerciaux.
                     </p>
                 </div>
 
@@ -329,12 +353,11 @@
                     </div>
                 </div>
             </div>
-            
-
         </div>
         
     </div>
 </section>
+
 
 <section id="UX" class="px-4 lg:px-32 my-10">
     <div class="grid grid-cols-12 gap-3">
