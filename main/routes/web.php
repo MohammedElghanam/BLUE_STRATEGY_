@@ -7,9 +7,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\dashboardController;
-
-
-
+use App\Models\User;
 
 /* ------------------------------------------------------- */
 /*                       Booking                           */
@@ -39,7 +37,13 @@ Route::middleware('guest')->group(function(){
     Route::post('/login_callback', [AuthController::class, 'store'])->name('login_callback');
 
     Route::get('/JWK8U4j0d0AfwE77xbLkgjggxjRGQuW00TpT5c59RLU', [AuthController::class, 'index'])->name('login');
-    Route::get('/J77xW00TWK8U4j0d0AffwE77xbLkgjggxjRwE77xW00TpT5c59R', [AuthController::class, 'create'])->name('register');
+    $number = User::count();
+    if ($number == 1) {
+        Route::get('/J77xW00TWK8U4j0d0AffwE77xbLkgjggxjRwE77xW00TpT5c59R', [AuthController::class, 'create'])->name('register');
+    } else {
+        return 'hello';
+    }
+    
 
     Route::get('/', function () {
         $images = Image::all();

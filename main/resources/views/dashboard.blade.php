@@ -478,9 +478,9 @@
                                             </div>
                                             <div class="ml-2 w-full flex-1">
                                                 <div>
-                                                    <div class="mt-3 text-3xl font-bold leading-8">{{$Contact}}</div>
+                                                    <div class="mt-3 text-3xl font-bold leading-8">{{$personneCount}}</div>
 
-                                                    <div class="mt-1 text-base text-gray-600">Nombre de religion contactez-nous</div>
+                                                    <div class="mt-1 text-base text-gray-600">B2C</div>
                                                 </div>
                                             </div>
                                         </div>

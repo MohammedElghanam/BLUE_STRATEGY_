@@ -38,12 +38,12 @@ class dashboardController extends Controller
         $contacts = Contact::all();
         $visitCount = Visit::count();
         $bookingCount = Booking::count();
-        $Contact = Contact::count();
         $images = Image::paginate(4);
         $organisationCount = Booking::where('Vous', 'organisation')->count();
+        $personneCount = Booking::where('Vous', 'organisation')->count();
 
         // dd($user);
-        return view('dashboard', compact('contacts', 'user', 'valid', 'later','invalid', 'visitCount', 'images', 'bookingCount', 'Contact', 'organisationCount'));
+        return view('dashboard', compact('contacts', 'user', 'valid', 'later','invalid', 'visitCount', 'images', 'bookingCount', 'Contact', 'organisationCount', 'personneCount'));
     }
 
     public function valid(Request $request)
