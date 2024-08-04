@@ -16,25 +16,25 @@
                 <div class=" col-span-1 hidden md:block"></div>
                 <!-- About Us -->
                 <div>
-                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">A PROPOS DE NOUS</h2>
+                    <h2 class="mb-2 text-xs lg:text-base font-semibold text-gray-900 uppercase dark:text-white">A PROPOS DE NOUS</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
-                        <li><a href="{{route('propos')}}" class="hover:underline">Qui sommes-nous</a></li>
-                        <li><a href="#" class="hover:underline">Notre équipe</a></li>
-                        <li><a href="{{route('vision')}}" class="hover:underline">Nos secteurs d'activités</a></li>
-                        <li><a href="{{ url('/') }}#founder" class="hover:underline">Mot du CEO et fondateur</a></li>
+                        <li><a href="{{route('propos')}}" class="hover:underline text-xs lg:text-sm">Qui sommes-nous</a></li>
+                        <li><a href="{{route('equipe')}}" class="hover:underline text-xs lg:text-sm">Notre équipe</a></li>
+                        <li><a href="{{route('vision')}}" class="hover:underline text-xs lg:text-sm">Nos secteurs d'activités</a></li>
+                        <li><a href="{{ url('/') }}#founder" class="hover:underline text-xs lg:text-sm">Mot du CEO et fondateur</a></li>
                     </ul>
                 </div>
                 
                 <!-- Areas of Expertise -->
                 <div>
-                    <h2 class="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">NOS DOMAINES D'EXPERTISE</h2>
+                    <h2 class="mb-2 text-xs lg:text-base font-semibold text-gray-900 uppercase dark:text-white">NOS DOMAINES D'EXPERTISE</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
-                        <li><a href="{{ url('/PMO') }}#1" class="hover:underline">PMO - Project Management Office</a></li>
-                        <li><a href="{{ url('/TPE') }}#2" class="hover:underline">Services aux TPE/PME</a></li>
-                        <li><a href="{{ url('/DIGITAL') }}#3" class="hover:underline">Services Digitaux</a></li>
-                        <li><a href="{{ url('/RH') }}#4" class="hover:underline">Services RH & Carrière</a></li>
-                        <li><a href="{{ url('/FORMATION') }}#5" class="hover:underline">Formation Professionnelle</a></li>
-                        <li><a href="{{ url('/DESS') }}#5" class="hover:underline">Entrepreneuriat et Projets ESS</a></li>
+                        <li><a href="{{ url('/PMO') }}#1" class="hover:underline text-xs lg:text-sm">PMO - Project Management Office</a></li>
+                        <li><a href="{{ url('/TPE') }}#2" class="hover:underline text-xs lg:text-sm">Services aux TPE/PME</a></li>
+                        <li><a href="{{ url('/DIGITAL') }}#3" class="hover:underline text-xs lg:text-sm">Services Digitaux</a></li>
+                        <li><a href="{{ url('/RH') }}#4" class="hover:underline text-xs lg:text-sm">Services RH & Carrière</a></li>
+                        <li><a href="{{ url('/FORMATION') }}#5" class="hover:underline text-xs lg:text-sm">Formation Professionnelle</a></li>
+                        <li><a href="{{ url('/DESS') }}#5" class="hover:underline text-xs lg:text-sm">Entrepreneuriat et Projets ESS</a></li>
                     </ul>
                 </div>
             </div>

@@ -190,10 +190,10 @@ XS.{
 <section class="py-20">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 px-4 md:px-12 lg:px-36">
         <div class=" lg:col-span-12 md:col-span-1 mb-5 text-center">
-            <h1 class="font-bold text-3xl md:text-4xl lg:text-2xl text-blue-900 z-50">NOS DOMAINES D'EXPERTISE</h1>
+            <h1 class="font-bold text-xl md:text-4xl lg:text-2xl text-blue-900 z-50">NOS DOMAINES D'EXPERTISE</h1>
         </div>
 
-        <div class="B_U1 grid grid-cols-1 lg:col-span-4 p-4 gap-2 rounded-lg transform translate-x-1 duration-150 hover:scale-105 ">
+        <div class="B_U1 grid grid-cols-1 lg:col-span-4 p-4 gap-2 rounded-lg transform translate-x-1 duration-150 hover:scale-105">
             <div class="flex justify-center">
                 <img src="U_I/1.png" alt="PMO" class="w-20 h-20">
             </div>
@@ -254,27 +254,28 @@ XS.{
 <div class="min-h-screen">
     <div class="min-h-screen justify-center">
         <div class=" mb-8">
-            <h1 class=" text-center font-bold text-3xl text-blue-900">NOUS INTERVENONS PRINCIPALEMENT</h1>
-            <h1 class=" text-center font-bold text-3xl text-blue-900">POUR RÉPONDRE À 06 ENJEUX</h1>
+            <h1 class=" font-bold text-xl md:text-4xl lg:text-2xl text-blue-900 z-50 text-center">NOUS INTERVENONS PRINCIPALEMENT</h1>
+            <h1 class=" font-bold text-xl md:text-4xl lg:text-2xl text-blue-900 z-50 text-center">POUR RÉPONDRE À 06 ENJEUX</h1>
         </div>
-        <div class="w-2/3 mx-auto">
+        <div class=" w-11/12 lg:w-2/3 mx-auto">
 
             <div class="1 flex flex-row justify-center w-full">                              
                 <!-- left col -->
-                <div class="left-col w-3/12 py-8">
-                    <div class="flex justify-center w-full px-4 py-5">
+                <div class="left-col lg:w-3/12 w-1/3 py-8 ">
+                    <div class="flex justify-center w-full px-4 lg:py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
-                                <img src="images/31.png" alt="" class=" w-12 h-12">
+                                <img src="images/31.png" alt="" class=" lg:w-12 lg:h-12 w-8 h-8">
                             </div>
-                            <div class="flex flex-row text-center">
+                            <div class="flex flex-row text-center text-xs lg:text-lg">
                                 Accélération de la croissance
                             </div>
+                            
                         </div>
                     </div>
                 </div>   
                 <!--line column-->
-                <div class="w-1/5 flex justify-center items-end">
+                <div class=" lg:w-1/5 w-1/3 flex justify-center items-end ">
                     <div class="relative flex items-start justify-center h-1/2 w-1 bg-blue-900">
                         <div class="absolute flex flex-col justify-center items-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">01</div>
@@ -282,14 +283,14 @@ XS.{
                     </div>
                 </div>
                 <!--right column-->
-                <div class="right-col w-3/12 px-2 py-10"></div>
+                <div class="right-col lg:w-3/12 w-1/3 px-2 py-10 "></div>
             </div>
 
             <div class="2 flex flex-row justify-center w-full">
                 <!-- left col -->
-                <div class="right-col w-3/12 px-2 py-10"></div>
+                <div class="left-col lg:w-3/12 w-1/3 px-2 py-10 "></div>
                 <!--line column-->
-                <div class="w-1/5 flex justify-center">
+                <div class="lg:w-1/5 w-1/3 flex justify-center ">
                     <div class="relative flex items-center justify-center h-full w-1 bg-blue-900">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">02</div>
@@ -297,13 +298,13 @@ XS.{
                     </div>
                 </div>
                 <!--right column-->
-                <div class="left-col w-3/12 py-8">
+                <div class="right-col lg:w-3/12 w-1/3 py-8 ">
                     <div class="flex justify-center w-full px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
-                                <img src="images/35.png" alt="" class=" w-12 h-12">
+                                <img src="images/35.png" alt="" class="lg:w-12 lg:h-12 w-8 h-8">
                             </div>
-                            <div class="flex flex-row text-center">
+                            <div class="flex flex-row text-center text-xs lg:text-lg">
                                 Alignement sur le marché
                             </div>
                         </div>
@@ -313,20 +314,20 @@ XS.{
 
             <div class="3 flex flex-row justify-center w-full">
                 <!-- left col -->
-                <div class="left-col w-3/12 py-8">
+                <div class="left-col lg:w-3/12 w-1/3 py-8 ">
                     <div class="flex justify-center w-full px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
-                                <img src="images/63.png" alt="" class=" w-12 h-12">
+                                <img src="images/63.png" alt="" class=" lg:w-12 lg:h-12 w-8 h-8">
                             </div>
-                            <div class="flex flex-row text-center">
+                            <div class="flex flex-row text-center text-xs lg:text-lg">
                                 Investissement et valorisation des produits
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--line column-->
-                <div class="w-1/5 flex justify-center">
+                <div class="lg:w-1/5 w-1/3 flex justify-center ">
                     <div class="relative flex items-center justify-center h-full w-1 bg-blue-900">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">03</div>
@@ -334,14 +335,14 @@ XS.{
                     </div>
                 </div>
                 <!--right column-->
-                <div class="right-col w-3/12 px-2 py-10"></div>
+                <div class="right-col lg:w-3/12 w-1/3 px-2 py-10 "></div>
             </div>
 
             <div class="4 flex flex-row justify-center w-full">                
                 <!--right column-->
-                <div class="right-col w-3/12 px-2 py-10"></div>
+                <div class="left-col lg:w-3/12 w-1/3 px-2 py-10 "></div>
                 <!--line column-->
-                <div class="w-1/5 flex justify-center">
+                <div class="lg:w-1/5 w-1/3 flex justify-center ">
                     <div class="relative flex items-center justify-center h-full w-1 bg-blue-900">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">04</div>
@@ -349,13 +350,13 @@ XS.{
                     </div>
                 </div>
                 <!-- left col -->
-                <div class="left-col w-3/12 py-8">
+                <div class="right-col lg:w-3/12 w-1/3 py-8 ">
                     <div class="flex justify-center w-full px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
-                                <img src="images/36.png" alt="" class=" w-12 h-12">
+                                <img src="images/36.png" alt="" class=" lg:w-12 lg:h-12 w-8 h-8">
                             </div>
-                            <div class="flex flex-row text-center">
+                            <div class="flex flex-row text-center text-xs lg:text-lg">
                                 Employabilité et capital RH
                             </div>
                         </div>
@@ -365,20 +366,20 @@ XS.{
             
             <div class="5 flex flex-row justify-center w-full">
                 <!-- left col -->
-                <div class="left-col w-3/12 py-8">
+                <div class="left-col lg:w-3/12 w-1/3 py-8 ">
                     <div class="flex justify-center w-fulld px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
-                                <img src="images/lamp.png" alt="" class=" w-12 h-12">                
+                                <img src="images/lamp.png" alt="" class=" lg:w-12 lg:h-12 w-8 h-8">                
                             </div>
-                            <div class="flex flex-row text-center">
+                            <div class="flex flex-row text-center text-xs lg:text-lg">
                                 Soutien à l'innovation et digitalisation
                             </div>
                         </div>
                     </div>
                 </div>  
                 <!--line column-->
-                <div class="w-1/5 flex justify-center">
+                <div class="lg:w-1/5 w-1/3 flex justify-center ">
                     <div class="relative flex h-full w-1 bg-blue-900 items-center justify-center">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">05</div>
@@ -386,14 +387,14 @@ XS.{
                     </div>
                 </div>                             
                 <!--right column-->
-                <div class="right-col w-3/12 px-2 py-10"></div>
+                <div class="right-col lg:w-3/12 w-1/3 px-2 py-10 "></div>
             </div>
 
-            <div class="6 flex flex-row justify-center w-full">
+            <div class="6 flex flex-row justify-center w-full2">
                 <!--left column-->
-                <div class="right-col w-3/12 px-2 py-10"></div>                
+                <div class="left-col lg:w-3/12 w-1/3 px-2 py-10 "></div>                
                 <!--line column-->
-                <div class="w-1/5 flex justify-center">
+                <div class="lg:w-1/5 w-1/3 flex justify-center ">
                     <div class="relative flex justify-center items-end h-1/2 w-1 bg-blue-900">
                         <div class="absolute flex flex-col justify-center h-16 w-16 rounded-full border-2 border-blue-900 leading-none text-center z-10 bg-white font-thin">
                             <div class=" text-blue-900">06</div>
@@ -401,13 +402,13 @@ XS.{
                     </div>
                 </div>
                 <!-- right col -->
-                <div class="left-col w-3/12 py-8">
+                <div class="right-col lg:w-3/12 w-1/3 py-8 ">
                     <div class="flex justify-center w-full px-4 py-5">
                         <div class="text-gray-600 mb-2 ">
                             <div class="font-bold flex justify-center mb-3">
-                                <img src="images/33.png" alt="" class=" w-12 h-12">
+                                <img src="images/33.png" alt="" class=" lg:w-12 lg:h-12 w-8 h-8">
                             </div>
-                            <div class="flex flex-row text-center">
+                            <div class="flex flex-row text-center text-xs lg:text-lg">
                                 Soutien à l'economie sociale et solidaire
                             </div>
                         </div>
@@ -419,7 +420,10 @@ XS.{
     </div>
 </div>
 
-<section class="grid grid-cols-12 px-40 w-full mt-40 mb-60 bg-blue-900" style="height: 250px;">
+
+
+
+{{-- <section class="grid grid-cols-12 px-40 w-full mt-40 mb-60 bg-blue-900" style="height: 250px;">
     <div class="col-span-6 relative">
         <img src="AP/121.png" alt="" class="absolute -top-6 IMG">
     </div>
@@ -446,10 +450,58 @@ XS.{
             </div>
         </div>
     </div>
+</section> --}}
+
+
+{{-- notre VISION  --}}
+<section>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 px-4 md:px-8 lg:px-28 my-10 md:my-20">
+        <div id="1" class="grid grid-cols-6 md:grid-cols-2 lg:grid-cols-6 gap-4 p-2 md:p-4 col-span-1 md:col-span-2 lg:col-span-6 rounded-xl">
+            <div class="col-span-3 lg:col-span-3 rounded-lg">
+                <img class="w-full h-auto rounded-lg" src="Equipe/1.jpg" alt="">
+            </div>
+            <div class="col-span-3 lg:col-span-3 rounded-lg">
+                <img class="w-full h-auto rounded-lg" src="Equipe/2.jpg" alt="">
+            </div>
+            <div class="col-span-3 lg:col-span-3 rounded-lg">
+                <img class="w-full h-auto rounded-lg" src="Equipe/6.jpg" alt="">
+            </div>
+            <div class="bg-gradient-to-b from-blue-600 to-blue-800 col-span-3 lg:col-span-3 rounded-lg p-4 flex justify-center items-center">
+                {{-- <img class=" h-20 w-20" src="equipe/12.png" alt=""> --}}
+                <h1 class=" text-3xl md:text-5xl font-semibold text-center text-white">NOTRE VISION</h1>
+            </div>
+        </div>
+
+        <div class="shadow-2xl col-span-1 md:col-span-2 lg:col-span-6 bg-white rounded-xl p-6 md:p-8 lg:p-10 text-center transform translate-x-1 duration-300 hover:scale-105 select-none">
+            <div class="h-12 w-full flex justify-center items-center gap-1">
+                <div class="w-2.5 h-2.5 rounded-lg bg-blue-300"></div>
+                <div class="w-3.5 h-3.5 rounded-lg bg-blue-500"></div>
+                <div class="w-2.5 h-2.5 rounded-lg bg-blue-300"></div>
+            </div>
+            <h1 class="text-xl md:text-2xl mb-6 font-semibold text-gray-800">Accélérer votre développement</h1>
+            {{-- <h1 class=" col-span-12 pl-4 font-bold mb-4 text-gray-700">Accélérer votre développement</h1> --}}
+            <p class="text-gray-900 text-xs md:text-sm mb-2">
+                Allant au-delà de notre expertise, notre raison d'être est de vous offrir
+                simultanément, efficacité, inspiration, innovation et renouvellement.
+                Nous vous accompagnons dans vos projets, vos évolutions et vos
+                transformations tout en veillant à la performance et à la durabilité.                
+            </p>
+            <p class="text-gray-900 text-xs md:text-sm">
+                Nous collaborons parfaitement avec vous pour concevoir des solutions
+                sur mesure, spécialement adaptées pour relever vos défis. Cependant,
+                notre perspective s'étend bien au-delà de l'horizon immédiat. Nous
+                croyons en l'interdépendance entre la croissance des organisations et
+                l'évolution de la société. En constituant des partenariats solides, notre
+                objectif est de contribuer à votre épanouissement, ainsi qu'à
+                l'émergence d'une économie prospère et inclusive.
+            </p>
+        </div>
+    </div>
 </section>
 
 
 
+{{-- 
 <section class="grid grid-cols-12 w-full mt-10 bg-blue-900 relative" style="height: 500px;">
     <img src="AP/121.png" alt="" class="absolute left-40 top-32 w-96 shadow-2xl animate-left">
     <div class="bg-white absolute left-1/3 ml-16 top-20 shadow-2xl w-1/3 animate-right">
@@ -471,8 +523,52 @@ XS.{
             </p>
         </div>
     </div>
-</section>
+</section> --}}
 
+{{-- notre Engagement --}}
+<section>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 px-4 md:px-8 lg:px-28 my-10 md:my-20">
+
+        <div class="bg-gradient-to-b from-blue-600 to-blue-800 text-white shadow-2xl col-span-1 md:col-span-2 lg:col-span-6 rounded-xl p-6 md:p-8 lg:p-10 text-center transform translate-x-1 duration-300 hover:scale-105 select-none order-2 lg:order-1">
+            <div class="h-12 w-full flex justify-center items-center gap-1">
+                <div class="w-2.5 h-2.5 rounded-lg bg-blue-100"></div>
+                <div class="w-3.5 h-3.5 rounded-lg bg-white"></div>
+                <div class="w-2.5 h-2.5 rounded-lg bg-blue-100"></div>
+            </div>
+            <h1 class="text-xl md:text-2xl mb-6 font-semibold">Un équipe engagée pour le développement.</h1>
+            <p class=" text-xs md:text-sm mb-2">
+                Chez BLUE STRATEGY, nous sommes bien plus
+                qu'un simple cabinet. Nous sommes un
+                équipe engagée, déterminée à contribuer au
+                développement du Maroc et de l'Afrique de
+                demain.                
+            </p>
+            <p class=" text-xs md:text-sm">
+                NNotre mission fondamentale consiste à élever
+                nos partenaires vers l'excellence, afin qu'ils
+                deviennent des acteurs de référence dans la
+                construction d'un avenir meilleur.
+            </p>
+        </div>
+
+        <div id="1" class="grid grid-cols-6 md:grid-cols-2 lg:grid-cols-6 gap-4 p-2 md:p-4 col-span-1 md:col-span-2 lg:col-span-6 rounded-xl order-1 lg:order-2">
+            <div class=" col-span-3 lg:col-span-3 rounded-lg p-4 flex justify-center items-center">
+                {{-- <img class=" h-20 w-20" src="equipe/12.png" alt=""> --}}
+                <h1 class=" text-2xl md:text-4xl font-semibold text-center text-blue-600">NOTRE ENGAGEMENT</h1>
+            </div>
+            <div class="col-span-3 lg:col-span-3 rounded-lg">
+                <img class="w-full h-auto rounded-lg" src="Equipe/1.jpg" alt="">
+            </div>
+            <div class="col-span-3 lg:col-span-3 rounded-lg">
+                <img class="w-full h-auto rounded-lg" src="Equipe/2.jpg" alt="">
+            </div>
+            <div class="col-span-3 lg:col-span-3 rounded-lg">
+                <img class="w-full h-auto rounded-lg" src="Equipe/6.jpg" alt="">
+            </div>            
+        </div>
+
+    </div>
+</section>
 
 
 <script>

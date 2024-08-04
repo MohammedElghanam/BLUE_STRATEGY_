@@ -124,7 +124,7 @@
         <!-- Right Column (Text Section) -->
         <div class="flex flex-col justify-center">
             <div>
-                <h1 class="text-2xl md:text-2xl font-semibold text-blue-600">UNE ÉQUIPE CRÉATIVE .. UN RÉSEAU UNIQUE</h1>
+                <h1 class="text-lg md:text-2xl font-semibold text-blue-600">UNE ÉQUIPE CRÉATIVE .. UN RÉSEAU UNIQUE</h1>
             </div>
             <div class="relative mt-4 md:mt-6">
                 <div class=" bg-gradient-to-b from-blue-800 to-blue-500 text-white p-6 md:p-10 rounded-lg transform duration-300 hover:scale-105">
@@ -176,7 +176,7 @@
 {{-- NOS FORCES --}}
 <section class="bg-gray-100 mt-20 md:mt-40 px-4 sm:px-8 md:px-16 lg:px-32 py-10 lg:py-10 ">
     <div class=" mb-6 flex justify-center items-center">
-        <h1 class=" text-4xl font-semibold text-gray-900 select-none">NOS FORCES</h1>
+        <h1 class=" text-4xl font-semibold text-blue-600 select-none">NOS FORCES</h1>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 lg:gap-8">
         <!-- First Column -->
@@ -266,7 +266,7 @@
             <div class=" ">
                 <img class=" w-12 h-12 " src="Equipe/8.png" alt="">
             </div>
-            <h1 class=" text-4xl font-semibold text-gray-900">Nos Experts</h1>
+            <h1 class=" text-4xl font-semibold text-blue-600">Nos Experts</h1>
         </div>
         <!-- Services Cards -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">

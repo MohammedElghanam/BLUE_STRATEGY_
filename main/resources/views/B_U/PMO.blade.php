@@ -364,8 +364,8 @@
 <section id="outsoursing" class="px-4 lg:px-16">
     <div class="grid grid-cols-1 lg:grid-cols-12 justify-center items-center p-2 mt-20">
         <div class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-6 p-6 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
-            <div class="h-10 col-span-12 flex justify-center items-center">
-                <div class="absolute -top-6 bg-white px-8 text-center text-4xl lg:text-4xl font-bold TIT1">
+            <div class=" col-span-12 flex justify-center items-center">
+                <div class="absolute -top-5 lg:-top-6 bg-white px-6 lg:px-8 text-center text-xl lg:text-4xl font-bold TIT1">
                     <h1>Nos services outsourcing PMO</h1>
                 </div>
             </div>
@@ -420,8 +420,9 @@
 <section class=" my-10 ">
     <div class="w-full relative hidden lg:block">
         <img src="AP/91.png" class="h-80 w-full object-cover" alt="">
-        <div class=" w-full h-full absolute top-0 left-0 opacity-50 bg-red-600 flex justify-center items-center">
-            <h1 class="text-2xl lg:text-5xl font-bold text-white">TYPES DE PROJETS</h1>
+        <div class="absolute inset-0 BG opacity-40 hidden lg:block"></div>
+        <div class=" w-full h-full absolute top-0 left-0 flex justify-center items-center">
+            <h1 class="text-2xl lg:text-8xl font-bold text-white">TYPES DE PROJETS</h1>
         </div>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 p-6 lg:px-24">
@@ -429,7 +430,7 @@
             <h1 class=" text-4xl font-semibold TIT "> TYPES DE PROJETS</h1>
         </div>
         <div class="col-span-1 lg:col-span-6 ">
-            <div class="BG grid grid-cols-1 gap-2 w-full h-full bg-white p-6 lg:p-10 rounded-3xl transform translate-x-1 duration-300 hover:scale-105">
+            <div class="BG grid grid-cols-1 gap-2 w-full h-full p-6 lg:p-10 rounded-3xl transform translate-x-1 duration-300 hover:scale-105">
                 <div class="col-span-1 h-10 flex justify-start items-center gap-2 mb-2">
                     <span class="font-bold text-gray-100 text-lg lg:text-2xl">PROJETS EXTRA-ENTREPRISE :</span>
                 </div>
@@ -497,137 +498,137 @@
         </div>
 
         <div class="col-span-1 lg:col-span-6 0">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-2 w-full h-full bg-white p-6 lg:p-10 rounded-3xl transform translate-x-1 duration-300 hover:scale-105">
+            <div class="BB grid grid-cols-1 lg:grid-cols-12 gap-2 w-full h-full p-6 lg:p-10 rounded-3xl transform translate-x-1 duration-300 hover:scale-105">
                 <div class="col-span-1 lg:col-span-12 h-10 flex justify-start items-center gap-2 mb-2">
-                    <span class="font-bold text-gray-900 text-lg lg:text-2xl">PROJETS INTRA-ENTREPRISE :</span>
+                    <span class="font-bold text-white text-lg lg:text-2xl">PROJETS INTRA-ENTREPRISE :</span>
                 </div>
                 <div class="col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class="font-semibold text-gray-800 XS">Projets d'investissement</span>
+                    <span class="font-semibold text-white XS">Projets d'investissement</span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS">Projets de transformation.</span>
+                    <span class=" font-semibold text-white XS">Projets de transformation.</span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS">Projets de développement de produits/services. </span>
+                    <span class=" font-semibold text-white XS">Projets de développement de produits/services. </span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS">Projets d'expansion sur le marché.</span>
+                    <span class=" font-semibold text-white XS">Projets d'expansion sur le marché.</span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS">Projets de création ou de reprise d'entreprise.</span>
+                    <span class=" font-semibold text-white XS">Projets de création ou de reprise d'entreprise.</span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS">Projets de restructuration organisationnelle. </span>
+                    <span class=" font-semibold text-white XS">Projets de restructuration organisationnelle. </span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS">Projets d'optimisation de de système opérationnel.</span>
+                    <span class=" font-semibold text-white XS">Projets d'optimisation de de système opérationnel.</span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS">Projets de modernisation organisationnelle.</span>
+                    <span class=" font-semibold text-white XS">Projets de modernisation organisationnelle.</span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS">Projets d'optimisation de système d'informations </span>
+                    <span class=" font-semibold text-white XS">Projets d'optimisation de système d'informations </span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS"> Projets de transformation digitale.</span>
+                    <span class=" font-semibold text-white XS"> Projets de transformation digitale.</span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class="font-semibold text-gray-800 XS">Projets de développement web. </span>
+                    <span class="font-semibold text-white XS">Projets de développement web. </span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS"> Projets d'ingénierie de services </span>
+                    <span class=" font-semibold text-white XS"> Projets d'ingénierie de services </span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS">Projets d'ingénierie de formation. </span>
+                    <span class=" font-semibold text-white XS">Projets d'ingénierie de formation. </span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS">Projets de renforcement de compétences</span>
+                    <span class=" font-semibold text-white XS">Projets de renforcement de compétences</span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS"> Projets de développement RH.</span>
+                    <span class=" font-semibold text-white XS"> Projets de développement RH.</span>
                 </div>
                 <div class=" col-span-1 lg:col-span-6 h-10 flex justify-start items-center gap-2 ml-3">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                            <path fill="white" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                         </svg>
                     </div>
-                    <span class=" font-semibold text-gray-800 XS">Projets de marketing et branding de marque.</span>
+                    <span class=" font-semibold text-white XS">Projets de marketing et branding de marque.</span>
                 </div>   
             </div>
         </div>
