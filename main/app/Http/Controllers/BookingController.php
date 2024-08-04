@@ -59,6 +59,7 @@ class BookingController extends Controller
             'time' => 'required|string|max:255',
             'date' => 'required|date',
         ]);
+        // dd($validatedData);
 
         $inputDate = Carbon::parse($request->input('date'));
         $currentDate = Carbon::today(); 
