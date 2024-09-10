@@ -3,6 +3,6 @@
 <body>
     @include("components/nav2")
     @include("B_U/TPE")
-    {{-- @include("components/footer") --}}
+    @include("components/footer")
 </body>
 </html>

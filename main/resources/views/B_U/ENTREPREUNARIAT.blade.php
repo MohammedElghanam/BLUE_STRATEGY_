@@ -60,7 +60,7 @@
 {{-- first section  --}}
 <section class="">
     <!-- Image with overlay effect -->
-    <img class="w-full h-3/4 hidden lg:block" src="B_U/11.png" alt="">
+    <img class="w-full hidden lg:block" src="BU_6/2/1.jpeg" alt="">
     <div class="absolute inset-0 BG opacity-25 hidden lg:block"></div>
 
     <div class="md:absolute top-0 p-10 grid grid-cols-1 md:grid-cols-12 gap-8 pt-32">
@@ -200,7 +200,7 @@
 
             <!-- Service 1 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/18.png" alt="Gestion de projet">
+                <img class="rounded-xl mb-2 h-60 w-full" src="BU_6/2/2/1.jpeg" alt="Gestion de projet">
                 <h2 class="font-semibold text-lg">GESTION DE PROJET</h2>
                 <p class="text-gray-900">
                     Planifier et gérer les projets afin de respecter leurs objectifs et leurs livrables prévus.
@@ -209,7 +209,7 @@
 
             <!-- Service 2 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/126.png" alt="Mentorat">
+                <img class="rounded-xl mb-2 h-60 w-full" src="BU_6/2/2/2.jpeg" alt="Mentorat">
                 <h2 class="font-semibold text-lg">MENTORAT</h2>
                 <p class="text-gray-900">
                     Préparer les entrepreneurs pour les prochaines étapes de leur carrière professionnelle.
@@ -218,7 +218,7 @@
 
             <!-- Service 3 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/18.png" alt="Coaching">
+                <img class="rounded-xl mb-2 h-60 w-full" src="BU_6/2/2/3.jpeg" alt="Coaching">
                 <h2 class="font-semibold text-lg">COACHING</h2>
                 <p class="text-gray-900">
                     Optimiser les performances des entrepreneurs, dans un cadre bienveillant et de changement.
@@ -227,7 +227,7 @@
 
             <!-- Service 4 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/126.png" alt="Formation">
+                <img class="rounded-xl mb-2 h-60 w-full" src="BU_6/2/2/4.jpg" alt="Formation">
                 <h2 class="font-semibold text-lg">FORMATION</h2>
                 <p class="text-gray-900">
                     Développer les compétences des entrepreneurs et leurs niveaux supérieurs de qualification.
@@ -236,7 +236,7 @@
 
             <!-- Service 5 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/5.png" alt="Conseil">
+                <img class="rounded-xl mb-2 h-60 w-full" src="BU_6/2/2/5.jpeg" alt="Conseil">
                 <h2 class="font-semibold text-lg">CONSEIL</h2>
                 <p class="text-gray-900">
                     Analyser les startups, déterminer leurs forces, faiblesses et leurs axes d'amélioration.
@@ -269,13 +269,13 @@
             <div class="grid grid-cols-1 gap-2 md:col-span-5">
                 <div class="">
                     <div class="mb-3 flex justify-end">
-                        <img class="rounded-xl transform translate-x-1 duration-300 hover:scale-105" src="B_U/12.png" alt="">
+                        <img class="rounded-xl transform translate-x-1 duration-300 hover:scale-105 h-44 w-full" src="BU_6/2/3/1.jpeg" alt="">
                     </div>
                     <div class="mb-3 flex justify-end">
-                        <img class="rounded-xl transform translate-x-1 duration-300 hover:scale-105" src="B_U/11.png" alt="">
+                        <img class="rounded-xl transform translate-x-1 duration-300 hover:scale-105 h-44 w-full" src="BU_6/2/3/2.jpeg" alt="">
                     </div>
                     <div class="mb-3 flex justify-end">
-                        <img class="rounded-xl transform translate-x-1 duration-300 hover:scale-105" src="B_U/2.png" alt="">
+                        <img class="rounded-xl transform translate-x-1 duration-300 hover:scale-105 h-44 w-full" src="BU_6/2/3/3.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -369,11 +369,11 @@
 <section id="3" class="my-20 px-4 sm:px-6 lg:px-36">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
         <div class="col-span-12 lg:col-span-6 rounded-3xl relative transform transition-transform duration-300 hover:scale-105">
-            <img class="rounded-3xl w-full" src="SS/2.png" alt="">
-            <div class="absolute inset-0 BG opacity-50 rounded-3xl"></div>
-            <div class="absolute w-full h-full top-0 rounded-3xl p-10 text-white flex flex-col justify-end">
+            <img class="rounded-3xl w-full h-2/3" src="BU_6/2/4.jpeg" alt="">
+            <div class="absolute inset-0 BG opacity-50 rounded-3xl h-2/3"></div>
+            <div class="absolute w-full h-2/3 top-0 rounded-3xl p-10 text-white flex flex-col justify-end">
                 <div>
-                    <div class="w-36 h-1 bg-white mb-4"></div>
+                    <div class="w-36 h-1 bg-white mb-4 "></div>
                     <h1 class="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4">ACCOMPAGNEMENT AUX STARTUPS</h1>
                     <p class="text-sm sm:text-base lg:text-lg">Quel que soit votre stade de maturité, votre sujet et votre secteur d’activité, les équipes de BLUE STRATEGY vous accompagnent pour structurer votre projet, développer votre activité et orienter vos démarches en tant qu'entrepreneur innovant.</p>
                 </div>

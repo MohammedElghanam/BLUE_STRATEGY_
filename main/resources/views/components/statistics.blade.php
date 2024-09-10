@@ -308,7 +308,7 @@
         <div class="flex justify-center items-center gap-5 lg:px-16 col-span-12 mt-7">
             <!-- Conditionally remove this div on md screens -->
             <div class="hidden md:flex w-full lg:w-1/2 h-full grid justify-center items-center relative">
-                <img id="img-animated" class="w-[70%] h-[70%]" src="AP/18.png" alt="">
+                <img id="img-animated" class=" w-full h-full" src="Home/2.jpg" alt="">
                 <div id="animated-elipse" class="ELIPSE lg:w-32 lg:h-32 rounded-full bg-blue-700 absolute -bottom-20 right-24 opacity-75"></div>
                 <img id="animated-img" class="IMG absolute -bottom-10 right-4 opacity-0 transform translate-y-full" src="AP/19.png" alt="">
             </div>

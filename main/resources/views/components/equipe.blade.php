@@ -117,8 +117,8 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Left Column (Image Section) -->
         <div class="relative">
-            <img src="B_U/11.png" alt="Main Image" class="w-full h-auto">
-            <img id="1" src="AP/22.png" alt="Overlay Image" class="absolute left-10 -bottom-10 md:right-10 md:-bottom-10 w-24 h-24 md:w-48 md:h-48 hidden md:block">
+            <img src="Equipe/cover.jpg" alt="Main Image" class="w-full h-auto">
+            {{-- <img id="1" src="Equipe/second.jpg" alt="Overlay Image" class="absolute left-10 -bottom-10 md:right-10 md:-bottom-10 w-24 h-24 md:w-48 md:h-48 hidden md:block"> --}}
         </div>
         
         <!-- Right Column (Text Section) -->
@@ -143,13 +143,13 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 px-4 md:px-8 lg:px-28 my-10 md:my-20">
         <div id="1" class="grid grid-cols-6 md:grid-cols-2 lg:grid-cols-6 gap-4 p-2 md:p-4 col-span-1 md:col-span-2 lg:col-span-6 rounded-xl">
             <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="Equipe/1.jpg" alt="">
+                <img class="w-full h-auto rounded-lg" src="Equipe/APPROCHE1.jpg" alt="">
             </div>
             <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="Equipe/2.jpg" alt="">
+                <img class="w-full h-auto rounded-lg" src="Equipe/APPROCHE2.jpg" alt="">
             </div>
             <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="Equipe/6.jpg" alt="">
+                <img class="w-full h-auto rounded-lg" src="Equipe/APPROCHE3.jpg" alt="">
             </div>
             <div class="bg-gradient-to-b from-blue-600 to-blue-800 col-span-3 lg:col-span-3 rounded-lg p-4 flex justify-center items-center">
                 <img class=" h-20 w-20" src="equipe/12.png" alt="">
@@ -272,7 +272,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <!-- Service 0 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="Equipe/1.jpg" alt="Conseil" loading="lazy">
+                <img class="rounded-xl mb-2" src="Equipe/1_.jpg" alt="Conseil" loading="lazy">
                 <h2 class="font-semibold text-lg">EXPERTS MÉTIERS DE TERRAIN</h2>
                 <p class="text-gray-900">
                     Nos experts de terrain sont directement issus des réalités du marché. 
@@ -285,7 +285,7 @@
 
             <!-- Service 1 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="Equipe/2.jpg" alt="Gestion de projet" loading="lazy">
+                <img class="rounded-xl mb-2" src="Equipe/2_.jpg" alt="Gestion de projet" loading="lazy">
                 <h2 class="font-semibold text-lg">CONSULTANTS AMOA</h2>
                 <p class="text-gray-900">
                     Nos consultants technico-fonctionnels possèdent une double compétence essentielle : comprendre vos besoins techniques tout en intégrant les aspects fonctionnels. Ils assurent une mise en œuvre fluide et efficace de vos projets, en alignant parfaitement les solutions technologiques avec vos objectifs stratégiques.
@@ -294,7 +294,7 @@
 
             <!-- Service 2 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="Equipe/3.png" alt="Mentorat"  loading="lazy">
+                <img class="rounded-xl mb-2" src="Equipe/3_.jpg" alt="Mentorat"  loading="lazy">
                 <h2 class="font-semibold text-lg">DÉVELOPPEURS DE SOLUTIONS</h2>
                 <p class="text-gray-900">
                     Nos développeurs de solutions sont une équipe diversifiée comprenant des spécialistes métiers, ingénieurs, designers UX, marketers, développeurs web, et spécialistes IT. Ensemble, ils créent des solutions innovantes et sur mesure, adaptées à vos besoins spécifiques. Leur créativité et leur expertise technique garantissent des résultats exceptionnels.
@@ -303,7 +303,7 @@
 
             <!-- Service 3 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2 " src="Equipe/4.png" alt="Coaching" loading="lazy">
+                <img class="rounded-xl mb-2 " src="Equipe/4_.jpeg" alt="Coaching" loading="lazy">
                 <h2 class="font-semibold text-lg">COACHS PROFESSIONNELS CERTIFIÉS</h2>
                 <p class="text-gray-900">
                     Nos coachs professionnels certifiés sont dédiés à vous guider vers l'excellence. Avec des années d'expérience et des certifications reconnues, ils vous accompagnent dans le développement de vos compétences, l'amélioration de votre performance et l'atteinte de vos objectifs professionnels.
@@ -312,7 +312,7 @@
 
             <!-- Service 4 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="Equipe/6.jpg" alt="Formation" loading="lazy">
+                <img class="rounded-xl mb-2" src="Equipe/5_.jpeg" alt="Formation" loading="lazy">
                 <h2 class="font-semibold text-lg">MENTORS BUSINESS CERTIFIÉS</h2>
                 <p class="text-gray-900">
                     Nos mentors business sont des experts reconnus avec une longue expérience dans l'accompagnement des entreprises. Leur rôle est de vous guider stratégiquement, en partageant des insights précieux et en vous aidant à naviguer dans les défis complexes du monde des affaires.
@@ -321,7 +321,7 @@
 
             <!-- Service 5 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="Equipe/7.jpg" alt="Conseil" loading="lazy">
+                <img class="rounded-xl mb-2" src="Equipe/6_.jpg" alt="Conseil" loading="lazy">
                 <h2 class="font-semibold text-lg">FORMATEURS PROFESSIONNELS</h2>
                 <p class="text-gray-900">
                     Nos formateurs professionnels sont spécialisés dans la transmission des compétences essentielles. Ils travaillent en étroite collaboration avec vos équipes pour favoriser leur développement et les préparer à relever de nouveaux défis avec succès.

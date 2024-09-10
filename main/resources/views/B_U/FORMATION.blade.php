@@ -47,7 +47,7 @@
 {{-- first section --}}
 <section id="5" class="pt-16 lg:pt-0">
     <div class="flex justify-center items-center relative">
-        <img class="w-full md:w-auto" src="B_U/FOR/3.svg" alt="">
+        <img class="w-full md:w-auto" src="BU_5/1/1.jpg" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
         <div id="bor" class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0 hidden md:block">
             <div id="red" class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5"></div>
@@ -120,7 +120,7 @@
         </div>
         <div class="col-span-12 md:col-span-6 grid grid-cols-12 justify-end gap-3">
             <div class="col-span-12">
-                <img src="B_U/FOR/5.svg" alt="">
+                <img src="BU_5/1/2.jpg" alt="">
             </div>
         </div>
     </div>
@@ -214,7 +214,7 @@
 
             <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-                    <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/9.svg">
+                    <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="BU_5/2/1.jpg">
                     <div class="p-2 space-y-2">
                         <h3 class="text-lg md:text-2xl font-semibold text-blue-900">
                             FORMATION INTER-ENTREPRISE
@@ -237,7 +237,7 @@
             </div>
             <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-                    <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/6.svg">
+                    <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="BU_5/2/2.jpg">
                     <div class="p-2 space-y-2">
                         <h3 class="text-lg md:text-2xl font-semibold text-blue-900">
                             FORMATION SUR-MESURE
@@ -260,7 +260,7 @@
             </div>
             <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-                    <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/8.svg">
+                    <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="BU_5/2/3.jpg">
                     <div class="p-2 space-y-2">
                         <h3 class="text-lg md:text-2xl font-semibold text-blue-900">
                             FORMATION INTRA-ENTREPRISE
@@ -282,7 +282,7 @@
             </div>
             <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-                    <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="B_U/FOR/7.svg">
+                    <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="BU_5/2/4.jpg">
                     <div class="p-2 space-y-2">
                         <h3 class="text-lg md:text-2xl font-semibold text-blue-900">
                             DIGITAL LEARNING
@@ -337,14 +337,14 @@
                 </div>
             </div>
             <div class="col-span-12 lg:col-span-6">
-                <img class="rounded-lg w-full" src="B_U/FOR/13.svg" alt="Formation Image">
+                <img class="rounded-lg w-full" src="BU_5/3/1.jpg" alt="Formation Image">
             </div>
         </div>
 
         <div class="grid grid-cols-12 p-2 gap-8 col-span-12 lg:col-span-12">
             <div class="col-span-12 lg:col-span-6">
                 <div>
-                    <img class="rounded-lg w-full" src="B_U/FOR/16.png" alt="Project Image">
+                    <img class="rounded-lg w-full" src="BU_5/2/2.jpg" alt="Project Image">
                 </div>
             </div>
 
@@ -417,7 +417,7 @@
             <div class=" BG absolute w-3/5 bottom-28 left-0  p-4 flex justify-center items-center">
                 <h1 class="  text-4xl font-bold text-white">NOS DOMAINES DE FORMATI0N </h1> 
             </div>
-            <img class="" src="B_U/FOR/18.svg" alt="">
+            <img class="" src="BU_5/4/1.jpg" alt="">
         </div>
         <div class=" grid grid-cols-12 gap-2 col-span-6">
             <div class=" col-span-12 flex justify-center items-center">
@@ -745,7 +745,7 @@
             <div class=" BG  absolute w-1/2 bottom-24 -left-28 p-4 py-6 flex justify-start items-center">
                 <h1 class=" w-1/3 text-4xl font-bold text-white">FORMATIONS SECTORIELLES </h1> 
             </div>
-            <img class="" src="B_U/FOR/21.svg" alt="">
+            <img class="" src="BU_5/4/2.jpg" alt="">
         </div>
     </div>
 </section>

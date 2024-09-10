@@ -85,7 +85,7 @@
 {{-- first section --}}
 <section id="1" class="">
     <!-- Image with overlay effect -->
-    <img class="w-full h-full hidden lg:block" src="B_U/11.png" alt="">
+    <img class="w-full h-full hidden lg:block" src="BU_6/3/1.jpeg" alt="">
     <div class="absolute inset-0 BG opacity-25 hidden lg:block h-full"></div>
 
     <div class="md:absolute top-0 p-10 grid grid-cols-1 md:grid-cols-12 gap-8 pt-32">
@@ -202,7 +202,7 @@
             </div>
             <div
                 class="col-span-3 lg:col-span-1 p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/18.png" alt="Gestion de projet">
+                <img class="rounded-xl mb-2 h-60 w-full" src="BU_6/3/2/1.jpg" alt="Gestion de projet">
                 <h2 class="font-semibold text-lg text-gray-900">Accompagnement des <h class=" font-bold TIT">ONG.</h>
                 </h2>
             </div>
@@ -212,7 +212,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <!-- Service 2 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/126.png" alt="Mentorat">
+                <img class="rounded-xl mb-2 h-60 w-full" src="BU_6/3/2/2.jpg" alt="Mentorat">
                 <h2 class="font-semibold text-lg text-gray-900"> Accompagnement aux <h class=" font-bold TIT">
                         COOPERATIVES.</h>
                 </h2>
@@ -220,14 +220,14 @@
 
             <!-- Service 3 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/18.png" alt="Coaching">
+                <img class="rounded-xl mb-2 h-60 w-full" src="BU_6/3/2/3.jpg" alt="Coaching">
                 <h2 class="font-semibold text-lg text-gray-900">Accompagnement aux <h class=" font-bold TIT">FEMMES.</h>
                 </h2>
             </div>
 
             <!-- Service 4 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
-                <img class="rounded-xl mb-2" src="VI/126.png" alt="Formation">
+                <img class="rounded-xl mb-2 h-60 w-full" src="BU_6/3/2/4.jpg" alt="Formation">
                 <h2 class="font-semibold text-lg text-gray-900"> Accompagnement aux <h class=" font-bold TIT">JEUNES.
                     </h>
                 </h2>
@@ -267,7 +267,7 @@
                     impact positif au service de la communauté.
                 </p>
             </div>
-            <img class="hidden lg:block w-full lg:w-auto rounded-2xl" src="B_U/FOR/21.svg" alt="">
+            <img class="hidden lg:block w-full lg:w-auto rounded-2xl" src="BU_6/3/3.jpg" alt="">
         </div>
 
         <!-- Div with id="1" - Will be the second element on phone screens -->
@@ -799,7 +799,7 @@
                     </div>
                 </div>
             </div>
-            <img class="hidden lg:block w-full lg:w-auto rounded-2xl" src="B_U/FOR/21.svg" alt="">
+            <img class="hidden lg:block w-full lg:w-auto rounded-2xl" src="BU_6/3/4.jpg" alt="">
         </div>
     </div>
 </section>

@@ -60,7 +60,7 @@
 {{-- first section  --}}
 <section id="4" class="pt-16 lg:pt-0">
     <div class="flex justify-center items-center relative">
-        <img class="w-full md:w-auto" src="B_U/RH/8.svg" loading="lazy" alt="">
+        <img class="w-full md:w-auto" src="BU_4/1_COVERTURE/1.jpg" loading="lazy" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
         <div id="bor" class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0 hidden md:block">
             <div id="red" class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5"></div>
@@ -118,7 +118,7 @@
         </div>
         <div class="col-span-12 md:col-span-6 grid grid-cols-12 justify-end gap-3">
             <div class="col-span-12">
-                <img src="B_U/RH/5.svg" loading="lazy" alt="">
+                <img src="BU_4/1_COVERTURE/2.jpg" loading="lazy" alt="">
             </div>
         </div>
     </div>
@@ -244,7 +244,7 @@
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-2 p-2 col-span-12 h-full">
             <div class="col-span-4">
-                <img src="B_U/RH/2.svg" loading="lazy" alt="" class="max-w-full">
+                <img src="BU_4/2_RECHERCHE_POTENTIEL/1.jpg" loading="lazy" alt="" class="max-w-full">
             </div>
             <div class="BG text-white col-span-4 p-4">
                 <div class="p-4">
@@ -263,7 +263,7 @@
                 </div>
             </div>
             <div class="col-span-4">
-                <img src="B_U/RH/3.svg" loading="lazy" alt="" class="max-w-full">
+                <img src="BU_4/2_RECHERCHE_POTENTIEL/3.jpg" loading="lazy" alt="" class="max-w-full">
             </div>
             <div class="BG text-white col-span-4 p-4">
                 <div class="col-span-4 p-4">
@@ -283,7 +283,7 @@
                 </div>
             </div>
             <div class="col-span-4">
-                <img src="B_U/RH/5.svg" alt="" loading="lazy" class="max-w-full">
+                <img src="BU_4/2_RECHERCHE_POTENTIEL/2.jpg" alt="" loading="lazy" class="max-w-full">
             </div>
             <div class="BG text-white col-span-4 p-4">
                 <div class="col-span-4 p-4">
@@ -311,7 +311,7 @@
 <section id="TALENTS" class="my-20">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:px-32 px-4">
       <div class=" bg-blue-500 col-span-1 lg:col-span-6 flex justify-center items-end rounded-3xl transform lg:translate-x-1 duration-300 hover:scale-105">
-        <img class=" w-full h-full  rounded-3xl" src="B_U/11.png" alt="">
+        <img class=" w-full h-full  rounded-3xl" src="BU_4/3_DEVELOPPEMENT_TELENTS/2.jpg" alt="">
         <div class="absolute inset-0 BG opacity-50 rounded-3xl"></div>
         <div class="text-white absolute top-0 lg:p-16 p-10">
           <div class="w-24 h-1 bg-white mb-4"></div>
@@ -409,7 +409,7 @@
     <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-2 px-4 md:px-24">
         <!-- Image and Overlay Text -->
         <div class="col-span-1 md:col-span-6 relative">
-            <img class="w-full h-auto rounded-lg" src="U_I/7.png" alt="Coaching Image">
+            <img class="w-full h-auto rounded-lg" src="BU_4/5_COACHING/1.jpg" alt="Coaching Image">
             <div class="BG h-72 w-56 p-6 absolute top-0 -right-8 md:-right-32 flex justify-center items-end rounded-lg">
                <div class="relative p-2">
                 <div class="text-5xl md:text-7xl font-bold text-white h-12">*</div>
@@ -670,11 +670,13 @@
                 </div>
                 <h1 class=" TIT text-3xl font-semibold">ANIMATION DES EQUIPES</h1>
             </div>
-            <img class=" col-span-6" src="B_U/RH/10.png" alt="">
-            <img class=" col-span-6" src="B_U/RH/11.png" alt="">
-            <img class=" col-span-6" src="B_U/TPE/13.png" alt="">
+
+            {{-- Update this  --}}
+            <img class=" col-span-6" src="BU_4/6_ANIMATION_EQUIPES/1.jpeg" alt="">
+            <img class=" col-span-6" src="BU_4/6_ANIMATION_EQUIPES/2.jpeg" alt="">
+            <img class=" col-span-6" src="BU_4/6_ANIMATION_EQUIPES/3.jpg" alt="">
             {{-- <img class=" col-span-6" src="B_U/RH/10.png" alt=""> --}}
-            <img class=" col-span-6" src="B_U/DIGITAL/22.png" alt="">
+            <img class=" col-span-6" src="BU_4/6_ANIMATION_EQUIPES/4.jpg" alt="">
         </div>
     </div>
 </section>

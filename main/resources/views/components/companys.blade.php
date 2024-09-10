@@ -66,7 +66,7 @@
             Nos références</h2>
         <div class="grid grid-cols-2 gap-8 text-gray-500 overflow-x-hidden sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400 overflow-y-hidden">
             @foreach($images as $image)
-                <a href="" class=" w-16 h-16 logo"><img src="{{ asset($image->image) }}" alt="Image"></a>
+                <a href="" class=" w-40 h-40 logo"><img src="{{ asset($image->image) }}" alt="Image"></a>
             @endforeach
         </div>
     </div>

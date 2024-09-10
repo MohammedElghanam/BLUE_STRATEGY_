@@ -53,9 +53,9 @@
                 <div class="lg:mb-0 mb-10">
                     <div class="group w-full h-full">
                         <div class="relative h-full">
-                            <img src="https://pagedone.io/asset/uploads/1696488602.png" alt="ContactUs tailwind section"
+                            <img src="Home/contact.jpeg" alt="ContactUs tailwind section"
                                 class="w-full h-full lg:rounded-l-2xl rounded-l-2xl bg-blend-multiply bg-indigo-700" />
-                            <h1 class="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">
+                            <h1 class="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11 text-blue-800">
                                 Contactez-nous
                             </h1>
                             <div class="absolute bottom-0 w-full lg:p-11 p-5">

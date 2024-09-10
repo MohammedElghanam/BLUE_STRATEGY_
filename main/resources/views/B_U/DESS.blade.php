@@ -92,7 +92,7 @@
 
 <section id="6" class="pt-16 lg:pt-0">
     <div class="flex justify-center items-center relative">
-        <img class="w-full md:w-auto" src="B_U/TPE/1.png" alt="">
+        <img class="w-full md:w-auto" src="BU_6/1/1.jpeg" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
         <div id="bor" class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0 hidden md:block">
             <div id="red" class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5"></div>
@@ -163,7 +163,7 @@
         </div>
         <div class="col-span-12 md:col-span-6 grid grid-cols-12 justify-end gap-3">
             <div class="col-span-12">
-                <img src="B_U/TPE/2.png" alt="">
+                <img src="BU_6/1/2.jpeg" alt="">
             </div>
         </div>
     </div>
@@ -342,7 +342,7 @@
         <!-- Left Column -->
         <div class="relative col-span-1">
             <div class="relative">
-                <img class="rounded-2xl w-full" src="SS/3.png" alt="">
+                <img class="rounded-2xl w-full" src="BU_6/1/3.jpeg" alt="">
                 <div class="BG grid grid-cols-1 gap-2 p-6 rounded-xl absolute bottom-10 left-5 w-11/12 transform translate-x-1 duration-300 hover:scale-105">
                     <div class="flex justify-start items-center gap-2">
                         <div>
@@ -518,7 +518,7 @@
         <!-- Right Column -->
         <div class="md:col-span-6">
             <div class="relative">
-                <img class="rounded-2xl w-full" src="SS/3.png" alt="">
+                <img class="rounded-2xl w-full" src="BU_6/1/4.jpg" alt="">
 
                 <div class="grid grid-cols-1 gap-2 p-4 sm:p-6 rounded-xl BG absolute bottom-5 sm:left-5 left-3 w-11/12 transform translate-x-1 duration-300 hover:scale-105">
                     <div class="cols-span-1 flex justify-start items-center gap-2">

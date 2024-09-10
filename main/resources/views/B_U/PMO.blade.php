@@ -70,8 +70,8 @@
 
 {{-- first section  --}}
 <section id="1" class="pt-20">
-        <div class="flex justify-center items-center relative">
-            <img class="w-full md:w-auto" src="B_U/8.png" alt="">
+        <div class="flex justify-center items-center relative ">
+            <img class="w-full md:w-auto" src="BU_1/1.jpeg" alt="">
             <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
             <div id="bor" class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0 hidden md:block">
                 <div id="red" class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5"></div>
@@ -136,7 +136,7 @@
         </div>
         <div class="col-span-12 md:col-span-6 grid grid-cols-12 justify-end gap-3">
             <div class="col-span-12">
-                <img src="B_U/15.png" alt="">
+                <img src="BU_1/2.jpeg" alt="">
             </div>
         </div>
     </div>
@@ -211,13 +211,13 @@
                 </div>
             </div>
             <div class="mt-5 h-72">
-                <img class="rounded-2xl w-full h-full object-cover" src="B_U/12.png" alt="">
+                <img class="rounded-2xl w-full h-full object-cover" src="BU_1/4.jpeg" alt="">
             </div>
         </div>
 
         <div class="lg:col-span-7 ml-10">
             <div class="relative mb-5">
-                <img class="rounded-2xl w-full h-72 object-cover" src="B_U/14.png" alt="">
+                <img class="rounded-2xl w-full h-72 object-cover" src="BU_1/3.jpeg" alt="">
                 <div class="ONE absolute bottom-0 left-0 h-16 bg-blue-600 flex items-center justify-start gap-3 p-4 rounded-tr-3xl">
                     <div class="">
                         <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M12.132 15.404a3.364 3.364 0 1 0 0-6.728a3.364 3.364 0 0 0 0 6.728"/><path d="M20.983 15.094a9.43 9.43 0 0 1-1.802 3.1l-2.124-.482a7.245 7.245 0 0 1-2.801 1.56l-.574 2.079a9.462 9.462 0 0 1-1.63.149a9.117 9.117 0 0 1-2.032-.23l-.609-2.146a7.475 7.475 0 0 1-2.457-1.493l-2.1.54a9.357 9.357 0 0 1-1.837-3.33l1.55-1.722a7.186 7.186 0 0 1 .069-2.652L3.107 8.872a9.356 9.356 0 0 1 2.067-3.353l2.17.54A7.68 7.68 0 0 1 9.319 4.91l.574-2.124a8.886 8.886 0 0 1 2.17-.287c.585 0 1.17.054 1.745.16l.551 2.113c.83.269 1.608.68 2.296 1.217l2.182-.563a9.368 9.368 0 0 1 2.043 3.1l-1.48 1.607a7.405 7.405 0 0 1 .068 3.364z"/></g></svg>
@@ -419,7 +419,7 @@
 {{-- TYPES project  --}}
 <section class=" my-10 ">
     <div class="w-full relative hidden lg:block">
-        <img src="AP/91.png" class="h-80 w-full object-cover" alt="">
+        <img src="BU_1/5.jpeg" class="h-80 w-full object-cover" alt="">
         <div class="absolute inset-0 BG opacity-40 hidden lg:block"></div>
         <div class=" w-full h-full absolute top-0 left-0 flex justify-center items-center">
             <h1 class="text-2xl lg:text-8xl font-bold text-white">TYPES DE PROJETS</h1>

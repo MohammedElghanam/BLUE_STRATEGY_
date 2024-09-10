@@ -137,7 +137,7 @@ XS.{
 <section class="grid grid-cols-1 lg:grid-cols-12 px-6 lg:px-40 pt-20 lg:pt-40 w-full">
     <div class="col-span-1 lg:col-span-6 mb-10 lg:mb-0 h-auto lg:h-3/4">
         <h1 class="TOP text-3xl lg:text-3xl font-bold text-blue-800 mb-6">QUI SOMMES NOUS ?</h1>
-        <div class="grid grid-cols-12 justify-center items-center w-full bg-blue-900 p-6 lg:p-12 rounded-lg">
+        <div class="grid grid-cols-12 justify-center items-center w-full bg-gradient-to-b from-blue-600 to-blue-800 p-6 lg:p-12 rounded-lg">
             <div class="DATA col-span-12">
                 <p class="col-span-12 text-lg font-light text-white mb-3">
                     BLUE STRATEGY est un cabinet d'études, d'accompagnement et PMO multidisciplinaire, lancé en 2023, dédié aux entreprises et aux organisations des secteurs public et privé.
@@ -152,9 +152,9 @@ XS.{
         </div>
     </div>
     <div class="col-span-1 lg:col-span-6 h-auto lg:h-fit relative">
-        <img src="AP/120.png" alt="Image" class="BOR absolute -left-7 shadow-2xl hidden md:block w-full lg:w-auto">
-        <div class="BOTTOM hidden md:grid grid-rows-4 gap-8 absolute bottom-0 left-0 w-full pt-10 pl-5">
-            <div class="row-span-1 flex justify-start items-center gap-3 w-1/2">
+        <img src="engagment/cover.jpeg" alt="Image" class="BOR absolute -left-7 shadow-2xl hidden md:block w-full lg:w-auto">
+        <div class="BOTTOM hidden md:grid grid-cols-4 gap-8 absolute bottom-0 left-0 w-full pt-10 pl-5">
+            <div class="col-span-2 flex justify-start items-center gap-3 w-1/2">
                 <svg class="w-10 h-10" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 113.02 122.88" style="enable-background:new 0 0 113.02 122.88" xml:space="preserve">
                     <style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style>
                     <g>
@@ -163,11 +163,11 @@ XS.{
                 </svg>
                 <p class="font-medium text-xl text-blue-900">Innovation</p>
             </div>
-            <div class="row-span-1 flex justify-start items-center gap-3 w-1/2">
+            <div class="col-span-2 flex justify-start items-center gap-3 w-1/2">
                 <img src="VI/132.png" alt="Authenticité" class="w-10 h-10">
                 <p class="font-medium text-xl text-blue-900">Authenticité</p>
             </div>
-            <div class="row-span-1 flex justify-start items-center gap-3 w-1/2">
+            <div class="col-span-2 flex justify-start items-center gap-3 w-1/2">
                 <svg class="w-10 h-10" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 101.01" style="enable-background:new 0 0 122.88 101.01" xml:space="preserve">
                     <style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style>
                     <g>
@@ -176,7 +176,7 @@ XS.{
                 </svg>
                 <p class="font-medium text-xl text-blue-900">Excellence</p>
             </div>
-            <div class="row-span-1 flex justify-start items-center gap-3 w-1/2">
+            <div class="col-span-2 flex justify-start items-center gap-3 w-1/2">
                 <img src="images/ch.png" alt="Proximité" class="w-10 h-10">
                 <p class="font-medium text-xl text-blue-900">Proximité</p>
             </div>
@@ -458,13 +458,13 @@ XS.{
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 px-4 md:px-8 lg:px-28 my-10 md:my-20">
         <div id="1" class="grid grid-cols-6 md:grid-cols-2 lg:grid-cols-6 gap-4 p-2 md:p-4 col-span-1 md:col-span-2 lg:col-span-6 rounded-xl">
             <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="Equipe/1.jpg" alt="">
+                <img class="w-full h-auto rounded-lg" src="vision/1.jpeg" alt="">
             </div>
             <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="Equipe/2.jpg" alt="">
+                <img class="w-full h-auto rounded-lg" src="vision/2.jpeg" alt="">
             </div>
             <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="Equipe/6.jpg" alt="">
+                <img class="w-full h-auto rounded-lg" src="vision/3.jpeg" alt="">
             </div>
             <div class="bg-gradient-to-b from-blue-600 to-blue-800 col-span-3 lg:col-span-3 rounded-lg p-4 flex justify-center items-center">
                 {{-- <img class=" h-20 w-20" src="equipe/12.png" alt=""> --}}
@@ -479,7 +479,6 @@ XS.{
                 <div class="w-2.5 h-2.5 rounded-lg bg-blue-300"></div>
             </div>
             <h1 class="text-xl md:text-2xl mb-6 font-semibold text-gray-800">Accélérer votre développement</h1>
-            {{-- <h1 class=" col-span-12 pl-4 font-bold mb-4 text-gray-700">Accélérer votre développement</h1> --}}
             <p class="text-gray-900 text-xs md:text-sm mb-2">
                 Allant au-delà de notre expertise, notre raison d'être est de vous offrir
                 simultanément, efficacité, inspiration, innovation et renouvellement.
@@ -530,21 +529,21 @@ XS.{
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 px-4 md:px-8 lg:px-28 my-10 md:my-20">
 
         <div class="bg-gradient-to-b from-blue-600 to-blue-800 text-white shadow-2xl col-span-1 md:col-span-2 lg:col-span-6 rounded-xl p-6 md:p-8 lg:p-10 text-center transform translate-x-1 duration-300 hover:scale-105 select-none order-2 lg:order-1">
-            <div class="h-12 w-full flex justify-center items-center gap-1">
+            <div class="h-12 w-full flex justify-center items-center gap-1 mb-16">
                 <div class="w-2.5 h-2.5 rounded-lg bg-blue-100"></div>
                 <div class="w-3.5 h-3.5 rounded-lg bg-white"></div>
                 <div class="w-2.5 h-2.5 rounded-lg bg-blue-100"></div>
             </div>
             <h1 class="text-xl md:text-2xl mb-6 font-semibold">Un équipe engagée pour le développement.</h1>
-            <p class=" text-xs md:text-sm mb-2">
+            <p class=" text-lg md:text-sm mb-2">
                 Chez BLUE STRATEGY, nous sommes bien plus
                 qu'un simple cabinet. Nous sommes un
                 équipe engagée, déterminée à contribuer au
                 développement du Maroc et de l'Afrique de
                 demain.                
             </p>
-            <p class=" text-xs md:text-sm">
-                NNotre mission fondamentale consiste à élever
+            <p class=" text-lg md:text-sm">
+                Notre mission fondamentale consiste à élever
                 nos partenaires vers l'excellence, afin qu'ils
                 deviennent des acteurs de référence dans la
                 construction d'un avenir meilleur.
@@ -557,13 +556,13 @@ XS.{
                 <h1 class=" text-2xl md:text-4xl font-semibold text-center text-blue-600">NOTRE ENGAGEMENT</h1>
             </div>
             <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="Equipe/1.jpg" alt="">
+                <img class="w-full h-auto rounded-lg" src="engagment/1.jpeg" alt="">
             </div>
             <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="Equipe/2.jpg" alt="">
+                <img class="w-full h-auto rounded-lg" src="engagment/2.jpeg" alt="">
             </div>
             <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="Equipe/6.jpg" alt="">
+                <img class="w-full h-auto rounded-lg" src="engagment/3.jpeg" alt="">
             </div>            
         </div>
 

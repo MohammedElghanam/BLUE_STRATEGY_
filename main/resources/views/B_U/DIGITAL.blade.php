@@ -58,7 +58,7 @@
 
 <section id="3" class="pt-16 lg:pt-0">
     <div class="flex justify-center items-center relative">
-        <img class="w-full md:w-auto" src="B_U/2.png" alt="">
+        <img class="w-full md:w-auto" src="BU_3/1.jpeg" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
         <div id="bor" class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0 hidden md:block">
             <div id="red" class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5"></div>
@@ -117,7 +117,7 @@
         </div>
         <div class="col-span-12 md:col-span-6 grid grid-cols-12 justify-end gap-3">
             <div class="col-span-12">
-                <img src="B_U/DIGITAL/18.png" alt="">
+                <img src="BU_3/2.jpg" alt="">
             </div>
         </div>
     </div>
@@ -368,10 +368,10 @@
             <div class="grid grid-cols-12 col-span-12 lg:col-span-7 gap-2">
                 <div class="col-span-2 h-full hidden lg:block"></div>
                 <div class="col-span-6 lg:col-span-5 h-full">
-                    <img class="h-full w-full" src="B_U/DIGITAL/27.svg" alt="">
+                    <img class="h-full w-full" src="BU_3/WEB/1.jpg" alt="">
                 </div>
                 <div class="col-span-6 lg:col-span-5 h-full">
-                    <img class="h-full w-full" src="B_U/DIGITAL/26.png" alt="">
+                    <img class="h-full w-full" src="BU_3/WEB/2.png" alt="">
                 </div>
             </div>
         </div>
@@ -507,7 +507,7 @@
                 </div>
             </div>
             <div class="col-span-12 lg:col-span-3">
-                <img class="w-full h-auto" src="B_U/DIGITAL/28.png" alt="">
+                <img class="w-full h-auto" src="BU_3/WEB/3.jpg" alt="">
             </div>
         </div>
     </div>
@@ -548,8 +548,8 @@
                 <h1 class="text-center text-lg lg:text-xl font-bold text-blue-800">DES SOLUTIONS ERP, CRM et SIRH</h1>
                 <p class="text-center font-medium text-blue-800 mt-2">pour TPE, PME, startups, coopérative et ONG.</p>
             </div>
-            <div class="absolute bottom-0 lg:-bottom-60 right-0 mt-4 lg:mt-0">
-                <img src="B_U/18.png" alt="">
+            <div class="absolute bottom-0 lg:-bottom-80 right-0 mt-4 lg:mt-0">
+                <img src="BU_3/integration/1.png" alt="">
             </div>
         </div>
     
@@ -627,11 +627,12 @@
                 </div>
             </div>
             <div class="grid items-center col-span-12 md:col-span-6">
-                <img class="w-full lg:w-11/12" src="B_U/erp3.jpg" alt="">
+                <img class="w-full lg:w-11/12" src="BU_3/integration/3.png" alt="">
             </div>
         </div>
         <div class="col-span-12 lg:col-span-6">
             <img class="w-full" src="B_U/DIGITAL/31.jpg" alt="">
+            {{-- <img class="w-full" src="BU_3/integration/2.png" alt=""> --}}
         </div>
         <div class="BOT grid grid-cols-12 gap-2 p-4 lg:p-10 col-span-12 relative">
             <div class=" BOT w-20 h-20 rounded-full flex justify-center items-center absolute -top-10 lg:left-10 right-10">
@@ -696,7 +697,7 @@
                         </h1>
                     </div>
                     <div class="flex justify-center items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
-                        <img class=" h-48 w-1/2" src="B_U/17.jpg" alt="">
+                        <img class=" " src="BU_3/AMOA/1.png" alt="">
                     </div>
                 </div>
             </div>

@@ -67,7 +67,7 @@
 {{-- first section  --}}
 <section id="2" class="pt-16 lg:pt-0">
     <div class="flex justify-center items-center relative">
-        <img class="w-full md:w-auto" src="B_U/TPE/1.png" alt="">
+        <img class="w-full md:w-auto" src="BU_2/1.jpeg" alt="">
         <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
         <div id="bor" class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0 hidden md:block">
             <div id="red" class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5"></div>
@@ -132,7 +132,7 @@
         </div>
         <div class="col-span-12 md:col-span-6 grid grid-cols-12 justify-end gap-3">
             <div class="col-span-12">
-                <img src="B_U/TPE/2.png" alt="">
+                <img src="BU_2/2.jpeg" alt="">
             </div>
         </div>
     </div>
@@ -289,7 +289,7 @@
                 </div>
                 <h1 class="text-2xl md:text-3xl font-bold text-white">CONSEIL ET STRATÉGIE</h1>
             </div>
-            <img class="rounded-xl mt-8" src="B_U/FOR/18.svg" alt="Strategie">
+            <img class="rounded-xl mt-8 " src="BU_2/4.jpg" alt="Strategie"> <!-- modifier this image -->
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -739,7 +739,7 @@
         <img class="rounded-2xl" src="B_U/TPE/10.png" alt="Additional Image">
     </div> --}}
     <div class=" hidden lg:grid grid-cols-1 gap-2 p-8 bg-white ">
-        <img class=" col-span-12 rounded-2xl" src="B_U/TPE/10.png" alt="">
+        <img class=" col-span-12 rounded-2xl" src="BU_2/5.jpg" alt="">
     </div>
 </section>
 
@@ -749,9 +749,9 @@
         
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-2 p-2 lg:col-span-4">
             <div class="col-span-12 grid gap-4">
-                <img class="rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95" src="B_U/32.png" alt="">
-                <img class="rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95" src="B_U/26.png" alt="">
-                <img class="rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95" src="B_U/32.png" alt="">
+                <img class="rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95 h-48 w-full" src="BU_2/5collection/1.jpg" alt="">
+                <img class="rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95 h-48 w-full" src="BU_2/5collection/2.jpeg" alt="">
+                <img class="rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95 h-48 w-full" src="BU_2/5collection/3.jpeg" alt="">
             </div>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-8 gap-2 p-2 lg:col-span-8">
@@ -862,7 +862,7 @@
                 </div>
                 <h1 class="text-2xl lg:text-3xl font-bold text-white">MARKETING ET COMMUNICATION</h1> 
             </div>
-            <img class="rounded-xl w-full" src="B_U/FOR/18.svg" alt="">
+            <img class="rounded-xl w-full" src="BU_2/6.jpg" alt="">
         </div>
         <!-- Right Column -->
         <div class="col-span-12 lg:col-span-6 grid grid-cols-12 gap-4">
@@ -974,7 +974,7 @@
         
 
         <div class="relative flex flex-col lg:flex-row bg-red-600 lg:bg-transparent p-6 lg:p-0">
-            <div class=" w-full bg-gray-100 p-6 rounded-xl mt-6 lg:absolute lg:top-16 lg:order-1 order-2">
+            <div class=" w-full bg-gray-100 p-6 rounded-xl mt-6 lg:absolute lg:top-10 lg:order-1 order-2">
                 <div class="grid grid-cols-1 gap-4">
                     <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
                         <div class="">
@@ -1083,7 +1083,7 @@
                 </div>
             </div>
 
-            <div class="BG text-white p-6 mt-6 rounded-xl lg:absolute lg:bottom-0 lg:order-2 order-1">
+            <div class="BG text-white p-6 mt-6 rounded-xl lg:absolute lg:-bottom-10 lg:order-2 order-1">
                 <div class="flex items-center gap-2 mb-4">
                     <img class="w-8 h-8" src="B_U/21.png" alt="MFINANCE ET CONTROLE GESTION icon">
                     <h1 class="text-2xl font-bold">FINANCE ET CONTROLE GESTION</h1>
@@ -1193,7 +1193,7 @@
 
     
     <div class=" hidden lg:grid grid-cols-1 gap-2 p-8 bg-white ">
-        <img class=" col-span-12 rounded-2xl" src="B_U/TPE/10.png" alt="">
+        <img class=" col-span-12 rounded-2xl" src="BU_2/7.png" alt="">
     </div>
 </section>
 
@@ -1366,7 +1366,7 @@
                     Notre équipe est disponible pour vous accompagner dans vos projets d'amélioration de vos performances opérationnelles et organisationnelles. Elle vous oriente dans l'alignement de vos pratiques avec les diverses exigences des normes ISO en matière d'hygiène, de qualité, de sécurité et d'environnement.
                 </p>
             </div>
-            <img class="rounded-xl" src="B_U/FOR/18.svg" alt="">
+            <img class="rounded-xl" src="BU_2/8.jpg" alt="">
         </div>
     </div>
 </section>

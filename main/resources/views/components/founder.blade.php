@@ -58,7 +58,7 @@
 
 
 
-<section class=" p-2 bg-blue-900 md:px-20 relative">
+<section class=" p-2 bg-blue-900 md:px-20 relative" id="founder">
     <div class="grid grid-cols-12 gap-4 ">
         <div class=" md:col-span-8 text-end col-span-12">
             <div class=" w-full flex justify-center items-center lg:hidden">
