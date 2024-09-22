@@ -342,7 +342,7 @@
         <!-- Left Column -->
         <div class="relative col-span-1">
             <div class="relative">
-                <img class="rounded-2xl w-full" src="BU_6/1/3.jpeg" alt="">
+                <img class="rounded-2xl w-full" src="BU_6/1/3.jpg" alt="">
                 <div class="BG grid grid-cols-1 gap-2 p-6 rounded-xl absolute bottom-10 left-5 w-11/12 transform translate-x-1 duration-300 hover:scale-105">
                     <div class="flex justify-start items-center gap-2">
                         <div>

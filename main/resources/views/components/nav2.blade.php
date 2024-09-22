@@ -87,6 +87,7 @@
                 </div> --}}
              
                 <a href="{{ url('/') }}#contact" class="text-white bg-blue-900 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 ml-4">Contactez nous</a>
+                
                 <button id="menu" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -100,7 +101,14 @@
                 
             </div>
 
-            <div id="menuview" class="w-full h-96 bg-red-500 hidden"></div>
+            <div id="menuview" class=" grid grid-cols-1 gap-2 w-full h-96 bg-red-500 hidden" style="display: h">
+                <a href="" class="col-span-1 bg-yellow-400">PMO</a>
+                <a href="" class="col-span-1 bg-yellow-400">TPE</a>
+                <a href="" class="col-span-1 bg-yellow-400">DIGITAL</a>
+                <a href="" class="col-span-1 bg-yellow-400">RH</a>
+                <a href="" class="col-span-1 bg-yellow-400">FORMATION</a>
+                <a href="" class="col-span-1 bg-yellow-400">DESS</a>
+            </div>
 
             
             {{-- navbar  --}}

@@ -245,7 +245,7 @@
             <div class="BG absolute w-11/12 md:w-1/2 md:h-40 rounded-xl md:rounded-none bottom-5 left-4 md:top-24 md:-left-16 p-4 py-6 flex justify-center md:justify-start items-center">
                 <h1 class="text-2xl md:text-4xl font-bold text-white text-center md:text-left">MARKETING DIGITALE</h1>
             </div>
-            <img class="w-full md:w-auto " src="B_U/FOR/21.svg" alt="">
+            <img class="w-full md:w-auto " src="BU_3/3.jpg" alt="">
         </div>
 
         <!-- Right Side -->
@@ -514,7 +514,7 @@
 </section>
 
 
-<section id="Intégration" class="px-4 lg:px-32 my-10">
+<section id="Intégration" class="px-4 lg:px-32">
     <div class="grid grid-cols-12 gap-6">
         <div class="grid grid-cols-12 gap-2 col-span-12 lg:col-span-6 p-4 lg:p-10 lg:pl-20">
             <div class="grid items-center col-span-12">
@@ -612,8 +612,8 @@
 </section>
 
 
-<section id="web" class="px-4 lg:px-32 my-10">
-    <div class="grid grid-cols-12 gap-6">
+<section id="web" class="px-4 lg:px-32">
+    <div class="grid grid-cols-12">
         <div class="grid grid-cols-12 gap-2 col-span-12 lg:col-span-6 pl-4 lg:pl-10">
             <div class="grid items-center col-span-12 md:col-span-6">
                 <div>

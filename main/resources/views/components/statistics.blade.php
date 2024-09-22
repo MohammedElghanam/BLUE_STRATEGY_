@@ -178,119 +178,6 @@
 
 </style>
 
-{{-- SECTION 2 --}}
-{{-- <section class="bg-white">
-    <div id="FLOAT5"></div>
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class="col-span-12 h-20 mb-2">
-            <div class="flex justify-center items-center mb-2">
-                <h1 class="font-medium text-5xl text-gray-700 z-30">Nos Chiffres Clés</h1>
-            </div>
-            <div class="flex justify-center items-center">
-                <p class="text-2xl font-normal text-gray-700 z-30">Des résultats qui parlent d'eux-mêmes</p>
-            </div>
-        </div>
-
-        <div class="flex justify-center items-center gap-5 px-4 lg:px-28 col-span-12">
-            <!-- Conditionally remove this div on md screens -->
-            <div class="hidden md:flex w-full lg:w-1/2 h-full grid justify-center items-center relative">
-                <img id="img-animated" class="w-[70%] h-[70%] " src="AP/18.png" alt="">
-                <div id="animated-elipse" class="ELIPSE lg:w-32 lg:h-32 rounded-full bg-blue-700 absolute -bottom-20 right-24 opacity-75"></div>
-                <img id="animated-img" class="IMG absolute -bottom-10 right-4 opacity-0 transform translate-y-full" src="AP/19.png" alt="">
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 justify-center items-center w-full lg:w-1/2 h-full py-10">
-                <div class="container col-span-1 md:col-span-3 lg:col-span-3">
-                    <div class="circular-progress CP0">
-                        <span class="progress-value PV0">0%</span>
-                    </div>
-                    <span class="text text-center w-4/6">Taux de Satisfaction Client</span>
-                </div>
-
-                <div class="container col-span-1 md:col-span-3 lg:col-span-3">
-                    <div class="circular-progress CP1">
-                        <span class="progress-value PV1">0%</span>
-                    </div>
-                    <span class="text text-center w-4/6">Projets réussis 
-                        dès la première phase
-                        </span>
-                </div>
-
-                <div class="container col-span-1 md:col-span-3 lg:col-span-3">
-                    <div class="circular-progress CP2">
-                        <span class="progress-value PV2">0%</span>
-                    </div>
-                    <span class="text text-center w-3/5">Croissance des performances</span>
-                </div>
-
-                <div class="container col-span-1 md:col-span-3 lg:col-span-3">
-                    <div class="circular-progress CP3">
-                        <span class="progress-value PV3">0%</span>
-                    </div>
-                    <span class="text text-center w-3/4">Réduction des 
-                        coûts opérationnels
-                        </span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-{{-- <section class="bg-white">
-    <!-- Hide FLOAT5 on small screens -->
-    <div id="FLOAT5" class="hidden sm:block"></div>
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class="col-span-12 h-20 mb-2">
-            <div class="flex justify-center items-center mb-2">
-                <h1 class="font-medium lg:text-5xl text-2xl text-gray-700 z-30">Nos Chiffres Clés</h1>
-            </div>
-            <div class="flex justify-center items-center">
-                <p class="lg:text-2xl text-lg font-normal text-gray-700 z-30">Des résultats qui parlent d'eux-mêmes</p>
-            </div>
-        </div>
-
-        <div class="flex justify-center items-center gap-5 lg:px-16 col-span-12 mt-7">
-            <!-- Conditionally remove this div on md screens -->
-            <div class="hidden md:flex w-full lg:w-1/2 h-full grid justify-center items-center relative">
-                <img id="img-animated" class="w-[70%] h-[70%]" src="AP/18.png" alt="">
-                <div id="animated-elipse" class="ELIPSE lg:w-32 lg:h-32 rounded-full bg-blue-700 absolute -bottom-20 right-24 opacity-75"></div>
-                <img id="animated-img" class="IMG absolute -bottom-10 right-4 opacity-0 transform translate-y-full" src="AP/19.png" alt="">
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 justify-center items-center w-full h-full lg:w-1/2">
-                <div class="container col-span-1 md:col-span-3 lg:col-span-3">
-                    <div class="circular-progress CP0 ">
-                        <span class="progress-value PV0">0%</span>
-                    </div>
-                    <span class=" px-10 text-xl text-gray-600 font-semibold text-center ">Taux de <br>Satisfaction Client</span>
-                </div>
-
-                <div class="container col-span-1 md:col-span-3 lg:col-span-3">
-                    <div class="circular-progress CP1">
-                        <span class="progress-value PV1">0%</span>
-                    </div>
-                    <span class=" px-10 text-xl text-gray-600 font-semibold text-center">Projets réussis dès <br> la première phase
-                    </span>
-                </div>
-
-                <div class="container col-span-1 md:col-span-3 lg:col-span-3">
-                    <div class="circular-progress CP2">
-                        <span class="progress-value PV2">0%</span>
-                    </div>
-                    <span class="  px-10 text-xl text-gray-600 font-semibold text-center">Croissance des <br> performances</span>
-                </div>
-
-                <div class="container col-span-1 md:col-span-3 lg:col-span-3">
-                    <div class="circular-progress CP3">
-                        <span class="progress-value PV3">0%</span>
-                    </div>
-                    <span class="  px-6 text-xl text-gray-600 font-semibold text-center">Réduction des <br>coûts opérationnels </span>
-                </div>
-            </div>
-
-            
-        </div>
-    </div>
-</section> --}}
 
 <section class="bg-white">
     <!-- Hide FLOAT5 on small screens -->
@@ -308,7 +195,7 @@
         <div class="flex justify-center items-center gap-5 lg:px-16 col-span-12 mt-7">
             <!-- Conditionally remove this div on md screens -->
             <div class="hidden md:flex w-full lg:w-1/2 h-full grid justify-center items-center relative">
-                <img id="img-animated" class=" w-full h-full" src="Home/2.jpg" alt="">
+                <img id="img-animated" class=" w-full h-full" src="Home/2.png" alt="">
                 <div id="animated-elipse" class="ELIPSE lg:w-32 lg:h-32 rounded-full bg-blue-700 absolute -bottom-20 right-24 opacity-75"></div>
                 <img id="animated-img" class="IMG absolute -bottom-10 right-4 opacity-0 transform translate-y-full" src="AP/19.png" alt="">
             </div>

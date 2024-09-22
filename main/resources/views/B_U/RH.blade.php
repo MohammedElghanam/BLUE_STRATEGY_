@@ -672,11 +672,7 @@
             </div>
 
             {{-- Update this  --}}
-            <img class=" col-span-6" src="BU_4/6_ANIMATION_EQUIPES/1.jpeg" alt="">
-            <img class=" col-span-6" src="BU_4/6_ANIMATION_EQUIPES/2.jpeg" alt="">
-            <img class=" col-span-6" src="BU_4/6_ANIMATION_EQUIPES/3.jpg" alt="">
-            {{-- <img class=" col-span-6" src="B_U/RH/10.png" alt=""> --}}
-            <img class=" col-span-6" src="BU_4/6_ANIMATION_EQUIPES/4.jpg" alt="">
+            <img class=" col-span-12" src="BU_4/6_ANIMATION_EQUIPES/1.jpg" alt="">
         </div>
     </div>
 </section>

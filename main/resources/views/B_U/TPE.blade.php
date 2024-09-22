@@ -519,7 +519,7 @@
 
 <section id="creation" class="relative my-10">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:px-20 lg:absolute w-full h-full ">
-        <div class="relative bg-yellow-400 lg:bg-transparent p-6 lg:p-0">
+        <div class="relative lg:bg-transparent p-6 lg:p-0">
             <div class="bg-gray-100 p-6 rounded-xl transform duration-300 hover:scale-105">
                 <div class="flex items-center gap-2 mb-4">
                     <img class="w-8 h-8" src="B_U/TPE/15.png" alt="Création d'entreprise icon">
@@ -609,7 +609,7 @@
             </div>
         </div>
 
-        <div class="relative flex flex-col lg:flex-row bg-red-600 lg:bg-transparent p-6 lg:p-0">
+        <div class="relative flex flex-col lg:flex-row lg:bg-transparent p-6 lg:p-0">
             <div class=" w-full bg-gray-100 p-6 rounded-xl mt-6 lg:absolute lg:top-24 lg:order-1 order-2">
                 <div class="grid grid-cols-1 gap-4">
                     <!-- Example Item -->
@@ -751,7 +751,7 @@
             <div class="col-span-12 grid gap-4">
                 <img class="rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95 h-48 w-full" src="BU_2/5collection/1.jpg" alt="">
                 <img class="rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95 h-48 w-full" src="BU_2/5collection/2.jpeg" alt="">
-                <img class="rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95 h-48 w-full" src="BU_2/5collection/3.jpeg" alt="">
+                {{-- <img class="rounded-xl shadow-xl transform translate-x-1 duration-300 hover:scale-95 h-48 w-full" src="BU_2/5collection/3.jpeg" alt=""> --}}
             </div>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-8 gap-2 p-2 lg:col-span-8">
@@ -973,7 +973,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:px-20 lg:absolute w-full h-full ">
         
 
-        <div class="relative flex flex-col lg:flex-row bg-red-600 lg:bg-transparent p-6 lg:p-0">
+        <div class="relative flex flex-col lg:flex-row lg:bg-transparent p-6 lg:p-0">
             <div class=" w-full bg-gray-100 p-6 rounded-xl mt-6 lg:absolute lg:top-10 lg:order-1 order-2">
                 <div class="grid grid-cols-1 gap-4">
                     <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
@@ -1096,7 +1096,7 @@
             </div>
         </div>
 
-        <div class="relative bg-yellow-400 lg:bg-transparent p-6 lg:p-0">
+        <div class="relative lg:bg-transparent p-6 lg:p-0">
             <div class="bg-gray-100 p-6 rounded-xl transform duration-300 hover:scale-105">
                 <div class="flex items-center gap-2 mb-4">
                     <img class="w-8 h-8" src="B_U/TPE/16.png" alt="Création d'entreprise icon">

@@ -85,10 +85,10 @@
 {{-- first section --}}
 <section id="1" class="">
     <!-- Image with overlay effect -->
-    <img class="w-full h-full hidden lg:block" src="BU_6/3/1.jpeg" alt="">
+    <img class="w-full h-1/2 hidden lg:block" src="BU_6/3/1.jpeg" alt="">
     <div class="absolute inset-0 BG opacity-25 hidden lg:block h-full"></div>
 
-    <div class="md:absolute top-0 p-10 grid grid-cols-1 md:grid-cols-12 gap-8 pt-32">
+    <div class="md:absolute top-48 p-10 grid grid-cols-1 md:grid-cols-12 gap-8 pt-32">
         <!-- First Column (Red Background) -->
         <div class="col-span-1 md:col-span-7 md:h-auto flex items-end">
             <h1
@@ -673,8 +673,8 @@
         <!-- Div with id="2" - Will be the first element on phone screens -->
         <div id="2"
             class="col-span-12 lg:col-span-6 flex justify-center lg:justify-end items-center relative order-1 lg:order-1">
-            <div class=" lg:absolute w-full top-2 left-6 lg:w-11/12">
-                <div class="bg-white transform translate-x-1 duration-300 hover:scale-105  p-6 rounded-xl mb-2">
+            <div class=" lg:absolute w-full top-20 left-6 lg:w-11/12">
+                <div class="bg-white transform translate-x-1 duration-300 hover:scale-105  p-6 rounded-xl mb-10">
                     <div class="flex justify-start items-center gap-3 mb-4">
                         <div class="">
                             <img class="w-9 h-9" src="SS/6.png" alt="">
@@ -693,7 +693,7 @@
                         développement durable (ODD).
                     </p>
                 </div>
-                <div class="bg-white transform translate-x-1 duration-300 hover:scale-105 p-4 rounded-xl mb-2">
+                <div class="bg-white transform translate-x-1 duration-300 hover:scale-105 p-4 rounded-xl mb-10">
                     <h1 class="  font-medium text-gray-900 mb-1">Public cible :</h1>
                     <div class="flex justify-start items-center gap-4 mb-4">
                         <div class="">

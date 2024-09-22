@@ -737,8 +737,7 @@
                     </div>
                 </div>
             </div>
-            <div class=" col-span-12  h-60"></div>
-
+            <div class=" col-span-12 h-60"></div>
         </div>
         
         <div class=" col-span-6 flex justify-end items-center relative">

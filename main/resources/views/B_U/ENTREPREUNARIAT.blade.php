@@ -63,7 +63,7 @@
     <img class="w-full hidden lg:block" src="BU_6/2/1.jpeg" alt="">
     <div class="absolute inset-0 BG opacity-25 hidden lg:block"></div>
 
-    <div class="md:absolute top-0 p-10 grid grid-cols-1 md:grid-cols-12 gap-8 pt-32">
+    <div class="md:absolute top-32 p-10 grid grid-cols-1 md:grid-cols-12 gap-8 pt-32">
         <!-- First Column (Red Background) -->
         <div class="col-span-1 md:col-span-7 md:h-auto flex items-end">
             <h1 class="text-center md:mb-4 text-4xl md:text-2xl lg:text-7xl lg:leading-[16px] md:font-semibold font-bold md:text-white text-orange-500 lg:border-b-8 pb-6">
@@ -357,13 +357,6 @@
         </div>
     </div>
 </section>
-
-
-{{-- <section>
-    <div class=" grid grid-cols-12 gap-2 p-2 justify-center items-center text-9xl bg-blue-700 font-bold h-96">
-        the images
-    </div>
-</section> --}}
 
 
 <section id="3" class="my-20 px-4 sm:px-6 lg:px-36">
