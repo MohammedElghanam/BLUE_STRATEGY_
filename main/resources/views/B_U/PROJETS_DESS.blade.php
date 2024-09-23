@@ -807,9 +807,13 @@
 
 <section id="5" class="my-10">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 p-2 lg:px-36">
+
         <!-- Left side - Image and title -->
-        <div class="BG col-span-1 lg:col-span-5 rounded-2xl flex justify-center items-end p-10 pb-20">
-            <div>
+        <div class=" relative col-span-1 lg:col-span-5 grid grid-cols-1 grid-rows-1">
+            <img class="rounded-3xl col-span-1 row-span-1" src="BU_6/3/5.svg" alt="">
+            <div class="absolute inset-0 BG opacity-60 rounded-3xl"></div>
+
+            <div class=" absolute bottom-20 left-6">
                 <div class="flex justify-start items-center gap-4 mb-4">
                     <div>
                         <img class="w-12 h-12" src="SS/8.png" alt="">
@@ -1160,14 +1164,9 @@
                     <h1 class="text-center font-medium text-white">La promotion de l'entrepreneuriat des jeunes.</h1>
                 </div>
             </div>
-            {{-- <div class="bg-yellow-500 col-span-2 md:col-span-1 p-4 flex justify-center items-center shadow-xl rounded-3xl transform duration-300 hover:scale-105">
-                <div>
-                    <div class="flex justify-center mb-3">
-                        <img class="w-16 h-16" src="SS/11.png" alt="">
-                    </div>
-                    <h1 class="text-center font-medium text-white">Autre compétence ou service.</h1>
-                </div>
-            </div> --}}
+            <div class="col-span-2 md:col-span-1 shadow-xl rounded-3xl transform duration-300 hover:scale-105">
+                <img class="rounded-3xl h-full" src="BU_6/3/6.jpg" alt="">
+            </div>
         </div>
     </div>
 </section>
