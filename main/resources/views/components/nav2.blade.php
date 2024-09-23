@@ -10,17 +10,31 @@
     display: none;
 }
 
+.menuview{
+    display: none;
+    grid-template-columns: repeat(12, 1fr);
+    /* gap: 6px; */
+}
+
+.item{
+    grid-column: span 12;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 12px;
+    border-bottom: 0.5px solid rgb(141, 141, 141);
+    padding-left: 10px;
+}
+
 </style>
 
 <header class=" bg-white fixed w-full z-50 border-b">
     <nav class=" border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
-        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+        <div class="flex justify-between items-center mx-auto max-w-screen-xl">
             <a href="/" class="flex items-center">
-                <img src="AP/logo.png" class="mr-1 h-10 sm:h-[50%]" alt="Logo" />
+                <img src="AP/logo.png" class="mr-1 lg:h-10 h-8" alt="Logo" />
                 <div class="w-full flex flex-col items-start">
-                    <span id="logo" class="self-text-2xl font-bold whitespace-nowrap text-blue-900 w-full">BLUE
-                        STRATEGY</span>
-
+                    <span id="logo" class="lg:self-text-2xl self-text-lg lg:font-bold font-medium whitespace-nowrap text-blue-900 w-full">BLUE STRATEGY</span>
                 </div>
             </a>
             {{-- lang --}}
@@ -86,7 +100,7 @@
                     </ul>
                 </div> --}}
              
-                <a href="{{ url('/') }}#contact" class="text-white bg-blue-900 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 ml-4">Contactez nous</a>
+                <a href="{{ url('/') }}#contact" class="text-white bg-blue-900 hover:bg-blue-800 font-light lg:font-medium rounded-lg text-sm px-3 py-1 lg:px-5 lg:py-2.5 ml-4 hidden lg:block">Contactez nous</a>
                 
                 <button id="menu" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
@@ -101,13 +115,14 @@
                 
             </div>
 
-            <div id="menuview" class=" grid grid-cols-1 gap-2 w-full h-96 bg-red-500 hidden" style="display: h">
-                <a href="" class="col-span-1 bg-yellow-400">PMO</a>
-                <a href="" class="col-span-1 bg-yellow-400">TPE</a>
-                <a href="" class="col-span-1 bg-yellow-400">DIGITAL</a>
-                <a href="" class="col-span-1 bg-yellow-400">RH</a>
-                <a href="" class="col-span-1 bg-yellow-400">FORMATION</a>
-                <a href="" class="col-span-1 bg-yellow-400">DESS</a>
+            <div id="menuview" class="menuview w-60 h-96 mt-6 absolute top-8 right-0 bg-white">
+                <a href="{{ url('/PMO') }}" class="item">PMO - PROJECT MANAGEMENT OFFICE</a>
+                <a href="{{ url('/TPE') }}" class="item">SERVICES AUX TPE/PME</a>
+                <a href="{{ url('/DIGITAL') }}" class="item">SERVICES DIGITAUX</a>
+                <a href="{{ url('/RH') }}" class="item">SERVICES RH & CARRIERE</a>
+                <a href="{{ url('/FORMATION') }}" class="item">FORMATION PROFESSIONNELLE</a>
+                <a href="{{ url('/DESS') }}" class="item">ENTREUPRENARIAT ET PROJETS ESS</a>
+                <a href="{{ url('/') }}#contact" class="item">CONTACT</a>
             </div>
 
             
@@ -490,7 +505,13 @@
     $(document).ready(function () {
         $("#menu").click(function (e) { 
             e.preventDefault();
-            $("#menuview").toggle(); // Toggle visibility
+            var menuView = $("#menuview");
+
+            if (menuView.css("display") === "none") {
+                menuView.css("display", "grid"); 
+            } else {
+                menuView.css("display", "none"); 
+            }
         });
     });
 </script>

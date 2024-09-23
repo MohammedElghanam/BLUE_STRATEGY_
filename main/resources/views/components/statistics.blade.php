@@ -183,12 +183,12 @@
     <!-- Hide FLOAT5 on small screens -->
     <div id="FLOAT5" class="hidden sm:block"></div>
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class="col-span-12 h-20 mb-2">
+        <div class="col-span-12 h-10 lg:h-20 mb-2 ">
             <div class="flex justify-center items-center mb-2">
-                <h1 class="font-medium lg:text-5xl text-2xl text-gray-700 z-30">Nos Chiffres Clés</h1>
+                <h1 class="font-medium lg:text-5xl text-lg text-gray-700 z-30">Nos Chiffres Clés</h1>
             </div>
             <div class="flex justify-center items-center">
-                <p class="lg:text-2xl text-lg font-normal text-gray-700 z-30">Des résultats qui parlent d'eux-mêmes</p>
+                <p class="lg:text-2xl text-sm font-normal text-gray-700 z-30">Des résultats qui parlent d'eux-mêmes</p>
             </div>
         </div>
 
@@ -200,16 +200,16 @@
                 <img id="animated-img" class="IMG absolute -bottom-10 right-4 opacity-0 transform translate-y-full" src="AP/19.png" alt="">
             </div>
 
-            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-center items-center w-full h-full lg:w-1/2">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 lg:gap-6 justify-center items-center w-full h-full lg:w-1/2">
                 
-                <div class=" col-span-1 md:col-span-2 lg:col-span-3">
+                <div class=" col-span-1 md:col-span-2 lg:col-span-3 ">
                     <div class=" flex justify-center items-center mb-4">
                         <div class="circular-progress CP0 ">
                             <span class="progress-value PV0">0%</span>
                         </div>
                     </div>
                     <div class=" flex justify-center items-center">
-                        <span class=" lg:px-6 text-lg lg:text-xl text-gray-600 font-semibold text-center ">Taux de Satisfaction Client</span>
+                        <span class=" lg:px-6 text-sm lg:text-xl text-gray-600 font-semibold text-center ">Taux de Satisfaction Client</span>
                     </div>
                 </div>
 
@@ -220,18 +220,18 @@
                         </div>
                     </div>
                     <div class=" flex justify-center items-center">
-                        <span class=" lg:px-6 text-lg lg:text-xl text-gray-600 font-semibold text-center">Projets réussis dès <br> la première phase</span>
+                        <span class=" lg:px-6 text-sm lg:text-xl text-gray-600 font-semibold text-center">Projets réussis dès <br> la première phase</span>
                     </div>
                 </div>
 
-                <div class=" col-span-1 md:col-span-2 lg:col-span-3">
+                <div class=" col-span-1 md:col-span-2 lg:col-span-3 ">
                     <div class="flex justify-center items-center mb-4">
                         <div class="circular-progress CP2">
                             <span class="progress-value PV2">0%</span>
                         </div>
                     </div>
                     <div class=" flex justify-center items-center">
-                        <span class=" lg:px-6 text-lg lg:text-xl text-gray-600 font-semibold text-center">Croissance des <br> performances</span>
+                        <span class=" lg:px-6 text-sm lg:text-xl text-gray-600 font-semibold text-center">Croissance des <br> performances</span>
                     </div>                    
                 </div>
 
@@ -242,7 +242,7 @@
                         </div>
                     </div>
                     <div class=" flex justify-center items-center">
-                        <span class=" lg:px-6 text-lg lg:text-xl text-gray-600 font-semibold text-center">Réduction des <br>coûts opérationnels </span>
+                        <span class=" lg:px-6 text-sm lg:text-xl text-gray-600 font-semibold text-center">Réduction des <br>coûts opérationnels </span>
                     </div>
                 </div>
 
@@ -263,10 +263,10 @@
     <div id="FLOAT3" class="hidden sm:block"></div>
     <div class="w-full lg:w-1/6 hidden lg:block"></div>
     <div class="lg:rounded-l-full  lg:pl-40 pl-0 flex-grow xl:w-full h-80 bg-blue-900 relative flex flex-col justify-center items-center lg:items-start">
-        <h1 class="font-bold lg:text-5xl sm:text-5xl mb-4 text-white text-center lg:text-right">
+        <h1 class="font-bold lg:text-5xl text-xl mb-4 text-white text-center lg:text-right">
             CE QUE NOUS FAISONS.
         </h1>
-        <p class="w-11/12 sm:w-3/4 lg:w-2/3 text-white text-xl text-center lg:text-left">
+        <p class="w-11/12 sm:w-3/4 lg:w-2/3 text-white text-base lg:text-xl text-center lg:text-left">
             Chez BLUE STRATEGY, nous vous offrons une gamme dynamique de services pour libérer tout votre potentiel et activer les leviers de performance essentiels. Nos solutions sur-mesure sont conçues pour propulser vos résultats vers de nouveaux sommets et transformer vos défis en opportunités.
         </p>
         <div id="animated-elipse2" class="absolute -bottom-28 right-36 w-36 h-36 bg-blue-600 rounded-full opacity-50 hidden md:block"></div>
