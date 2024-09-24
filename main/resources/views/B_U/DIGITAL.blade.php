@@ -543,12 +543,12 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-12 justify-center items-center col-span-12 lg:col-span-6 relative">
+        <div class=" hidden lg:grid grid-cols-12 justify-center items-center col-span-12 lg:col-span-6 relative">
             <div class="col-span-12 grid justify-center items-center">
                 <h1 class="text-center text-lg lg:text-xl font-bold text-blue-800">DES SOLUTIONS ERP, CRM et SIRH</h1>
                 <p class="text-center font-medium text-blue-800 mt-2">pour TPE, PME, startups, coopérative et ONG.</p>
             </div>
-            <div class="absolute bottom-0 lg:-bottom-80 right-0 mt-4 lg:mt-0">
+            <div class="absolute bottom-0 lg:-bottom-80 right-0 mt-4 lg:mt-0 ">
                 <img src="BU_3/integration/1.png" alt="">
             </div>
         </div>

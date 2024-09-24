@@ -188,8 +188,8 @@
     z-index: 0;
     position: absolute;
     top: 150px;
-    width: 400px;
-    height: 400px;
+    /* width: 400px;
+    height: 400px; */
     background: linear-gradient(to bottom, #00127a, #235cb3);
     opacity: 0.8;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
@@ -269,14 +269,14 @@
     <div id="FLOAT" class="lg:block hidden"></div>
     <div id="FLOAT1" class="lg:block hidden"></div>
     <div class="w-full h-20"></div>
-    <div class="grid max-w-screen-xl lg:gap-8 xl:gap-0 lg:grid-cols-12 h-full lg:mx-16 mx-6">
-        <div class="mr-auto place-self-center lg:col-span-8 mb-12 lg:mb-0">
-            <div class="w-full h-10"></div>
+    <div class="grid max-w-screen-xl lg:gap-8 xl:gap-0 lg:grid-cols-12 h-full lg:mx-16 mx-6 ">
+        <div class="mr-auto place-self-center lg:col-span-8 mb-12 lg:mb-0 order-2 lg:order-1">
+            <div class="w-full h-0 lg:h-10"></div>
             <div>
-                <h1 class="w-full text-xl font-bold mb-2 leading-none md:text-5xl xl:text-3xl dark:text-white">
+                <h1 class="w-full text-sm font-bold mb-2 leading-none md:text-5xl xl:text-3xl dark:text-white">
                     Élevez vos projets vers la réussite et l'innovation
                 </h1>
-                <h1 class="max-w-2xl mb-5 text-xl font-bold leading-none md:text-5xl xl:text-3xl dark:text-white">
+                <h1 class="max-w-2xl mb-5 text-sm font-bold leading-none md:text-5xl xl:text-3xl dark:text-white">
                     avec le cabinet BLUE STRATEGY
                 </h1>
             </div>
@@ -324,8 +324,8 @@
                 </div>
             </a>
         </div>
-        <div id="img_zoom" class="hidden md:flex col-span-4 justify-end items-end">
-            <div id="FLOATT" class="lg:block sm:hidden"></div>
+        <div id="img_zoom" class="flex col-span-4 justify-end items-end order-1 lg:order-2 mb-6 lg:mb-0">
+            <div id="FLOATT" class=" w-72 h-72 lg:w-96 lg:h-96 lg:block sm:hidden"></div>
             <img src="AP/117.png" alt="mockup" class="h-5/6 z-20 mt-3">
         </div>
     </div>
