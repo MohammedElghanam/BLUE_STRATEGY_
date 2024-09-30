@@ -87,25 +87,25 @@
                 </div>
             </div>
             <div class="select-none text-white p-7 text-animate">
-                <p class="font-bold text-blue-400 text-base lg:text-xl mb-4 mt-8">
+                <p class="font-medium text-blue-400 text-sm lg:text-lg mb-4 mt-8">
                     « Chez BLUE STRATEGY, nous ne nous contentons pas de rêver d'un avenir meilleur, nous le construisons activement. »
                 </p>
-                <p class="mb-2 text-sm lg:text-lg">
+                <p class="mb-2 text-xs font-normal lg:font-medium lg:text-sm">
                     Chez BLUE STRATEGY, nous ne faisons pas que suivre les tendances – nous les créons. Notre cabinet incarne une vision audacieuse et avant-gardiste, en parfaite harmonie avec les objectifs du nouveau modèle de développement économique du Maroc.
                 </p>                
-                <p class="md:mb-4 mb-2 text-sm lg:text-lg">
+                <p class="md:mb-4 mb-2 text-xs font-normal lg:font-medium lg:text-sm">
                     Avec une expertise éprouvée sur le terrain et une passion pour le développement économique, l'accompagnement, l'accélération des structures, et l'innovation sociale, j'ai eu le privilège de collaborer avec des clients de renom et de mener à bien des projets transformateurs à travers le Maroc. Aujourd'hui, entourée d'une équipe exceptionnelle de plus de 25 experts, nous sommes prêts à repousser les limites et à transformer les idées en réalité.
                 </p>
-                <p class="md:mb-4 mb-2 text-sm lg:text-lg">
+                <p class="md:mb-4 mb-2 text-xs font-normal lg:font-medium lg:text-sm">
                     Notre mission est claire : catalyser le développement de la région Marrakech-Safi, du Maroc et de l'Afrique. En renforçant le tissu économique local, nous visons à élever et accélérer les structures, en particulier les petites entreprises et organisations, et à contribuer à l'émancipation des idées, des projets de croissance et des talents créateurs locaux. Nous aspirons à les aider à devenir les leaders de demain. »
                 </p>
-                <p class="md:mb-4 mb-2 text-sm lg:text-lg">
+                <p class="md:mb-4 mb-2 text-xs font-normal lg:font-medium lg:text-sm">
                     BLUE STRATEGY se distingue par son engagement inébranlable envers l'accompagnement, l'accélération, l'alignement stratégique et le développement des territoires. Nous sommes des pionniers du développement local, de l'innovation sociale et économique, et de l'économie sociale et solidaire, transformant les défis en opportunités et guidant nos partenaires vers un avenir prospère et durable.
                 </p>
-                <p class="md:mb-4 mb-2 text-sm lg:text-lg">
+                <p class="md:mb-4 mb-2 text-xs font-normal lg:font-medium lg:text-sm">
                     <h class="font-semibold">Mme Houda BELAYDI</h>
                     <h class="font-semibold">Founder CEO du cabinet BLUE STRATEGY</h>
-                    <h class="font-medium">
+                    <h class="">
                         Experte senior en accompagnement des entreprises et organisations, 
                         en management et en développement des projets
                     </h>
@@ -167,42 +167,3 @@
     });
 
 </script>
-
-{{-- <script>
-    document.addEventListener("scroll", function() {
-        const contentElement = document.getElementById('content1');
-
-        function animateOnScroll(entries, observer) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    contentElement.style.animation = "zoomIn 2s ease forwards"; 
-                    observer.unobserve(entry.target); 
-                }
-            });
-        }
-
-        const observer = new IntersectionObserver(animateOnScroll, { threshold: 0.5 });
-
-        observer.observe(contentElement);
-    });
-
-</script> --}}
-
-{{-- <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const contentElement = document.getElementById('content1');
-
-        function animateOnScroll(entries, observer) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    contentElement.style.animation = "zoomIn 2s ease forwards"; 
-                    observer.unobserve(entry.target); 
-                }
-            });
-        }
-
-        const observer = new IntersectionObserver(animateOnScroll, { threshold: 0.5 });
-
-        observer.observe(contentElement);
-    });
-</script> --}}

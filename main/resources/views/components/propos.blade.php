@@ -412,37 +412,6 @@ XS.{
 
 
 
-
-{{-- <section class="grid grid-cols-12 px-40 w-full mt-40 mb-60 bg-blue-900" style="height: 250px;">
-    <div class="col-span-6 relative">
-        <img src="AP/121.png" alt="" class="absolute -top-6 IMG">
-    </div>
-    <div class="col-span-5 relative p-2">
-        <div class="DESC bg-white absolute -left-16 -top-20 shadow-2xl">
-            <h1 class="text-3xl font-bold px-8 text-blue-800">NOTRE VISION</h1>
-            <div class="grid grid-cols-12 justify-center items-center w-full px-4 pb-10 pt-5">
-                <h1 class=" col-span-12 pl-4 font-bold mb-4 text-gray-700">Accélérer votre développement</h1>
-                <p class="col-span-12 text-lg font-light pl-4 mb-2">
-                    Allant au-delà de notre expertise, notre raison d'être est de vous offrir
-                    simultanément, efficacité, inspiration, innovation et renouvellement.
-                    Nous vous accompagnons dans vos projets, vos évolutions et vos
-                    transformations tout en veillant à la performance et à la durabilité.
-                </p>    
-                <p class="col-span-12 text-lg font-light pl-4">
-                    Nous collaborons parfaitement avec vous pour concevoir des solutions
-                    sur mesure, spécialement adaptées pour relever vos défis. Cependant,
-                    notre perspective s'étend bien au-delà de l'horizon immédiat. Nous
-                    croyons en l'interdépendance entre la croissance des organisations et
-                    l'évolution de la société. En constituant des partenariats solides, notre
-                    objectif est de contribuer à votre épanouissement, ainsi qu'à
-                    l'émergence d'une économie prospère et inclusive.
-                </p>
-            </div>
-        </div>
-    </div>
-</section> --}}
-
-
 {{-- notre VISION  --}}
 <section>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 px-4 md:px-8 lg:px-28 my-10 md:my-20">
@@ -456,9 +425,9 @@ XS.{
             <div class="col-span-3 lg:col-span-3 rounded-lg">
                 <img class="w-full h-auto rounded-lg" src="vision/3.jpeg" alt="">
             </div>
-            <div class="bg-gradient-to-b from-blue-600 to-blue-800 col-span-3 lg:col-span-3 rounded-lg p-4 flex justify-center items-center">
-                {{-- <img class=" h-20 w-20" src="equipe/12.png" alt=""> --}}
-                <h1 class=" text-3xl md:text-5xl font-semibold text-center text-white">NOTRE VISION</h1>
+            <div class="bg-gradient-to-b from-blue-600 to-blue-800 col-span-3 lg:col-span-3 rounded-lg p-4 flex flex-col gap-4 justify-center items-center">
+                <img class=" h-14 w-14" src="equipe/12.png" alt="">
+                <h1 class=" text-3xl md:text-3xl font-semibold text-center text-white">NOTRE VISION</h1>
             </div>
         </div>
 
@@ -490,30 +459,6 @@ XS.{
 
 
 
-{{-- 
-<section class="grid grid-cols-12 w-full mt-10 bg-blue-900 relative" style="height: 500px;">
-    <img src="AP/121.png" alt="" class="absolute left-40 top-32 w-96 shadow-2xl animate-left">
-    <div class="bg-white absolute left-1/3 ml-16 top-20 shadow-2xl w-1/3 animate-right">
-        <h1 class="text-3xl font-bold text-blue-800 px-8 mt-4">NOTRE ENGAGEMENT</h1>
-        <div class="grid grid-cols-12 justify-center items-center w-full px-4 py-4 ">
-            <h1 class="col-span-12 pl-5 font-bold mb-4 text-gray-700">Un équipe engagée pour le développement.</h1>
-            <p class="col-span-12 text-lg font-light pl-5 mb-2">
-                Chez BLUE STRATEGY, nous sommes bien plus
-                qu'un simple cabinet. Nous sommes un
-                équipe engagée, déterminée à contribuer au
-                développement du Maroc et de l'Afrique de
-                demain.
-            </p>
-            <p class="col-span-12 text-lg font-light pl-5">          
-                Notre mission fondamentale consiste à élever
-                nos partenaires vers l'excellence, afin qu'ils
-                deviennent des acteurs de référence dans la
-                construction d'un avenir meilleur.
-            </p>
-        </div>
-    </div>
-</section> --}}
-
 {{-- notre Engagement --}}
 <section>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 px-4 md:px-8 lg:px-28 my-10 md:my-20">
@@ -540,19 +485,19 @@ XS.{
             </p>
         </div>
 
-        <div id="1" class="grid grid-cols-6 md:grid-cols-2 lg:grid-cols-6 gap-4 p-2 md:p-4 col-span-1 md:col-span-2 lg:col-span-6 rounded-xl order-1 lg:order-2">
-            <div class=" col-span-3 lg:col-span-3 rounded-lg p-4 flex justify-center items-center">
-                {{-- <img class=" h-20 w-20" src="equipe/12.png" alt=""> --}}
-                <h1 class=" text-2xl md:text-4xl font-semibold text-center text-blue-600">NOTRE ENGAGEMENT</h1>
+        <div id="1" class="grid grid-cols-6 grid-rows-4 md:grid-cols-2 lg:grid-cols-6 gap-4 p-2 md:p-4 col-span-1 md:col-span-2 lg:col-span-6 rounded-xl order-1 lg:order-2">
+            <div class=" col-span-3 lg:col-span-3 row-span-2 rounded-lg p-4 flex flex-col gap-2 justify-center items-center">
+                <img class=" h-14 w-14" src="equipe/13.png" alt="">
+                <h1 class=" text-2xl md:text-3xl font-semibold text-center text-blue-600">NOTRE ENGAGEMENT</h1>
             </div>
-            <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="engagment/1.jpeg" alt="">
+            <div class="col-span-3 lg:col-span-3 row-span-2 rounded-lg">
+                <img class="w-full h-full rounded-lg" src="engagment/1.jpeg" alt="">
             </div>
-            <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="engagment/2.jpeg" alt="">
+            <div class="col-span-3 lg:col-span-3 row-span-2 rounded-lg">
+                <img class="w-full h-full rounded-lg" src="engagment/2.jpeg" alt="">
             </div>
-            <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="engagment/3.jpeg" alt="">
+            <div class="col-span-3 lg:col-span-3 row-span-2 rounded-lg">
+                <img class="w-full h-full rounded-lg" src="engagment/3.jpeg" alt="">
             </div>            
         </div>
 

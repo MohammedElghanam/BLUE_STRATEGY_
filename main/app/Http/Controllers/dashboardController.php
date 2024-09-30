@@ -39,7 +39,7 @@ class dashboardController extends Controller
         $visitCount = Visit::count();
         $bookingCount = Booking::count();
         $Contact = Contact::count();
-        $images = Image::paginate(4);
+        $images = Image::paginate(5);
         $organisationCount = Booking::where('Vous', 'organisation')->count();
         $personneCount = Booking::where('Vous', 'personne')->count();
 

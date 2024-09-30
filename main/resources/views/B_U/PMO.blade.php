@@ -145,8 +145,8 @@
 
 {{-- notre equepe  --}}
 <section id="service" class=" px-4 py-6 lg:py-10 lg:px-10">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
-        <div class="lg:col-span-5 lg:pl-10">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-1">
+        <div class="lg:col-span-5 ">
             <div class="space-y-5 mb-5">
                 <div class="flex items-center gap-4">
                     <svg class=" w-8 h-8 lg:w-10 lg:h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
@@ -154,7 +154,7 @@
                     </svg>                   
                     <h1 class="TIT text-lg lg:text-2xl font-semibold">PMO - NOTRE EQUIPE</h1>
                 </div>
-                <p class=" font-light lg:font-normal">
+                <p class=" font-light lg:font-normal text-base">
                     Une équipe projet doté de compétences diversifiées,
                     qui se tient toujours informée des dernières tendances 
                     et des meilleures pratiques.
@@ -215,7 +215,7 @@
             </div>
         </div>
 
-        <div class="lg:col-span-7 m-1 lg:m-0 lg:ml-10">
+        <div class="lg:col-span-7 m-1 lg:m-0 lg:ml-10 ">
             <div class="relative mb-5">
                 <img class="rounded-2xl w-full h-72 object-cover lg:block hidden" src="BU_1/3.jpeg" alt="">
                 <div class="ONE lg:absolute bottom-0 left-0 h-16 bg-blue-600 flex items-center justify-start gap-3 p-4 rounded-tr-3xl">
@@ -422,79 +422,12 @@
         <img src="BU_1/5.jpeg" class="h-80 w-full object-cover" alt="">
         <div class="absolute inset-0 BG opacity-40 hidden lg:block"></div>
         <div class=" w-full h-full absolute top-0 left-0 flex justify-center items-center">
-            <h1 class="text-base lg:text-8xl font-bold text-white">TYPES DE PROJETS</h1>
+            <h1 class="text-base lg:text-7xl font-bold text-white">NOS TYPES DE PROJETS</h1>
         </div>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 px-3 lg:pt-6 lg:px-24">
         <div class=" col-span-1 block lg:hidden">
             <h1 class=" text-2xl font-semibold TIT "> TYPES DE PROJETS</h1>
-        </div>
-        <div class="col-span-1 lg:col-span-6 ">
-            <div class="BG grid grid-cols-1 gap-2 w-full h-full p-6 lg:p-10 rounded-3xl transform translate-x-1 duration-300 hover:scale-105">
-                <div class="col-span-1 h-10 flex justify-start items-center gap-2 mb-2">
-                    <span class=" font-bold text-gray-100 text-lg lg:text-2xl">PROJETS EXTRA-ENTREPRISE :</span>
-                </div>
-                <div class="col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
-                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
-                    </svg>
-                    <span class=" text-sm lg:font-semibold text-white">Projets d'établissement de nouveaux sites.</span>
-                </div>
-                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
-                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
-                    </svg>
-                    <span class=" text-sm lg:font-semibold text-white">Projets de développement sectoriel</span>
-                </div>
-                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
-                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
-                    </svg>
-                    <span class=" text-sm lg:font-semibold text-white">Projets de coopération. </span>
-                </div>
-                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
-                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
-                    </svg>
-                    <span class=" text-sm lg:font-semibold text-white">Projet de promotion événementielle.</span>
-                </div>
-                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
-                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
-                    </svg>
-                    <span class=" text-sm lg:font-semibold text-white">Projets de développement RSE</span>
-                </div>
-                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
-                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
-                    </svg>
-                    <span class=" text-sm lg:font-semibold text-white">Projets d'appui à la R&D</span>
-                </div>
-                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
-                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
-                    </svg>
-                    <span class=" text-sm lg:font-semibold text-white">Projets d'appui à l'innovation. </span>
-                </div>
-                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
-                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
-                    </svg>
-                    <span class=" text-sm lg:font-semibold text-white">Projets d'appui à l'innovation sociale</span>
-                </div>
-                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
-                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
-                    </svg>
-                    <span class=" text-sm lg:font-semibold text-white">Projets d'appui au développement ESS</span>
-                </div>
-                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
-                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
-                    </svg>
-                    <span class=" text-sm lg:font-semibold text-white">Projets d'appui à l'entreprenariat.</span>
-                </div>
-            </div>
         </div>
 
         <div class="col-span-1 lg:col-span-6 ">
@@ -632,5 +565,74 @@
                 </div>   
             </div>
         </div>
+
+        <div class="col-span-1 lg:col-span-6 ">
+            <div class="BG grid grid-cols-1 gap-2 w-full h-full p-6 lg:p-10 rounded-3xl transform translate-x-1 duration-300 hover:scale-105">
+                <div class="col-span-1 h-10 flex justify-start items-center gap-2 mb-2">
+                    <span class=" font-bold text-gray-100 text-lg lg:text-2xl">PROJETS EXTRA-ENTREPRISE :</span>
+                </div>
+                <div class="col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" text-sm lg:font-semibold text-white">Projets d'établissement de nouveaux sites.</span>
+                </div>
+                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" text-sm lg:font-semibold text-white">Projets de développement sectoriel</span>
+                </div>
+                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" text-sm lg:font-semibold text-white">Projets de coopération. </span>
+                </div>
+                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" text-sm lg:font-semibold text-white">Projet de promotion événementielle.</span>
+                </div>
+                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" text-sm lg:font-semibold text-white">Projets de développement RSE</span>
+                </div>
+                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" text-sm lg:font-semibold text-white">Projets d'appui à la R&D</span>
+                </div>
+                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" text-sm lg:font-semibold text-white">Projets d'appui à l'innovation. </span>
+                </div>
+                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" text-sm lg:font-semibold text-white">Projets d'appui à l'innovation sociale</span>
+                </div>
+                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" text-sm lg:font-semibold text-white">Projets d'appui au développement ESS</span>
+                </div>
+                <div class=" col-span-1 h-10 flex justify-start items-center gap-2 ml-0 lg:ml-3">
+                    <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+                    </svg>
+                    <span class=" text-sm lg:font-semibold text-white">Projets d'appui à l'entreprenariat.</span>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>

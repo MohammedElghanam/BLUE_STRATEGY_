@@ -81,37 +81,6 @@
     }
 </style>
 
-{{-- ÉQUIPE old version --}}
-{{-- <section class=" px-40 pt-36">
-    <div class="grid grid-cols-12 gap-4 p-2 ">
-        <div class=" relative col-span-6 ">
-            <div class="">
-                <img src="B_U/11.png" alt="">
-                <img id="1" src="AP/22.png" alt="" class="absolute left-28 bottom-20 md:right-40 md:bottom-4 w-48 h-48 hidden md:block">
-            </div>
-            
-        </div>
-        <div class="grid grid-cols-1 gap-4 p-2 col-span-6 ">
-            <div class=" col-span-1">
-                <h1 class=" text-4xl font-semibold text-gray-900">UNE ÉQUIPE CRÉATIVE <br>.. UN RÉSEAU UNIQUE</h1>
-            </div>
-            <div class=" col-span-1 p-2 relative h-80">
-                <div class="POL p-10 absolute -left-28 bottom-0 bg-gradient-to-b from-blue-800 to-blue-500 text-white transform translate-x-1 duration-300 hover:scale-105 select-none">
-                    <p>
-                        Chez BLUE STRATEGY, nous croyons fermement que chaque défi 
-                        mérite une solution unique. Notre équipe, composée d'experts 
-                        de terrain et de profils inspirants, couvre un large éventail 
-                        de domaines. Nous réunissons des professionnels diversifiés 
-                        pour traiter vos enjeux sous tous les angles, toujours informés 
-                        des dernières tendances et des meilleures pratiques, qualifiés 
-                        et certifiés.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-
 {{-- ÉQUIPE new version --}}
 <section class="px-4 md:px-20 lg:px-40 pt-16 md:pt-24 lg:pt-36">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -123,11 +92,10 @@
         
         <!-- Right Column (Text Section) -->
         <div class="flex flex-col justify-center">
-            <div>
-                <h1 class="text-lg md:text-2xl font-semibold text-blue-600">UNE ÉQUIPE CRÉATIVE .. UN RÉSEAU UNIQUE</h1>
-            </div>
-            <div class="relative mt-4 md:mt-6">
+            
+            <div class="relative mt-0 md:mt-6">
                 <div class=" bg-gradient-to-b from-blue-800 to-blue-500 text-white p-6 md:p-10 rounded-lg transform duration-300 hover:scale-105">
+                    <h1 class="text-lg md:text-xl font-semibold text-blue-100 mb-0 lg:mb-4">UNE ÉQUIPE CRÉATIVE .. UN RÉSEAU UNIQUE</h1>
                     <p>
                         Chez BLUE STRATEGY, nous croyons fermement que chaque défi mérite une solution unique. Notre équipe, composée d'experts de terrain et de profils inspirants, couvre un large éventail de domaines. Nous réunissons des professionnels diversifiés pour traiter vos enjeux sous tous les angles, toujours informés des dernières tendances et des meilleures pratiques, qualifiés et certifiés.
                     </p>

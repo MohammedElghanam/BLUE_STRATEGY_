@@ -1,7 +1,7 @@
 <style>
 
 .logo-container {
-    animation: moveLogos 12s linear infinite alternate; 
+    animation: moveLogos 12s linear infinite; 
     display: flex;
 }
 
@@ -10,7 +10,7 @@
         transform: translateX(100%); 
     }
     100% {
-        transform: translateX(-100%); 
+        transform: translateX(-200%); 
     }
 }
 
@@ -68,7 +68,7 @@
         </h2>
         <div class="logo-container flex gap-8 text-gray-500 dark:text-gray-400">
             @foreach($images as $image)
-                <img class="w-24 h-24 lg:w-40 lg:h-40" src="{{ asset($image->image) }}" alt="Image">
+                <img class="w-16 h-16 lg:w-40 lg:h-40" src="{{ asset($image->image) }}" alt="Image">
             @endforeach
         </div>
     </div>

@@ -974,7 +974,7 @@
         
 
         <div class="relative flex flex-col lg:flex-row lg:bg-transparent p-6 lg:p-0">
-            <div class=" w-full bg-gray-100 p-6 rounded-xl mt-6 lg:absolute lg:top-10 lg:order-1 order-2">
+            <div class=" w-full bg-gray-100 p-6 rounded-xl mt-6 lg:absolute lg:top-4 lg:order-1 order-2">
                 <div class="grid grid-cols-1 gap-4">
                     <div class=" text-gray-700 font-medium col-span-1 flex justify-start items-center gap-2">
                         <div class="">
@@ -1083,7 +1083,7 @@
                 </div>
             </div>
 
-            <div class="BG text-white p-6 mt-6 rounded-xl lg:absolute lg:-bottom-10 lg:order-2 order-1">
+            <div class="BG text-white p-6 mt-6 rounded-xl lg:absolute lg:-bottom-10 lg:order-2 order-1 transform duration-300 hover:scale-105">
                 <div class="flex items-center gap-2 mb-4">
                     <img class="w-8 h-8" src="B_U/21.png" alt="MFINANCE ET CONTROLE GESTION icon">
                     <h1 class="text-2xl font-bold">FINANCE ET CONTROLE GESTION</h1>
@@ -1202,8 +1202,8 @@
     <div class="grid grid-cols-12 gap-2 px-4 lg:px-20">
         <div class="grid grid-cols-12 gap-2 col-span-12 lg:col-span-6 lg:order-1 order-2">
             <div class="col-span-12 py-8 lg:py-16">
-                <div class="mb-8">
-                    <p class="font-medium w-full lg:w-3/4">
+                <div class="mb-6">
+                    <p class="font-medium w-full text-blue-900">
                         Conseil et accompagnement pour la mise en place de systèmes de management :
                     </p>
                 </div>
@@ -1214,7 +1214,7 @@
                                 <svg class="lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class="text-gray-700 XS">
-                                GQualité –Iso 9001 (Approche Processus/ Gestion des indicateurs),
+                                GQualité –Iso 9001 (Approche Processus/ Gestion des indicateurs).
                             </p>
                         </div>
                         <div class=" col-span-6 flex justify-start items-center gap-4">
@@ -1228,7 +1228,7 @@
                                     </g>
                                 </svg>
                             </div>
-                            <p class=" text-gray-700 XS ">Hygiène et sécurité des Aliments Iso 22000/ BRC et IFS ; </p>
+                            <p class=" text-gray-700 XS ">Hygiène et sécurité des Aliments Iso 22000/ BRC et IFS. </p>
                         </div>
                         <div class=" col-span-6 flex justify-start items-center gap-4">
                             <div class="">
@@ -1237,14 +1237,14 @@
                             <p class=" text-gray-700 XS ">
                                 Santé et sécurité au travail Iso 45001, (Document Unique, Comité
                                 Hygiène et Sécurité au travail, Situations d’urgences…)
-                                Environnement- ISO 14001 ;
+                                Environnement- ISO 14001.
                             </p>
                         </div>
                         <div class=" col-span-6 flex justify-start items-center gap-4">
                             <div class="">
                                 <svg class=" lg:w-7 lg:h-7 w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 XS ">Autres normes : 17025 (Laboratoire) / 22 916 (Cosmétiques-Bonnes Pratiques de Fabrication)</p>
+                            <p class=" text-gray-700 XS ">Autres normes : 17025 (Laboratoire) / 22 916 (Cosmétiques-Bonnes Pratiques de Fabrication).</p>
                         </div>
                     </div>
                 </div>
@@ -1255,7 +1255,7 @@
                                 <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
                             </div>
                             <p class="XS">
-                                Formation et sensibilisation, en matière :
+                                Formation et sensibilisation, en matière.
                             </p>
                         </div>
                         <div class=" text-gray-50 lg:font-medium col-span-1 flex justify-start items-center gap-2">
@@ -1263,7 +1263,7 @@
                                 <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" XS">
-                                Sécurité des aliments et conditions d’hygiène ; 
+                                Sécurité des aliments et conditions d’hygiène. 
                             </p>
                         </div>
                         <div class=" text-gray-50 lg:font-medium col-span-1 flex justify-start items-center gap-2">
@@ -1271,7 +1271,7 @@
                                 <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" XS">
-                                Management des risques à travers la méthode HACCP ;
+                                Management des risques à travers la méthode HACCP.
                             </p>
                         </div>
                         <div class=" text-gray-50 lg:font-medium col-span-1 flex justify-start items-center gap-2">
@@ -1289,7 +1289,7 @@
                             </div>
                             <p class=" XS">                           
                                 Analyse environnementale et Cycle de vie (Impacts et
-                                Aspect environnementaux…) ;
+                                Aspect environnementaux…).
                             </p>
                         </div>
                         <div class=" text-gray-50 lg:font-medium col-span-1 flex justify-start items-center gap-2">
@@ -1297,7 +1297,7 @@
                                 <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" XS">
-                                Exigences des normes ISO ;
+                                Exigences des normes ISO.
                             </p>
                         </div>
                         <div class=" text-gray-50 lg:font-medium col-span-1 flex justify-start items-center gap-2">
@@ -1306,7 +1306,7 @@
                             </div>
                             <p class=" XS">
                                 Outils et démarches Lean : Six Sigma, VSM, 5S, résolution
-                                de problèmes….
+                                de problèmes…
                             </p>
                         </div>
                         <div class=" text-gray-50 lg:font-medium col-span-1 flex justify-start items-center gap-2">
@@ -1335,7 +1335,7 @@
                             </div>
                             <p class=" XS">
                                 Accompagnement pour l'agrément ou l’autorisation
-                                sanitaire de l'ONSSA
+                                sanitaire de l'ONSSA.
                             </p>
                         </div>
                         <div class=" text-gray-50 lg:font-medium col-span-1 flex justify-start items-center gap-2">
@@ -1354,12 +1354,12 @@
             </div>
         </div>
         <div class="col-span-12 lg:col-span-6 p-4 lg:p-10 relative lg:ml-4 lg:order-2 order-1">
-            <div class="BG absolute w-full lg:w-4/6 top-16 lg:top-48 left-0 p-4 pl-10 justify-center items-center rounded-xl">
-                <div class="mb-2 flex justify-start items-center gap-2">
-                    <img class="w-10 h-10" src="B_U/33.png" alt="">
-                    <h1 class="text-2xl lg:text-4xl font-bold text-white mb-4">QHSE</h1>
+            <div class="BG absolute w-full lg:w-4/6 top-16 lg:top-48 left-0 p-4 pl-6 flex justify-center items-center gap-2 rounded-xl">
+                <img class="w-12 h-12" src="B_U/33.png" alt="">
+                <div class="mb-2 flex flex-col justify-start items-start">
+                    <h1 class="text-2xl lg:text-4xl font-bold text-white mb-2">QHSE</h1>
+                    <h1 class="text-xs font-medium text-white">QUALITÉ, HYGIÈNE, SÉCURITÉ ET ENVIRONNEMENT</h1>
                 </div>
-                <h1 class="text-xs font-medium text-white">QUALITÉ, HYGIÈNE, SÉCURITÉ ET ENVIRONNEMENT</h1>
             </div>
             <div class="bg-white absolute w-5/6 lg:w-4/5 bottom-8 lg:bottom-16 left-8 lg:left-14 p-5 lg:pl-10 justify-center items-center rounded-xl">
                 <p class="text-gray-800 lg:font-medium">
