@@ -40,22 +40,6 @@
 </style>
 
 
-{{-- first section  --}}
-{{-- <section id="3" class="">
-    <div class="flex justify-center items-center relative">
-        <img class="w-full md:w-auto" src="B_U/2.png" alt="">
-        <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
-        <div class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0">
-            <div class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5 bg-red-500"></div>
-            <div class="text-white absolute left-1/2 transform -translate-x-1/2 md:-right-40 md:bottom-4 text-center md:text-left animate-fade-in">
-                <h1 class="font-bold text-2xl md:text-4xl">B.U 03</h1>
-                <h1 class="font-bold text-2xl md:text-4xl">Services Digitaux</h1>
-            </div>
-            <div class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28"></div>
-        </div>
-    </div>
-</section> --}}
-
 <section id="3" class="pt-16 lg:pt-0">
     <div class="flex justify-center items-center relative">
         <img class="w-full md:w-auto" src="BU_3/1.jpeg" alt="">
@@ -86,16 +70,16 @@
                     <span class="BG w-20 h-1"></span>
                     <h1 class="TIT font-bold text-xl">BLUE STRATEGY- SERVICES DEGITAUX</h1>
                 </div>
-                <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 p-3 pl-2 md:pl-16 pt-6">
-                    <div class="col-span-12 md:col-span-8">
+                <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 p-3 pl-2 md:pl-16 pt-6 ">
+                    <div class="col-span-12 md:col-span-10">
                         <h1 class="font-medium md:text-xl lg:text-lg">Nous élèvons vos projets digitaux à des niveaux supérieurs. </h1>
                     </div>
                     <div class=" grid grid-cols-12 col-span-12 md:col-span-11">
-                        <p class="col-span-11 text-lg md:text-xl font-light mb-3">
+                        <p class="col-span-11 text-base md:text-lg font-light mb-3">
                             Nous ne nous limitons pas à réaliser simplement des projets, nous allons au-delà en offrant une valeur stratégique durable qui dépasse
                             les attentes.
                         </p>
-                        <p class="col-span-12 text-lg md:text-xl font-light mb-3">
+                        <p class="col-span-12 text-base md:text-lg font-light mb-3">
                             Notre unité d'affaires "SERVICES DIGITAUX" est un pilier essentiel de notre cabinet, dédiée aux TPE/PME et aux différentes organisations
                             souhaitant entamer leur transformation digitale. Sa vocation est
                             d'offrir des solutions digitales spécifiques pour soutenir les activités et optimiser leur performance, tout en respectant une meilleure qualité à
@@ -514,7 +498,7 @@
 </section>
 
 
-<section id="Intégration" class="px-4 lg:px-32">
+<section id="web" class="px-4 lg:px-32">
     <div class="grid grid-cols-12 gap-6">
         <div class="grid grid-cols-12 gap-2 col-span-12 lg:col-span-6 p-4 lg:p-10 lg:pl-20">
             <div class="grid items-center col-span-12">
@@ -612,13 +596,13 @@
 </section>
 
 
-<section id="web" class="px-4 lg:px-32">
+<section id="Intégration" class="px-4 lg:px-32">
     <div class="grid grid-cols-12">
-        <div class="grid grid-cols-12 gap-2 col-span-12 lg:col-span-6 pl-4 lg:pl-10">
-            <div class="grid items-center col-span-12 md:col-span-6">
+        <div class="grid grid-cols-12 col-span-12 lg:col-span-6 pl-4 lg:pl-0">
+            <div class="grid items-center col-span-12 md:col-span-6 ">
                 <div>
                     <h1 class="text-lg md:text-2xl font-bold">+ 40 APPLICATIONS</h1>
-                    <p class="ml-2 md:ml-4">
+                    <p class=" ml-2 lg:ml-4">
                         Applications technologiques
                         métiers riches et ouvertes au
                         cœur de votre transformation
@@ -626,7 +610,7 @@
                     </p>
                 </div>
             </div>
-            <div class="grid items-center col-span-12 md:col-span-6">
+            <div class="grid justify-end items-center col-span-12 md:col-span-6 ">
                 <img class="w-full lg:w-11/12" src="BU_3/integration/3.png" alt="">
             </div>
         </div>

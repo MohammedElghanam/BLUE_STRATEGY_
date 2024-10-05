@@ -38,34 +38,12 @@
     .booked-time {
         background-color: #FF00004D; /* Light red for booked times */
     }
+
+    .C{
+        background-color: white;
+    }
 </style>
 
-
-{{-- <div class=" bg-white pt-28">
-    <div class=" bg-blue-900">
-        <div class=" grid grid-cols-12 px-20 w-full bg-white">
-            <div class=" col-span-12 h-96 relative">
-                <img src="AP/91.png" alt="fo bar" class=" h-96 w-full">
-                <img id="1" src="AP/22.png" alt="" class=" absolute right-40 -bottom-40 w-68 h-64">
-                <div class=" flex items-end justify-start w-1/2 absolute bottom-0 left-0">
-                    <div class=" w-96 h-28 bg-white flex items-end justify-center">
-                        <div class=" w-96 h-1 bg-blue-900"></div>
-                    </div>
-                    <div class=" h-16 w-40 bg-white"></div>
-                </div>
-            </div>
-            <div id="2" class=" w-32 bg-blue-900 opacity-70 h-3/4 absolute top-[84px] right-1/3"></div>
-            <div class="  col-span-7 mt-4">
-                <h1 class=" text-3xl font-semibold text-gray-900 mb-5 w-3/4">Facilitez votre succès : Réservez votre RDV dès maintenant</h1>
-                <p class=" text-xl font-light text-gray-900">
-                    Réservez votre rendez-vous dès maintenant et 
-                    bénéficiez de notre expertise personnalisée 
-                    pour répondre à tous vos besoins professionnels.
-                </p>
-            </div>
-        </div>
-        <div id="3" class=" grid grid-cols-12 h-56 rounded-bl-full bg-white"></div>
-</div> --}}
 
 <div class="bg-white pt-28">
     <div class="bg-blue-900">
@@ -73,18 +51,11 @@
             <div class="col-span-12 h-96 relative">
                 <img src="AP/91.png" alt="fo bar" class="h-96 w-full object-cover">
                 <img id="1" src="AP/22.png" alt="" class="absolute right-10 md:right-40 bottom-10 md:-bottom-40 w-68 h-64 hidden md:block">
-                <!-- Optional Additional Content (Uncomment if needed) -->
-                <!-- <div class="flex items-end justify-start w-1/2 absolute bottom-0 left-0">
-                    <div class="w-96 h-28 bg-white flex items-end justify-center">
-                        <div class="w-96 h-1 bg-blue-900"></div>
-                    </div>
-                    <div class="h-16 w-40 bg-white"></div>
-                </div> -->
             </div>
             <div id="2" class="w-32 bg-blue-900 opacity-70 h-3/4 absolute top-[84px] right-1/3 hidden md:block"></div>
             <div class="col-span-12 md:col-span-7 mt-4">
-                <h1 class="text-3xl font-semibold text-gray-900 mb-5 w-full md:w-3/4">Facilitez votre succès : Réservez votre RDV dès maintenant</h1>
-                <p class="text-xl font-light text-gray-900">
+                <h1 class=" text-xl lg:text-3xl font-semibold text-gray-700 lg:text-gray-900 mb-5 w-full md:w-3/4">Facilitez votre succès : Réservez votre RDV dès maintenant</h1>
+                <p class=" text-base lg:text-xl font-light text-gray-900 pb-10">
                     Réservez votre rendez-vous dès maintenant et 
                     bénéficiez de notre expertise personnalisée 
                     pour répondre à tous vos besoins professionnels.
@@ -175,7 +146,7 @@
 <div class="flex flex-col md:flex-row items-center justify-center py-8 px-4 gap-6 bg-blue-900">
     <!-- Calendar -->
     <div class="max-w-sm w-full md:w-1/2">
-        <div class="mt-20 bg-gray-100 blur-xl p-3 rounded-md">
+        <div class=" C mt-20 blur-xl p-3 rounded-md">
             <div class="flex justify-around mb-2">
                 <button id="back" aria-label="calendar backward" class="focus:text-gray-400 hover:text-gray-400 text-gray-800">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -194,14 +165,14 @@
                     </svg>
                 </button>
             </div>
-            <div class="flex bg-gray-200 rounded">
-                <p class="p-3 font-semibold">Dim</p>
-                <p class="p-3 font-semibold">Lun</p>
-                <p class="p-3 font-semibold">Mar</p>
-                <p class="p-3 font-semibold">Mer</p>
-                <p class="p-3 font-semibold">Jeu</p>
-                <p class="p-3 font-semibold">Ven</p>
-                <p class="p-3 font-semibold">Sam</p>
+            <div class="flex justify-center items-center bg-gray-200 rounded">
+                <p class=" p-2.5 lg:p-3 font-semibold text-xs lg:text-base">Dim</p>
+                <p class=" p-2.5 lg:p-3 font-semibold text-xs lg:text-base">Lun</p>
+                <p class=" p-2.5 lg:p-3 font-semibold text-xs lg:text-base">Mar</p>
+                <p class=" p-2.5 lg:p-3 font-semibold text-xs lg:text-base">Mer</p>
+                <p class=" p-2.5 lg:p-3 font-semibold text-xs lg:text-base">Jeu</p>
+                <p class=" p-2.5 lg:p-3 font-semibold text-xs lg:text-base">Ven</p>
+                <p class=" p-2.5 lg:p-3 font-semibold text-xs lg:text-base">Sam</p>
             </div>
             <div id="calendarBody" class="grid grid-cols-7 gap-1 p-3">
                 <!-- Calendar Dates Will Be Populated Here -->
@@ -210,7 +181,7 @@
     </div>
 
     <!-- Form -->
-    <div class="w-full md:w-1/2 p-4">
+    <div class="w-full md:w-1/2 p-0 lg:p-4">
         <form action="{{route('Booking')}}" method="POST" class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-6 bg-white shadow-lg rounded-lg">
             @csrf
             <!-- Name Field -->

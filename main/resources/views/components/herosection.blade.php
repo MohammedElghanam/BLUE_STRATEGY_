@@ -279,7 +279,7 @@
                 </h1>
             </div>
             <p class="max-w-2xl font-light text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-                Bienvenue chez BLUE STRATEGY ! Nous transformons vos visions et vos idées en succès concrets grâce à notre expertise en études, management de projets et accompagnement multidisciplinaire. Nous développons des solutions parfaitement adaptées à vos besoins spécifiques, garantissant performance durable et croissance spectaculaire.
+                Bienvenue chez BLUE STRATEGY ! <br> Nous transformons vos visions et vos idées en succès concrets grâce à notre expertise en études, management de projets et accompagnement multidisciplinaire. Nous développons des solutions parfaitement adaptées à vos besoins spécifiques, garantissant performance durable et croissance spectaculaire.
             </p>
             <p class="max-w-2xl font-light text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 mb-4">
                 Découvrez comment nous pouvons révolutionner vos ambitions et atteindre ensemble de nouveaux sommets d'excellence. Rejoignez-nous pour écrire le prochain chapitre de votre réussite !

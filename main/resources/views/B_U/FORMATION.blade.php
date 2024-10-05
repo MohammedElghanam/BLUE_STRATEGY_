@@ -44,6 +44,8 @@
         line-height: 16px;
     }
 </style>
+
+
 {{-- first section --}}
 <section id="5" class="pt-16 lg:pt-0">
     <div class="flex justify-center items-center relative">
@@ -76,28 +78,28 @@
                     <span class="BG w-20 h-1"></span>
                     <h1 class="TIT font-bold text-xl">BLUE STRATEGY - FORMATION PROFESSIONNELLE</h1>
                 </div>
-                <div class=" col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
-                    <div class=" col-span-12 lg:col-span-11 md:col-span-8">
-                        <h1 class="font-medium">
+                <div class=" col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-10 pt-6 ">
+                    <div class=" col-span-12 lg:col-span-12 md:col-span-10 ">
+                        <h1 class="font-medium text-base">
                             Trouvez la solution de formation adaptée à vos besoins et
                             transformez vos compétences en performance
                         </h1>
                     </div>
-                    <div class="col-span-12 md:col-span-11">
-                        <p class="text-lg md:text-xl font-light mb-3">
+                    <div class="col-span-12 md:col-span-12">
+                        <p class="text-base md:text-lg font-light mb-2">
                             BLUE STRATEGY vous propose une offre de formation variée multisupports, multi-formats et multilingues pour un apprentissage
                             encore plus efficace, à coût optimisé et accessible à tous.
                         </p>
-                        <p class="text-lg md:text-xl font-light mb-3">
+                        <p class="text-base md:text-lg font-light mb-2">
                             Faites passer un nouveau cap à vos équipes avec nos offres
                             thématiques et/ou métiers :                            
                         </p>
-                        <p class="text-lg md:text-xl font-light mb-3">
+                        <p class="text-base md:text-lg font-light mb-2">
                             04 solutions de formation sur différentes thématiques clés,
                             rassemblées autour d’un objectif pédagogique ambitieux pour un
                             impact encore plus fort.
                         </p>
-                        <p class="text-lg md:text-xl font-light mb-3">
+                        <p class="text-base md:text-lg font-light mb-2">
                             On-boarding sur un nouveau poste, évolution professionnelle,
                             reconversion professionnelle, nouvel enjeu stratégique à maîtriser…
                             sont autant de cas auxquels nos solutions peuvent répondre.
@@ -202,17 +204,18 @@
 </section>
 
 
-<section id="SOLUTIONS" class="pt-8 pl-8 my-7">
+<section id="SOLUTIONS" class="pt-8 px-20 my-7">
+
     <div class="F grid grid-cols-12 relative">
-        <div class="md:w-2/5 lg:w-1/2 absolute -top-3 left-0 px-2 bg-white">
-            <h1 class="TIT text-2xl md:text-4xl lg:text-4xl font-bold">NOS SOLUTIONS DE FORMATIONS</h1>
+        <div class="md:w-2/5 lg:w-2/5 absolute -top-3 left-0 px-2 bg-white">
+            <h1 class="TIT text-2xl md:text-4xl lg:text-2xl font-bold">NOS SOLUTIONS DE FORMATIONS</h1>
         </div>
 
-        <div class="col-span-12 h-24 md:h-32 lg:h-20"></div>
+        <div class="col-span-12 h-24 md:h-32 lg:h-10 "></div>
 
-        <div class=" grid grid-cols-12 justify-center items-center col-span-12 gap-6 px-20">
+        <div class=" grid grid-cols-12 justify-center items-center col-span-12 gap-6 ">
 
-            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl">
+            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl p-2">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                     <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="BU_5/2/1.jpg">
                     <div class="p-2 space-y-2">
@@ -235,7 +238,8 @@
                     </div>
                 </div>
             </div>
-            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl">
+
+            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl p-2">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                     <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="BU_5/2/2.jpg">
                     <div class="p-2 space-y-2">
@@ -258,7 +262,8 @@
                     </div>
                 </div>
             </div>
-            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl">
+
+            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl p-2">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                     <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="BU_5/2/3.jpg">
                     <div class="p-2 space-y-2">
@@ -280,7 +285,8 @@
                     </div>
                 </div>
             </div>
-            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl">
+
+            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl p-2">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                     <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="BU_5/2/4.jpg">
                     <div class="p-2 space-y-2">
@@ -309,12 +315,12 @@
 
 
 <section id="INGENIERIE" class="my-20">
-    <div class="grid grid-cols-12 lg:pl-20 gap-10">
+    <div class="grid grid-cols-12 lg:px-20 gap-10">
 
         <div class="grid grid-cols-12 col-span-12 h-20 justify-start items-center bg-white mb-2">
             <div class="col-span-6 h-full flex justify-start items-end gap-5">
                 <div class="BG w-28 h-1"></div>
-                <h1 class="TIT text-3xl lg:text-4xl font-bold w-full">INGENIERIE DE FORMATION</h1>
+                <h1 class="TIT text-3xl lg:text-2xl font-bold w-full">INGENIERIE DE FORMATION</h1>
             </div>
             <div class="BG col-span-6 px-10 h-full flex justify-end items-center">
                 <div class="w-10 h-10 bg-white"></div>
@@ -322,14 +328,15 @@
         </div>
 
         <div class="grid grid-cols-12 p-2 gap-2 col-span-12 lg:col-span-12">
-            <div class="col-span-12 lg:col-span-6">
+            <div class="col-span-12 lg:col-span-6 mt-10">
                 <div class="flex justify-start items-center gap-2 mt-4 ml-14">
-                    <h1 class=" text-2xl lg:text-3xl w-full">Accompagnement de vos projets</h1>
+                    <h1 class=" text-xl lg:text-2xl w-full">Accompagnement de vos projets</h1>
                 </div>  
-                <div class="mt-7 grid gap-2 lg:ml-16">
-                    <p class="w-full lg:w-3/4 font-light text-lg lg:text-xl">BLUE STRATEGY vous propose ses services
-                        pour la conception et la mise en œuvre de vos projets de formation.</p>
-                    <p class="w-full lg:w-3/4 font-light text-lg lg:text-xl">
+                <div class="mt-7 grid gap-2 lg:ml-16 ">
+                    <p class="w-full lg:w-11/12 font-light text-lg lg:text-lg ">BLUE STRATEGY vous propose ses services
+                        pour la conception et la mise en œuvre de vos projets de formation.
+                    </p>
+                    <p class="w-full lg:w-11/12 font-light text-lg lg:text-lg ">
                         Nous adaptons les actions d'ingénierie de formation en fonction des besoins spécifiques de
                         vos collaborateurs et de la réalité de votre organisation, afin de vous aider à vous positionner
                         de manière durable, en répondant aux réformes du marché de travail et de formation.
@@ -349,11 +356,9 @@
             </div>
 
             <div class="col-span-12 lg:col-span-6">
-                <div class="w-full lg:w-11/12">
+                <div class="w-full mt-10">
                     <div>
-                        <div class="flex justify-start items-center gap-4 mb-3">
-                        </div>
-                        <div class="lg:ml-16">
+                        <div class="lg:ml-10">
                             <p class="mb-4">
                                 Notre démarche consiste à élaborer des plans de formations entièrement
                                 personnalisés suite à une démarche d'ingénierie de formation, répondant à la fois
@@ -414,12 +419,14 @@
 <section id="DOMAINES">
     <div class=" grid grid-cols-12 gap-2 px-20">
         <div class=" col-span-6 p-10 relative">
-            <div class=" BG absolute w-3/5 bottom-28 left-0  p-4 flex justify-center items-center">
+            <div class=" BG absolute w-3/5 -right-28 top-32  p-4 flex justify-center items-center">
                 <h1 class="  text-4xl font-bold text-white">NOS DOMAINES DE FORMATI0N </h1> 
             </div>
             <img class="" src="BU_5/4/1.jpg" alt="">
         </div>
         <div class=" grid grid-cols-12 gap-2 col-span-6">
+            <div class=" col-span-12 h-60 "></div>
+            
             <div class=" col-span-12 flex justify-center items-center">
                 <div class=" w-full rounded-xl p-4 grid grid-cols-12 gap-3 bg-gray-100 shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">
                     <div class=" col-span-6 flex justify-start items-center gap-2">
@@ -512,6 +519,7 @@
                     </div>
                 </div>
             </div>
+
             <div class=" col-span-12">
                 <div class=" bg-gray-100 w-full rounded-xl p-4 grid grid-cols-12 gap-3 shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">
                     <div class=" font-medium col-span-6 flex justify-start items-center gap-2">
@@ -615,6 +623,70 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="SECTORIELLES">
+    <div class=" grid grid-cols-12 gap-8 px-20">
+        <div class=" grid grid-cols-12 items-center gap-2 col-span-6">
+            <div class=" col-span-12 h-60 "></div>
+            <div class=" col-span-12">
+                <div class=" BG w-full p-4 grid grid-cols-1 gap-4 rounded-xl shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        
+                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Éducation
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Santé et le bien-être
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Culture et art
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Environnement et énergie
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Textile, cosmétiques et consommation
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Tourisme et divertissements
+                        </p>
+                    </div>
+                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
+                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
+
+                        <p class=" XS">
+                            Transport et logistique
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
             <div class=" col-span-12">
                 <div class=" BG w-full rounded-xl p-4 grid grid-cols-1 gap-3 shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">
                     <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
@@ -676,72 +748,9 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-
-<section id="SECTORIELLES">
-    <div class=" grid grid-cols-12 gap-8 px-20">
-        <div class=" grid grid-cols-12 items-center gap-2 col-span-6">
-            <div class=" col-span-12">
-                <div class=" BG w-full p-4 grid grid-cols-1 gap-4 rounded-xl shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">
-                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
-                        
-                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
-
-                        <p class=" XS">
-                            Éducation
-                        </p>
-                    </div>
-                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
-                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
-
-                        <p class=" XS">
-                            Santé et le bien-être
-                        </p>
-                    </div>
-                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
-                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
-
-                        <p class=" XS">
-                            Culture et art
-                        </p>
-                    </div>
-                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
-                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
-
-                        <p class=" XS">
-                            Environnement et énergie
-                        </p>
-                    </div>
-                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
-                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
-
-                        <p class=" XS">
-                            Textile, cosmétiques et consommation
-                        </p>
-                    </div>
-                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
-                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
-
-                        <p class=" XS">
-                            Tourisme et divertissements
-                        </p>
-                    </div>
-                    <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
-                        <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="14;0"/></path></g></svg>
-
-                        <p class=" XS">
-                            Transport et logistique
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class=" col-span-12 h-60"></div>
-        </div>
         
         <div class=" col-span-6 flex justify-end items-center relative">
-            <div class=" BG  absolute w-1/2 bottom-24 -left-28 p-4 py-6 flex justify-start items-center">
+            <div class=" BG  absolute w-1/2 top-24 -left-28 p-4 py-6 flex justify-start items-center">
                 <h1 class=" w-1/3 text-4xl font-bold text-white">FORMATIONS SECTORIELLES </h1> 
             </div>
             <img class="" src="BU_5/4/2.jpg" alt="">

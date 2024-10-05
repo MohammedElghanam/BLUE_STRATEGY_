@@ -90,9 +90,9 @@
 
     <div class="md:absolute top-48 p-10 grid grid-cols-1 md:grid-cols-12 gap-8 pt-32">
         <!-- First Column (Red Background) -->
-        <div class="col-span-1 md:col-span-7 md:h-auto flex items-end">
+        <div class="col-span-1 md:col-span-7 md:h-auto flex items-end ">
             <h1
-                class=" md:mb-4 text-4xl md:text-2xl lg:text-5xl lg:leading-[16px] md:font-semibold font-bold md:text-white text-orange-500 lg:border-b-8 pb-6">
+                class=" md:mb-4 text-4xl md:text-2xl lg:text-5xl lg:leading-[16px] md:font-semibold font-bold md:text-gray-600 text-orange-500 lg:border-b-8 border-gray-600 pb-6">
                 ACCOMPAGNEMENT <br>DES PROJETS D'ESS
             </h1>
         </div>
@@ -593,7 +593,7 @@
                         <div class="">
                             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                                 viewBox="0 0 24 24">
-                                <g fill="none" stroke="#ff5722" stroke-linecap="round" stroke-linejoin="round"
+                                <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2">
                                     <circle cx="12" cy="12" r="9" />
                                     <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
@@ -603,7 +603,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <p class="XS TIT"> 
+                        <p class="XS text-gray-900"> 
                             Réaliser des missions de diagnostics pour les coopératives.
                         </p>
                     </div>
@@ -611,7 +611,7 @@
                         <div class="">
                             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                                 viewBox="0 0 24 24">
-                                <g fill="none" stroke="#ff5722" stroke-linecap="round" stroke-linejoin="round"
+                                <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2">
                                     <circle cx="12" cy="12" r="9" />
                                     <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
@@ -621,7 +621,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <p class="XS TIT"> 
+                        <p class="XS text-gray-900"> 
                             Accompagner les coopératives pour l'agrément et/ou
                             l'autorisation sur le plan sanitaire ONSSA.
                         </p>
@@ -630,7 +630,7 @@
                         <div class="">
                             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                                 viewBox="0 0 24 24">
-                                <g fill="none" stroke="#ff5722" stroke-linecap="round" stroke-linejoin="round"
+                                <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2">
                                     <circle cx="12" cy="12" r="9" />
                                     <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
@@ -640,7 +640,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <p class="XS TIT"> 
+                        <p class="XS text-gray-900"> 
                             Réaliser des audits de conformité aux exigences des normes et
                             aux références réglementaires par secteur d’activité (Veille
                             réglementaire).
@@ -650,7 +650,7 @@
                         <div class="">
                             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                                 viewBox="0 0 24 24">
-                                <g fill="none" stroke="#ff5722" stroke-linecap="round" stroke-linejoin="round"
+                                <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2">
                                     <circle cx="12" cy="12" r="9" />
                                     <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
@@ -660,7 +660,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <p class="XS TIT"> 
+                        <p class="XS text-gray-900"> 
                             Accompagner les transitions des systèmes de management
                             vers les nouvelles versions des différentes normes HQSE
                             (Diagnostic, plan d’action adapté, formation et certification).                           
@@ -699,7 +699,7 @@
                         <div class="">
                             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                                 viewBox="0 0 24 24">
-                                <g fill="none" stroke="#ff5722" stroke-linecap="round" stroke-linejoin="round"
+                                <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2">
                                     <circle cx="12" cy="12" r="9" />
                                     <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
@@ -709,13 +709,13 @@
                                 </g>
                             </svg>
                         </div>
-                        <h1 class=" font-medium text-white TIT text-sm"> Les coopératives nouvellement créées</h1>
+                        <h1 class=" font-medium text-gray-900 text-sm"> Les coopératives nouvellement créées</h1>
                     </div>
                     <div class="flex justify-start items-center gap-4 mb-4">
                         <div class="">
                             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                                 viewBox="0 0 24 24">
-                                <g fill="none" stroke="#ff5722" stroke-linecap="round" stroke-linejoin="round"
+                                <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2">
                                     <circle cx="12" cy="12" r="9" />
                                     <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
@@ -725,13 +725,13 @@
                                 </g>
                             </svg>
                         </div>
-                        <h1 class=" font-medium text-white TIT text-sm"> Les coopératives déjà existantes</h1>
+                        <h1 class=" font-medium text-gray-900 text-sm"> Les coopératives déjà existantes</h1>
                     </div>
                     <div class="flex justify-start items-center gap-4 mb-4">
                         <div class="">
                             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                                 viewBox="0 0 24 24">
-                                <g fill="none" stroke="#ff5722" stroke-linecap="round" stroke-linejoin="round"
+                                <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2">
                                     <circle cx="12" cy="12" r="9" />
                                     <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
@@ -741,7 +741,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <h1 class=" font-medium text-white TIT text-sm"> Les coopératives féminines</h1>
+                        <h1 class=" font-medium text-gray-900 text-sm"> Les coopératives féminines</h1>
                     </div>
                 </div>
                 <div class="BG transform translate-x-1 duration-300 hover:scale-105  p-4 rounded-xl">
@@ -818,7 +818,7 @@
                     <div>
                         <img class="w-12 h-12" src="SS/8.png" alt="">
                     </div>
-                    <h1 class="text-lg md:text-xl lg:text-2xl font-bold text-white">ACCOMPAGNEMENT AUX FEMMES</h1>
+                    <h1 class="text-lg md:text-xl lg:text-xl font-bold text-white">ACCOMPAGNEMENT AUX FEMMES</h1>
                 </div>
                 <p class="text-white">
                     Dans le cadre de sa mission, BLUE STRATEGY offre son accompagnement aux 

@@ -58,9 +58,9 @@
 
 
 
-<section class=" p-2 bg-blue-900 md:px-20 relative" id="founder">
-    <div class="grid grid-cols-12 gap-4 ">
-        <div class=" md:col-span-8 text-end col-span-12">
+<section class=" p-2 bg-blue-900 md:px-16 relative" id="founder">
+    <div class="grid grid-cols-12 ">
+        <div class=" md:col-span-8 text-end col-span-12 ">
             <div class=" w-full flex justify-center items-center lg:hidden">
                 <div class="">
                     <div class=" my-3 relative">
@@ -86,25 +86,25 @@
                     </div>
                 </div>
             </div>
-            <div class="select-none text-white p-7 text-animate">
-                <p class="font-medium text-blue-400 text-sm lg:text-lg mb-4 mt-8">
+            <div class="x text-white py-7 pl-7 text-animate ">
+                <p class="font-bold text-white text-sm lg:text-base mb-4 mt-8">
                     « Chez BLUE STRATEGY, nous ne nous contentons pas de rêver d'un avenir meilleur, nous le construisons activement. »
                 </p>
-                <p class="mb-2 text-xs font-normal lg:font-medium lg:text-sm">
-                    Chez BLUE STRATEGY, nous ne faisons pas que suivre les tendances – nous les créons. Notre cabinet incarne une vision audacieuse et avant-gardiste, en parfaite harmonie avec les objectifs du nouveau modèle de développement économique du Maroc.
+                <p class="mb-3 text-xs font-normal lg:font-light lg:text-sm">
+                    Chez BLUE STRATEGY, nous ne faisons pas que suivre les tendances – nous les créons. <br> Notre cabinet incarne une vision audacieuse et avant-gardiste, en parfaite harmonie avec les objectifs du nouveau modèle de développement économique du Maroc.
                 </p>                
-                <p class="md:mb-4 mb-2 text-xs font-normal lg:font-medium lg:text-sm">
+                <p class="md:mb-4 mb-3 text-xs font-normal lg:font-light lg:text-sm">
                     Avec une expertise éprouvée sur le terrain et une passion pour le développement économique, l'accompagnement, l'accélération des structures, et l'innovation sociale, j'ai eu le privilège de collaborer avec des clients de renom et de mener à bien des projets transformateurs à travers le Maroc. Aujourd'hui, entourée d'une équipe exceptionnelle de plus de 25 experts, nous sommes prêts à repousser les limites et à transformer les idées en réalité.
                 </p>
-                <p class="md:mb-4 mb-2 text-xs font-normal lg:font-medium lg:text-sm">
-                    Notre mission est claire : catalyser le développement de la région Marrakech-Safi, du Maroc et de l'Afrique. En renforçant le tissu économique local, nous visons à élever et accélérer les structures, en particulier les petites entreprises et organisations, et à contribuer à l'émancipation des idées, des projets de croissance et des talents créateurs locaux. Nous aspirons à les aider à devenir les leaders de demain. »
+                <p class="md:mb-4 mb-3 text-xs font-normal lg:font-light lg:text-sm">
+                    Notre mission est claire : catalyser le développement de la région Marrakech-Safi, du Maroc et de l'Afrique. <br> En renforçant le tissu économique local, nous visons à élever et accélérer les structures, en particulier les petites entreprises et organisations, et à contribuer à l'émancipation des idées, des projets de croissance et des talents créateurs locaux. Nous aspirons à les aider à devenir les leaders de demain. »
                 </p>
-                <p class="md:mb-4 mb-2 text-xs font-normal lg:font-medium lg:text-sm">
+                <p class="md:mb-4 mb-3 text-xs font-normal lg:font-light lg:text-sm">
                     BLUE STRATEGY se distingue par son engagement inébranlable envers l'accompagnement, l'accélération, l'alignement stratégique et le développement des territoires. Nous sommes des pionniers du développement local, de l'innovation sociale et économique, et de l'économie sociale et solidaire, transformant les défis en opportunités et guidant nos partenaires vers un avenir prospère et durable.
                 </p>
-                <p class="md:mb-4 mb-2 text-xs font-normal lg:font-medium lg:text-sm">
-                    <h class="font-semibold">Mme Houda BELAYDI</h>
-                    <h class="font-semibold">Founder CEO du cabinet BLUE STRATEGY</h>
+                <p class="md:mb-4 mb-3 text-xs font-normal lg:font-light lg:text-sm">
+                    <h class="font-semibold">Mme Houda BELAYDI</h><br>
+                    <h class="font-semibold">Founder CEO du cabinet BLUE STRATEGY</h><br>
                     <h class="">
                         Experte senior en accompagnement des entreprises et organisations, 
                         en management et en développement des projets
@@ -112,7 +112,7 @@
                 </p>
             </div>
         </div>
-        <div class=" col-span-4 hidden md:block relative">
+        <div class=" col-span-4 hidden md:block relative ">
             <div id="conten1" class="w-80 h-80 rounded-full absolute right-6 top-16 z-30 flex justify-center items-center pt-5">
                 <div class="BG absolute -top-0 right-0 rounded-b-md rotate-45" style="width: 330px; height:350px;"></div>
                 <img class="rounded-full z-20" src="AP/1.jpeg" alt="" style="width: 300px; height:300px;">

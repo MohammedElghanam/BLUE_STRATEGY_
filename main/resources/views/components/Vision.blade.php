@@ -44,8 +44,9 @@
 .H{
     height: 380px;
     position: absolute;
-    top: 112px;
+    top: 116px;
     left: 410px;
+    background-color: rgba(0, 12, 140, 0.904)
 }
 .WIDTH{
     width: fit-content;
@@ -61,7 +62,7 @@
             <img src="secteurs/second.jpg" alt="" class="hidden md:block absolute left-10 md:left-20 lg:left-40 -bottom-12 md:-bottom-20 lg:-bottom-28 w-24 md:w-40 lg:w-52 h-24 md:h-36 lg:h-48">
             
         </div>
-        <div class="hidden H md:block w-24 bg-blue-900 opacity-70"></div>
+        <div class="hidden H md:block w-24"></div>
         <div class="col-span-12 lg:col-span-5"></div>
         <div class="col-span-12 lg:col-span-7 mt-4">
             <div class="p-2">

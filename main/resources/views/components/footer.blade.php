@@ -46,7 +46,7 @@
         <!-- Footer Bottom -->
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
             <span class="text-sm text-gray-500 dark:text-gray-400">
-                ©2024 <a href="#" class="hover:underline">Your website</a>. All Rights Reserved.
+                ©2024 <a href="#" class="hover:underline">Votre site Web</a>. Tous droits réservés. 
             </span>
             
             <!-- Social Media Links -->

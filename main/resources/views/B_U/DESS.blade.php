@@ -74,22 +74,6 @@
 </style>
 
 
-{{-- first section  --}}
-{{-- <section id="6" class="">
-    <div class="flex justify-center items-center relative">
-        <img class="w-full md:w-auto" src="B_U/TPE/1.png" alt="">
-        <div class="CO w-full md:w-2/5 h-full absolute bottom-0 left-0 md:left-28 bg-gray-800 opacity-70"></div>
-        <div class="BOR w-full md:w-3/4 h-3/5 absolute p-4 md:p-0">
-            <div class="COLOR w-40 h-40 sm:w-52 sm:h-52 absolute -bottom-10 md:-bottom-20 left-1 md:-left-1.5 bg-red-500"></div>
-            <div class="text-white absolute left-1/2 transform -translate-x-1/2 md:-right-40 md:bottom-4 text-center md:text-left animate-fade-in">
-                <h1 class="font-bold text-2xl md:text-4xl">B.U 06</h1>
-                <h1 class="font-bold text-2xl md:text-4xl">ENTREPRENARIAT ET PROJETS D'ESS </h1>
-            </div>
-            <div class="polygon absolute right-1 bottom-1 md:right-4 md:bottom-4 bg-blue-500 w-16 h-14 md:w-32 md:h-28"></div>
-        </div>
-    </div>
-</section> --}}
-
 <section id="6" class="pt-16 lg:pt-0">
     <div class="flex justify-center items-center relative">
         <img class="w-full md:w-auto" src="BU_6/1/1.jpeg" alt="">
@@ -121,16 +105,16 @@
                     <span class="BG w-20 h-1"></span>
                     <h1 class="TIT font-bold text-xl">BLUE STRATEGY - ENTREPRENARIAT ET PROJETS D'ESS </h1>
                 </div>
-                <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 lg:pl-2 p-4 md:pl-16 lg:pt-6">
+                <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 lg:pl-16 p-4 md:pl-16 lg:pt-6 ">
                     
                     <div class="col-span-12 md:col-span-11 ">
-                        <p class="text-lg md:text-xl font-light mb-3">
+                        <p class="text-base md:text-lg font-light mb-1">
                             Le Maroc, aujourd'hui, soutient les projets visant à encourager les
                             activités génératrices d'emplois et de revenus, dont l'objectif global
                             est de libérer les potentiels pour un développement équilibré et
                             inclusif, reflétant l'engagement du pays envers un avenir prospère.                            
                         </p>
-                        <p class="text-lg md:text-xl font-light mb-3">
+                        <p class="text-base md:text-lg font-light mb-1">
                             Dans ce contexte, en capitalisant sur son expertise et son
                             dynamisme collectif, BLUE STRATEGY a créé cette nouvelle unité
                             d'affaires dédiée à l'accompagnement entrepreneurial et à la
@@ -138,10 +122,9 @@
                             alignement avec ses orientations. stratégique. Celles-ci sont
                             parfaitement cohérentes avec les objectifs du Nouveau Modèle de
                             Développement du Maroc (NMD) et englobent la majorité des 17
-                            Objectifs de Développement Durable définis par les Nations Unies
-                            (ODD).
+                            Objectifs de Développement Durable définis par les Nations Unies.
                         </p>
-                        <p class="text-lg md:text-xl font-light mb-3">
+                        <p class="text-base md:text-lg font-light mb-1">
                             Notre approche est centrée sur la co-création de valeur et la
                             promotion d'un impact positif durable, en s'appuyant sur la R&D,
                             l'Innovation Sociale, le genre et l'intelligence collective en tant que
@@ -343,6 +326,7 @@
         <div class="relative col-span-1">
             <div class="relative">
                 <img class="rounded-2xl w-full" src="BU_6/1/3.jpg" alt="">
+
                 <div class="BG grid grid-cols-1 gap-2 p-6 rounded-xl absolute bottom-10 left-5 w-11/12 transform translate-x-1 duration-300 hover:scale-105">
                     <div class="flex justify-start items-center gap-2">
                         <div>
@@ -369,17 +353,20 @@
                         <a href="{{ url('/ENTREPREUNARIAT') }}#3" class="font-medium text-white hover:underline">ACCOMPAGNEMENT AUX STARTUPS</a>
                     </div>
                 </div>
-            </div>
-            <div class="flex justify-start items-center gap-4 px-4 py-6 sm:px-10 sm:py-6">
-                <div>
-                    <img class="w-12 h-12 sm:w-16 sm:h-16" src="SS/4.png" alt="">
+
+                <div class=" bg-white flex justify-start items-center gap-2 p-6 rounded-xl absolute top-10 left-5 w-11/12 transform translate-x-1 duration-300 hover:scale-105">
+                    <div>
+                        <img class="w-14 h-12 sm:w-16 sm:h-16" src="SS/4.png" alt="">
+                    </div>
+                    <h1 class="font-semibold text-lg lg:text-xl TIT1">ACCOMPAGNEMENT ENTREPREUNARIAT</h1>
                 </div>
-                <h1 class="font-semibold text-2xl sm:text-3xl TIT1">ACCOMPAGNEMENT ENTREPREUNARIAT</h1>
+
             </div>
+            
         </div>
 
         <!-- Right Column -->
-        <div class="col-span-1">
+        <div class="col-span-1 mt-20">
             <ol class="BOR1 relative border-l-4 border-gray-300 dark:border-gray-700">
                 <li class="mb-10 ml-4 relative">
                     <div class="F1 HOV absolute w-5 h-5 bg-gray-200 rounded-full -left-7"></div>
@@ -520,6 +507,15 @@
             <div class="relative">
                 <img class="rounded-2xl w-full" src="BU_6/1/4.jpg" alt="">
 
+                <div class="  w-11/12 rounded-xl px-10 py-6 hidden lg:block absolute top-10 left-6 bg-white transform translate-x-1 duration-300 hover:scale-105">
+                    <div class=" flex justify-start items-center gap-4">
+                        <div class="">
+                            <img class=" w-16 h-16" src="SS/5.png" alt="">
+                        </div>
+                        <h1 class=" font-semibold text-3xl TIT1 w-4/6">ACCOMPAGNEMENT DES PROJETS D'ESS</h1>
+                    </div>
+                </div>
+
                 <div class="grid grid-cols-1 gap-2 p-4 sm:p-6 rounded-xl BG absolute bottom-5 sm:left-5 left-3 w-11/12 transform translate-x-1 duration-300 hover:scale-105">
                     <div class="cols-span-1 flex justify-start items-center gap-2">
                         <div>
@@ -553,14 +549,7 @@
                     </div>
                 </div>
             </div>
-            <div class="  px-10 py-6 hidden lg:block">
-                <div class=" flex justify-start items-center gap-4">
-                    <div class="">
-                        <img class=" w-16 h-16" src="SS/5.png" alt="">
-                    </div>
-                    <h1 class=" font-semibold text-3xl TIT1 w-4/6">ACCOMPAGNEMENT DES PROJETS D'ESS</h1>
-                </div>
-            </div>
+            
         </div>
 
     </div>

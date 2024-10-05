@@ -250,15 +250,15 @@
 {{-- ACCOMPAGNEMENT DES ORGANISMES ENGAGÉS  --}}
 <section id="2" class="px-4 md:px-20">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-2 p-2">
-        <div class="md:col-span-5 p-5 md:p-10 md:pt-28">
+        <div class="md:col-span-5 p-5 md:pt-28 ">
             <div class="flex flex-col md:flex-row items-start md:items-center mb-4">
                 <img class="w-10 h-10 mb-4 md:mb-0" src="B_U/35.png" alt="">
                 <h1 class="TIT text-2xl font-semibold ml-0 md:ml-4">ACCOMPAGNEMENT DES ORGANISMES ENGAGÉS</h1>
             </div>
-            <p class="mb-4">
+            <p class="mb-4 text-base">
                 Vous êtes une fondation, association, organisme étatique ou privé, institution,
                 université ou école supérieur ? Souhaitez-vous lancer un projet ou une initiative
-                ayant pour vocation de soutenir les entrepreneurs innovants au Maroc ?
+                ayant pour vocation de soutenir les entrepreneurs innovants ?
             </p>
             <h1 class="mb-4 font-medium text-gray-800">
                 BLUE STRATEGY représente votre partenaire idéal pour vous accompagner dans la concrétisation de vos programmes.
@@ -360,15 +360,17 @@
 
 
 <section id="3" class="my-20 px-4 sm:px-6 lg:px-36">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 ">
+
         <div class="col-span-12 lg:col-span-6 rounded-3xl relative transform transition-transform duration-300 hover:scale-105">
-            <img class="rounded-3xl w-full h-2/3" src="BU_6/2/4.jpeg" alt="">
-            <div class="absolute inset-0 BG opacity-50 rounded-3xl h-2/3"></div>
-            <div class="absolute w-full h-2/3 top-0 rounded-3xl p-10 text-white flex flex-col justify-end">
-                <div>
-                    <div class="w-36 h-1 bg-white mb-4 "></div>
-                    <h1 class="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4">ACCOMPAGNEMENT AUX STARTUPS</h1>
-                    <p class="text-sm sm:text-base lg:text-lg">Quel que soit votre stade de maturité, votre sujet et votre secteur d’activité, les équipes de BLUE STRATEGY vous accompagnent pour structurer votre projet, développer votre activité et orienter vos démarches en tant qu'entrepreneur innovant.</p>
+            <img class="rounded-3xl w-full" src="BU_6/2/4.png" alt="">
+            <div class="absolute inset-0 BG opacity-50 rounded-3xl"></div>
+            <div class="absolute w-full h-2/3 bottom-0 rounded-3xl p-10 text-white flex flex-col justify-end">
+                <div class=" ">
+                    <div class="w-36 h-1 bg-black mb-4 "></div>
+                    <h1 class="text-2xl text-black sm:text-3xl lg:text-2xl font-semibold mb-4">ACCOMPAGNEMENT AUX STARTUPS</h1>
+                    <p class="text-sm text-black sm:text-base lg:text-lg">Quel que soit votre stade de maturité, votre sujet et votre secteur d’activité, les équipes de BLUE STRATEGY vous accompagnent pour structurer votre projet, développer votre activité et orienter vos démarches en tant qu'entrepreneur innovant.</p>
                 </div>
             </div>
         </div>
@@ -462,6 +464,7 @@
         </div>
 
     </div>
+
 </section>
 
 <section class="mb-20 p-4 px-2 md:px-4 lg:px-20">
