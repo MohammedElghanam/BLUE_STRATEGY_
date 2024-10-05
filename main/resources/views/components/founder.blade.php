@@ -60,7 +60,7 @@
 
 <section class=" p-2 bg-blue-900 md:px-16 relative" id="founder">
     <div class="grid grid-cols-12 ">
-        <div class=" md:col-span-8 text-end col-span-12 ">
+        <div class=" md:col-span-8 col-span-12 ">
             <div class=" w-full flex justify-center items-center lg:hidden">
                 <div class="">
                     <div class=" my-3 relative">
@@ -86,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            <div class="x text-white py-7 pl-7 text-animate ">
+            <div class=" text-white pl-2 py-7 lg:pl-7 text-animate ">
                 <p class="font-bold text-white text-sm lg:text-base mb-4 mt-8">
                     « Chez BLUE STRATEGY, nous ne nous contentons pas de rêver d'un avenir meilleur, nous le construisons activement. »
                 </p>

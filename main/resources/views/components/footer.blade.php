@@ -1,4 +1,4 @@
-<footer class="p-4 bg-gray-50 sm:p-6 dark:bg-gray-800" id="footer">
+<footer class="p-2 pl-4 lg:pl-0 bg-gray-50 lg:p-6 dark:bg-gray-800" id="footer">
     <div class="mx-auto max-w-screen-xl">
         <div class="flex flex-col md:flex-row md:justify-between">
             <!-- Logo Section -->
@@ -12,10 +12,10 @@
             </div>
             
             <!-- Footer Links -->
-            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div class="grid grid-cols-12 gap-0 lg:gap-6 lg:grid-cols-3 ">
                 <div class=" col-span-1 hidden md:block"></div>
                 <!-- About Us -->
-                <div>
+                <div class=" col-span-5 lg:col-span-1 ">
                     <h2 class="mb-2 text-xs lg:text-base font-semibold text-gray-900 uppercase dark:text-white">A PROPOS DE NOUS</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li><a href="{{route('propos')}}" class="hover:underline text-xs lg:text-sm">Qui sommes-nous</a></li>
@@ -26,7 +26,7 @@
                 </div>
                 
                 <!-- Areas of Expertise -->
-                <div>
+                <div class=" col-span-7 lg:col-span-1 ">
                     <h2 class="mb-2 text-xs lg:text-base font-semibold text-gray-900 uppercase dark:text-white">NOS DOMAINES D'EXPERTISE</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li><a href="{{ url('/PMO') }}#1" class="hover:underline text-xs lg:text-sm">PMO - Project Management Office</a></li>
@@ -44,7 +44,7 @@
         <hr class="my-6 border-gray-200 dark:border-gray-700" />
 
         <!-- Footer Bottom -->
-        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+        <div class="flex flex-col lg:flex-row justify-center items-center lg:items-center lg:justify-between">
             <span class="text-sm text-gray-500 dark:text-gray-400">
                 ©2024 <a href="#" class="hover:underline">Votre site Web</a>. Tous droits réservés. 
             </span>
