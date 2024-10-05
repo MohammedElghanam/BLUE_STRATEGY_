@@ -136,16 +136,16 @@ XS.{
 
 <section class="grid grid-cols-1 lg:grid-cols-12 px-6 lg:px-40 pt-20 lg:pt-40 w-full">
     <div class="col-span-1 lg:col-span-6 mb-10 lg:mb-0 h-auto lg:h-3/4">
-        <h1 class="TOP text-3xl lg:text-3xl font-bold text-blue-800 mb-6">QUI SOMMES NOUS ?</h1>
+        <h1 class="TOP text-xl lg:text-3xl font-bold text-blue-800 mb-6">QUI SOMMES NOUS ?</h1>
         <div class="grid grid-cols-12 justify-center items-center w-full bg-gradient-to-b from-blue-600 to-blue-800 p-6 lg:p-12 rounded-lg">
             <div class="DATA col-span-12">
-                <p class="col-span-12 text-lg font-light text-white mb-3">
+                <p class="col-span-12 text-sm lg:text-lg font-light text-white mb-3">
                     BLUE STRATEGY est un cabinet d'études, d'accompagnement et PMO multidisciplinaire, lancé en 2023, dédié aux entreprises et aux organisations des secteurs public et privé.
                 </p>    
-                <p class="col-span-12 text-lg font-light text-white mb-3">
+                <p class="col-span-12 text-sm lg:text-lg font-light text-white mb-3">
                     Nous accompagnons nos clients (TPE, PME, STARTUPS, ONG..) dans la réalisation de leurs projets de développement et dans l'exploration de nouveaux leviers de performance, afin de stimuler l'évolution et la croissance de leurs activités sur le marché dynamique d'aujourd'hui.
                 </p>
-                <p class="col-span-12 text-lg font-light text-white">
+                <p class="col-span-12 text-sm lg:text-lg font-light text-white">
                     BLUE STRATEGY s’est construit sur la conviction que le succès des transformations repose sur l'adoption d'une vision 360° et une équipe diversifiée, combinant les compétences les plus solides en matière de business, de technologie et de durabilité.
                 </p>
             </div>
@@ -177,7 +177,7 @@ XS.{
 
 
 {{-- business unites  --}}
-<section class="py-20">
+<section class=" py-10 lg:py-20">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 px-4 md:px-12 lg:px-36">
         <div class=" lg:col-span-12 md:col-span-1 mb-5 text-center">
             <h1 class="font-bold text-xl md:text-4xl lg:text-2xl text-blue-900 z-50">NOS DOMAINES D'EXPERTISE</h1>
@@ -243,9 +243,9 @@ XS.{
 {{-- timeline  --}}
 <div class="min-h-screen">
     <div class="min-h-screen justify-center">
-        <div class=" mb-8">
-            <h1 class=" font-bold text-xl md:text-4xl lg:text-2xl text-blue-900 z-50 text-center">NOUS INTERVENONS PRINCIPALEMENT</h1>
-            <h1 class=" font-bold text-xl md:text-4xl lg:text-2xl text-blue-900 z-50 text-center">POUR RÉPONDRE À 06 ENJEUX</h1>
+        <div class=" mb-3 lg:mb-8">
+            <h1 class=" font-bold text-lg md:text-4xl lg:text-2xl text-blue-900 z-50 text-center">NOUS INTERVENONS PRINCIPALEMENT</h1>
+            <h1 class=" font-bold text-lg md:text-4xl lg:text-2xl text-blue-900 z-50 text-center">POUR RÉPONDRE À 06 ENJEUX</h1>
         </div>
         <div class=" w-11/12 lg:w-2/3 mx-auto">
 
@@ -417,17 +417,17 @@ XS.{
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 px-4 md:px-8 lg:px-28 my-10 md:my-20">
         <div id="1" class="grid grid-cols-6 md:grid-cols-2 lg:grid-cols-6 gap-4 p-2 md:p-4 col-span-1 md:col-span-2 lg:col-span-6 rounded-xl">
             <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="vision/1.jpeg" alt="">
+                <img class="w-full h-full rounded-lg" src="vision/1.jpeg" alt="">
             </div>
             <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="vision/2.jpeg" alt="">
+                <img class="w-full h-full rounded-lg" src="vision/2.jpeg" alt="">
             </div>
             <div class="col-span-3 lg:col-span-3 rounded-lg">
-                <img class="w-full h-auto rounded-lg" src="vision/3.jpeg" alt="">
+                <img class="w-full h-full rounded-lg" src="vision/3.jpeg" alt="">
             </div>
-            <div class="bg-gradient-to-b from-blue-600 to-blue-800 col-span-3 lg:col-span-3 rounded-lg p-4 flex flex-col gap-4 justify-center items-center">
-                <img class=" h-14 w-14" src="equipe/12.png" alt="">
-                <h1 class=" text-3xl md:text-3xl font-semibold text-center text-white">NOTRE VISION</h1>
+            <div class="bg-gradient-to-b from-blue-600 to-blue-800 col-span-3 lg:col-span-3 rounded-lg p-2 lg:p-4 flex flex-col gap-4 justify-center items-center">
+                <img class=" w-8 h-8 lg:h-14 lg:w-14" src="equipe/12.png" alt="">
+                <h1 class=" text-lg lg:text-3xl font-medium lg:font-semibold text-center text-white">NOTRE VISION</h1>
             </div>
         </div>
 
@@ -437,7 +437,7 @@ XS.{
                 <div class="w-3.5 h-3.5 rounded-lg bg-blue-500"></div>
                 <div class="w-2.5 h-2.5 rounded-lg bg-blue-300"></div>
             </div>
-            <h1 class="text-xl md:text-2xl mb-6 font-semibold text-gray-800">Accélérer votre développement</h1>
+            <h1 class="text-lg lg:text-2xl mb-6 font-semibold text-gray-800">Accélérer votre développement</h1>
             <p class="text-gray-900 text-xs md:text-sm mb-2">
                 Allant au-delà de notre expertise, notre raison d'être est de vous offrir
                 simultanément, efficacité, inspiration, innovation et renouvellement.
@@ -464,20 +464,20 @@ XS.{
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 px-4 md:px-8 lg:px-28 my-10 md:my-20">
 
         <div class="bg-gradient-to-b from-blue-600 to-blue-800 text-white shadow-2xl col-span-1 md:col-span-2 lg:col-span-6 rounded-xl p-6 md:p-8 lg:p-10 text-center transform translate-x-1 duration-300 hover:scale-105 select-none order-2 lg:order-1">
-            <div class="h-12 w-full flex justify-center items-center gap-1 mb-16">
+            <div class="h-12 w-full flex justify-center items-center gap-1 mb-6 lg:mb-14">
                 <div class="w-2.5 h-2.5 rounded-lg bg-blue-100"></div>
                 <div class="w-3.5 h-3.5 rounded-lg bg-white"></div>
                 <div class="w-2.5 h-2.5 rounded-lg bg-blue-100"></div>
             </div>
-            <h1 class="text-xl md:text-2xl mb-6 font-semibold">Un équipe engagée pour le développement.</h1>
-            <p class=" text-lg md:text-sm mb-2">
+            <h1 class="text-base lg:text-2xl mb-6 font-medium lg:font-semibold">Un équipe engagée pour le développement.</h1>
+            <p class=" text-sm lg:text-sm mb-2">
                 Chez BLUE STRATEGY, nous sommes bien plus
                 qu'un simple cabinet. Nous sommes un
                 équipe engagée, déterminée à contribuer au
                 développement du Maroc et de l'Afrique de
                 demain.                
             </p>
-            <p class=" text-lg md:text-sm">
+            <p class=" text-sm lg:text-sm">
                 Notre mission fondamentale consiste à élever
                 nos partenaires vers l'excellence, afin qu'ils
                 deviennent des acteurs de référence dans la
@@ -486,9 +486,9 @@ XS.{
         </div>
 
         <div id="1" class="grid grid-cols-6 grid-rows-4 md:grid-cols-2 lg:grid-cols-6 gap-4 p-2 md:p-4 col-span-1 md:col-span-2 lg:col-span-6 rounded-xl order-1 lg:order-2">
-            <div class=" col-span-3 lg:col-span-3 row-span-2 rounded-lg p-4 flex flex-col gap-2 justify-center items-center">
-                <img class=" h-14 w-14" src="equipe/13.png" alt="">
-                <h1 class=" text-2xl md:text-3xl font-semibold text-center text-blue-600">NOTRE ENGAGEMENT</h1>
+            <div class=" col-span-3 lg:col-span-3 row-span-2 rounded-lg p-0 lg:p-4 flex flex-col gap-2 justify-center items-center">
+                <img class=" w-8 h-8 lg:h-14 lg:w-14" src="equipe/13.png" alt="">
+                <h1 class=" text-base lg:text-3xl font-medium lg:font-semibold text-center text-blue-600">NOTRE ENGAGEMENT</h1>
             </div>
             <div class="col-span-3 lg:col-span-3 row-span-2 rounded-lg">
                 <img class="w-full h-full rounded-lg" src="engagment/1.jpeg" alt="">

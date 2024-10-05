@@ -95,8 +95,8 @@
             
             <div class="relative mt-0 md:mt-6">
                 <div class=" bg-gradient-to-b from-blue-800 to-blue-500 text-white p-6 md:p-10 rounded-lg transform duration-300 hover:scale-105">
-                    <h1 class="text-lg md:text-xl font-semibold text-blue-100 mb-0 lg:mb-4">UNE ÉQUIPE CRÉATIVE .. UN RÉSEAU UNIQUE</h1>
-                    <p>
+                    <h1 class="text-base lg:text-xl font-medium lg:font-semibold text-blue-100 mb-0 lg:mb-4">UNE ÉQUIPE CRÉATIVE .. UN RÉSEAU UNIQUE</h1>
+                    <p class=" text-sm lg:text-lg font-light lg:font-normal">
                         Chez BLUE STRATEGY, nous croyons fermement que chaque défi mérite une solution unique. Notre équipe, composée d'experts de terrain et de profils inspirants, couvre un large éventail de domaines. Nous réunissons des professionnels diversifiés pour traiter vos enjeux sous tous les angles, toujours informés des dernières tendances et des meilleures pratiques, qualifiés et certifiés.
                     </p>
                 </div>
@@ -120,7 +120,7 @@
                 <img class="w-full h-auto rounded-lg" src="Equipe/APPROCHE3.jpg" alt="">
             </div>
             <div class="bg-gradient-to-b from-blue-600 to-blue-800 col-span-3 lg:col-span-3 rounded-lg p-4 flex justify-center items-center">
-                <img class=" h-20 w-20" src="equipe/12.png" alt="">
+                <img class=" w-10 h-10 lg:h-20 lg:w-20" src="equipe/12.png" alt="">
             </div>
         </div>
 
@@ -130,10 +130,10 @@
                 <div class="w-3.5 h-3.5 rounded-lg bg-blue-500"></div>
                 <div class="w-2.5 h-2.5 rounded-lg bg-blue-300"></div>
             </div>
-            <h1 class="text-2xl md:text-3xl font-semibold mb-6 md:mb-10 mt-10 text-gray-900">NOTRE APPROCHE</h1>
+            <h1 class="text-xl lg::text-3xl font-medium lg:font-semibold mb-6 md:mb-10 mt-6 lg:mt-10 text-gray-900">NOTRE APPROCHE</h1>
             <p class="text-gray-900 text-sm md:text-base">
                 À chaque projet, nous constituons une équipe « AD HOC » spécialement dédiée 
-                pour répondre précisément à vos objectifs. Cette flexibilité nous permet 
+                pour répondre précisément à vos objectifs. <br> Cette flexibilité nous permet 
                 de fournir des solutions sur mesure et d’assurer une satisfaction maximale 
                 de nos partenaires.
             </p>

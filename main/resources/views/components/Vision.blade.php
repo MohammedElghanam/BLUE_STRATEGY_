@@ -66,11 +66,11 @@
         <div class="col-span-12 lg:col-span-5"></div>
         <div class="col-span-12 lg:col-span-7 mt-4">
             <div class="p-2">
-                <div class="WIDTH pb-2 border-b-4 border-blue-900 text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900">Nos secteurs d'activite</div>
+                <div class="WIDTH pb-2 border-b-4 border-blue-900 text-2xl md:text-4xl lg:text-5xl font-bold text-blue-900">Nos secteurs d'activite</div>
             </div>
         </div>
-        <div class="col-span-12 mt-16">
-            <p class="text-lg font-normal text-gray-900 mb-4 px-4 md:px-0">
+        <div class="col-span-12 mt-4 lg:mt-16">
+            <p class=" text-sm lg:text-lg font-normal text-gray-900 mb-4 px-4 md:px-0">
                 BLUE STRATEGY développe des compétences sectorielles pour mettre en place des solutions qui anticipent ou
                 répondent aux attentes de différents clients.
                 Notre cabinet intervient dans divers secteurs d'activité, aussi bien au sein d'entreprises que d'organisations de
@@ -83,83 +83,83 @@
 
 <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-8 p-4 lg:p-20 w-full bg-gray-50">
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Made in Morocco</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Made in Morocco</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/0.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Agriculture et agroalimentaire</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Agriculture et agroalimentaire</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/2.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Peche maritime</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Peche maritime</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/3.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Artisanat</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Artisanat</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/4.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Industrie</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Industrie</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/5.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Education</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Education</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/6.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Digital, IT et médias</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Digital, IT et médias</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/7.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Santé et le bien-etre</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Santé et le bien-etre</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/8.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Culture et art</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Culture et art</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/9.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Sport</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Sport</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/10.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Developpement durable</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Developpement durable</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/11.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Environnement et energie</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Environnement et energie</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/12.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Textile et produits cosmétiques</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Textile et produits cosmétiques</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/13.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Distribution et consommation</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Distribution et consommation</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/14.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Hotellerie et restauration</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Hotellerie et restauration</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/15.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Tourisme et divertissements</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Tourisme et divertissements</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/16.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Evénementiel</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Evénementiel</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/17.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Prestation et services</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Prestation et services</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/18.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Transport et logistique</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Transport et logistique</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/19.jpg" alt="">
     </div>
     <div class="SCAL relative col-span-1">
-        <div class="overlay rounded-xl text-lg md:text-xl font-medium">Immobilier et ameublement</div>
+        <div class="overlay rounded-xl text-xs lg:text-xl font-medium">Immobilier et ameublement</div>
         <img class="rounded-xl w-full h-auto" src="secteurs/20.jpg" alt="">
     </div>
 </div>
