@@ -75,12 +75,12 @@
         <div class="col-span-12 md:col-span-6 grid grid-cols-12 gap-4">
             <div class="col-span-12 grid grid-cols-12 gap-2 mt-10">
                 <div class="col-span-12 flex justify-start items-center gap-2">
-                    <span class="BG w-20 h-1"></span>
-                    <h1 class="TIT font-bold text-xl">BLUE STRATEGY - FORMATION PROFESSIONNELLE</h1>
+                    <span class="BG w-10 lg:w-20 h-1"></span>
+                    <h1 class="TIT font-bold text-xs lg:text-xl">BLUE STRATEGY - FORMATION PROFESSIONNELLE</h1>
                 </div>
-                <div class=" col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-10 pt-6 ">
+                <div class=" col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-4 md:pl-10 pt-6 ">
                     <div class=" col-span-12 lg:col-span-12 md:col-span-10 ">
-                        <h1 class="font-medium text-base">
+                        <h1 class="font-medium text-sm lg:text-base">
                             Trouvez la solution de formation adaptée à vos besoins et
                             transformez vos compétences en performance
                         </h1>
@@ -134,7 +134,7 @@
             class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-6 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
             <div class=" col-span-12 flex justify-center items-center">
                 <div
-                    class="absolute -top-7 bg-white px-6 lg:px-8 text-center text-3xl lg:text-4xl font-semibold text-gray-900">
+                    class="absolute -top-5 lg:-top-7 bg-white px-6 lg:px-8 text-center text-2xl lg:text-4xl font-semibold ">
                     <h1 class=" text-gray-800">Notre business unit</h1>
                 </div>
             </div>
@@ -145,33 +145,33 @@
                     <div
                         class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
                         
-                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#fbc02d" d="m10 17l-4-4l1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5z"/></svg>
+                        <svg class=" w-8 h-8 lg:w-10 lg:h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#fbc02d" d="m10 17l-4-4l1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5z"/></svg>
                         <h1 class=" TIT">Nos specialités</h1>
                     </div>
-                    <div class=" grid grid-cols-12 gap-3 text-white text-center p-2 lg:text-left mr-2">
+                    <div class=" grid grid-cols-12 gap-3 text-white p-2  mr-2">
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Formation Inter-entreprise</p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">Formation Inter-entreprise</p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Formation Intra-entreprise </p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">Formation Intra-entreprise </p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Formation Sur-mesure</p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">Formation Sur-mesure</p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Digital Learning</p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">Digital Learning</p>
                         </div>
                     </div>
                 </div>
@@ -184,14 +184,14 @@
                     <div
                         class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
                         
-                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#fbc02d" fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7m-1.5 8a4 4 0 0 0-4 4a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2a4 4 0 0 0-4-4zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293a3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2a4 4 0 0 0-4-4h-1.1a5.5 5.5 0 0 1-.471.762A6 6 0 0 1 19.5 18M4 7.5a3.5 3.5 0 0 1 5.477-2.889a5.5 5.5 0 0 0-2.796 6.293A3.5 3.5 0 0 1 4 7.5M7.1 12H6a4 4 0 0 0-4 4a2 2 0 0 0 2 2h.5a6 6 0 0 1 3.071-5.238A5.5 5.5 0 0 1 7.1 12" clip-rule="evenodd"/></svg>
+                        <svg class=" w-8 h-8 lg:w-10 lg:h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#fbc02d" fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7m-1.5 8a4 4 0 0 0-4 4a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2a4 4 0 0 0-4-4zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293a3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2a4 4 0 0 0-4-4h-1.1a5.5 5.5 0 0 1-.471.762A6 6 0 0 1 19.5 18M4 7.5a3.5 3.5 0 0 1 5.477-2.889a5.5 5.5 0 0 0-2.796 6.293A3.5 3.5 0 0 1 4 7.5M7.1 12H6a4 4 0 0 0-4 4a2 2 0 0 0 2 2h.5a6 6 0 0 1 3.071-5.238A5.5 5.5 0 0 1 7.1 12" clip-rule="evenodd"/></svg>
                         <h1 class=" TIT">Notre equipe</h1>
                     </div>
                     <div class=" grid grid-cols-12 gap-3 lg:font-medium text-gray-800 text-center p-2 lg:text-left">
-                        <p class=" col-span-12">
+                        <p class=" col-span-12 text-sm lg:text-base">
                             Nos formateurs sont des professionnels et des personnes expérimentées et en activité
                         </p>
-                        <p class=" col-span-12">
+                        <p class=" col-span-12 text-sm lg:text-base">
                             Des spécialistes passionnés par leur métier, et
                             leur activité, qui ont une vraie volonté de
                             transmettre leur savoir et leurs compétences.
@@ -204,18 +204,26 @@
 </section>
 
 
-<section id="SOLUTIONS" class="pt-8 px-20 my-7">
+<section id="SOLUTIONS" class="pt-8 px-6 lg:px-20 my-7">
 
-    <div class="F grid grid-cols-12 relative">
-        <div class="md:w-2/5 lg:w-2/5 absolute -top-3 left-0 px-2 bg-white">
-            <h1 class="TIT text-2xl md:text-4xl lg:text-2xl font-bold">NOS SOLUTIONS DE FORMATIONS</h1>
+    <div class=" grid grid-cols-12 relative">
+        
+
+        <div class="F col-span-12 h-32 md:h-32 lg:h-14 hidden lg:block">
+            <div class="md:w-2/5 lg:w-2/5 absolute -top-0 left-0 px-2 bg-white">
+                <h1 class="TIT text-xl md:text-4xl lg:text-2xl font-bold">NOS SOLUTIONS DE FORMATIONS</h1>
+            </div>
         </div>
 
-        <div class="col-span-12 h-24 md:h-32 lg:h-10 "></div>
+        <div class="col-span-12 h-10 lg:h-14 block lg:hidden">
+            <div class="md:w-2/5 lg:w-2/5 absolute -top-0 left-0 px-2 bg-white">
+                <h1 class="TIT text-xl md:text-4xl lg:text-2xl font-bold">NOS SOLUTIONS DE FORMATIONS</h1>
+            </div>
+        </div>
 
         <div class=" grid grid-cols-12 justify-center items-center col-span-12 gap-6 ">
 
-            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl p-2">
+            <div class=" transition-transform transform hover:scale-105 col-span-12 lg:col-span-6 bg-white h-full shadow-xl rounded-xl p-2">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                     <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="BU_5/2/1.jpg">
                     <div class="p-2 space-y-2">
@@ -239,7 +247,7 @@
                 </div>
             </div>
 
-            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl p-2">
+            <div class=" transition-transform transform hover:scale-105 col-span-12 lg:col-span-6 bg-white h-full shadow-xl rounded-xl p-2">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                     <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="BU_5/2/2.jpg">
                     <div class="p-2 space-y-2">
@@ -263,7 +271,7 @@
                 </div>
             </div>
 
-            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl p-2">
+            <div class=" transition-transform transform hover:scale-105 col-span-12 lg:col-span-6 bg-white h-full shadow-xl rounded-xl p-2">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                     <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="BU_5/2/3.jpg">
                     <div class="p-2 space-y-2">
@@ -286,7 +294,7 @@
                 </div>
             </div>
 
-            <div class=" transition-transform transform hover:scale-105 col-span-6 bg-white h-full shadow-xl rounded-xl p-2">
+            <div class=" transition-transform transform hover:scale-105 col-span-12 lg:col-span-6 bg-white h-full shadow-xl rounded-xl p-2">
                 <div class="max-w-full mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
                     <img class="object-cover w-full rounded h-32 sm:h-44 dark:bg-gray-500" src="BU_5/2/4.jpg">
                     <div class="p-2 space-y-2">
@@ -314,29 +322,29 @@
 </section>
 
 
-<section id="INGENIERIE" class="my-20">
-    <div class="grid grid-cols-12 lg:px-20 gap-10">
+<section id="INGENIERIE" class=" my-10 lg:my-20">
+    <div class="grid grid-cols-12 lg:px-20 gap-5 lg:gap-10">
 
-        <div class="grid grid-cols-12 col-span-12 h-20 justify-start items-center bg-white mb-2">
-            <div class="col-span-6 h-full flex justify-start items-end gap-5">
-                <div class="BG w-28 h-1"></div>
-                <h1 class="TIT text-3xl lg:text-2xl font-bold w-full">INGENIERIE DE FORMATION</h1>
+        <div class="grid grid-cols-12 col-span-12 h-10 lg:h-20 justify-start items-center bg-white mb-2">
+            <div class=" col-span-12 lg:col-span-6 h-full flex justify-start items-end gap-5">
+                <div class="BG w-16 lg:w-28 h-1"></div>
+                <h1 class="TIT text-xl lg:text-2xl font-bold w-full">INGENIERIE DE FORMATION</h1>
             </div>
-            <div class="BG col-span-6 px-10 h-full flex justify-end items-center">
+            <div class="BG col-span-6 px-10 h-full justify-end items-center hidden lg:flex">
                 <div class="w-10 h-10 bg-white"></div>
             </div>
         </div>
 
-        <div class="grid grid-cols-12 p-2 gap-2 col-span-12 lg:col-span-12">
-            <div class="col-span-12 lg:col-span-6 mt-10">
-                <div class="flex justify-start items-center gap-2 mt-4 ml-14">
+        <div class="grid grid-cols-12 px-8 p-2 gap-2 col-span-12 lg:col-span-12">
+            <div class="col-span-12 lg:col-span-6 mt-0 lg:mt-10">
+                <div class="flex justify-start items-center gap-2 mt-4 ml-0 lg:ml-14">
                     <h1 class=" text-xl lg:text-2xl w-full">Accompagnement de vos projets</h1>
                 </div>  
-                <div class="mt-7 grid gap-2 lg:ml-16 ">
-                    <p class="w-full lg:w-11/12 font-light text-lg lg:text-lg ">BLUE STRATEGY vous propose ses services
+                <div class="mt-7 grid gap-2 lg:ml-16">
+                    <p class="w-full lg:w-11/12 font-light text-base lg:text-lg ">BLUE STRATEGY vous propose ses services
                         pour la conception et la mise en œuvre de vos projets de formation.
                     </p>
-                    <p class="w-full lg:w-11/12 font-light text-lg lg:text-lg ">
+                    <p class="w-full lg:w-11/12 font-light text-base lg:text-lg ">
                         Nous adaptons les actions d'ingénierie de formation en fonction des besoins spécifiques de
                         vos collaborateurs et de la réalité de votre organisation, afin de vous aider à vous positionner
                         de manière durable, en répondant aux réformes du marché de travail et de formation.
@@ -348,7 +356,7 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-12 p-2 gap-8 col-span-12 lg:col-span-12">
+        <div class="grid grid-cols-12 px-8 p-2 gap-8 col-span-12 lg:col-span-12">
             <div class="col-span-12 lg:col-span-6">
                 <div>
                     <img class="rounded-lg w-full" src="BU_5/2/2.jpg" alt="Project Image">
@@ -417,19 +425,21 @@
 
 
 <section id="DOMAINES">
-    <div class=" grid grid-cols-12 gap-2 px-20">
-        <div class=" col-span-6 p-10 relative">
-            <div class=" BG absolute w-3/5 -right-28 top-32  p-4 flex justify-center items-center">
-                <h1 class="  text-4xl font-bold text-white">NOS DOMAINES DE FORMATI0N </h1> 
+    <div class=" grid grid-cols-12 gap-2 px-8 lg:px-20">
+
+        <div class=" col-span-12 lg:col-span-6 p-0 lg:p-10 relative">
+            <div class=" BG  rounded-lg lg:rounded-none absolute w-4/5 lg:w-3/5 right-8 lg:-right-28 top-96 lg:top-32  p-4 justify-center items-center flex">
+                <h1 class=" text-2xl lg:text-4xl font-bold text-white">NOS DOMAINES DE FORMATI0N </h1> 
             </div>
             <img class="" src="BU_5/4/1.jpg" alt="">
         </div>
-        <div class=" grid grid-cols-12 gap-2 col-span-6">
-            <div class=" col-span-12 h-60 "></div>
+
+        <div class=" grid grid-cols-12 gap-2 col-span-12 lg:col-span-6">
+            <div class=" col-span-12 h-10 lg:h-60"></div>
             
             <div class=" col-span-12 flex justify-center items-center">
                 <div class=" w-full rounded-xl p-4 grid grid-cols-12 gap-3 bg-gray-100 shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">
-                    <div class=" col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -437,7 +447,7 @@
                             Direction de l’entreprise et cadres de direction
                         </p>
                     </div>
-                    <div class=" col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -445,7 +455,7 @@
                             Digital, IT et Système d’informations
                         </p>
                     </div>
-                    <div class=" col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -453,7 +463,7 @@
                             Entreprenariat et business développement
                         </p>
                     </div>
-                    <div class=" col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -461,7 +471,7 @@
                             Management et leadership
                         </p>
                     </div>
-                    <div class=" col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -469,7 +479,7 @@
                             Conduite du changement
                         </p>
                     </div>
-                    <div class=" col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -477,7 +487,7 @@
                             Management de projets
                         </p>
                     </div>
-                    <div class=" col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -485,7 +495,7 @@
                             Innovation et créativité
                         </p>
                     </div>
-                    <div class=" col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -493,7 +503,7 @@
                             Développement durable et RSE
                         </p>
                     </div>
-                    <div class=" col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -501,7 +511,7 @@
                             Développement personnel
                         </p>
                     </div>
-                    <div class=" col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -509,7 +519,7 @@
                             Qualité de vie, Santé et bien-être au travail
                         </p>
                     </div>
-                    <div class=" col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -522,7 +532,7 @@
 
             <div class=" col-span-12">
                 <div class=" bg-gray-100 w-full rounded-xl p-4 grid grid-cols-12 gap-3 shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">
-                    <div class=" font-medium col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -531,7 +541,7 @@
                             Bureautique
                         </p>
                     </div>
-                    <div class=" font-medium col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -540,7 +550,7 @@
                             Ressources humaines
                         </p>
                     </div>
-                    <div class=" font-medium col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -549,7 +559,7 @@
                             Formation et développement des compétence
                         </p>
                     </div>
-                    <div class=" font-medium col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -558,7 +568,7 @@
                             Finance - Gestion - Comptabilité
                         </p>
                     </div>
-                    <div class=" font-medium col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -567,7 +577,7 @@
                             Commercial et relation client
                         </p>
                     </div>
-                    <div class=" font-medium col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -576,7 +586,7 @@
                             Communication - Marketing digital
                         </p>
                     </div>
-                    <div class=" font-medium col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -585,7 +595,7 @@
                             Communication graphique
                         </p>
                     </div>
-                    <div class=" font-medium col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -594,7 +604,7 @@
                             Achats - Supply Chain - Logistique - Services Généraux
                         </p>
                     </div>
-                    <div class=" font-medium col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -603,7 +613,7 @@
                             Qualité - Santé - Sécurité - Environnement
                         </p>
                     </div>
-                    <div class=" font-medium col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
@@ -612,7 +622,7 @@
                             Lean - Production
                         </p>
                     </div>
-                    <div class=" font-medium col-span-6 flex justify-start items-center gap-2">
+                    <div class=" col-span-12 lg:col-span-6 flex justify-start items-center gap-2">
                         
                         <div class="">
                             <svg class=" w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
@@ -629,9 +639,10 @@
 
 
 <section id="SECTORIELLES">
-    <div class=" grid grid-cols-12 gap-8 px-20">
-        <div class=" grid grid-cols-12 items-center gap-2 col-span-6">
-            <div class=" col-span-12 h-60 "></div>
+    <div class=" grid grid-cols-12 gap-8 px-8 lg:px-20 my-10 lg:my-0 mt-10 lg:mt-0">
+
+        <div class=" grid grid-cols-12 items-center gap-2 col-span-12 lg:col-span-6 order-2 lg:order-1">
+            <div class=" col-span-12 h-60 hidden lg:block"></div>
             <div class=" col-span-12">
                 <div class=" BG w-full p-4 grid grid-cols-1 gap-4 rounded-xl shadow-xl transform translate-x-1 transition-transform duration-500 hover:scale-105">
                     <div class=" text-gray-50 font-medium col-span-1 flex justify-start items-center gap-2">
@@ -749,9 +760,9 @@
             </div>
         </div>
         
-        <div class=" col-span-6 flex justify-end items-center relative">
-            <div class=" BG  absolute w-1/2 top-24 -left-28 p-4 py-6 flex justify-start items-center">
-                <h1 class=" w-1/3 text-4xl font-bold text-white">FORMATIONS SECTORIELLES </h1> 
+        <div class=" col-span-12 lg:col-span-6 flex justify-end items-center relative order-1 lg:order-2">
+            <div class=" BG  rounded-lg lg:rounded-none absolute w-11/12 lg:w-1/2 top-24 left-4 lg:-left-28 p-4 py-6 flex justify-start items-center">
+                <h1 class=" w-full lg:w-1/3 text-xl lg:text-4xl font-bold text-white">FORMATIONS SECTORIELLES </h1> 
             </div>
             <img class="" src="BU_5/4/2.jpg" alt="">
         </div>
