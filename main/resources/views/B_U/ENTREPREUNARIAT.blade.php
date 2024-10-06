@@ -359,23 +359,23 @@
 </section>
 
 
-<section id="3" class="my-20 px-4 sm:px-6 lg:px-36">
+<section id="3" class=" my-10 lg:my-20 px-4 sm:px-6 lg:px-36">
 
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 ">
 
         <div class="col-span-12 lg:col-span-6 rounded-3xl relative transform transition-transform duration-300 hover:scale-105">
             <img class="rounded-3xl w-full" src="BU_6/2/4.png" alt="">
-            <div class="absolute inset-0 BG opacity-50 rounded-3xl"></div>
+            <div class="absolute inset-0 BG opacity-70 rounded-3xl"></div>
             <div class="absolute w-full h-2/3 bottom-0 rounded-3xl p-10 text-white flex flex-col justify-end">
                 <div class=" ">
-                    <div class="w-36 h-1 bg-black mb-4 "></div>
-                    <h1 class="text-2xl text-black sm:text-3xl lg:text-2xl font-semibold mb-4">ACCOMPAGNEMENT AUX STARTUPS</h1>
-                    <p class="text-sm text-black sm:text-base lg:text-lg">Quel que soit votre stade de maturité, votre sujet et votre secteur d’activité, les équipes de BLUE STRATEGY vous accompagnent pour structurer votre projet, développer votre activité et orienter vos démarches en tant qu'entrepreneur innovant.</p>
+                    <div class="w-36 h-1 bg-white mb-4 "></div>
+                    <h1 class="text-2xl text-white sm:text-3xl lg:text-2xl font-semibold mb-4">ACCOMPAGNEMENT AUX STARTUPS</h1>
+                    <p class="text-sm text-white sm:text-base lg:text-lg">Quel que soit votre stade de maturité, votre sujet et votre secteur d’activité, les équipes de BLUE STRATEGY vous accompagnent pour structurer votre projet, développer votre activité et orienter vos démarches en tant qu'entrepreneur innovant.</p>
                 </div>
             </div>
         </div>
 
-        <div class="col-span-12 lg:col-span-6 p-10 bg-white rounded-3xl transform transition-transform duration-300 hover:scale-105">
+        <div class="col-span-12 lg:col-span-6 p-2 lg:p-10 bg-white rounded-3xl transform transition-transform duration-300 hover:scale-105">
             <p class="font-medium text-gray-900 mb-8">Nos atouts :</p>
             <!-- Service 1 -->
             <div class="flex items-center gap-4 mb-6">
@@ -389,7 +389,7 @@
                         </g>
                     </svg>
                 </div>
-                <h1 class="text-gray-800 text-lg">Accompagnement personnalisé et de proximité</h1>
+                <h1 class="text-gray-800 text-base lg:text-lg">Accompagnement personnalisé et de proximité</h1>
             </div>
             <!-- Service 2 -->
             <div class="flex items-center gap-4 mb-6">
@@ -403,7 +403,7 @@
                         </g>
                     </svg>
                 </div>
-                <h1 class="text-gray-800 text-lg">Conseil sur les aspects techniques, humains, intellectuels, commerciaux, marketing et financiers.</h1>
+                <h1 class="text-gray-800 text-base lg:text-lg">Conseil sur les aspects techniques, humains, intellectuels, commerciaux, marketing et financiers.</h1>
             </div>
             <!-- Service 3 -->
             <div class="flex items-center gap-4 mb-6">
@@ -417,7 +417,7 @@
                         </g>
                     </svg>
                 </div>
-                <h1 class="text-gray-800 text-lg">Séances de mentorat</h1>
+                <h1 class="text-gray-800 text-base lg:text-lg">Séances de mentorat</h1>
             </div>
             <!-- Service 4 -->
             <div class="flex items-center gap-4 mb-6">
@@ -431,7 +431,7 @@
                         </g>
                     </svg>
                 </div>
-                <h1 class="text-gray-800 text-lg">Séances de coaching pour le dirigeant et l'équipe</h1>
+                <h1 class="text-gray-800 text-base lg:text-lg">Séances de coaching pour le dirigeant et l'équipe</h1>
             </div>
             <!-- Service 5 -->
             <div class="flex items-center gap-4 mb-6">
@@ -445,7 +445,7 @@
                         </g>
                     </svg>
                 </div>
-                <h1 class="text-gray-800 text-lg">Sessions de formations clés</h1>
+                <h1 class="text-gray-800 text-base lg:text-lg">Sessions de formations clés</h1>
             </div>
             <!-- Service 6 -->
             <div class="flex items-center gap-4 mb-6">
@@ -459,7 +459,7 @@
                         </g>
                     </svg>
                 </div>
-                <h1 class="text-gray-800 text-lg">Réseautage et lobbying</h1>
+                <h1 class="text-gray-800 text-base lg:text-lg">Réseautage et lobbying</h1>
             </div>
         </div>
 

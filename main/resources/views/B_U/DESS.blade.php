@@ -102,8 +102,8 @@
         <div class="col-span-12 md:col-span-6 grid grid-cols-12 gap-4">
             <div class="col-span-12 grid grid-cols-12 gap-2 mt-10">
                 <div class="col-span-12 flex justify-start items-center gap-2">
-                    <span class="BG w-20 h-1"></span>
-                    <h1 class="TIT font-bold text-xl">BLUE STRATEGY - ENTREPRENARIAT ET PROJETS D'ESS </h1>
+                    <span class="BG w-10 lg:w-20 h-1"></span>
+                    <h1 class="TIT font-bold text-xs lg:text-xl">BLUE STRATEGY - ENTREPRENARIAT ET PROJETS D'ESS </h1>
                 </div>
                 <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 lg:pl-16 p-4 md:pl-16 lg:pt-6 ">
                     
@@ -155,17 +155,17 @@
 
 <section id="" class="px-4 lg:px-16">
     <div class="grid grid-cols-1 lg:grid-cols-12 justify-center items-center p-2 mt-20">
-        <div class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-6 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
+        <div class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-3 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
             <div class="col-span-12 flex justify-center items-center">
-                <div class="absolute lg:-top-7 -top-5 bg-white lg:px-9 px-6 text-center text-3xl lg:text-4xl font-semibold text-gray-900">
-                    <h1 class="text-gray-900">Notre business unit</h1>
+                <div class="absolute lg:-top-7 -top-5 bg-white lg:px-9 px-6 text-center text-2xl lg:text-4xl font-semibold text-gray-800">
+                    <h1 class="text-gray-800">Notre business unit</h1>
                 </div>
             </div>
 
             <div class="col-span-12 lg:col-span-6 bg-gray-100 p-2 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
                 <div class="grid grid-cols-1">
                     <div class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
-                        <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <svg class=" w-8 h-8 lg:w-10 lg:h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                             <path fill="#ff9a3c" d="m10 17l-4-4l1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5z"/>
                         </svg>
                         <h1 class="TIT">Nos spécialités</h1>
@@ -240,12 +240,12 @@
                 </div>
             </div>
 
-            <div class="col-span-12 lg:col-span-6 p-4 bg-gray-100 lg:p-10 rounded-xl transition-transform transform hover:scale-105 ml-2">
+            <div class="col-span-12 lg:col-span-6 p-4 bg-gray-100 lg:p-10 rounded-xl transition-transform transform hover:scale-105 ml-0 lg:ml-2">
 
                 <div class="grid grid-cols-1">
                     <div class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
                         
-                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#ff9a3c" fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7m-1.5 8a4 4 0 0 0-4 4a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2a4 4 0 0 0-4-4zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293a3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2a4 4 0 0 0-4-4h-1.1a5.5 5.5 0 0 1-.471.762A6 6 0 0 1 19.5 18M4 7.5a3.5 3.5 0 0 1 5.477-2.889a5.5 5.5 0 0 0-2.796 6.293A3.5 3.5 0 0 1 4 7.5M7.1 12H6a4 4 0 0 0-4 4a2 2 0 0 0 2 2h.5a6 6 0 0 1 3.071-5.238A5.5 5.5 0 0 1 7.1 12" clip-rule="evenodd"/></svg>
+                        <svg class=" w-8 h-8 lg:w-10 lg:h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#ff9a3c" fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7m-1.5 8a4 4 0 0 0-4 4a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2a4 4 0 0 0-4-4zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293a3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2a4 4 0 0 0-4-4h-1.1a5.5 5.5 0 0 1-.471.762A6 6 0 0 1 19.5 18M4 7.5a3.5 3.5 0 0 1 5.477-2.889a5.5 5.5 0 0 0-2.796 6.293A3.5 3.5 0 0 1 4 7.5M7.1 12H6a4 4 0 0 0-4 4a2 2 0 0 0 2 2h.5a6 6 0 0 1 3.071-5.238A5.5 5.5 0 0 1 7.1 12" clip-rule="evenodd"/></svg>
                         <h1 class=" TIT">Notre equipe</h1>
                     </div>
                     <div class=" grid grid-cols-12 gap-3  text-gray-800 p-2 ">
@@ -334,7 +334,7 @@
                                 <path fill="currentColor" d="m10 17.55l-1.77 1.72a2.47 2.47 0 0 1-3.5-3.5l4.54-4.55a2.46 2.46 0 0 1 3.39-.09l.12.1a1 1 0 0 0 1.4-1.43a2.75 2.75 0 0 0-.18-.21a4.46 4.46 0 0 0-6.09.22l-4.6 4.55a4.48 4.48 0 0 0 6.33 6.33L11.37 19A1 1 0 0 0 10 17.55M20.69 3.31a4.49 4.49 0 0 0-6.33 0L12.63 5A1 1 0 0 0 14 6.45l1.73-1.72a2.47 2.47 0 0 1 3.5 3.5l-4.54 4.55a2.46 2.46 0 0 1-3.39.09l-.12-.1a1 1 0 0 0-1.4 1.43a2.75 2.75 0 0 0 .23.21a4.47 4.47 0 0 0 6.09-.22l4.55-4.55a4.49 4.49 0 0 0 .04-6.33"/>
                             </svg>
                         </div>
-                        <a href="{{ url('/ENTREPREUNARIAT') }}#1" class="font-medium text-white hover:underline">NOS SERVICES D'ACCOMPAGNEMENT ENTREPRENEURIAL</a>
+                        <a href="{{ url('/ENTREPREUNARIAT') }}#1" class="font-medium text-white hover:underline text-sm lg:text-base">NOS SERVICES D'ACCOMPAGNEMENT ENTREPRENEURIAL</a>
                     </div>
                     <div class="flex justify-start items-center gap-2">
                         <div>
@@ -342,7 +342,7 @@
                                 <path fill="currentColor" d="m10 17.55l-1.77 1.72a2.47 2.47 0 0 1-3.5-3.5l4.54-4.55a2.46 2.46 0 0 1 3.39-.09l.12.1a1 1 0 0 0 1.4-1.43a2.75 2.75 0 0 0-.18-.21a4.46 4.46 0 0 0-6.09.22l-4.6 4.55a4.48 4.48 0 0 0 6.33 6.33L11.37 19A1 1 0 0 0 10 17.55M20.69 3.31a4.49 4.49 0 0 0-6.33 0L12.63 5A1 1 0 0 0 14 6.45l1.73-1.72a2.47 2.47 0 0 1 3.5 3.5l-4.54 4.55a2.46 2.46 0 0 1-3.39.09l-.12-.1a1 1 0 0 0-1.4 1.43a2.75 2.75 0 0 0 .23.21a4.47 4.47 0 0 0 6.09-.22l4.55-4.55a4.49 4.49 0 0 0 .04-6.33"/>
                             </svg>
                         </div>
-                        <a href="{{ url('/ENTREPREUNARIAT') }}#2" class="font-medium text-white hover:underline">ACCOMPAGNEMENT DES ORGANISMES ENGAGÉS</a>
+                        <a href="{{ url('/ENTREPREUNARIAT') }}#2" class="font-medium text-white hover:underline text-sm lg:text-base">ACCOMPAGNEMENT DES ORGANISMES ENGAGÉS</a>
                     </div>
                     <div class="flex justify-start items-center gap-2">
                         <div>
@@ -350,15 +350,15 @@
                                 <path fill="currentColor" d="m10 17.55l-1.77 1.72a2.47 2.47 0 0 1-3.5-3.5l4.54-4.55a2.46 2.46 0 0 1 3.39-.09l.12.1a1 1 0 0 0 1.4-1.43a2.75 2.75 0 0 0-.18-.21a4.46 4.46 0 0 0-6.09.22l-4.6 4.55a4.48 4.48 0 0 0 6.33 6.33L11.37 19A1 1 0 0 0 10 17.55M20.69 3.31a4.49 4.49 0 0 0-6.33 0L12.63 5A1 1 0 0 0 14 6.45l1.73-1.72a2.47 2.47 0 0 1 3.5 3.5l-4.54 4.55a2.46 2.46 0 0 1-3.39.09l-.12-.1a1 1 0 0 0-1.4 1.43a2.75 2.75 0 0 0 .23.21a4.47 4.47 0 0 0 6.09-.22l4.55-4.55a4.49 4.49 0 0 0 .04-6.33"/>
                             </svg>
                         </div>
-                        <a href="{{ url('/ENTREPREUNARIAT') }}#3" class="font-medium text-white hover:underline">ACCOMPAGNEMENT AUX STARTUPS</a>
+                        <a href="{{ url('/ENTREPREUNARIAT') }}#3" class="font-medium text-white hover:underline text-sm lg:text-base">ACCOMPAGNEMENT AUX STARTUPS</a>
                     </div>
                 </div>
 
-                <div class=" bg-white flex justify-start items-center gap-2 p-6 rounded-xl absolute top-10 left-5 w-11/12 transform translate-x-1 duration-300 hover:scale-105">
+                <div class=" bg-white flex justify-start items-center gap-4 p-6 rounded-xl absolute top-10 left-5 w-11/12 transform translate-x-1 duration-300 hover:scale-105">
                     <div>
-                        <img class="w-14 h-12 sm:w-16 sm:h-16" src="SS/4.png" alt="">
+                        <img class="w-14 h-12 lg:w-20 lg:h-16" src="SS/4.png" alt="">
                     </div>
-                    <h1 class="font-semibold text-lg lg:text-xl TIT1">ACCOMPAGNEMENT ENTREPREUNARIAT</h1>
+                    <h1 class="font-semibold text-lg lg:text-3xl TIT1">ACCOMPAGNEMENT ENTREPREUNARIAT</h1>
                 </div>
 
             </div>

@@ -92,7 +92,7 @@
         <!-- First Column (Red Background) -->
         <div class="col-span-1 md:col-span-7 md:h-auto flex items-end ">
             <h1
-                class=" md:mb-4 text-4xl md:text-2xl lg:text-5xl lg:leading-[16px] md:font-semibold font-bold md:text-gray-600 text-orange-500 lg:border-b-8 border-gray-600 pb-6">
+                class=" md:mb-4 text-4xl md:text-2xl lg:text-7xl lg:leading-[16px] md:font-semibold font-bold md:text-white text-orange-500 lg:border-b-8 border-white pb-6">
                 ACCOMPAGNEMENT <br>DES PROJETS D'ESS
             </h1>
         </div>
