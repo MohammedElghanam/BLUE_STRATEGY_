@@ -102,20 +102,20 @@
                     <h1 class="TIT font-bold text-xs lg:text-xl">BLUE STRATEGY - PROJECT MANAGEMENT OFFICE</h1>
                 </div>
                 <div class="col-span-12 grid grid-cols-12 justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
-                    <div class="col-span-12 md:col-span-11">
-                        <p class="text-lg md:text-xl font-light mb-3">
+                    <div class="col-span-12 lg:col-span-11">
+                        <p class="text-base lg:text-xl font-light lg:mb-3 mb-2">
                             B.U PMO - PROJECT MANAGEMENT OFFICE est notre unité d'affaires
                             dédiée à vous accompagner dans la réalisation de vos projets
                             les plus ambitieux et à transformer vos idées en réalité.
                         </p>
-                        <p class="text-lg md:text-xl font-light mb-3">
+                        <p class="text-base lg:text-xl font-light lg:mb-3 mb-2">
                             Que vous soyez une entreprise en plein essor, une organisation
                             publique ou privée ou une start-up, peu importe votre secteur
                             d'activité, nous sommes là pour vous apporter une perspective
                             fraîche et innovante aux défis auxquels vous êtes confrontés
                             dans l'exécution de vos projets.                        
                         </p>
-                        <p class="text-lg md:text-xl font-light mb-3">
+                        <p class="text-base lg:text-xl font-light lg:mb-3 mb-2">
                             Nos solutions sur mesure respectent votre activité, culture
                             d'entreprise, contraintes spécifiques et priorités stratégiques,
                             tout en respectant délais et budgets.                    
@@ -161,53 +161,53 @@
                 </p>
             </div>
             <div class="space-y-2 bg-gray-100 rounded-xl p-5">
-                <div class="flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                     </svg>
-                    <span class="font-semibold text-gray-800">PMO</span>
+                    <span class=" text-gray-800">PMO</span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                     </svg>
-                    <span class=" font-semibold text-gray-800">Consultants AMOA</span>
+                    <span class=" text-gray-800">Consultants AMOA</span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                     </svg>
-                    <span class=" font-semibold text-gray-800">Chefs de projets</span>
+                    <span class=" text-gray-800">Chefs de projets</span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                     </svg>
-                    <span class=" font-semibold text-gray-800">Business analysts</span>
+                    <span class=" text-gray-800">Business analysts</span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                     </svg>
-                    <span class=" font-semibold text-gray-800">Consultants techniques</span>
+                    <span class=" text-gray-800">Consultants techniques</span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                     </svg>
-                    <span class=" font-semibold text-gray-800">Consultants fonctionnels</span>
+                    <span class=" text-gray-800">Consultants fonctionnels</span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                     </svg>
-                    <span class=" font-semibold text-gray-800">Développeurs - solutions</span>
+                    <span class=" text-gray-800">Développeurs - solutions</span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                     </svg>
-                    <span class=" font-semibold text-gray-800">Designers UX</span>
+                    <span class=" text-gray-800">Designers UX</span>
                 </div>
             </div>
             <div class="mt-5 h-72">
@@ -216,7 +216,7 @@
         </div>
 
         <div class="lg:col-span-7 m-1 lg:m-0 lg:ml-10 ">
-            <div class="relative mb-5">
+            <div class="relative mb-2 lg:mb-5">
                 <img class="rounded-2xl w-full h-72 object-cover lg:block hidden" src="BU_1/3.jpeg" alt="">
                 <div class="ONE lg:absolute bottom-0 left-0 h-16 bg-blue-600 flex items-center justify-start gap-3 p-4 rounded-tr-3xl">
                     <div class="">
@@ -225,14 +225,14 @@
                     <h1 class="TIT text-lg lg:text-2xl font-semibold text-blue-800">NOS SERVICES PMO</h1>
                 </div>
             </div>
-            <div class="bg-gray-100 p-6 rounded-2xl grid gap-4">
-                <div class="flex items-center gap-4">
+            <div class="bg-gray-100 p-4 lg:p-6 rounded-2xl grid gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
                     </svg>
                     <span class="font-semibold text-gray-800">Gestion et management de projets</span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -240,7 +240,7 @@
                     </div>
                     <span class=" font-semibold text-gray-800">Service d'assistance à la maîtrise d'ouvrage (AMOA).</span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -248,7 +248,7 @@
                     </div>
                     <span class=" font-semibold text-gray-800">Service d'exécution et de maîtrise d'œuvre (MOE).</span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -257,7 +257,7 @@
                     <span class=" font-semibold text-gray-800">Conseil et suggestion de projets à mettre en œuvre.
                     </span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -265,7 +265,7 @@
                     </div>
                     <span class=" font-semibold text-gray-800">Etudes et d'analyses diverses liés aux projets. </span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -273,7 +273,7 @@
                     </div>
                     <span class=" font-semibold text-gray-800">Budgétisation et analyse de rentabilité de projets.</span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -281,7 +281,7 @@
                     </div>
                     <span class=" font-semibold text-gray-800">Conception et planification de projets.</span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -289,7 +289,7 @@
                     </div>
                     <span class=" font-semibold text-gray-800">Élaboration de schémas fonctionnel et opérationnel. </span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -297,7 +297,7 @@
                     </div>
                     <span class=" font-semibold text-gray-800">Pilotage holistique de projets incluant les aspects clés. </span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -305,7 +305,7 @@
                     </div>
                     <span class=" font-semibold text-gray-800">Conduite du changement et mise en production. </span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -314,7 +314,7 @@
                     <span class=" font-semibold text-gray-800">Assistance technique et fonctionnelle.
                     </span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -322,7 +322,7 @@
                     </div>
                     <span class=" font-semibold text-gray-800">Formation des utilisateurs. </span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -330,7 +330,7 @@
                     </div>
                     <span class=" font-semibold text-gray-800">Mentorta de projet. </span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -339,7 +339,7 @@
                     <span class=" font-semibold text-gray-800">Coaching de projet.
                     </span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
@@ -347,7 +347,7 @@
                     </div>
                     <span class=" font-semibold text-gray-800">Évaluation post-projet. </span>
                 </div>
-                <div class=" flex items-center gap-4">
+                <div class=" text-sm lg:text-base font-medium lg:font-semibold flex items-center gap-4">
                     <div class="">
                         <svg class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="#3b4f72" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
