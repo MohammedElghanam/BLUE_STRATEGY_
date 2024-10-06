@@ -85,21 +85,21 @@
         <div class="col-span-12 md:col-span-6 grid grid-cols-12 gap-4">
             <div class="col-span-12 grid grid-cols-12 gap-2 mt-10">
                 <div class="col-span-12 flex justify-start items-center gap-2">
-                    <span class="BG w-20 h-1"></span>
-                    <h1 class="TIT font-bold text-xl">BLUE STRATEGY - CARRIERE ET RH</h1>
+                    <span class="BG w-10 lg:w-20 h-1"></span>
+                    <h1 class="TIT font-bold text-xs lg:text-xl">BLUE STRATEGY - CARRIERE ET RH</h1>
                 </div>
-                <div class="col-span-12 grid grid-cols-12  justify-center items-center gap-5 pl-2 md:pl-16 pt-6">
+                <div class="col-span-12 grid grid-cols-12  justify-center items-center gap-5 pl-4 md:pl-16 pt-6">
                     
                     <div class="col-span-12">
-                        <p class="text-lg md:text-xl font-light mb-3">
+                        <p class="text-base lg:text-xl font-light mb-2 lg:mb-3">
                             Notre Business Unit "Carrière & RH" a pour objectif de fournir des
                             solutions qualitatives dans l'intention d'accompagner les entreprises et les organisations dans la valorisation de leur capital humain
                         </p>
-                        <p class="text-lg md:text-xl font-light mb-3">
+                        <p class="text-base lg:text-xl font-light mb-2 lg:mb-3">
                             Chez BLUE STRATEGY, Nous proposons divers modes d'intervention pour
                             répondre de manière optimale à vos préoccupations, tout en abordant vos défis avec une perspective novatrice
                         </p>
-                        <p class="text-lg md:text-xl font-light mb-3">
+                        <p class="text-base lg:text-xl font-light mb-2 lg:mb-3">
                             L'expertise de notre équipe dynamique et agile de consultants et de professionnels constitue un atout précieux pour la réalisation de nos missions en matière de développement des ressources humaines                       
                         </p>
                     </div>
@@ -128,73 +128,71 @@
 <section id="" class="px-4 lg:px-16">
     <div class="grid grid-cols-1 lg:grid-cols-12 justify-center items-center p-2 mt-20">
         <div
-            class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-6 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
+            class="grid grid-cols-1 lg:grid-cols-12 col-span-12 gap-4 p-3 lg:p-10 border-2 border-gray-300 rounded-3xl relative">
             <div class=" col-span-12 flex justify-center items-center">
                 <div
-                    class="absolute -top-7 bg-white px-6 lg:px-8 text-center text-3xl lg:text-4xl font-semibold text-gray-900">
-                    <h1 class=" text-gray-900">Notre business unit</h1>
+                    class="absolute -top-4 lg:-top-7 bg-white px-7 lg:px-8 text-center text-xl lg:text-4xl font-semibold text-gray-800">
+                    <h1 class=" text-gray-800">Notre business unit</h1>
                 </div>
             </div>
-            <div class="col-span-12 lg:col-span-6 bg-gray-100 p-6 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
+            <div class="col-span-12 lg:col-span-6 bg-gray-100 p-3 lg:p-10 rounded-xl transition-transform transform hover:scale-105">
 
                 <div class="grid grid-cols-1">
-                    <div
-                        class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
-                        
-                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#15803d" d="m10 17l-4-4l1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5z"/></svg>
+                    <div class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">                        
+                        <svg class=" w-8 h-8 lg:w-10 lg:h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#15803d" d="m10 17l-4-4l1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5z"/></svg>
                         <h1 class=" TIT">Nos specialités</h1>
                     </div>
                     <div class=" grid grid-cols-12 gap-3 text-white p-2 lg:text-left mr-2">
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">La recherche du potentiel </p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">La recherche du potentiel </p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Le développement des talents </p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">Le développement des talents </p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">L'organisation de l'univers RH</p>
+                            <p class=" text-gray-700 font-medium" text-sm lg:text-base>L'organisation de l'univers RH</p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Le bien-être au travail</p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">Le bien-être au travail</p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Le coaching professionnel </p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">Le coaching professionnel </p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">L’animation des équipes </p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">L’animation des équipes </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-span-12 lg:col-span-6 p-6 bg-gray-100 lg:p-10 rounded-xl transition-transform transform hover:scale-105 ml-2">
+            <div class="col-span-12 lg:col-span-6 p-3 bg-gray-100 lg:p-10 rounded-xl transition-transform transform hover:scale-105 ml-2">
 
                 <div class="grid grid-cols-1">
                     <div class="flex justify-start items-center gap-3 text-xl lg:text-2xl mb-4 font-semibold text-gray-900">
                         
-                        <svg class=" w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#15803d" fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7m-1.5 8a4 4 0 0 0-4 4a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2a4 4 0 0 0-4-4zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293a3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2a4 4 0 0 0-4-4h-1.1a5.5 5.5 0 0 1-.471.762A6 6 0 0 1 19.5 18M4 7.5a3.5 3.5 0 0 1 5.477-2.889a5.5 5.5 0 0 0-2.796 6.293A3.5 3.5 0 0 1 4 7.5M7.1 12H6a4 4 0 0 0-4 4a2 2 0 0 0 2 2h.5a6 6 0 0 1 3.071-5.238A5.5 5.5 0 0 1 7.1 12" clip-rule="evenodd"/></svg>
+                        <svg class=" w-8 h-8 lg:w-10 lg:h-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#15803d" fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7m-1.5 8a4 4 0 0 0-4 4a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2a4 4 0 0 0-4-4zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293a3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2a4 4 0 0 0-4-4h-1.1a5.5 5.5 0 0 1-.471.762A6 6 0 0 1 19.5 18M4 7.5a3.5 3.5 0 0 1 5.477-2.889a5.5 5.5 0 0 0-2.796 6.293A3.5 3.5 0 0 1 4 7.5M7.1 12H6a4 4 0 0 0-4 4a2 2 0 0 0 2 2h.5a6 6 0 0 1 3.071-5.238A5.5 5.5 0 0 1 7.1 12" clip-rule="evenodd"/></svg>
                         <h1 class=" TIT">Notre equipe</h1>
                     </div>
                     <div class=" grid grid-cols-12 gap-3 text-gray-800 text-center p-2 lg:text-left">
-                        <p class=" col-span-12 lg:font-medium font-normal">
+                        <p class=" col-span-12 lg:font-medium font-normal text-sm lg:text-base">
                             Des experts de terrain, sélectionnés pour
                             leur expertise métier, leur valeur ajoutée
                             en développement de capital RH et
@@ -203,27 +201,27 @@
                         
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Experts RH</p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">Experts RH</p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Consultants formateurs</p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">Consultants formateurs</p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Mentors professionnels</p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">Mentors professionnels</p>
                         </div>
                         <div class=" col-span-12 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#504f59" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
-                            <p class=" text-gray-700 font-medium">Coachs professionnels</p>
+                            <p class=" text-gray-700 font-medium text-sm lg:text-base">Coachs professionnels</p>
                         </div>
                         
                     </div>
@@ -234,11 +232,11 @@
 </section>
 
 
-<section id="POTENTIEL" class="px-6 lg:px-20 pb-28 relative">
-    <div class="POL_RIGHT h-24 w-24 lg:h-36 lg:w-36 absolute top-0 left-0"></div>
+<section id="POTENTIEL" class="px-3 lg:px-20 pb-0 lg:pb-28 relative">
+    <div class="POL_RIGHT h-24 w-24 lg:h-36 lg:w-36 absolute top-0 left-0 hidden lg:block"></div>
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-2 p-2">
         <div class="col-span-12 h-full p-2 flex justify-start items-center">
-            <div class="TIT h-full w-full  text-3xl lg:text-3xl font-semibold pt-10">
+            <div class="TIT h-full w-full  text-xl lg:text-3xl font-semibold pt-4 lg:pt-10">
                 <h1>RECHERCHE DU POTENTIEL</h1>
             </div>
         </div>
@@ -304,15 +302,15 @@
             </div>
         </div>
     </div>
-    <div class="POL_LEFT h-24 w-24 lg:h-36 lg:w-36 absolute bottom-0 right-0"></div>
+    <div class="POL_LEFT h-24 w-24 lg:h-36 lg:w-36 absolute bottom-0 right-0 hidden lg:block"></div>
 </section>
 
 
-<section id="TALENTS" class="my-20">
+<section id="TALENTS" class=" my-6 lg:my-20">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:px-32 px-4">
-      <div class=" bg-blue-500 col-span-1 lg:col-span-6 flex justify-center items-end rounded-3xl transform lg:translate-x-1 duration-300 hover:scale-105">
+      <div class=" col-span-1 lg:col-span-6 flex justify-center items-end rounded-3xl transform lg:translate-x-1 duration-300 hover:scale-105">
         <img class=" w-full h-full  rounded-3xl" src="BU_4/3_DEVELOPPEMENT_TELENTS/2.jpg" alt="">
-        <div class="absolute inset-0 BG opacity-50 rounded-3xl"></div>
+        <div class="absolute inset-0 BG opacity-75 rounded-3xl"></div>
         <div class="text-white absolute top-0 lg:p-16 p-10">
           <div class="w-24 h-1 bg-white mb-4"></div>
           <h1 class="text-2xl lg:text-3xl font-bold mb-4">DEVELOPPEMENT DES TALENTS</h1>
@@ -352,8 +350,8 @@
         <div class="col-span-1 flex justify-center px-4 md:px-0">
             <div class="w-full md:w-3/4 relative transform hover:scale-105 duration-300">
                 <img class="h-40 md:h-64 w-full rounded-3xl" src="B_U/11.png" alt="Image description" loading="lazy">
-                <div class=" px-20 flex justify-center items-center absolute BG w-full h-full top-0 opacity-80 rounded-3xl">
-                    <h1 class="text-xl text-center md:text-3xl leading-tight md:leading-[16px] font-bold text-white tracking-widest z-50">L'ORGANISATION DE L'UNIVERS RH <br> ET LE BIEN-ÊTRE AU TRAVAIL</h1>
+                <div class=" px-8 lg:px-20 flex justify-center items-center absolute BG w-full h-full top-0 opacity-80 rounded-3xl">
+                    <h1 class="text-lg text-center md:text-3xl leading-tight md:leading-[16px] font-bold text-white tracking-widest z-50">L'ORGANISATION DE L'UNIVERS RH <br> ET LE BIEN-ÊTRE AU TRAVAIL</h1>
                 </div>
             </div>
         </div>
@@ -410,9 +408,9 @@
         <!-- Image and Overlay Text -->
         <div class="col-span-1 md:col-span-6 relative">
             <img class="w-full h-auto rounded-lg" src="BU_4/5_COACHING/1.jpg" alt="Coaching Image">
-            <div class="BG h-72 w-56 p-6 absolute top-0 -right-8 md:-right-32 flex justify-center items-end rounded-lg">
+            <div class="BG h-32 w-72 lg:h-72 lg:w-56 p-6 absolute top-40 lg:top-0 right-10 lg:-right-8 md:-right-32 flex justify-center items-end rounded-lg ">
                <div class="relative p-2">
-                <div class="text-5xl md:text-7xl font-bold text-white h-12">*</div>
+                <div class="text-5xl md:text-7xl font-bold text-white h-8 lg:h-12">*</div>
                 <h1 class="B1 text-xl md:text-2xl font-bold text-white">COACHING PROFESSIONNEL</h1>
                 <h1 class="B2 hidden text-xl md:text-2xl font-bold text-white">NOS COACHS PROFESSIONNELS</h1>
                </div>
@@ -438,20 +436,20 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-2 md:ml-8 mt-4">
                     <div class="col-span-1 flex justify-start items-center gap-4">
                         <div class="w-7 h-7">
-                            <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
                         <p class="font-medium text-sm md:text-base">Coaching individuel</p>
                     </div>
                     <div class="col-span-1 flex justify-start items-center gap-4">
                         <div class="w-7 h-7">
-                            <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            <svg class="w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
                         <p class="font-medium text-sm md:text-base">Coaching d'équipe</p>
                     </div>
                     <div class="col-span-1">
                         <div class="flex justify-start items-center gap-4">
                             <div class="w-7 h-7">
-                                <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class="w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class="font-medium text-sm md:text-base">Boost coaching :</p>
                         </div>
@@ -462,7 +460,7 @@
                     <div class="col-span-1">
                         <div class="flex justify-start items-center gap-4">
                             <div class="w-7 h-7">
-                                <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class="w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class="font-medium text-sm md:text-base">Coaching flash :</p>
                         </div>
@@ -476,25 +474,25 @@
             <!-- Additional Information Section -->
             <div class="A2 hidden col-span-1 p-4">
                 <div class="ml-4 md:ml-32 mt-4 md:mt-10 grid gap-3">
-                    <div class="flex justify-start items-center gap-4">
+                    <div class="flex justify-start items-start gap-4">
                         <div class="w-7 h-7">
-                            <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            <svg class="w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
                         <p class="text-sm md:text-base">
                             Des coachs certifiés qui disposent d’une formation diplômante d'Instituts de International de coaching.
                         </p>
                     </div>
-                    <div class="flex justify-start items-center gap-4">
+                    <div class="flex justify-start items-start gap-4">
                         <div class="w-7 h-7">
-                            <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            <svg class="w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
                         <p class="text-sm md:text-base">
                             Représentants d'éthique et font preuve de professionnalisme en appliquant les principes du code de déontologie du coaching, tant par leur savoir-faire que par leur savoir-être.
                         </p>
                     </div>
-                    <div class="flex justify-start items-center gap-4">
+                    <div class="flex justify-start items-start gap-4">
                         <div class="w-7 h-7">
-                            <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                            <svg class="w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                         </div>
                         <p class="text-sm md:text-base">
                             Bénéficient d’une supervision dans leur pratique afin de garantir un accompagnement efficace, ainsi que pour actualiser leurs connaissances et développer leurs compétences opérationnelles.
@@ -524,22 +522,25 @@
 
 
 <section id="ANIMATION" class=" my-10">
-    <div class=" grid grid-cols-12 gap-4 p-2 mx-32">
-        <div class="grid grid-cols-1 gap-6 col-span-7">
+    <div class=" grid grid-cols-12 gap-4 p-2 mx-2 lg:mx-32">
 
-            <div class=" grid grid-cols-1 col-span-1 shadow-2xl p-8 bg-gray-100 rounded-xl">
+        <div class="grid grid-cols-1 gap-6 col-span-12 lg:col-span-7 order-2 lg:order-1">
+
+            <div class=" grid grid-cols-1 col-span-1 shadow-2xl p-4 lg:p-8 bg-gray-100 rounded-xl">
                 <div class=" col-span-1">
                     <h1 class=" TIT2 text-2xl font-semibold">Team Building</h1>
                 </div>
                 <div class=" col-span-1">
-                    <p>
+                    <p class=" text-sm lg:text-base">
                         Nous organisons des activités de team building sur diverses thématiques originales, animées avec fun, dynamisme et bienveillance, dans le but de
                         renforcer l'appartenance de vos équipes à la même entité.
                     </p>
                 </div>
-                <div class=" col-span-1 h-16"></div>
-                <div class=" col-span-1 flex gap-4 justify-center items-center">
-                    <div class=" relative TIT1 w-32 h-32 rounded-lg">
+                <div class=" col-span-1 h-16 "></div>
+
+                <div class=" grid grid-cols-4 col-span-1 gap-4 justify-center items-center pl-4 lg:pl-0">
+
+                    <div class=" relative TIT1 w-32 h-32 rounded-lg col-span-2 lg:col-span-1">
                         <div class=" absolute -top-8 grid gap-2">
                             <div class=" w-full flex justify-center">
                                 <img class=" w-20 h-20 rounded-xl" src="B_U/RH/1.png" alt="">
@@ -550,7 +551,8 @@
                             </h1>
                         </div>
                     </div>
-                    <div class=" relative TIT1 w-32 h-32 rounded-lg">
+
+                    <div class=" relative TIT1 w-32 h-32 rounded-lg col-span-2 lg:col-span-1">
                         <div class=" absolute -top-8 grid gap-2">
                             <div class=" w-full flex justify-center">
                                 <img class=" w-20 h-20 rounded-xl" src="B_U/RH/3.png" alt="">
@@ -561,7 +563,10 @@
                             </h1>
                         </div>
                     </div>
-                    <div class=" relative TIT1 w-32 h-32 rounded-lg">
+
+                    <div class=" col-span-4 h-6 block lg:hidden "></div>
+
+                    <div class=" relative TIT1 w-32 h-32 rounded-lg col-span-2 lg:col-span-1">
                         <div class=" absolute -top-8 grid gap-2">
                             <div class=" w-full flex justify-center">
                                 <img class=" w-20 h-20 rounded-xl" src="B_U/RH/4.png" alt="">
@@ -572,7 +577,7 @@
                             </h1>
                         </div>
                     </div>
-                    <div class=" relative TIT1 w-32 h-32 rounded-lg">
+                    <div class=" relative TIT1 w-32 h-32 rounded-lg col-span-2 lg:col-span-1">
                         <div class=" absolute -top-8 grid gap-2">
                             <div class=" w-full flex justify-center">
                                 <img class=" w-20 h-20 rounded-xl" src="B_U/RH/2.png" alt="">
@@ -586,6 +591,7 @@
                 </div>
             </div>
             
+            {{-- lkhadra  --}}
             <div class=" p-2 col-span-1 BG shadow-2xl">
                 <div class=" p-2 ">
                     <div class=" ml-6 flex items-end h-10 mb-4">
@@ -596,8 +602,8 @@
                         <div class=" mb-6">
                             <h1 class=" text-xl font-bold">Séminaires d'Intégration</h1>
                         </div>
-                        <div class=" w-3/4">
-                            <p>
+                        <div class=" w-full lg:w-4/5">
+                            <p class=" text-sm lg:text-base">
                                 Nous organisons des séminaires d’intégration afin de créer 
                                 le lien entre les nouveaux arrivants et 
                                 leur permettre de découvrir l’univers, 
@@ -610,8 +616,8 @@
                         <div class=" mb-4">
                             <h1 class=" text-xl font-bold">Conventions</h1>
                         </div>
-                        <div class=" col-span-1 w-3/4">
-                            <p>
+                        <div class=" col-span-1 w-full lg:w-3/4">
+                            <p class=" text-sm lg:text-base">
                                 Nous vous assistons dans la planification de vos conventions en vous offrant :
                             </p>
                         </div>
@@ -619,30 +625,35 @@
                     </div>
 
                     <div class=" TESTO2 ml-6 grid grid-cols-6 gap-2 p-4" style=" display:none;">
-                        <div class=" col-span-3 flex justify-start items-center gap-4">
+
+                        <div class=" col-span-6 lg:col-span-3 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" text-white font-medium XS">Identification des sujets à aborder. </p>
                         </div>
-                        <div class=" col-span-3 flex justify-start items-center gap-4">
+
+                        <div class=" col-span-6 lg:col-span-3 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" text-white font-medium XS">Coordination des conférences. </p>
                         </div> 
-                        <div class=" col-span-3 flex justify-start items-center gap-4">
+
+                        <div class=" col-span-6 lg:col-span-3 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" text-white font-medium XS">Modération de l'événement. </p>
                         </div>
-                        <div class=" col-span-3 flex justify-start items-center gap-4">
+
+                        <div class=" col-span-6 lg:col-span-3 flex justify-start items-center gap-4">
                             <div class="">
-                                <svg class=" w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
+                                <svg class=" w-6 h-6 lg:w-7 lg:h-7" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0"/></path></g></svg>
                             </div>
                             <p class=" text-white font-medium XS">Conception des supports. </p>
                         </div>
+
                     </div>
 
 
@@ -660,20 +671,22 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
 
-        <div class="grid grid-cols-12 gap-2 col-span-5">
+        <div class="grid grid-cols-12 gap-2 col-span-12 lg:col-span-5 order-1 lg:order-2">
             <div class=" col-span-12 flex justify-start items-center gap-4">
                 <div class="">
-                    <img class=" w-10 h-10" src="B_U/7.png" alt="">
+                    <img class=" w-8 h-8 lg:w-10 lg:h-10" src="B_U/7.png" alt="">
                 </div>
-                <h1 class=" TIT text-3xl font-semibold">ANIMATION DES EQUIPES</h1>
+                <h1 class=" TIT text-xl lg:text-3xl font-semibold">ANIMATION DES EQUIPES</h1>
             </div>
 
-            {{-- Update this  --}}
+            <!-- Update this  -->
             <img class=" col-span-12" src="BU_4/6_ANIMATION_EQUIPES/1.jpg" alt="">
         </div>
+
     </div>
 </section>
 
