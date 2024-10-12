@@ -116,6 +116,11 @@
             </div>
 
             <div id="menuview" class="menuview w-60 h-96 mt-6 absolute top-8 right-0 bg-white">
+                <a href="{{route('propos')}}" class="item">QUI SOMMES NOUS ?</a>
+                <a href="{{route('equipe')}}" class="item">NOTRE EQUIPE</a>
+                <a href="{{route('vision')}}" class="item">NOS SECTEURS D'ACTIVITES</a>
+                <a href="{{ url('/') }}#founder" class="item">MOT DU CEO & FOUNDER</a>
+
                 <a href="{{ url('/PMO') }}" class="item">PMO - PROJECT MANAGEMENT OFFICE</a>
                 <a href="{{ url('/TPE') }}" class="item">SERVICES AUX TPE/PME</a>
                 <a href="{{ url('/DIGITAL') }}" class="item">SERVICES DIGITAUX</a>

@@ -68,7 +68,7 @@
         </h2>
         <div class="logo-container flex gap-8 text-gray-500 dark:text-gray-400">
             @foreach($images as $image)
-                <img class="w-16 h-16 lg:w-40 lg:h-40" src="{{ asset($image->image) }}" alt="Image">
+                <img class="w-28 h-28 lg:w-48 lg:h-48" src="{{ asset($image->image) }}" alt="Image">
             @endforeach
         </div>
     </div>

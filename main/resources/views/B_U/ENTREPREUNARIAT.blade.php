@@ -237,9 +237,9 @@
             <!-- Service 5 -->
             <div class="p-4 bg-white rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
                 <img class="rounded-xl mb-2 h-60 w-full" src="BU_6/2/2/5.jpeg" alt="Conseil">
-                <h2 class="font-semibold text-lg">CONSEIL</h2>
+                <h2 class="font-semibold text-lg">PROTOTYPAGE</h2>
                 <p class="text-gray-900">
-                    Analyser les startups, déterminer leurs forces, faiblesses et leurs axes d'amélioration.
+                    Transformer les idées innovantes en prototypes concrets et testables pour valider leur potentiel.
                 </p>
             </div>
         </div>

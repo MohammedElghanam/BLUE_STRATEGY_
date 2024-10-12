@@ -1080,7 +1080,7 @@
                             <div class="booking col-span-12 mt-5">
                                 <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
                                     <div class="bg-white p-4 shadow-lg rounded-lg">
-                                        <h1 class="font-bold text-base">Table Booking</h1>
+                                        <h1 class="font-bold text-base">Table References</h1>
                                         <div class="mt-4">
                                             <div class="flex flex-col">
                                                 <div class="-my-2 overflow-x-auto">
