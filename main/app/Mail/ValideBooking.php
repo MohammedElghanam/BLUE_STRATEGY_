@@ -39,6 +39,8 @@ class ValideBooking extends Mailable
     {
         $data = [
             'name' => $this->bookings->name,
+            'date' => $this->bookings->date,
+            'time' => $this->bookings->time,
         ];
 
         return new Content('Mail.ValidMail', with: $data);

@@ -1,3 +1,3 @@
-<h1> hello  {{$name}}</h1>
+<h1> Bonjour {{$name}}</h1>
 
 <p>{{ $content}}</p>

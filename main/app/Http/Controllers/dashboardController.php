@@ -50,6 +50,7 @@ class dashboardController extends Controller
     public function valid(Request $request)
     {
         $bookings = Booking::findOrFail($request->id);
+        // dd($bookings);
         if ($bookings) {
             $bookings->status = 'valid';
             $bookings->save();

@@ -210,8 +210,8 @@
         
 
         <div class="F col-span-12 h-32 md:h-32 lg:h-14 hidden lg:block">
-            <div class="md:w-2/5 lg:w-2/5 absolute -top-0 left-0 px-2 bg-white">
-                <h1 class="TIT text-xl md:text-4xl lg:text-2xl font-bold">NOS SOLUTIONS DE FORMATIONS</h1>
+            <div class=" w-full lg:w-2/5 absolute -top-0 left-0 px-2 bg-white">
+                <h1 class="TIT text-base lg:text-2xl font-bold ">NOS SOLUTIONS DE FORMATIONS</h1>
             </div>
         </div>
 
@@ -352,14 +352,14 @@
                 </div>
             </div>
             <div class="col-span-12 lg:col-span-6">
-                <img class="rounded-lg w-full" src="BU_5/3/1.jpg" alt="Formation Image">
+                <img class="rounded-lg lg:w-full" src="BU_5/3/1.jpg" alt="Formation Image">
             </div>
         </div>
 
         <div class="grid grid-cols-12 px-8 p-2 gap-8 col-span-12 lg:col-span-12">
             <div class="col-span-12 lg:col-span-6">
                 <div>
-                    <img class="rounded-lg w-full" src="BU_5/2/2.jpg" alt="Project Image">
+                    <img class="rounded-lg lg:w-full" src="BU_5/2/2.jpg" alt="Project Image">
                 </div>
             </div>
 
@@ -638,8 +638,8 @@
 </section>
 
 
-<section id="SECTORIELLES">
-    <div class=" grid grid-cols-12 gap-8 px-8 lg:px-20 my-10 lg:my-0 mt-10 lg:mt-0">
+<section id="SECTORIELLES" class=" px-8 lg:px-20">
+    <div class=" grid grid-cols-12 justify-center items-center gap-8  my-10 lg:my-0 mt-10 lg:mt-0">
 
         <div class=" grid grid-cols-12 items-center gap-2 col-span-12 lg:col-span-6 order-2 lg:order-1">
             <div class=" col-span-12 h-60 hidden lg:block"></div>
@@ -760,7 +760,7 @@
             </div>
         </div>
         
-        <div class=" col-span-12 lg:col-span-6 flex justify-end items-center relative order-1 lg:order-2">
+        <div class=" col-span-12 lg:col-span-6 flex justify-center lg:justify-end items-center relative order-1 lg:order-2">
             <div class=" BG  rounded-lg lg:rounded-none absolute w-11/12 lg:w-1/2 top-24 left-4 lg:-left-28 p-4 py-6 flex justify-start items-center">
                 <h1 class=" w-full lg:w-1/3 text-xl lg:text-4xl font-bold text-white">FORMATIONS SECTORIELLES </h1> 
             </div>
